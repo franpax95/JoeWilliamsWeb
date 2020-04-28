@@ -1,0 +1,59 @@
+{
+    "elems": [
+        {
+            "id": 1,
+            "img": "/image/covercunt.png",
+            "class": "expo1"
+        },
+        {
+            "id": 2,
+            "img": "/image/Final_flamingo_the_fucking_final_one14.jpg",
+            "class": "expo2"
+        },
+        {
+            "id": 3,
+            "img": "/image/laracover.png",
+            "class": "expo3"
+        },
+        {
+            "id": 4,
+            "img": "/image/syncvid.png",
+            "class": "expo4"
+        },
+        {
+            "id": 5,
+            "img": "/image/herd_front_cover.jpg",
+            "class": "expo5"
+        },
+        {
+            "id": 6,
+            "img": "/image/sync2.jpg",
+            "class": "expo6"
+        },
+        {
+            "id": 7,
+            "img": "/image/jamcover.png",
+            "class": "expo7"
+        },
+        {
+            "id": 8,
+            "img": "/image/ira.jpg",
+            "class": "expo8"
+        },
+        {
+            "id": 9,
+            "img": "/image/lethal_combination.jpg",
+            "class": "expo9"
+        },
+        {
+            "id": 10,
+            "img": "/image/news_cover.jpg",
+            "class": "expo10"
+        },
+        {
+            "id": 11,
+            "img": "/image/velvet000682.jpg",
+            "class": "expo11"
+        }
+    ]
+}

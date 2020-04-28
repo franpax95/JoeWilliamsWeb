@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html, body, #app{ height: 100%; }
+body{ background-color: black; }
+a{ text-decoration: none; }
+
+.grid{ display: grid; }
+.flex{ display: flex; }
+.flex-row{ flex-direction: row; }
+.flex-row-reverse {   flex-direction: row-reverse; }
+.flex-col{ flex-direction: column; }
+.justifyc{ justify-content: center; }
+.alignc{ align-items: center; }
