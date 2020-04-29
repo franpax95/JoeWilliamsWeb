@@ -2,7 +2,6 @@ import React from 'react';
 //import { Link } from 'react-router-dom';
 
 import './styles/About.css';
-import Header from '../components/Header';
 
 class About extends React.Component {
     constructor(props){
@@ -20,10 +19,6 @@ class About extends React.Component {
     render(){
         return(
             <React.Fragment>
-                <Header 
-                    left="Home"
-                    right="About"
-                />
                 <div className="about" id="about">
                     
                     <div className="section">

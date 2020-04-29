@@ -1,36 +1,14 @@
-/* Para que ocupe el 100% de la página */
-html, body, #root{ height: 100%; }
-
-.index{
-    height: 80%;
-    width: 100%;
-    z-index: 2;
-    
-}
-.index .link{
-    height: 30%;
-    padding-left: 3%;
-}
-.index .link a{
-    color: white;
-    font-size: 10vw;
-    text-transform: uppercase;
-    font-family: "Monument Extended UltraLight";
-    font-weight: 100;
-}
-.index .link a:hover{
-    color: red;
-}
-
-
-
-.img{ 
-    z-index: 1; 
+.Index{
     height: 100%;
     width: 100%;
-    position: fixed;
-    margin: auto;
-}
-.img img{
-    height: 50%;
+
+    background-image: url("/storage/background.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+
+    font-size: 5vw;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
 }

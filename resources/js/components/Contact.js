@@ -2,7 +2,6 @@ import React from 'react';
 //import { Link } from 'react-router-dom';
 
 import './styles/Contact.css';
-import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 class Contact extends React.Component {
