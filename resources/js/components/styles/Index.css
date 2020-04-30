@@ -2,11 +2,6 @@
     height: 100%;
     width: 100%;
 
-    background-image: url("/storage/background.jpg");
-    background-position: center;
-    background-size: cover;
-    color: white;
-
     font-size: 5vw;
     text-transform: uppercase;
     letter-spacing: 5px;

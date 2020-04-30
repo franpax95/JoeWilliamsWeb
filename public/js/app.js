@@ -6522,6 +6522,25 @@ module.exports = {
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/styles/About.css":
+/*!**********************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./resources/js/components/styles/About.css ***!
+  \**********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".About{\r\n    width: 100%;\r\n    padding-left: 20px;\r\n    \r\n}\r\n.About div{\r\n    padding-top: 50vh;\r\n    padding-bottom: 10vh;\r\n    font-size: 4em;\r\n}\r\n\r\n.About div .red{\r\n    color: red;\r\n}", ""]);
+
+// exports
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/styles/App.css":
 /*!********************************************************************************************************************************!*\
   !*** ./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./resources/js/components/styles/App.css ***!
@@ -6534,7 +6553,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "*{\r\n    box-sizing: border-box;\r\n    margin: 0;\r\n}\r\n\r\nhtml, body, #app{ height: 100%; }\r\na{ text-decoration: none; }\r\n\r\n.grid{ display: grid; }\r\n.flex{ display: flex; }\r\n.flex-row{ flex-direction: row; }\r\n.flex-row-reverse { flex-direction: row-reverse; }\r\n.flex-col{ flex-direction: column; }\r\n.justifyc{ justify-content: center; }\r\n.alignc{ align-items: center; }\r\n\r\n.height-100{ height: 100%; }", ""]);
+exports.push([module.i, "*{\r\n    box-sizing: border-box;\r\n    margin: 0;\r\n}\r\n\r\nhtml, body, #app{ height: 100%; }\r\na{ text-decoration: none; }\r\n\r\n.grid{ display: grid; }\r\n.flex{ display: flex; }\r\n.flex-row{ flex-direction: row; }\r\n.flex-row-reverse { flex-direction: row-reverse; }\r\n.flex-col{ flex-direction: column; }\r\n.justifyc{ justify-content: center; }\r\n.alignc{ align-items: center; }\r\n\r\n.height-100{ height: 100%; }\r\n\r\n\r\n\r\n\r\n\r\n\r\n.body{\r\n    /* background-image: url(\"/storage/background.jpg\"); */\r\n    background-color: black;\r\n    background-size: cover;\r\n    background-repeat: no-repeat;\r\n    background-attachment:fixed;\r\n    color: white;\r\n}", ""]);
 
 // exports
 
@@ -6572,7 +6591,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".Index{\r\n    height: 100%;\r\n    width: 100%;\r\n\r\n    background-image: url(\"/storage/background.jpg\");\r\n    background-position: center;\r\n    background-size: cover;\r\n    color: white;\r\n\r\n    font-size: 5vw;\r\n    text-transform: uppercase;\r\n    letter-spacing: 5px;\r\n    font-weight: bold;\r\n}", ""]);
+exports.push([module.i, ".Index{\r\n    height: 100%;\r\n    width: 100%;\r\n\r\n    font-size: 5vw;\r\n    text-transform: uppercase;\r\n    letter-spacing: 5px;\r\n    font-weight: bold;\r\n}", ""]);
 
 // exports
 
@@ -6591,7 +6610,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "/* icon style */\r\n.icon{\r\n    z-index: 50;\r\n    position: absolute;\r\n    top: 10px;\r\n    right: 10px;\r\n\r\n    outline: none;\r\n    border: none;\r\n    background: none;\r\n    color: white;\r\n    cursor: pointer;\r\n\r\n    font-size: 4em;\r\n}\r\n\r\n/* Navbar styles */\r\n.none{ display: none; }\r\n.visible{ display: flex; }\r\n\r\n.Navbar{ \r\n    position: absolute;\r\n    z-index: 49;\r\n    width: 100%;\r\n    height: 100%;\r\n\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n\r\n    background-image: url(\"/storage/background.jpg\");\r\n    background-position: center;\r\n    background-size: cover;\r\n}\r\n\r\n.Navbar a{\r\n    padding: 1% 0;\r\n\r\n    color: white;\r\n\r\n    font-size: 4vw;\r\n    text-transform: uppercase;\r\n    letter-spacing: 1px;\r\n}", ""]);
+exports.push([module.i, "/* icon style */\r\n.icon{\r\n    z-index: 50;\r\n    position: fixed;\r\n    top: 10px;\r\n    right: 10px;\r\n\r\n    outline: none;\r\n    border: none;\r\n    background: none;\r\n    color: white;\r\n    cursor: pointer;\r\n\r\n    font-size: 4em;\r\n}\r\n\r\n/* Navbar styles */\r\n.none{ display: none; }\r\n.visible{ display: flex; }\r\n\r\n.Navbar{ \r\n    position: fixed;\r\n    z-index: 49;\r\n    width: 100%;\r\n    height: 100%;\r\n    overflow: hidden;\r\n\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n\r\n    /* background-image: url(\"/storage/background.jpg\"); */\r\n    background-color: black;\r\n    background-position: center;\r\n    background-size: cover;\r\n}\r\n\r\n.Navbar a{\r\n    padding: 1% 0;\r\n\r\n    color: white;\r\n\r\n    font-size: 4vw;\r\n    text-transform: uppercase;\r\n    letter-spacing: 1px;\r\n}", ""]);
 
 // exports
 
@@ -73062,6 +73081,36 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ }),
 
+/***/ "./resources/js/components/About.js":
+/*!******************************************!*\
+  !*** ./resources/js/components/About.js ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _styles_About_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/About.css */ "./resources/js/components/styles/About.css");
+/* harmony import */ var _styles_About_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_About_css__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+var About = function About() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "body About"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: ""
+  }, "Hello there", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "My name is Joe Williams.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "I am a creative designer and ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "maker of interesting things.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "I have created this space as a", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "platform to showcase a range", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "of my work and collaborations.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "If you have any questions or", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "would like to work together", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "on your next project please", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "dont hesitate to ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "red"
+  }, "say hello!")));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (About);
+
+/***/ }),
+
 /***/ "./resources/js/components/App.js":
 /*!****************************************!*\
   !*** ./resources/js/components/App.js ***!
@@ -73083,8 +73132,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Navbar */ "./resources/js/components/Navbar.js");
 /* harmony import */ var _Index__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Index */ "./resources/js/components/Index.js");
 /* harmony import */ var _Gallery__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Gallery */ "./resources/js/components/Gallery.js");
-/* harmony import */ var _styles_App_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./styles/App.css */ "./resources/js/components/styles/App.css");
-/* harmony import */ var _styles_App_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_styles_App_css__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _About__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./About */ "./resources/js/components/About.js");
+/* harmony import */ var _styles_App_css__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./styles/App.css */ "./resources/js/components/styles/App.css");
+/* harmony import */ var _styles_App_css__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_styles_App_css__WEBPACK_IMPORTED_MODULE_11__);
 
 
  // REDUX
@@ -73097,8 +73147,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
  // import Exposition   from './Exposition';
-// import About        from './About';
-// import Contact      from './Contact';
+
+ // import Contact      from './Contact';
 
 
 
@@ -73109,8 +73159,12 @@ function App() {
     component: _Index__WEBPACK_IMPORTED_MODULE_8__["default"]
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
     exact: true,
-    path: "/gallery",
-    component: _Gallery__WEBPACK_IMPORTED_MODULE_9__["default"]
+    path: "/home",
+    component: _Index__WEBPACK_IMPORTED_MODULE_8__["default"]
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+    exact: true,
+    path: "/about",
+    component: _About__WEBPACK_IMPORTED_MODULE_10__["default"]
   })));
 }
 
@@ -73287,10 +73341,12 @@ var Navbar = function Navbar() {
       classname = _useState2[0],
       setClassname = _useState2[1];
 
-  var toggleNavbar = function toggleNavbar(e) {
+  var iconRef = Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])(null);
+
+  var toggleNavbar = function toggleNavbar() {
     /* toggle icon */
-    e.currentTarget.children[0].classList.toggle("fa-bars");
-    e.currentTarget.children[0].classList.toggle("fa-close");
+    iconRef.current.classList.toggle("fa-bars");
+    iconRef.current.classList.toggle("fa-close");
     /* toggle Navbar class */
 
     if (classname === 'none') {
@@ -73304,19 +73360,53 @@ var Navbar = function Navbar() {
     onClick: toggleNavbar,
     className: "icon"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "fa fa-bars position-top-right"
+    className: "fa fa-bars position-top-right",
+    ref: iconRef
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "Navbar ".concat(classname)
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "/gallery"
+    to: "",
+    onClick: toggleNavbar
   }, "Projects"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: ""
+    to: "",
+    onClick: toggleNavbar
   }, "Contact"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: ""
+    to: "/about",
+    onClick: toggleNavbar
   }, "About")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Navbar);
+
+/***/ }),
+
+/***/ "./resources/js/components/styles/About.css":
+/*!**************************************************!*\
+  !*** ./resources/js/components/styles/About.css ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--5-1!../../../../node_modules/postcss-loader/src??ref--5-2!./About.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/styles/About.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
 
 /***/ }),
 
