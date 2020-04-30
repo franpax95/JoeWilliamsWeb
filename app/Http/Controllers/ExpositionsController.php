@@ -14,6 +14,7 @@ class ExpositionsController extends Controller
  
     public function show(Expositions $exposition)
     {
+        $exposition->img = json_decode($exposition->img);
         return $exposition;
     }
 }

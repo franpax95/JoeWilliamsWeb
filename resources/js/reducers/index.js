@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import galleryReducer from './galleryReducer'
+import expositionReducer from './expositionReducer'
 
 export default combineReducers({
-    galleryReducer
+    expositionReducer
 })
