@@ -1,43 +1,14 @@
-.about{ 
-    height: 90%; 
+.About{
     width: 100%;
-
-    text-transform: uppercase;
-}
-.about .section{ 
-    height: 110%; 
-    width: 100%; 
-}
-.about .section:first-child{ height: 100%; }/* Para respetar el header */
-
-.about .section .line, .about .section .line-90 { 
-    height: 16.5%; 
-    display: flex;
-    align-items: center;
-    padding-left: 5%;
+    padding-left: 20px;
     
-    /* gradient text */
-    background: -webkit-linear-gradient(45deg, salmon, salmon, #ff99ff, salmon, salmon);    
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-    font-size: 5vw;
 }
-.about .section .line{ width: 100%; }
-.about .section .line-90{ width: 95%; }
-.about .underline{ text-decoration: underline; }
-
-.about .scroll-btn{ 
-    padding: 10px 12.5px;
-    border: none;
-    background-color: inherit;
-    color: white;
-    font-size: 24px;
-    cursor: pointer;
-    outline: none;
-
-    transition: background-color 0.5s;
+.About div{
+    padding-top: 50vh;
+    padding-bottom: 10vh;
+    font-size: 4em;
 }
-.about .scroll-btn:hover{
-    background-color: #1a1a1a;
+
+.About div .red{
+    color: red;
 }

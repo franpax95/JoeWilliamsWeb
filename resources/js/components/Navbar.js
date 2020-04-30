@@ -1,15 +1,16 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
 
 import "./styles/Navbar.css";
 
 const Navbar = () => {
     const [classname, setClassname] = useState('none');
+    const iconRef = useRef(null);
 
-    const toggleNavbar = (e) => {
+    const toggleNavbar = () => {
         /* toggle icon */
-        e.currentTarget.children[0].classList.toggle("fa-bars");
-        e.currentTarget.children[0].classList.toggle("fa-close");
+        iconRef.current.classList.toggle("fa-bars");
+        iconRef.current.classList.toggle("fa-close");
         
         /* toggle Navbar class */
         if(classname === 'none'){ setClassname('visible'); }
@@ -20,14 +21,14 @@ const Navbar = () => {
         <React.Fragment>
             {/*toggle with 'fa fa-close' */}
             <button onClick={toggleNavbar} className="icon">
-                <i className="fa fa-bars position-top-right"></i>
+                <i className="fa fa-bars position-top-right" ref={iconRef}></i>
             </button>
 
             {/*toggle with visible*/}
             <div className={`Navbar ${classname}`}>
-                <Link to="">Projects</Link>
-                <Link to="">Contact</Link>
-                <Link to="">About</Link>
+                <Link to="" onClick={toggleNavbar}>Projects</Link>
+                <Link to="" onClick={toggleNavbar}>Contact</Link>
+                <Link to="/about" onClick={toggleNavbar}>About</Link>
             </div>
         </React.Fragment>
         
