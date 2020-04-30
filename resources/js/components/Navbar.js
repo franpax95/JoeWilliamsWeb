@@ -25,7 +25,7 @@ const Navbar = () => {
 
             {/*toggle with visible*/}
             <div className={`Navbar ${classname}`}>
-                <Link to="">Projects</Link>
+                <Link to="/gallery">Projects</Link>
                 <Link to="">Contact</Link>
                 <Link to="">About</Link>
             </div>

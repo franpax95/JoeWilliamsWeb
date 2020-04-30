@@ -6541,6 +6541,25 @@ exports.push([module.i, "*{\r\n    box-sizing: border-box;\r\n    margin: 0;\r\n
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/styles/Gallery.css":
+/*!************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./resources/js/components/styles/Gallery.css ***!
+  \************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".gallery{\r\n    height: 80%;\r\n    width: 100%;\r\n    background: black;\r\n}\r\n\r\n.reference{\r\n    width: 0;\r\n    height: 0;\r\n}\r\n\r\n.gallery-img img{ position: fixed; }\r\n\r\n.gallery-img .right10{ right: 10%; }\r\n.gallery-img .right15{ right: 15%; }\r\n.gallery-img .right20{ right: 20%; }\r\n.gallery-img .right35{ right: 35%; }\r\n.gallery-img .right45{ right: 45%; }\r\n.gallery-img .right50{ right: 50%; }\r\n.gallery-img .right70{ right: 70%; }\r\n.gallery-img .right80{ right: 80%; }\r\n\r\n.gallery-img .top15{ top: 15%; }\r\n.gallery-img .top20{ top: 20%; }\r\n.gallery-img .top30{ top: 30%; }\r\n.gallery-img .top40{ top: 40%; }\r\n.gallery-img .top50{ top: 50%; }\r\n.gallery-img .top70{ top: 70%; }\r\n\r\n.gallery-img .index1{ z-index: 1; }\r\n.gallery-img .index2{ z-index: 2; }\r\n.gallery-img .index3{ z-index: 3; }\r\n.gallery-img .index4{ z-index: 4; }\r\n.gallery-img .index5{ z-index: 5; }\r\n\r\n.gallery-img .width30{ width: 30%; }\r\n.gallery-img .width25{ width: 25%; }\r\n.gallery-img .width20{ width: 20%; }\r\n.gallery-img .width15{ width: 15%; }\r\n.gallery-img .width10{ width: 10%; }\r\n.gallery-img .width0{ max-width: 300px; }", ""]);
+
+// exports
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/styles/Index.css":
 /*!**********************************************************************************************************************************!*\
   !*** ./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./resources/js/components/styles/Index.css ***!
@@ -73063,8 +73082,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var redux_thunk__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! redux-thunk */ "./node_modules/redux-thunk/es/index.js");
 /* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Navbar */ "./resources/js/components/Navbar.js");
 /* harmony import */ var _Index__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Index */ "./resources/js/components/Index.js");
-/* harmony import */ var _styles_App_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./styles/App.css */ "./resources/js/components/styles/App.css");
-/* harmony import */ var _styles_App_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_styles_App_css__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _Gallery__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Gallery */ "./resources/js/components/Gallery.js");
+/* harmony import */ var _styles_App_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./styles/App.css */ "./resources/js/components/styles/App.css");
+/* harmony import */ var _styles_App_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_styles_App_css__WEBPACK_IMPORTED_MODULE_10__);
 
 
  // REDUX
@@ -73075,8 +73095,8 @@ __webpack_require__.r(__webpack_exports__);
  // COMPONENTS
 
 
- // import Gallery      from './Gallery';
-// import Exposition   from './Exposition';
+
+ // import Exposition   from './Exposition';
 // import About        from './About';
 // import Contact      from './Contact';
 
@@ -73087,6 +73107,10 @@ function App() {
     exact: true,
     path: "/",
     component: _Index__WEBPACK_IMPORTED_MODULE_8__["default"]
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+    exact: true,
+    path: "/gallery",
+    component: _Gallery__WEBPACK_IMPORTED_MODULE_9__["default"]
   })));
 }
 
@@ -73098,6 +73122,106 @@ if (document.getElementById('app')) {
     store: store
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(App, null)), document.getElementById('app'));
 }
+
+/***/ }),
+
+/***/ "./resources/js/components/Gallery.js":
+/*!********************************************!*\
+  !*** ./resources/js/components/Gallery.js ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _styles_Gallery_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/Gallery.css */ "./resources/js/components/styles/Gallery.css");
+/* harmony import */ var _styles_Gallery_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_Gallery_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _gallery_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../gallery.json */ "./resources/js/gallery.json");
+var _gallery_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../gallery.json */ "./resources/js/gallery.json", 1);
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { return function () { var Super = _getPrototypeOf(Derived), result; if (_isNativeReflectConstruct()) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+
+
+
+ // import Header from '../components/Header';
+// import Footer from '../components/Footer';
+
+var Gallery = /*#__PURE__*/function (_React$Component) {
+  _inherits(Gallery, _React$Component);
+
+  var _super = _createSuper(Gallery);
+
+  function Gallery(props) {
+    var _this;
+
+    _classCallCheck(this, Gallery);
+
+    _this = _super.call(this, props);
+    _this.state = {
+      elems: _gallery_json__WEBPACK_IMPORTED_MODULE_3__.elems
+    };
+    return _this;
+  }
+
+  _createClass(Gallery, [{
+    key: "renderGallery",
+    value: function renderGallery() {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "reference"
+      }, this.state.elems.map(function (elem) {
+        var top = "top" + elem.top;
+        var right = "right" + elem.right;
+        var z = "index" + elem.z;
+        var width = "width" + elem.width;
+        var imgClass = top + " " + right + " " + z + " " + width;
+        var link = "/exposition/" + elem.id;
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+          to: link,
+          className: "gallery-img",
+          key: elem.id
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+          src: "storage" + elem.img,
+          alt: elem.title,
+          className: imgClass
+        }));
+      }));
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "gallery body flex justifyc alignc"
+      }, this.renderGallery()));
+    }
+  }]);
+
+  return Gallery;
+}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (Gallery);
 
 /***/ }),
 
@@ -73184,7 +73308,7 @@ var Navbar = function Navbar() {
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "Navbar ".concat(classname)
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: ""
+    to: "/gallery"
   }, "Projects"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     to: ""
   }, "Contact"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
@@ -73205,6 +73329,36 @@ var Navbar = function Navbar() {
 
 
 var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--5-1!../../../../node_modules/postcss-loader/src??ref--5-2!./App.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/styles/App.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./resources/js/components/styles/Gallery.css":
+/*!****************************************************!*\
+  !*** ./resources/js/components/styles/Gallery.css ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--5-1!../../../../node_modules/postcss-loader/src??ref--5-2!./Gallery.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/styles/Gallery.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -73283,6 +73437,17 @@ var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/a
 if(content.locals) module.exports = content.locals;
 
 if(false) {}
+
+/***/ }),
+
+/***/ "./resources/js/gallery.json":
+/*!***********************************!*\
+  !*** ./resources/js/gallery.json ***!
+  \***********************************/
+/*! exports provided: elems, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"elems\":[{\"id\":1,\"title\":\"Let's talk about the c-word\",\"description\":\"The word I chose was “cunt”. This word interested me as it is known to be one of the most offensive words in the English language. I wanted to find out where this word came from and why it is considered one of the worst. In this book I dive into the history of the word. Detailing the first time it appears in literature, the first time it appears on TV and today’s public opinion of word. The book also includes an interview with UWE’s  Senior Lecturer in Visual Culture Rachel Miles, where we have an in depth conversation on the words role in modern culture and how it has come to have so much power.\",\"type\":\"Editorial Design & Custom Bookbinding\",\"details\":\"The rose on the books cover has been laser cut into the card and the book's spine is made from sandpaper to give the book a rough texture as soon as you pick it up.\",\"img\":\"/image/covercunt.png\",\"top\":40,\"right\":50,\"z\":1,\"width\":30},{\"id\":2,\"title\":\"Fluttering Flamingo\",\"description\":\"A publication analysing the flamingos flight patterns and yearly migration. This is a fascinating moment in nature as these birds migrate from all over the world to lake Nakuru at the exact date every year.\",\"type\":\"Editorial Design & Custom Bookbinding\",\"details\":\"The publication also features fold out pages showing the birds flight formations. These pages are designed to mimic the flamingos wing span.\",\"img\":\"/image/Final_flamingo_the_fucking_final_one14.jpg\",\"top\":40,\"right\":15,\"z\":4,\"width\":30},{\"id\":3,\"title\":\"The Lara Logan Case\",\"description\":\"On Feb. 11, 2011 the journalist Lara Logan had suffered a brutal sexual assault by Egyptian men in the middle of hundreds of people during the anti-Mubarak celebration in the Tahrir Square. The blame for what  had happened has been thrown at many different groups, but this publication takes a look at the situation from many different angles, analysing mob mentality and previous reference groups to try and understand why the mob of 200 men began this public attack.\",\"type\":\"Editorial Design\",\"details\":\"Writing by Elaine Replogle\",\"img\":\"/image/laracover.png\",\"top\":50,\"right\":35,\"z\":5,\"width\":15},{\"id\":4,\"title\":\"Synchronicity\",\"description\":\"An experimental video on Carl Jung's theory of Synchronicity.\",\"type\":\"Videography & Sound Design\",\"details\":\"\",\"img\":\"/image/syncvid.png\",\"top\":30,\"right\":15,\"z\":1,\"width\":30},{\"id\":5,\"title\":\"Human Herd Mentality\",\"description\":\"A publication exploring herd mentality within humans. Analysing certain situations where people, once becoming part of a large group,  lose their individuality and their power to reason for themselves. These situations result in the individuals behaviour becoming out of the ordinary.\",\"type\":\"Editorial Design\",\"details\":\"\",\"img\":\"/image/herd_red_2.jpg\",\"top\":50,\"right\":10,\"z\":1,\"width\":20},{\"id\":6,\"title\":\"Sync\",\"description\":\"A project analysing human synchronization through rhythm in a confined space. The sculpture consists of a pattern created by peoples movements in response to the sounds they hear. Each layer represents a specific time frame within a confined space and as the sounds intensify peoples movements start to synchronise. The layers are then individually screen printed on to a layer of perspex and held together by two concrete blocks that emulate the walls of this confined space. This allows us to see how peoples movements expand through the group as a kind of domino effect depending on the sounds they hear.\",\"type\":\"Conceptual Design, Sculpture, Screen Printing, Concrete work & Metal Work\",\"details\":\"\",\"img\":\"/image/sync2.jpg\",\"top\":30,\"right\":45,\"z\":3,\"width\":25},{\"id\":7,\"title\":\"JAM\",\"description\":\"A short documentary on Bristols most vibrant jazz bars LEFTBANK. Every Thursday they hold a jam night where different musicians come together to create unique music. Most of the people who come to play have never met and are completely improvising, this creates an exciting atmosphere as each person brings a their own flair to the group creating a different music every night. We also designed a casing for the documentary as seen here.\",\"type\":\"\",\"details\":\"\",\"img\":\"/image/jamcover.png\",\"top\":50,\"right\":80,\"z\":3,\"width\":10},{\"id\":8,\"title\":\"The Dark Elf\",\"description\":\"\",\"details\":\"Portrait Photography.\",\"img\":\"/image/ira.jpg\",\"top\":20,\"right\":70,\"z\":2,\"width\":15},{\"id\":9,\"title\":\"Lethal Combination\",\"description\":\"\",\"type\":\"Custom typeface for logo design.\",\"details\":\"\",\"img\":\"/image/lethal_combination.jpg\",\"top\":70,\"right\":20,\"z\":1,\"width\":15},{\"id\":10,\"title\":\"I read the news today\",\"description\":\"We live in a world with so many constant news updates from so many sources its hard to keep track and judge which problems are important, weather it be a local problem or global. The idea behind this publication is to highlight important news articles over one summer and curate them into a manageable information for the reader. Non bias news from local to global hopefully giving up a better understanding of the things that have happened in this time\",\"type\":\"Editorial Design & Research\",\"details\":\"\",\"img\":\"/image/news_cover.jpg\",\"top\":15,\"right\":50,\"z\":1,\"width\":20},{\"id\":11,\"title\":\"Velvet\",\"description\":\"Directing a personal project in collaboration with some friends where we make hand made garments unique to the buyers needs trying to fight the idea of quality in mass produced objects.\",\"type\":\"Art Direction & Fashion Design\",\"details\":\"\",\"img\":\"/image/velvet000682.jpg\",\"top\":30,\"right\":80,\"z\":1,\"width\":20}]}");
 
 /***/ }),
 

@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 import './styles/Gallery.css';
 import data from '../gallery.json';
 
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+// import Header from '../components/Header';
+// import Footer from '../components/Footer';
 
 class Gallery extends React.Component {
     constructor(props){
@@ -43,14 +43,14 @@ class Gallery extends React.Component {
     render(){
         return(
             <React.Fragment>
-                <Header 
+                {/* <Header 
                     left="Home"
                     right="Gallery"
-                />
-                <div className="gallery flex justifyc alignc">
+                /> */}
+                <div className="gallery body flex justifyc alignc">
                     {this.renderGallery()}
                 </div>
-                <Footer />
+                {/* <Footer /> */}
             </React.Fragment>
         )
     }
