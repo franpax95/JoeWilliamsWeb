@@ -3,6 +3,9 @@ import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 import * as expositionActions from '../actions/expositionActions';
 
+import Loading from './General/Loading';
+import Fatal from './General/Fatal';
+
 import './styles/Exposition.css';
 
 const Exposition = (props) => {
@@ -30,7 +33,7 @@ const Exposition = (props) => {
     }
 
     const replaceNewLine = (text) => (
-        text.split('\r\n').map((substr, i) => {
+        text.split('\r\n\r\n').map((substr, i) => {
             if(substr === ""){
                 return <React.Fragment key={i}><br/><br/></React.Fragment>
             }else{
@@ -40,7 +43,9 @@ const Exposition = (props) => {
     );
 
     const renderExposition = () => {
-        
+        if(props.loading) return <Loading />;
+        if(props.error) return <Fatal mensaje={props.error} />
+
         if(Object.entries(props.exposition).length){
             const img_url = `/storage${Object.values(props.exposition.img)[props.currentPage]}`;
             const div_class = `class-${props.exposition.id} page-${props.currentPage}`;
