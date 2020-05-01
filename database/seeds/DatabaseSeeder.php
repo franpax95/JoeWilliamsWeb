@@ -16,14 +16,13 @@ class DatabaseSeeder extends Seeder
             array(
                 "cover" => "/image/covercunt.png",
                 "img1"  => "/image/covercunt.png",
-                "img2"  => "/image/cunt13.jpg",
-                "img3"  => "/image/cunt15.jpg",
-                "img4"  => "/image/cunt18.jpg",
-                "img5"  => "/image/cunt20.jpg",
-                "img6"  => "/image/cunt27.jpg",
-                "img7"  => "/image/cunt32.jpg",
-                "img8"  => "/image/cunt35.jpg",
-                "img9"  => "/image/cuntcover.jpg"
+                "img2"  => "/image/cuntcover.jpg",
+                "img3"  => "/image/cunt13.jpg",
+                "img4"  => "/image/cunt15.jpg",
+                "img5"  => "/image/cunt18.jpg",
+                "img6"  => "/image/cunt20.jpg",
+                "img7"  => "/image/cunt27.jpg",
+                "img8"  => "/image/cunt35.jpg"
             )
         );
         Expositions::create([
@@ -40,12 +39,11 @@ class DatabaseSeeder extends Seeder
                 "cover" => "/image/Final_flamingo_cover.jpg",
                 "img1"  => "/image/Final_flamingo_6.jpg",
                 "img2"  => "/image/Final_flamingo_2.jpg",
-                "img3"  => "/image/Final_flamingo_3.jpg",
-                "img4"  => "/image/Final_flamingo_4.jpg",
-                "img5"  => "/image/Final_flamingo_5.jpg",
-                "img6"  => "/image/Final_flamingo_6.jpg",
-                "img7"  => "/image/Final_flamingo_7.jpg",
-                "img8"  => "/image/Final_flamingo_8.jpg"
+                "img3"  => "/image/Final_flamingo_1.jpg",
+                "img4"  => "/image/Final_flamingo_3.jpg",
+                "img5"  => "/image/Final_flamingo_4.jpg",
+                "img6"  => "/image/Final_flamingo_5.jpg",
+                "img7"  => "/image/Final_flamingo_cover.jpg"
             )
         );
         Expositions::create([
@@ -60,12 +58,13 @@ class DatabaseSeeder extends Seeder
         $laraLogan = json_encode(
             array(
                 "cover" => "/image/laracover.png",
-                "img1"  => "/image/LARA3.jpg",
-                "img2"  => "/image/LARA5.jpg",
-                "img3"  => "/image/LARA8.jpg",
-                "img4"  => "/image/LARA9.jpg",
-                "img5"  => "/image/LARA10.jpg",
-                "img6"  => "/image/LARA11.jpg"
+                "img1"  => "/image/laracover.png",
+                "img2"  => "/image/LARA3.jpg",
+                "img3"  => "/image/LARA5.jpg",
+                "img4"  => "/image/LARA8.jpg",
+                "img5"  => "/image/LARA9.jpg",
+                "img6"  => "/image/LARA10.jpg",
+                "img7"  => "/image/LARA11.jpg"
             )
         );
         Expositions::create([
@@ -94,10 +93,14 @@ class DatabaseSeeder extends Seeder
 
         $humanHerd = json_encode(
             array(
-                "cover"=> "/image/herd_red_2.jpg",
-                "img1"=> "/image/herd_red.jpg",
-                "img2"=> "/image/herd_red_1.jpg",
-                "img3"=> "/image/herd_front_cover.jpg"
+                "cover" => "/image/herd_front_cover.jpg",
+                "img1"  => "/image/herd_front_cover.jpg",
+                "img2"  => "/image/herd8.jpg",
+                "img3"  => "/image/herd_red_1.jpg",
+                "img4"  => "/image/herd15.jpg",
+                "img5"  => "/image/herd_red_2.jpg",
+                "img6"  => "/image/herd20.jpg",
+                "img7"  => "/image/herd_red.jpg"
             )
         );
         Expositions::create([
@@ -117,7 +120,7 @@ class DatabaseSeeder extends Seeder
         );
         Expositions::create([
             'title' => "Sync",
-            'description' => "A project analysing human synchronization through rhythm in a confined space. The sculpture consists of a pattern created by peoples movements in response to the sounds they hear. Each layer represents a specific time frame within a confined space and as the sounds intensify peoples movements start to synchronise. The layers are then individually screen printed on to a layer of perspex and held together by two concrete blocks that emulate the walls of this confined space. This allows us to see how peoples movements expand through the group as a kind of domino effect depending on the sounds they hear.",
+            'description' => "A project analysing human synchronization through rhythm in a confined space./r/n/r/nThe sculpture consists of a pattern created by peoples movements in response to the sounds they hear. Each layer represents a specific time frame within a confined space and as the sounds intensify peoples movements start to synchronise. The layers are then individually screen printed on to a layer of perspex and held together by two concrete blocks that emulate the walls of this confined space. This allows us to see how peoples movements expand through the group as a kind of domino effect depending on the sounds they hear.",
             'type' => "Conceptual Design, Sculpture, Screen Printing, Concrete work & Metal Work",
             'details' => "",
             'img' => $sync,
@@ -132,7 +135,7 @@ class DatabaseSeeder extends Seeder
         );
         Expositions::create([
             'title' => "JAM",
-            'description' => "A short documentary on Bristols most vibrant jazz bars LEFTBANK. Every Thursday they hold a jam night where different musicians come together to create unique music. Most of the people who come to play have never met and are completely improvising, this creates an exciting atmosphere as each person brings a their own flair to the group creating a different music every night. We also designed a casing for the documentary as seen here.",
+            'description' => "A short documentary on Bristols most vibrant jazz bars LEFTBANK./r/nEvery Thursday they hold a jam night where different musicians come together to create unique music. Most of the people who come to play have never met and are completely improvising, this creates an exciting atmosphere as each person brings a their own flair to the group creating a different music every night./r/nWe also designed a casing for the documentary as seen here.",
             'type' => "",
             'details' => "",
             'img' => $jam,
@@ -171,19 +174,19 @@ class DatabaseSeeder extends Seeder
 
         $readNews = json_encode(
             array(
-                "cover"=> "/image/news_cover.jpg",
-                "img1"=> "/image/news.jpg",
-                "img2"=> "/image/news2.jpg",
-                "img3"=> "/image/news4.jpg",
-                "img4"=> "/image/news8.jpg",
-                "img5"=> "/image/news11.jpg",
-                "img6"=> "/image/news12.jpg",
-                "img7"=> "/image/news15.jpg"
+                "cover" => "/image/news_cover.jpg",
+                "img1"  => "/image/news.jpg",
+                "img2"  => "/image/news2.jpg",
+                "img3"  => "/image/news4.jpg",
+                "img4"  => "/image/news8.jpg",
+                "img5"  => "/image/news11.jpg",
+                "img6"  => "/image/news12.jpg",
+                "img7"  => "/image/news15.jpg"
             )
         );
         Expositions::create([
             'title' => "I read the news today",
-            'description' => "We live in a world with so many constant news updates from so many sources its hard to keep track and judge which problems are important, weather it be a local problem or global. The idea behind this publication is to highlight important news articles over one summer and curate them into a manageable information for the reader. Non bias news from local to global hopefully giving up a better understanding of the things that have happened in this time",
+            'description' => "We live in a world with so many constant news updates from so many sources its hard to keep track and judge which problems are important, weather it be a local problem or global./r/nThe idea behind this publication is to highlight important news articles over one summer and curate them into a manageable information for the reader. Non bias news from local to global hopefully giving up a better understanding of the things that have happened in this time",
             'type' => "Editorial Design & Research",
             'details' => "",
             'img' => $readNews,
@@ -192,14 +195,15 @@ class DatabaseSeeder extends Seeder
 
         $velvet = json_encode(
             array(
-                "cover"=> "/image/velvet000682.jpg",
-                "img1"=> "/image/velvet000673.jpg",
-                "img2"=> "/image/velvet000675.jpg",
-                "img3"=> "/image/velvet000676.jpg",
-                "img4"=> "/image/velvet000677.jpg",
-                "img5"=> "/image/velvet000678.jpg",
-                "img6"=> "/image/velvet000684.jpg",
-                "img7"=> "/image/velvet000685.jpg"
+                "cover" => "/image/velvet000675.jpg",
+                "img1"  => "/image/velvet000675.jpg",
+                "img2"  => "/image/velvet000673.jpg",
+                "img3"  => "/image/velvet000682.jpg",
+                "img4"  => "/image/velvet000676.jpg",
+                "img5"  => "/image/velvet000677.jpg",
+                "img6"  => "/image/velvet000678.jpg",
+                "img7"  => "/image/velvet000684.jpg",
+                "img8"  => "/image/velvet000685.jpg"
             )
         );
         Expositions::create([

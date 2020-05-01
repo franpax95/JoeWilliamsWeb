@@ -21,10 +21,11 @@ a{ text-decoration: none; }
 
 html{
     background-color: black;
+    color: white;
 }
-.body{
-    /* background-image: url("/storage/background.jpg"); */
-    background-color: black;
+.background-flame{
+    background-image: url("/storage/background.jpg");
+    /* background-color: black; */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment:fixed;

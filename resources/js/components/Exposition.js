@@ -11,7 +11,7 @@ const Exposition = (props) => {
             const id = props.match.params.id;
 
             //Si exposition = {}
-            if(!Object.entries(props.exposition).length)
+            if((!Object.entries(props.exposition).length) || (props.exposition.id !== Number(id)))
                 await props.getExposition(id); 
         }
 
