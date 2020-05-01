@@ -7,3 +7,10 @@
     letter-spacing: 5px;
     font-weight: bold;
 }
+.Index a{
+    font-size: 16px;
+    color: white;
+}
+.Index a:hover{
+    color: red;
+}

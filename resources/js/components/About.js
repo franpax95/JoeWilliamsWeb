@@ -2,7 +2,7 @@ import React from 'react';
 import './styles/About.css';
 
 const About = () => (
-    <div className="body About">
+    <div className="background-flame About">
         <div className="">
             Hello there
             <br /><br /><br />
