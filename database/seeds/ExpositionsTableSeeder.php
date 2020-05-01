@@ -38,12 +38,12 @@ class ExpositionsTableSeeder extends Seeder
         $finalFlamingo = json_encode(
             array(
                 "cover" => "/image/Final_flamingo_cover.jpg",
-                "img1"  => "/image/Final_flamingo_1.jpg",
+                "img1"  => "/image/Final_flamingo_6.jpg",
                 "img2"  => "/image/Final_flamingo_2.jpg",
                 "img3"  => "/image/Final_flamingo_3.jpg",
                 "img4"  => "/image/Final_flamingo_4.jpg",
                 "img5"  => "/image/Final_flamingo_5.jpg",
-                "img6"  => "/image/Final_flamingo_6.jpg",
+                "img6"  => "/image/Final_flamingo_1.jpg",
                 "img7"  => "/image/Final_flamingo_7.jpg",
                 "img8"  => "/image/Final_flamingo_8.jpg"
             )

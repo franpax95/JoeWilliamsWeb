@@ -6565,7 +6565,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "*{\r\n    box-sizing: border-box;\r\n    margin: 0;\r\n    font-family: halogen, sans-serif;\r\n    font-style: normal;\r\n    font-weight: 300;\r\n}\r\n\r\nhtml, body, #app{ height: 100%; }\r\na{ text-decoration: none; }\r\n\r\n.grid{ display: grid; }\r\n.flex{ display: flex; }\r\n.flex-row{ flex-direction: row; }\r\n.flex-row-reverse { flex-direction: row-reverse; }\r\n.flex-col{ flex-direction: column; }\r\n.justifyc{ justify-content: center; }\r\n.alignc{ align-items: center; }\r\n\r\n.height-100{ height: 100%; }\r\n\r\n\r\n\r\n\r\n\r\nhtml{\r\n    background-color: black;\r\n}\r\n.body{\r\n    /* background-image: url(\"/storage/background.jpg\"); */\r\n    background-color: black;\r\n    background-size: cover;\r\n    background-repeat: no-repeat;\r\n    background-attachment:fixed;\r\n    color: white;\r\n}", ""]);
+exports.push([module.i, "*{\r\n    box-sizing: border-box;\r\n    margin: 0;\r\n    font-family: halogen, sans-serif;\r\n    font-style: normal;\r\n    font-weight: 300;\r\n}\r\n\r\nhtml, body, #app{ height: 100%; }\r\na{ text-decoration: none; }\r\n\r\n.grid{ display: grid; }\r\n.flex{ display: flex; }\r\n.flex-row{ flex-direction: row; }\r\n.flex-row-reverse { flex-direction: row-reverse; }\r\n.flex-col{ flex-direction: column; }\r\n.justifyc{ justify-content: center; }\r\n.alignc{ align-items: center; }\r\n\r\n.height-100{ height: 100%; }\r\n\r\nhtml{\r\n    background-color: black;\r\n}\r\n.body{\r\n    /* background-image: url(\"/storage/background.jpg\"); */\r\n    background-color: black;\r\n    background-size: cover;\r\n    background-repeat: no-repeat;\r\n    background-attachment:fixed;\r\n    color: white;\r\n}\r\n.center { text-align: center; }\r\n.rojo { color: red; }", ""]);
 
 // exports
 
@@ -6585,6 +6585,25 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 // module
 exports.push([module.i, ".Exposition{ height: 100%; }\r\n.Exposition >div{\r\n    height: 100%;\r\n    width: 100%;\r\n    padding: 30px;\r\n    font-size: 1.1em;\r\n}\r\n.Exposition .title{\r\n    font-size: 4em;\r\n    letter-spacing: 2px;\r\n    text-transform: uppercase;\r\n    font-weight: 100;\r\n}\r\n.Exposition  hr{ margin-bottom: 30px; }\r\n\r\n.Exposition .title{ grid-area: title; }\r\n.Exposition .description{ grid-area: description; }\r\n.Exposition .type{ grid-area: type; }\r\n.Exposition .details{ grid-area: details; }\r\n.Exposition .img{ grid-area: img; }\r\n\r\n\r\n\r\n/* lets talk about the c-word */\r\n.Exposition .class-1{\r\n    display: grid;\r\n    grid-template-columns: 50% 50%;\r\n    grid-template-rows: 70% 20% 10%;\r\n    grid-template-areas: \r\n        'img title'\r\n        'img description'\r\n        'type description';\r\n}\r\n.Exposition .class-1 >div:not(.img){\r\n    z-index: 4;\r\n}\r\n.Exposition .class-1 .details,\r\n.Exposition .class-1 .type hr{\r\n    display: none;\r\n}\r\n.Exposition .class-1 .title{ margin-right: 75px; }\r\n.Exposition .class-1 .type,\r\n.Exposition .class-1 .description{\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: flex-end;\r\n}\r\n.Exposition .class-1 .img img{ \r\n    width: 110%;\r\n    min-width: 800px;\r\n    max-height: 80vh;\r\n    margin-top: 5%;\r\n    z-index: 1;\r\n}\r\n.Exposition .class-1 hr{ width: 40%; }\r\n\r\n\r\n\r\n/* Fluttering flamingo */\r\n.Exposition .class-2{\r\n    display: grid;\r\n    grid-template-columns: 40% 60%;\r\n    grid-template-rows: 70% 20% 10%;\r\n    grid-template-areas: \r\n        'img title'\r\n        'img description'\r\n        'img type';\r\n}\r\n.Exposition .class-2 .title{ margin-top: 50px; }\r\n.Exposition .class-2 .details,\r\n.Exposition .class-2 .type hr{\r\n    display: none;\r\n}\r\n.Exposition .class-2 .img img{ height: 100%; }\r\n.Exposition .class-2 .description hr{ width: 40%; }\r\n\r\n\r\n\r\n/* Fluttering flamingo */\r\n.Exposition .class-3{\r\n    display: grid;\r\n    grid-template-columns: 40% 40% 20%;\r\n    grid-template-rows: 60% 30% 10%;\r\n    grid-template-areas: \r\n        'img title title'\r\n        'img description description'\r\n        'img details type';\r\n}\r\n.Exposition .class-3 .title{ margin-top: 50px; }\r\n.Exposition .class-3 .details hr,\r\n.Exposition .class-3 .type hr{\r\n    display: none;\r\n}\r\n.Exposition .class-3 .description{ padding: 30px 30px 30px 0; }\r\n.Exposition .class-3 .description hr{ width: 30%; }\r\n.Exposition .class-3 .details,\r\n.Exposition .class-3 .type{\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: flex-end;\r\n}\r\n.Exposition .class-3 .img img{\r\n    max-width: 35vw;\r\n    max-height: 90vh;\r\n}\r\n.Exposition .class-3 >div:not(.img){\r\n    z-index: 4;\r\n}\r\n\r\n\r\n\r\n/* JAM */\r\n.Exposition .class-7{\r\n    display: grid;\r\n    grid-template-columns: 50% 50%;\r\n    grid-template-rows: 70% 30%;\r\n    grid-template-areas: \r\n        'img title'\r\n        'img description';\r\n}\r\n.Exposition .class-7 .title{ margin-top: 30px; }\r\n.Exposition .class-7 .type,\r\n.Exposition .class-7 .details{\r\n    display: none;\r\n}\r\n.Exposition .class-7 .img{ padding: 30px; }\r\n.Exposition .class-7 .img img{ \r\n    width: 95%;\r\n    max-height: 90vh;\r\n}\r\n.Exposition .class-7 hr{ width: 40%; }\r\n\r\n\r\n\r\n/* the dark elf */\r\n.Exposition .class-8{\r\n    display: grid;\r\n    grid-template-columns: 65% 35%;\r\n    grid-template-rows: 33.33%  33.33% 33.33%;\r\n    grid-template-areas: \r\n        'title img'\r\n        'details img'\r\n        'details img';\r\n}\r\n.Exposition .class-8 .description,\r\n.Exposition .class-8 .type{\r\n    display: none;\r\n}\r\n.Exposition .class-8 .img{ padding-top: 15%; }\r\n.Exposition .class-8 .img img{  height: 100%; }\r\n.Exposition .class-8 hr{ \r\n    width: 15%;\r\n    min-width: 70px;\r\n    margin-bottom: 30px;\r\n}\r\n\r\n\r\n\r\n/* lethal combination */\r\n.Exposition .class-9{\r\n    display: grid;\r\n    grid-template-columns: 33% 33% 33%;\r\n    grid-template-rows: 25% 25% 25% 25%;\r\n    grid-template-areas:\r\n        'title title title'\r\n        'type img img'\r\n        'type img img'\r\n        'type img img';\r\n}\r\n.Exposition .class-9 .description,\r\n.Exposition .class-9 .details{\r\n    display: none;\r\n}\r\n.Exposition .class-9 .img img{ \r\n    min-width: 60vw;\r\n    height: 100%;\r\n}\r\n.Exposition .class-9 hr{ \r\n    width: 25%;\r\n    margin-bottom: 30px;\r\n}\r\n\r\n\r\n\r\n/* I read the news today */\r\n.Exposition .class-10{\r\n    display: grid;\r\n    grid-template-columns: 50% 35% 15%;\r\n    grid-template-rows: 60% 40%;\r\n    grid-template-areas:\r\n        'img title title'\r\n        'img description type';\r\n}\r\n.Exposition .class-10 .details,\r\n.Exposition .class-10 .type hr{\r\n    display: none;\r\n}\r\n.Exposition .class-10 .title{ margin-top: 50px; }\r\n.Exposition .class-10 .description,\r\n.Exposition .class-10 .type{\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: flex-end;\r\n}\r\n.Exposition .class-10 .description{ margin-right: 20px; }\r\n.Exposition .class-10 .description hr{ width: 50%; }\r\n.Exposition .class-10 .type{ align-items: flex-end; }\r\n.Exposition .class-10 .img img{ height: 100%; }\r\n.Exposition .class-10 >div:not(.img){\r\n    z-index: 4;\r\n}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/styles/Gallery.css":
+/*!************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./resources/js/components/styles/Gallery.css ***!
+  \************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".gallery{\r\n    height: 80%;\r\n    width: 100%;\r\n    background: black;\r\n}\r\n.reference{\r\n    width: 0;\r\n    height: 0;\r\n}\r\n.gallery-img img{ \r\n    position: fixed; \r\n}\r\n.gallery-img .img-1 {\r\n    top: 40%;\r\n    right: 50%;\r\n    z-index: 1;\r\n    width: 30%;\r\n}\r\n.gallery-img .img-2 {\r\n    top: 40%;\r\n    right: 15%;\r\n    z-index: 4;\r\n    width: 30%;\r\n}\r\n.gallery-img .img-3 {\r\n    top: 50%;\r\n    right: 35%;\r\n    z-index: 5;\r\n    width: 15%;\r\n}\r\n.gallery-img .img-4 {\r\n    top: 30%;\r\n    right: 15%;\r\n    z-index: 1;\r\n    width: 30%;\r\n}\r\n.gallery-img .img-5 {\r\n    top: 50%;\r\n    right: 10%;\r\n    z-index: 1;\r\n    width: 20%;\r\n}\r\n.gallery-img .img-6 {\r\n    top: 30%;\r\n    right: 45%;\r\n    z-index: 3;\r\n    width: 25%;\r\n}\r\n.gallery-img .img-7 {\r\n    top: 50%;\r\n    right: 80%;\r\n    z-index: 3;\r\n    width: 10%;\r\n}\r\n.gallery-img .img-8 {\r\n    top: 20%;\r\n    right: 70%;\r\n    z-index: 2;\r\n    width: 15%;\r\n}\r\n.gallery-img .img-9 {\r\n    top: 70%;\r\n    right: 20%;\r\n    z-index: 1;\r\n    width: 15%;\r\n}\r\n.gallery-img .img-10 {\r\n    top: 15%;\r\n    right: 50%;\r\n    z-index: 1;\r\n    width: 20%;\r\n}\r\n.gallery-img .img-11 {\r\n    top: 30%;\r\n    right: 80%;\r\n    z-index: 1;\r\n    width: 20%;\r\n}", ""]);
 
 // exports
 
@@ -6623,6 +6642,25 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 // module
 exports.push([module.i, "/* icon style */\r\n.icon{\r\n    z-index: 50;\r\n    position: fixed;\r\n    top: 10px;\r\n    right: 10px;\r\n\r\n    outline: none;\r\n    border: none;\r\n    background: none;\r\n    color: white;\r\n    cursor: pointer;\r\n\r\n    font-size: 4em;\r\n}\r\n\r\n/* Navbar styles */\r\n.none{ display: none; }\r\n.visible{ display: flex; }\r\n\r\n.Navbar{ \r\n    position: fixed;\r\n    z-index: 49;\r\n    width: 100%;\r\n    height: 100%;\r\n    overflow: hidden;\r\n\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n\r\n    /* background-image: url(\"/storage/background.jpg\"); */\r\n    background-color: black;\r\n    background-position: center;\r\n    background-size: cover;\r\n}\r\n\r\n.Navbar a{\r\n    padding: 1% 0;\r\n\r\n    color: white;\r\n\r\n    font-size: 4vw;\r\n    text-transform: uppercase;\r\n    letter-spacing: 1px;\r\n}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/styles/loading.css":
+/*!************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./resources/js/components/styles/loading.css ***!
+  \************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".lds-ring {\r\n    display: inline-block;\r\n    position: relative;\r\n    width: 80px;\r\n    height: 80px;\r\n  }\r\n  .lds-ring div {\r\n    box-sizing: border-box;\r\n    display: block;\r\n    position: absolute;\r\n    width: 64px;\r\n    height: 64px;\r\n    margin: 8px;\r\n    border: 8px solid #ffffff;\r\n    border-radius: 50%;\r\n    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;\r\n    border-color: #ffffff transparent transparent transparent;\r\n  }\r\n  .lds-ring div:nth-child(1) {\r\n    animation-delay: -0.45s;\r\n  }\r\n  .lds-ring div:nth-child(2) {\r\n    animation-delay: -0.3s;\r\n  }\r\n  .lds-ring div:nth-child(3) {\r\n    animation-delay: -0.15s;\r\n  }\r\n  @keyframes lds-ring {\r\n    0% {\r\n      transform: rotate(0deg);\r\n    }\r\n    100% {\r\n      transform: rotate(360deg);\r\n    }\r\n  }", ""]);
 
 // exports
 
@@ -73768,12 +73806,13 @@ module.exports = function(module) {
 /*!***************************************************!*\
   !*** ./resources/js/actions/expositionActions.js ***!
   \***************************************************/
-/*! exports provided: getExposition, changeDescription */
+/*! exports provided: getExposition, getAllExposition, changeDescription */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getExposition", function() { return getExposition; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getAllExposition", function() { return getAllExposition; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "changeDescription", function() { return changeDescription; });
 /* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
 /* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
@@ -73818,7 +73857,7 @@ var getExposition = function getExposition(id) {
               console.log(_context.t0.message);
               dispatch({
                 type: _types_expositionTypes__WEBPACK_IMPORTED_MODULE_2__["ERROR"],
-                payload: 'No se puede acceder a este ejercicio en este momento'
+                payload: 'No se puede acceder a esta sección en este momento'
               });
 
             case 12:
@@ -73831,6 +73870,52 @@ var getExposition = function getExposition(id) {
 
     return function (_x) {
       return _ref.apply(this, arguments);
+    };
+  }();
+};
+var getAllExposition = function getAllExposition() {
+  return /*#__PURE__*/function () {
+    var _ref2 = _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee2(dispatch) {
+      var response;
+      return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee2$(_context2) {
+        while (1) {
+          switch (_context2.prev = _context2.next) {
+            case 0:
+              dispatch({
+                type: _types_expositionTypes__WEBPACK_IMPORTED_MODULE_2__["LOADING"]
+              });
+              _context2.prev = 1;
+              _context2.next = 4;
+              return axios__WEBPACK_IMPORTED_MODULE_1___default.a.get("/api/expositions");
+
+            case 4:
+              response = _context2.sent;
+              dispatch({
+                type: _types_expositionTypes__WEBPACK_IMPORTED_MODULE_2__["GET"],
+                payload: response.data
+              });
+              _context2.next = 12;
+              break;
+
+            case 8:
+              _context2.prev = 8;
+              _context2.t0 = _context2["catch"](1);
+              console.log(_context2.t0.message);
+              dispatch({
+                type: _types_expositionTypes__WEBPACK_IMPORTED_MODULE_2__["ERROR"],
+                payload: 'No se puede cargar el contenido en este momento'
+              });
+
+            case 12:
+            case "end":
+              return _context2.stop();
+          }
+        }
+      }, _callee2, null, [[1, 8]]);
+    }));
+
+    return function (_x2) {
+      return _ref2.apply(this, arguments);
     };
   }();
 };
@@ -73964,10 +74049,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var redux_thunk__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! redux-thunk */ "./node_modules/redux-thunk/es/index.js");
 /* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Navbar */ "./resources/js/components/Navbar.js");
 /* harmony import */ var _Index__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Index */ "./resources/js/components/Index.js");
-/* harmony import */ var _Exposition__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Exposition */ "./resources/js/components/Exposition.js");
-/* harmony import */ var _About__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./About */ "./resources/js/components/About.js");
-/* harmony import */ var _styles_App_css__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./styles/App.css */ "./resources/js/components/styles/App.css");
-/* harmony import */ var _styles_App_css__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_styles_App_css__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _Gallery__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Gallery */ "./resources/js/components/Gallery.js");
+/* harmony import */ var _Exposition__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Exposition */ "./resources/js/components/Exposition.js");
+/* harmony import */ var _About__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./About */ "./resources/js/components/About.js");
+/* harmony import */ var _styles_App_css__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./styles/App.css */ "./resources/js/components/styles/App.css");
+/* harmony import */ var _styles_App_css__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_styles_App_css__WEBPACK_IMPORTED_MODULE_12__);
 
 
  // REDUX
@@ -73978,7 +74064,7 @@ __webpack_require__.r(__webpack_exports__);
  // COMPONENTS
 
 
- // import Gallery      from './Gallery';
+
 
 
  // import Contact      from './Contact';
@@ -73996,12 +74082,16 @@ function App() {
     component: _Index__WEBPACK_IMPORTED_MODULE_8__["default"]
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
     exact: true,
+    path: "/gallery",
+    component: _Gallery__WEBPACK_IMPORTED_MODULE_9__["default"]
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+    exact: true,
     path: "/exposition/:id",
-    component: _Exposition__WEBPACK_IMPORTED_MODULE_9__["default"]
+    component: _Exposition__WEBPACK_IMPORTED_MODULE_10__["default"]
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
     exact: true,
     path: "/about",
-    component: _About__WEBPACK_IMPORTED_MODULE_10__["default"]
+    component: _About__WEBPACK_IMPORTED_MODULE_11__["default"]
   })));
 }
 
@@ -74100,6 +74190,7 @@ var Exposition = function Exposition(props) {
 
   var renderExposition = function renderExposition() {
     if (Object.entries(props.exposition).length) {
+      console.log('RENDER EXPOSITION', props.exposition);
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "class-".concat(props.exposition.id)
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -74176,6 +74267,209 @@ var mapStateToProps = function mapStateToProps(_ref) {
 //         )
 //     }
 // }
+
+/***/ }),
+
+/***/ "./resources/js/components/Gallery.js":
+/*!********************************************!*\
+  !*** ./resources/js/components/Gallery.js ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var _actions_expositionActions__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../actions/expositionActions */ "./resources/js/actions/expositionActions.js");
+/* harmony import */ var _General_Loading__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./General/Loading */ "./resources/js/components/General/Loading.js");
+/* harmony import */ var _General_Fatal__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./General/Fatal */ "./resources/js/components/General/Fatal.js");
+/* harmony import */ var _styles_Gallery_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./styles/Gallery.css */ "./resources/js/components/styles/Gallery.css");
+/* harmony import */ var _styles_Gallery_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_styles_Gallery_css__WEBPACK_IMPORTED_MODULE_7__);
+
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { return function () { var Super = _getPrototypeOf(Derived), result; if (_isNativeReflectConstruct()) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+
+
+
+
+
+
+
+
+var Gallery = /*#__PURE__*/function (_React$Component) {
+  _inherits(Gallery, _React$Component);
+
+  var _super = _createSuper(Gallery);
+
+  function Gallery() {
+    _classCallCheck(this, Gallery);
+
+    return _super.apply(this, arguments);
+  }
+
+  _createClass(Gallery, [{
+    key: "componentDidMount",
+    value: function () {
+      var _componentDidMount = _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                if (this.props.expositions.length) {
+                  _context.next = 3;
+                  break;
+                }
+
+                _context.next = 3;
+                return this.props.getAllExposition();
+
+              case 3:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee, this);
+      }));
+
+      function componentDidMount() {
+        return _componentDidMount.apply(this, arguments);
+      }
+
+      return componentDidMount;
+    }()
+  }, {
+    key: "renderGallery",
+    value: function renderGallery() {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "reference"
+      }, this.props.expositions.map(function (elem) {
+        var link = "/exposition/" + elem.id;
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+          to: link,
+          className: "gallery-img",
+          key: elem.id
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+          src: "storage" + elem.img.cover,
+          alt: elem.title,
+          className: "img-".concat(elem.id)
+        }));
+      }));
+    }
+  }, {
+    key: "showContent",
+    value: function showContent() {
+      if (this.props.loading) {
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_General_Loading__WEBPACK_IMPORTED_MODULE_5__["default"], null);
+      }
+
+      if (this.props.error) {
+        console.log('ENTRO EN FATAL');
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_General_Fatal__WEBPACK_IMPORTED_MODULE_6__["default"], {
+          mensaje: this.props.error
+        });
+      }
+
+      return this.renderGallery();
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "gallery body flex justifyc alignc"
+      }, this.showContent()));
+    }
+  }]);
+
+  return Gallery;
+}(react__WEBPACK_IMPORTED_MODULE_1___default.a.Component);
+
+var mapStateToProps = function mapStateToProps(_ref) {
+  var expositionReducer = _ref.expositionReducer;
+  return expositionReducer;
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["connect"])(mapStateToProps, _actions_expositionActions__WEBPACK_IMPORTED_MODULE_4__)(Gallery));
+
+/***/ }),
+
+/***/ "./resources/js/components/General/Fatal.js":
+/*!**************************************************!*\
+  !*** ./resources/js/components/General/Fatal.js ***!
+  \**************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+var Fatal = function Fatal(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "center rojo"
+  }, props.mensaje);
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Fatal);
+
+/***/ }),
+
+/***/ "./resources/js/components/General/Loading.js":
+/*!****************************************************!*\
+  !*** ./resources/js/components/General/Loading.js ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _styles_loading_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/loading.css */ "./resources/js/components/styles/loading.css");
+/* harmony import */ var _styles_loading_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_loading_css__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+var Loading = function Loading(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "lds-ring"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null)));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Loading);
 
 /***/ }),
 
@@ -74265,7 +74559,7 @@ var Navbar = function Navbar() {
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "Navbar ".concat(classname)
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "/exposition/2",
+    to: "/gallery",
     onClick: toggleNavbar
   }, "Projects"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     to: "",
@@ -74370,6 +74664,36 @@ if(false) {}
 
 /***/ }),
 
+/***/ "./resources/js/components/styles/Gallery.css":
+/*!****************************************************!*\
+  !*** ./resources/js/components/styles/Gallery.css ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--5-1!../../../../node_modules/postcss-loader/src??ref--5-2!./Gallery.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/styles/Gallery.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./resources/js/components/styles/Index.css":
 /*!**************************************************!*\
   !*** ./resources/js/components/styles/Index.css ***!
@@ -74430,6 +74754,36 @@ if(false) {}
 
 /***/ }),
 
+/***/ "./resources/js/components/styles/loading.css":
+/*!****************************************************!*\
+  !*** ./resources/js/components/styles/loading.css ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--5-1!../../../../node_modules/postcss-loader/src??ref--5-2!./loading.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/styles/loading.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./resources/js/reducers/expositionReducer.js":
 /*!****************************************************!*\
   !*** ./resources/js/reducers/expositionReducer.js ***!
@@ -74449,7 +74803,9 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 var INITIAL_STATE = {
   expositions: [],
-  exposition: {}
+  exposition: {},
+  loading: false,
+  error: ''
 };
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : INITIAL_STATE;
@@ -74459,6 +74815,13 @@ var INITIAL_STATE = {
     case _types_expositionTypes__WEBPACK_IMPORTED_MODULE_0__["SHOW"]:
       return _objectSpread({}, state, {
         exposition: action.payload,
+        loading: false,
+        error: ''
+      });
+
+    case _types_expositionTypes__WEBPACK_IMPORTED_MODULE_0__["GET"]:
+      return _objectSpread({}, state, {
+        expositions: action.payload,
         loading: false,
         error: ''
       });
@@ -74536,7 +74899,7 @@ var CHANGE_DESCRIPTION = 'exposition_change_description';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\_WORK\Redux\JoeWilliamsWeb\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! D:\Documentos\Programacion\Proyectos\React\joeWilliamsWeb\resources\js\app.js */"./resources/js/app.js");
 
 
 /***/ })

@@ -34,6 +34,7 @@ const Exposition = (props) => {
 
     const renderExposition = () => {
         if(Object.entries(props.exposition).length){
+            console.log('RENDER EXPOSITION',props.exposition)
             return(
                 <div className={`class-${props.exposition.id}`}>
                     <div className="title">
