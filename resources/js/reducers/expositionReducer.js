@@ -10,7 +10,9 @@ import {
 const INITIAL_STATE = {
     expositions: [],
     exposition: {},
-    currentPage: ''
+    currentPage: '',
+    loading: false,
+    error: ''
 }
 
 export default (state = INITIAL_STATE, action) => {
@@ -19,6 +21,14 @@ export default (state = INITIAL_STATE, action) => {
             return {
                 ...state,
                 exposition: action.payload,
+                loading: false,
+                error: ''
+            }
+        
+        case GET:
+            return {
+                ...state,
+                expositions: action.payload,
                 loading: false,
                 error: ''
             }
