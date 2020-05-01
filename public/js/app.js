@@ -6546,7 +6546,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".About{\r\n    width: 100%;\r\n    padding-left: 20px;\r\n    \r\n}\r\n.About div{\r\n    padding-top: 50vh;\r\n    padding-bottom: 10vh;\r\n    font-size: 4em;\r\n}\r\n\r\n.About div .red{\r\n    color: red;\r\n}", ""]);
+exports.push([module.i, ".About{\r\n    width: 100%;\r\n    padding-left: 20px;\r\n    \r\n}\r\n.About div{\r\n    padding-top: 50vh;\r\n    padding-bottom: 10vh;\r\n    font-size: 4em;\r\n    text-transform: uppercase;\r\n}\r\n\r\n.About div .red{\r\n    color: red;\r\n}", ""]);
 
 // exports
 
@@ -6565,7 +6565,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "*{\r\n    box-sizing: border-box;\r\n    margin: 0;\r\n}\r\n\r\nhtml, body, #app{ height: 100%; }\r\na{ text-decoration: none; }\r\n\r\n.grid{ display: grid; }\r\n.flex{ display: flex; }\r\n.flex-row{ flex-direction: row; }\r\n.flex-row-reverse { flex-direction: row-reverse; }\r\n.flex-col{ flex-direction: column; }\r\n.justifyc{ justify-content: center; }\r\n.alignc{ align-items: center; }\r\n\r\n.height-100{ height: 100%; }\r\n\r\n\r\n\r\n\r\n\r\n\r\n.body{\r\n    /* background-image: url(\"/storage/background.jpg\"); */\r\n    background-color: black;\r\n    background-size: cover;\r\n    background-repeat: no-repeat;\r\n    background-attachment:fixed;\r\n    color: white;\r\n}", ""]);
+exports.push([module.i, "*{\r\n    box-sizing: border-box;\r\n    margin: 0;\r\n    font-family: halogen, sans-serif;\r\n    font-style: normal;\r\n    font-weight: 300;\r\n}\r\n\r\nhtml, body, #app{ height: 100%; }\r\na{ text-decoration: none; }\r\n\r\n.grid{ display: grid; }\r\n.flex{ display: flex; }\r\n.flex-row{ flex-direction: row; }\r\n.flex-row-reverse { flex-direction: row-reverse; }\r\n.flex-col{ flex-direction: column; }\r\n.justifyc{ justify-content: center; }\r\n.alignc{ align-items: center; }\r\n\r\n.height-100{ height: 100%; }\r\n\r\n\r\n\r\n\r\n\r\nhtml{\r\n    background-color: black;\r\n}\r\n.body{\r\n    /* background-image: url(\"/storage/background.jpg\"); */\r\n    background-color: black;\r\n    background-size: cover;\r\n    background-repeat: no-repeat;\r\n    background-attachment:fixed;\r\n    color: white;\r\n}", ""]);
 
 // exports
 
@@ -6584,7 +6584,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".exposition{\r\n    height: 90%;\r\n}\r\n\r\n.gallery-expo {\r\n    width: 100%;\r\n    height: 100%;\r\n    display: grid;\r\n    color: white;\r\n}\r\n.gallery-expo .title{ \r\n    grid-area: title; \r\n    z-index: 2;\r\n    font-size: 2em;\r\n    text-transform: uppercase;\r\n}\r\n.gallery-expo .description{ \r\n    grid-area: description; \r\n    font-size: 1.2em;\r\n    z-index: 2;\r\n}\r\n.gallery-expo .type{ \r\n    grid-area: type; \r\n    z-index: 2;\r\n}\r\n.gallery-expo .details{ \r\n    grid-area: details; \r\n    z-index: 2;\r\n}\r\n.gallery-expo .imagen{ \r\n    grid-area: imagen; \r\n    z-index: 0;\r\n}\r\n\r\n.expo1{\r\n    overflow: hidden;\r\n    grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;\r\n    grid-template-rows: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;\r\n    grid-template-areas:\r\n        'imagen imagen imagen title title title'\r\n        'imagen imagen imagen title title title'\r\n        'imagen imagen imagen title title title'\r\n        'imagen imagen imagen description description description'\r\n        'imagen imagen imagen description description description'\r\n        'type type type description description description';\r\n}\r\n.expo1 .details{ display: none; }\r\n.expo1 .description{ padding-top: 5%; }\r\n.expo1 .description hr{ width: 30%; }\r\n.expo1 .type{ margin-left: 6%; padding-top: 10%;}\r\n.expo1 .imagen img{\r\n    z-index: 0;\r\n    width: 100%;\r\n    max-height: 90vh;\r\n    margin-left: 6%;\r\n}\r\n\r\n.expo3{\r\n    grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;\r\n    grid-template-rows: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;\r\n    grid-template-areas:\r\n        'imagen imagen imagen title title title'\r\n        'imagen imagen imagen title title title'\r\n        'imagen imagen imagen title title title'\r\n        'imagen imagen imagen description description description'\r\n        'imagen imagen imagen description description description'\r\n        'imagen imagen imagen type type details';\r\n}\r\n.expo3 .details{ }\r\n.expo3 .description{ padding-top: 5%; }\r\n.expo3 .description hr{ width: 30%; margin-bottom: 5%; }\r\n.expo3 .type{ }\r\n.expo3 .imagen img{\r\n    z-index: 0;\r\n    width: 70%;\r\n    max-height: 90vh;\r\n    margin-left: 6%;\r\n}\r\n\r\n.expo5{\r\n    grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;\r\n    grid-template-rows: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;\r\n    grid-template-areas:\r\n    'title title title imagen imagen imagen'\r\n    'title title title imagen imagen imagen'\r\n    'title title title imagen imagen imagen'\r\n    'type  type  type  imagen imagen imagen'\r\n    'description description description imagen imagen imagen'\r\n    'description description description imagen imagen imagen'\r\n    'description description description imagen imagen imagen';\r\n}\r\n.expo5 .title { margin-left: 6%;}\r\n.expo5 .details{ }\r\n.expo5 .description{ padding-top: 5%; margin-left: 6%; }\r\n.expo5 .description hr{ width: 30%; margin-bottom: 5%;}\r\n.expo5 .type{ margin-left: 6%; padding-top: 10%;}\r\n.expo5 .imagen {\r\n    padding-right: 5%;\r\n}\r\n.expo5 .imagen img{\r\n    z-index: 0;\r\n    width: 100%;\r\n    max-height: 86vh;\r\n}", ""]);
+exports.push([module.i, ".Exposition{ height: 100%; }\r\n.Exposition >div{\r\n    height: 100%;\r\n    width: 100%;\r\n    padding: 30px;\r\n    font-size: 1.1em;\r\n}\r\n.Exposition .title{\r\n    font-size: 4em;\r\n    letter-spacing: 2px;\r\n    text-transform: uppercase;\r\n    font-weight: 100;\r\n}\r\n.Exposition  hr{ margin-bottom: 30px; }\r\n\r\n.Exposition .title{ grid-area: title; }\r\n.Exposition .description{ grid-area: description; }\r\n.Exposition .type{ grid-area: type; }\r\n.Exposition .details{ grid-area: details; }\r\n.Exposition .img{ grid-area: img; }\r\n\r\n\r\n\r\n/* lets talk about the c-word */\r\n.Exposition .class-1{\r\n    display: grid;\r\n    grid-template-columns: 50% 50%;\r\n    grid-template-rows: 70% 20% 10%;\r\n    grid-template-areas: \r\n        'img title'\r\n        'img description'\r\n        'type description';\r\n}\r\n.Exposition .class-1 >div:not(.img){\r\n    z-index: 4;\r\n}\r\n.Exposition .class-1 .details,\r\n.Exposition .class-1 .type hr{\r\n    display: none;\r\n}\r\n.Exposition .class-1 .title{ margin-right: 75px; }\r\n.Exposition .class-1 .type,\r\n.Exposition .class-1 .description{\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: flex-end;\r\n}\r\n.Exposition .class-1 .img img{ \r\n    width: 110%;\r\n    min-width: 800px;\r\n    max-height: 80vh;\r\n    margin-top: 5%;\r\n    z-index: 1;\r\n}\r\n.Exposition .class-1 hr{ width: 40%; }\r\n\r\n\r\n\r\n/* Fluttering flamingo */\r\n.Exposition .class-2{\r\n    display: grid;\r\n    grid-template-columns: 40% 60%;\r\n    grid-template-rows: 70% 20% 10%;\r\n    grid-template-areas: \r\n        'img title'\r\n        'img description'\r\n        'img type';\r\n}\r\n.Exposition .class-2 .title{ margin-top: 50px; }\r\n.Exposition .class-2 .details,\r\n.Exposition .class-2 .type hr{\r\n    display: none;\r\n}\r\n.Exposition .class-2 .img img{ height: 100%; }\r\n.Exposition .class-2 .description hr{ width: 40%; }\r\n\r\n\r\n\r\n/* Fluttering flamingo */\r\n.Exposition .class-3{\r\n    display: grid;\r\n    grid-template-columns: 40% 40% 20%;\r\n    grid-template-rows: 60% 30% 10%;\r\n    grid-template-areas: \r\n        'img title title'\r\n        'img description description'\r\n        'img details type';\r\n}\r\n.Exposition .class-3 .title{ margin-top: 50px; }\r\n.Exposition .class-3 .details hr,\r\n.Exposition .class-3 .type hr{\r\n    display: none;\r\n}\r\n.Exposition .class-3 .description{ padding: 30px 30px 30px 0; }\r\n.Exposition .class-3 .description hr{ width: 30%; }\r\n.Exposition .class-3 .details,\r\n.Exposition .class-3 .type{\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: flex-end;\r\n}\r\n.Exposition .class-3 .img img{\r\n    max-width: 35vw;\r\n    max-height: 90vh;\r\n}\r\n.Exposition .class-3 >div:not(.img){\r\n    z-index: 4;\r\n}\r\n\r\n\r\n\r\n/* JAM */\r\n.Exposition .class-7{\r\n    display: grid;\r\n    grid-template-columns: 50% 50%;\r\n    grid-template-rows: 70% 30%;\r\n    grid-template-areas: \r\n        'img title'\r\n        'img description';\r\n}\r\n.Exposition .class-7 .title{ margin-top: 30px; }\r\n.Exposition .class-7 .type,\r\n.Exposition .class-7 .details{\r\n    display: none;\r\n}\r\n.Exposition .class-7 .img{ padding: 30px; }\r\n.Exposition .class-7 .img img{ \r\n    width: 95%;\r\n    max-height: 90vh;\r\n}\r\n.Exposition .class-7 hr{ width: 40%; }\r\n\r\n\r\n\r\n/* the dark elf */\r\n.Exposition .class-8{\r\n    display: grid;\r\n    grid-template-columns: 65% 35%;\r\n    grid-template-rows: 33.33%  33.33% 33.33%;\r\n    grid-template-areas: \r\n        'title img'\r\n        'details img'\r\n        'details img';\r\n}\r\n.Exposition .class-8 .description,\r\n.Exposition .class-8 .type{\r\n    display: none;\r\n}\r\n.Exposition .class-8 .img{ padding-top: 15%; }\r\n.Exposition .class-8 .img img{  height: 100%; }\r\n.Exposition .class-8 hr{ \r\n    width: 15%;\r\n    min-width: 70px;\r\n    margin-bottom: 30px;\r\n}\r\n\r\n\r\n\r\n/* lethal combination */\r\n.Exposition .class-9{\r\n    display: grid;\r\n    grid-template-columns: 33% 33% 33%;\r\n    grid-template-rows: 25% 25% 25% 25%;\r\n    grid-template-areas:\r\n        'title title title'\r\n        'type img img'\r\n        'type img img'\r\n        'type img img';\r\n}\r\n.Exposition .class-9 .description,\r\n.Exposition .class-9 .details{\r\n    display: none;\r\n}\r\n.Exposition .class-9 .img img{ \r\n    min-width: 60vw;\r\n    height: 100%;\r\n}\r\n.Exposition .class-9 hr{ \r\n    width: 25%;\r\n    margin-bottom: 30px;\r\n}\r\n\r\n\r\n\r\n/* I read the news today */\r\n.Exposition .class-10{\r\n    display: grid;\r\n    grid-template-columns: 50% 35% 15%;\r\n    grid-template-rows: 60% 40%;\r\n    grid-template-areas:\r\n        'img title title'\r\n        'img description type';\r\n}\r\n.Exposition .class-10 .details,\r\n.Exposition .class-10 .type hr{\r\n    display: none;\r\n}\r\n.Exposition .class-10 .title{ margin-top: 50px; }\r\n.Exposition .class-10 .description,\r\n.Exposition .class-10 .type{\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: flex-end;\r\n}\r\n.Exposition .class-10 .description{ margin-right: 20px; }\r\n.Exposition .class-10 .description hr{ width: 50%; }\r\n.Exposition .class-10 .type{ align-items: flex-end; }\r\n.Exposition .class-10 .img img{ height: 100%; }\r\n.Exposition .class-10 >div:not(.img){\r\n    z-index: 4;\r\n}", ""]);
 
 // exports
 
@@ -73768,12 +73768,13 @@ module.exports = function(module) {
 /*!***************************************************!*\
   !*** ./resources/js/actions/expositionActions.js ***!
   \***************************************************/
-/*! exports provided: getExposition */
+/*! exports provided: getExposition, changeDescription */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getExposition", function() { return getExposition; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "changeDescription", function() { return changeDescription; });
 /* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
 /* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
@@ -73832,6 +73833,14 @@ var getExposition = function getExposition(id) {
       return _ref.apply(this, arguments);
     };
   }();
+};
+var changeDescription = function changeDescription(newDescription) {
+  return function (dispatch) {
+    dispatch({
+      type: _types_expositionTypes__WEBPACK_IMPORTED_MODULE_2__["CHANGE_DESCRIPTION"],
+      payload: newDescription
+    });
+  };
 };
 
 /***/ }),
@@ -74020,18 +74029,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
-/* harmony import */ var _actions_expositionActions__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../actions/expositionActions */ "./resources/js/actions/expositionActions.js");
-/* harmony import */ var _styles_Exposition_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./styles/Exposition.css */ "./resources/js/components/styles/Exposition.css");
-/* harmony import */ var _styles_Exposition_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_styles_Exposition_css__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var _actions_expositionActions__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../actions/expositionActions */ "./resources/js/actions/expositionActions.js");
+/* harmony import */ var _styles_Exposition_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./styles/Exposition.css */ "./resources/js/components/styles/Exposition.css");
+/* harmony import */ var _styles_Exposition_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_Exposition_css__WEBPACK_IMPORTED_MODULE_4__);
 
 
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
 
 function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
-
 
 
 
@@ -74062,9 +74068,6 @@ var Exposition = function Exposition(props) {
                 return props.getExposition(id);
 
               case 4:
-                console.log(props.exposition);
-
-              case 5:
               case "end":
                 return _context.stop();
             }
@@ -74076,7 +74079,49 @@ var Exposition = function Exposition(props) {
 
     fetchData();
   }, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, "Exposition");
+
+  var nextPage = function nextPage(e) {
+    console.log(e);
+  };
+
+  var replaceNewLine = function replaceNewLine(text) {
+    return text.split('\r\n').map(function (substr, i) {
+      if (substr === "") {
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, {
+          key: i
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null));
+      } else {
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+          key: i
+        }, substr);
+      }
+    });
+  };
+
+  var renderExposition = function renderExposition() {
+    if (Object.entries(props.exposition).length) {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "class-".concat(props.exposition.id)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "title"
+      }, props.exposition.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "description"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("hr", null), replaceNewLine(props.exposition.description)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "type"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("hr", null), props.exposition.type), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "details"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("hr", null), props.exposition.details), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "img"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+        src: "/storage".concat(props.exposition.img.img1)
+      })));
+    }
+  };
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "body Exposition",
+    onClick: nextPage
+  }, renderExposition());
 };
 
 var mapStateToProps = function mapStateToProps(_ref) {
@@ -74084,7 +74129,7 @@ var mapStateToProps = function mapStateToProps(_ref) {
   return expositionReducer;
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["connect"])(mapStateToProps, _actions_expositionActions__WEBPACK_IMPORTED_MODULE_4__)(Exposition)); // class Exposition extends React.Component {
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_2__["connect"])(mapStateToProps, _actions_expositionActions__WEBPACK_IMPORTED_MODULE_3__)(Exposition)); // class Exposition extends React.Component {
 //     constructor(props){
 //         super(props);
 //         this.state = {
@@ -74220,7 +74265,7 @@ var Navbar = function Navbar() {
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "Navbar ".concat(classname)
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "exposition/1",
+    to: "/exposition/2",
     onClick: toggleNavbar
   }, "Projects"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     to: "",
@@ -74429,6 +74474,13 @@ var INITIAL_STATE = {
         loading: false
       });
 
+    case _types_expositionTypes__WEBPACK_IMPORTED_MODULE_0__["CHANGE_DESCRIPTION"]:
+      return _objectSpread({}, state, {
+        exposition: {
+          description: action.payload
+        }
+      });
+
     default:
       return state;
   }
@@ -74459,7 +74511,7 @@ __webpack_require__.r(__webpack_exports__);
 /*!***********************************************!*\
   !*** ./resources/js/types/expositionTypes.js ***!
   \***********************************************/
-/*! exports provided: GET, SHOW, LOADING, ERROR */
+/*! exports provided: GET, SHOW, LOADING, ERROR, CHANGE_DESCRIPTION */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -74468,10 +74520,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SHOW", function() { return SHOW; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LOADING", function() { return LOADING; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ERROR", function() { return ERROR; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CHANGE_DESCRIPTION", function() { return CHANGE_DESCRIPTION; });
 var GET = 'exposition_get';
 var SHOW = 'exposition_show';
 var LOADING = 'exposition_loading';
 var ERROR = 'exposition_error';
+var CHANGE_DESCRIPTION = 'exposition_change_description';
 
 /***/ }),
 

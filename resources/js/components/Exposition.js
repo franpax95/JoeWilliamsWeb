@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import axios from 'axios';
 
 import { connect } from 'react-redux';
 import * as expositionActions from '../actions/expositionActions';
@@ -12,17 +11,58 @@ const Exposition = (props) => {
             const id = props.match.params.id;
 
             //Si exposition = {}
-            if(!Object.entries(props.exposition).length) 
-                await props.getExposition(id);
-            
-            console.log(props.exposition);
+            if(!Object.entries(props.exposition).length)
+                await props.getExposition(id); 
         }
 
         fetchData();
     }, []);
 
+    const nextPage = (e) => {
+        console.log(e);
+    }
+
+    const replaceNewLine = (text) => (
+        text.split('\r\n').map((substr, i) => {
+            if(substr === ""){
+                return <React.Fragment key={i}><br/><br/></React.Fragment>
+            }else{
+                return <span key={i}>{substr}</span>;
+            }
+        })
+    );
+
+    const renderExposition = () => {
+        if(Object.entries(props.exposition).length){
+            return(
+                <div className={`class-${props.exposition.id}`}>
+                    <div className="title">
+                        {props.exposition.title}
+                    </div>
+                    <div className="description">
+                        <hr />
+                        {replaceNewLine(props.exposition.description)}
+                    </div>
+                    <div className="type">
+                        <hr />
+                        {props.exposition.type}
+                    </div>
+                    <div className="details">
+                        <hr />
+                        {props.exposition.details}
+                    </div>
+                    <div className="img">
+                        <img src={`/storage${props.exposition.img.img1}`} />
+                    </div>
+                </div>
+            )
+        }
+    }
+
     return(
-        <div>Exposition</div>
+        <div className="body Exposition" onClick={nextPage}>
+            {renderExposition()}
+        </div>
     )
 }
 

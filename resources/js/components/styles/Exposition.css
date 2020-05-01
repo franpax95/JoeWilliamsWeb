@@ -1,104 +1,211 @@
-.exposition{
-    height: 90%;
-}
-
-.gallery-expo {
-    width: 100%;
+.Exposition{ height: 100%; }
+.Exposition >div{
     height: 100%;
-    display: grid;
-    color: white;
+    width: 100%;
+    padding: 30px;
+    font-size: 1.1em;
 }
-.gallery-expo .title{ 
-    grid-area: title; 
-    z-index: 2;
-    font-size: 2em;
+.Exposition .title{
+    font-size: 4em;
+    letter-spacing: 2px;
     text-transform: uppercase;
+    font-weight: 100;
 }
-.gallery-expo .description{ 
-    grid-area: description; 
-    font-size: 1.2em;
-    z-index: 2;
-}
-.gallery-expo .type{ 
-    grid-area: type; 
-    z-index: 2;
-}
-.gallery-expo .details{ 
-    grid-area: details; 
-    z-index: 2;
-}
-.gallery-expo .imagen{ 
-    grid-area: imagen; 
-    z-index: 0;
-}
+.Exposition  hr{ margin-bottom: 30px; }
 
-.expo1{
-    overflow: hidden;
-    grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
-    grid-template-rows: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
-    grid-template-areas:
-        'imagen imagen imagen title title title'
-        'imagen imagen imagen title title title'
-        'imagen imagen imagen title title title'
-        'imagen imagen imagen description description description'
-        'imagen imagen imagen description description description'
-        'type type type description description description';
+.Exposition .title{ grid-area: title; }
+.Exposition .description{ grid-area: description; }
+.Exposition .type{ grid-area: type; }
+.Exposition .details{ grid-area: details; }
+.Exposition .img{ grid-area: img; }
+
+
+
+/* lets talk about the c-word */
+.Exposition .class-1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 70% 20% 10%;
+    grid-template-areas: 
+        'img title'
+        'img description'
+        'type description';
 }
-.expo1 .details{ display: none; }
-.expo1 .description{ padding-top: 5%; }
-.expo1 .description hr{ width: 30%; }
-.expo1 .type{ margin-left: 6%; padding-top: 10%;}
-.expo1 .imagen img{
-    z-index: 0;
-    width: 100%;
+.Exposition .class-1 >div:not(.img){
+    z-index: 4;
+}
+.Exposition .class-1 .details,
+.Exposition .class-1 .type hr{
+    display: none;
+}
+.Exposition .class-1 .title{ margin-right: 75px; }
+.Exposition .class-1 .type,
+.Exposition .class-1 .description{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.Exposition .class-1 .img img{ 
+    width: 110%;
+    min-width: 800px;
+    max-height: 80vh;
+    margin-top: 5%;
+    z-index: 1;
+}
+.Exposition .class-1 hr{ width: 40%; }
+
+
+
+/* Fluttering flamingo */
+.Exposition .class-2{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 70% 20% 10%;
+    grid-template-areas: 
+        'img title'
+        'img description'
+        'img type';
+}
+.Exposition .class-2 .title{ margin-top: 50px; }
+.Exposition .class-2 .details,
+.Exposition .class-2 .type hr{
+    display: none;
+}
+.Exposition .class-2 .img img{ height: 100%; }
+.Exposition .class-2 .description hr{ width: 40%; }
+
+
+
+/* Fluttering flamingo */
+.Exposition .class-3{
+    display: grid;
+    grid-template-columns: 40% 40% 20%;
+    grid-template-rows: 60% 30% 10%;
+    grid-template-areas: 
+        'img title title'
+        'img description description'
+        'img details type';
+}
+.Exposition .class-3 .title{ margin-top: 50px; }
+.Exposition .class-3 .details hr,
+.Exposition .class-3 .type hr{
+    display: none;
+}
+.Exposition .class-3 .description{ padding: 30px 30px 30px 0; }
+.Exposition .class-3 .description hr{ width: 30%; }
+.Exposition .class-3 .details,
+.Exposition .class-3 .type{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.Exposition .class-3 .img img{
+    max-width: 35vw;
     max-height: 90vh;
-    margin-left: 6%;
+}
+.Exposition .class-3 >div:not(.img){
+    z-index: 4;
 }
 
-.expo3{
-    grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
-    grid-template-rows: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
-    grid-template-areas:
-        'imagen imagen imagen title title title'
-        'imagen imagen imagen title title title'
-        'imagen imagen imagen title title title'
-        'imagen imagen imagen description description description'
-        'imagen imagen imagen description description description'
-        'imagen imagen imagen type type details';
+
+
+/* JAM */
+.Exposition .class-7{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 70% 30%;
+    grid-template-areas: 
+        'img title'
+        'img description';
 }
-.expo3 .details{ }
-.expo3 .description{ padding-top: 5%; }
-.expo3 .description hr{ width: 30%; margin-bottom: 5%; }
-.expo3 .type{ }
-.expo3 .imagen img{
-    z-index: 0;
-    width: 70%;
+.Exposition .class-7 .title{ margin-top: 30px; }
+.Exposition .class-7 .type,
+.Exposition .class-7 .details{
+    display: none;
+}
+.Exposition .class-7 .img{ padding: 30px; }
+.Exposition .class-7 .img img{ 
+    width: 95%;
     max-height: 90vh;
-    margin-left: 6%;
+}
+.Exposition .class-7 hr{ width: 40%; }
+
+
+
+/* the dark elf */
+.Exposition .class-8{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 33.33%  33.33% 33.33%;
+    grid-template-areas: 
+        'title img'
+        'details img'
+        'details img';
+}
+.Exposition .class-8 .description,
+.Exposition .class-8 .type{
+    display: none;
+}
+.Exposition .class-8 .img{ padding-top: 15%; }
+.Exposition .class-8 .img img{  height: 100%; }
+.Exposition .class-8 hr{ 
+    width: 15%;
+    min-width: 70px;
+    margin-bottom: 30px;
 }
 
-.expo5{
-    grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
-    grid-template-rows: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+
+
+/* lethal combination */
+.Exposition .class-9{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 25% 25% 25% 25%;
     grid-template-areas:
-    'title title title imagen imagen imagen'
-    'title title title imagen imagen imagen'
-    'title title title imagen imagen imagen'
-    'type  type  type  imagen imagen imagen'
-    'description description description imagen imagen imagen'
-    'description description description imagen imagen imagen'
-    'description description description imagen imagen imagen';
+        'title title title'
+        'type img img'
+        'type img img'
+        'type img img';
 }
-.expo5 .title { margin-left: 6%;}
-.expo5 .details{ }
-.expo5 .description{ padding-top: 5%; margin-left: 6%; }
-.expo5 .description hr{ width: 30%; margin-bottom: 5%;}
-.expo5 .type{ margin-left: 6%; padding-top: 10%;}
-.expo5 .imagen {
-    padding-right: 5%;
+.Exposition .class-9 .description,
+.Exposition .class-9 .details{
+    display: none;
 }
-.expo5 .imagen img{
-    z-index: 0;
-    width: 100%;
-    max-height: 86vh;
+.Exposition .class-9 .img img{ 
+    min-width: 60vw;
+    height: 100%;
+}
+.Exposition .class-9 hr{ 
+    width: 25%;
+    margin-bottom: 30px;
+}
+
+
+
+/* I read the news today */
+.Exposition .class-10{
+    display: grid;
+    grid-template-columns: 50% 35% 15%;
+    grid-template-rows: 60% 40%;
+    grid-template-areas:
+        'img title title'
+        'img description type';
+}
+.Exposition .class-10 .details,
+.Exposition .class-10 .type hr{
+    display: none;
+}
+.Exposition .class-10 .title{ margin-top: 50px; }
+.Exposition .class-10 .description,
+.Exposition .class-10 .type{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.Exposition .class-10 .description{ margin-right: 20px; }
+.Exposition .class-10 .description hr{ width: 50%; }
+.Exposition .class-10 .type{ align-items: flex-end; }
+.Exposition .class-10 .img img{ height: 100%; }
+.Exposition .class-10 >div:not(.img){
+    z-index: 4;
 }

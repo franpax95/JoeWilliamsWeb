@@ -1,4 +1,10 @@
-import { GET, LOADING, ERROR, SHOW } from '../types/expositionTypes';
+import { 
+    GET, 
+    LOADING, 
+    ERROR, 
+    SHOW, 
+    CHANGE_DESCRIPTION 
+} from '../types/expositionTypes';
 
 const INITIAL_STATE = {
     expositions: [],
@@ -26,6 +32,14 @@ export default (state = INITIAL_STATE, action) => {
                 ...state,
                 error: action.payload,
                 loading: false
+            }
+
+        case CHANGE_DESCRIPTION:
+            return {
+                ...state,
+                exposition: {
+                    description: action.payload
+                }
             }
         
         default: 

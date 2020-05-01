@@ -1,5 +1,11 @@
 import axios from 'axios';
-import { GET, LOADING, ERROR, SHOW } from '../types/expositionTypes';
+import { 
+    GET, 
+    LOADING, 
+    ERROR, 
+    SHOW, 
+    CHANGE_DESCRIPTION 
+} from '../types/expositionTypes';
 
 export const getExposition = (id) => async (dispatch) => {
     dispatch({
@@ -19,4 +25,11 @@ export const getExposition = (id) => async (dispatch) => {
             payload: 'No se puede acceder a este ejercicio en este momento'
         });
     }
+}
+
+export const changeDescription = (newDescription) => (dispatch) => {
+    dispatch({
+        type: CHANGE_DESCRIPTION,
+        payload: newDescription
+    });
 }
