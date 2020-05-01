@@ -12,14 +12,21 @@ const Exposition = (props) => {
 
             //Si exposition = {}
             if((!Object.entries(props.exposition).length) || (props.exposition.id !== Number(id)))
-                await props.getExposition(id); 
+                await props.getExposition(id);
+            
+            //Reinicializamos el currentPage
+            props.changePage(1);
         }
 
         fetchData();
     }, []);
 
-    const nextPage = (e) => {
-        console.log(e);
+    const nextPage = () => {
+        if(Object.keys(props.exposition.img)[props.currentPage+1]){
+            props.changePage(props.currentPage + 1);
+        }else{
+            props.changePage(1);
+        }
     }
 
     const replaceNewLine = (text) => (
@@ -33,9 +40,13 @@ const Exposition = (props) => {
     );
 
     const renderExposition = () => {
+        
         if(Object.entries(props.exposition).length){
+            const img_url = `/storage${Object.values(props.exposition.img)[props.currentPage]}`;
+            const div_class = `class-${props.exposition.id} page-${props.currentPage}`;
+            
             return(
-                <div className={`class-${props.exposition.id}`}>
+                <div className={div_class}>
                     <div className="title">
                         {props.exposition.title}
                     </div>
@@ -52,7 +63,7 @@ const Exposition = (props) => {
                         {props.exposition.details}
                     </div>
                     <div className="img">
-                        <img src={`/storage${props.exposition.img.img1}`} />
+                        <img src={img_url} />
                     </div>
                 </div>
             )

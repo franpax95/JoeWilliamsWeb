@@ -22,7 +22,7 @@
 
 
 /* lets talk about the c-word */
-.Exposition .class-1{
+.Exposition .class-1.page-1{
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 70% 20% 10%;
@@ -31,29 +31,68 @@
         'img description'
         'type description';
 }
-.Exposition .class-1 >div:not(.img){
+.Exposition .class-1.page-1 >div:not(.img){
     z-index: 4;
 }
-.Exposition .class-1 .details,
-.Exposition .class-1 .type hr{
+.Exposition .class-1.page-1 .details,
+.Exposition .class-1.page-1 .type hr{
     display: none;
 }
-.Exposition .class-1 .title{ margin-right: 75px; }
-.Exposition .class-1 .type,
-.Exposition .class-1 .description{
+.Exposition .class-1.page-1 .title{ margin-right: 75px; }
+.Exposition .class-1.page-1 .type,
+.Exposition .class-1.page-1 .description{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
-.Exposition .class-1 .img img{ 
+.Exposition .class-1.page-1 .img img{ 
     width: 110%;
     min-width: 800px;
     max-height: 80vh;
     margin-top: 5%;
     z-index: 1;
 }
-.Exposition .class-1 hr{ width: 40%; }
+.Exposition .class-1.page-1 hr{ width: 40%; }
 
+.Exposition .class-1.page-2{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 70% 30%;
+    grid-template-areas: 
+        'img title'
+        'img details';
+}
+.Exposition .class-1.page-2 .title,
+.Exposition .class-1.page-2 .description,
+.Exposition .class-1.page-2 .type,
+.Exposition .class-1.page-2 .details hr{
+    display: none;
+}
+.Exposition .class-1.page-2 .details{ margin-right: 50px; }
+.Exposition .class-1.page-2 .img img{
+    height: 100%;
+    max-width: 100vw;
+}
+.Exposition .class-1.page-2 >div:not(.img){
+    z-index: 4;
+}
+
+.Exposition .class-1.page-3{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.Exposition .class-1.page-3 .title,
+.Exposition .class-1.page-3 .description,
+.Exposition .class-1.page-3 .type,
+.Exposition .class-1.page-3 .details{
+    display: none;
+}
+.Exposition .class-1.page-3 .img,
+.Exposition .class-1.page-3 .img img{
+    height: 100%;
+}
+/*******************************************/
 
 
 /* Fluttering flamingo */
@@ -183,7 +222,7 @@
 
 
 /* I read the news today */
-.Exposition .class-10{
+.Exposition .class-1.page-10{
     display: grid;
     grid-template-columns: 50% 35% 15%;
     grid-template-rows: 60% 40%;
@@ -191,29 +230,29 @@
         'img title title'
         'img description type';
 }
-.Exposition .class-10 .details,
-.Exposition .class-10 .type hr{
+.Exposition .class-1.page-10 .details,
+.Exposition .class-1.page-10 .type hr{
     display: none;
 }
-.Exposition .class-10 .title{ margin-top: 50px; }
-.Exposition .class-10 .description,
-.Exposition .class-10 .type{
+.Exposition .class-1.page-10 .title{ margin-top: 50px; }
+.Exposition .class-1.page-10 .description,
+.Exposition .class-1.page-10 .type{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
-.Exposition .class-10 .description{ margin-right: 20px; }
-.Exposition .class-10 .description hr{ width: 50%; }
-.Exposition .class-10 .type{ align-items: flex-end; }
-.Exposition .class-10 .img img{ height: 100%; }
-.Exposition .class-10 >div:not(.img){
+.Exposition .class-1.page-10 .description{ margin-right: 20px; }
+.Exposition .class-1.page-10 .description hr{ width: 50%; }
+.Exposition .class-1.page-10 .type{ align-items: flex-end; }
+.Exposition .class-1.page-10 .img img{ height: 100%; }
+.Exposition .class-1.page-10 >div:not(.img){
     z-index: 4;
 }
 
 
 
 /* velvet */
-.Exposition .class-11{
+.Exposition .class-1.page-11{
     display: grid;
     grid-template-columns: 70% 30%;
     grid-template-rows: 30% 60% 10%;
@@ -222,15 +261,15 @@
         'description img'
         'type img';
 }
-.Exposition .class-11 .details,
-.Exposition .class-11 .type hr{
+.Exposition .class-1.page-11 .details,
+.Exposition .class-1.page-11 .type hr{
     display: none;
 }
-.Exposition .class-11 .description{ width: 60%; }
-.Exposition .class-11 .description hr{ width: 40%; }
-.Exposition .class-11 .type{
+.Exposition .class-1.page-11 .description{ width: 60%; }
+.Exposition .class-1.page-11 .description hr{ width: 40%; }
+.Exposition .class-1.page-11 .type{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
-.Exposition .class-11 .img img{ height: 100%; }
+.Exposition .class-1.page-11 .img img{ height: 100%; }

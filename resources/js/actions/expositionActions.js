@@ -3,7 +3,8 @@ import {
     GET, 
     LOADING, 
     ERROR, 
-    SHOW, 
+    SHOW,
+    CHANGE_PAGE,
     CHANGE_DESCRIPTION 
 } from '../types/expositionTypes';
 
@@ -31,5 +32,12 @@ export const changeDescription = (newDescription) => (dispatch) => {
     dispatch({
         type: CHANGE_DESCRIPTION,
         payload: newDescription
+    });
+}
+
+export const changePage = (newPage) => (dispatch) => {
+    dispatch({
+        type: CHANGE_PAGE,
+        payload: newPage
     });
 }

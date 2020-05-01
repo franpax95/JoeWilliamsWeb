@@ -3,12 +3,14 @@ import {
     LOADING, 
     ERROR, 
     SHOW, 
+    CHANGE_PAGE,
     CHANGE_DESCRIPTION 
 } from '../types/expositionTypes';
 
 const INITIAL_STATE = {
     expositions: [],
-    exposition: {}
+    exposition: {},
+    currentPage: ''
 }
 
 export default (state = INITIAL_STATE, action) => {
@@ -32,6 +34,12 @@ export default (state = INITIAL_STATE, action) => {
                 ...state,
                 error: action.payload,
                 loading: false
+            }
+
+        case CHANGE_PAGE:
+            return {
+                ...state,
+                currentPage: action.payload
             }
 
         case CHANGE_DESCRIPTION:
