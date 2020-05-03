@@ -1,3 +1,19 @@
+.page-box{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    z-index: 20;
+    height: 100vh; 
+    width: 100vw;
+    opacity: 0;
+}
+.page-box .prev, .page-box .next{
+    height: 100%;
+    width: 50%;
+}
+
+
 .Exposition{ height: 100%; }
 .Exposition >div{
     height: 100%;
