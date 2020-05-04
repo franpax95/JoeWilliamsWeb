@@ -33,3 +33,7 @@ html{
 }
 .center { text-align: center; }
 .rojo { color: red; }
+
+.sizeTextContact {
+    font-size: 2.5vh;
+}

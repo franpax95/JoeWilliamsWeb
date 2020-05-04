@@ -6565,7 +6565,26 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "*{\r\n    box-sizing: border-box;\r\n    margin: 0;\r\n    font-family: halogen, sans-serif;\r\n    font-style: normal;\r\n    font-weight: 300;\r\n}\r\n\r\nhtml, body, #app{ height: 100%; }\r\na{ text-decoration: none; }\r\n\r\n.grid{ display: grid; }\r\n.flex{ display: flex; }\r\n.flex-row{ flex-direction: row; }\r\n.flex-row-reverse { flex-direction: row-reverse; }\r\n.flex-col{ flex-direction: column; }\r\n.justifyc{ justify-content: center; }\r\n.alignc{ align-items: center; }\r\n\r\n.height-100{ height: 100%; }\r\n\r\nhtml{\r\n    background-color: black;\r\n    color: white;\r\n}\r\n.background-flame{\r\n    background-image: url(\"/storage/background.jpg\");\r\n    /* background-color: black; */\r\n    background-size: cover;\r\n    background-repeat: no-repeat;\r\n    background-attachment:fixed;\r\n    color: white;\r\n}\r\n.center { text-align: center; }\r\n.rojo { color: red; }", ""]);
+exports.push([module.i, "*{\r\n    box-sizing: border-box;\r\n    margin: 0;\r\n    font-family: halogen, sans-serif;\r\n    font-style: normal;\r\n    font-weight: 300;\r\n}\r\n\r\nhtml, body, #app{ height: 100%; }\r\na{ text-decoration: none; }\r\n\r\n.grid{ display: grid; }\r\n.flex{ display: flex; }\r\n.flex-row{ flex-direction: row; }\r\n.flex-row-reverse { flex-direction: row-reverse; }\r\n.flex-col{ flex-direction: column; }\r\n.justifyc{ justify-content: center; }\r\n.alignc{ align-items: center; }\r\n\r\n.height-100{ height: 100%; }\r\n\r\nhtml{\r\n    background-color: black;\r\n    color: white;\r\n}\r\n.background-flame{\r\n    background-image: url(\"/storage/background.jpg\");\r\n    /* background-color: black; */\r\n    background-size: cover;\r\n    background-repeat: no-repeat;\r\n    background-attachment:fixed;\r\n    color: white;\r\n}\r\n.center { text-align: center; }\r\n.rojo { color: red; }\r\n\r\n.sizeTextContact {\r\n    font-size: 2.5vh;\r\n}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/styles/Contact.css":
+/*!************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./resources/js/components/styles/Contact.css ***!
+  \************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".divForm {\r\n    width: 100%;\r\n    height: 100%;\r\n    align-items: center;\r\n    background-image: url(\"/storage/background.jpg\");\r\n}\r\n.formContacto {\r\n    width: 100%;\r\n    padding: 10px;\r\n    margin-top: 13%;\r\n}\r\n\r\n.divForm h1 {\r\n    position: fixed;\r\n    top: 6%;\r\n    left: 1%;\r\n}\r\n\r\n.formContacto label { width:  20%;  margin-top: 4px;}\r\n\r\n.formContacto .marginDiv .flex label { margin-top: 12px; }\r\n\r\n.formContacto .divInput { border-bottom: 2px solid white; }\r\n\r\n.formContacto .marginDiv {\r\n    height: 60px;\r\n    width: auto;\r\n    margin-top: 44px;\r\n    margin-left: 10px;\r\n    margin-right: 10px;\r\n}\r\n.formContacto .textInput {\r\n    width:  80%;\r\n    border: none;\r\n    background: transparent;\r\n    color: white;\r\n}\r\n.formContacto .divInput input {\r\n    height: 31px;\r\n}\r\n.formContacto textarea {\r\n    height: 100px;\r\n    resize: none;\r\n}\r\n.divForm .submit {\r\n    cursor: pointer;\r\n    background: transparent;\r\n    border: 2px solid white;\r\n    color: white;\r\n    padding: 14px 49px;\r\n    margin: 1%;\r\n    margin-top: 80px;\r\n    font-weight: bold;\r\n    font-size: medium;\r\n}\r\n.divForm .submit:hover {\r\n    background: white;\r\n    color: black;\r\n}\r\n.formContacto input:focus {\r\n    outline: none;\r\n    outline-width: 0;\r\n    box-shadow: none;\r\n    -moz-box-shadow: none;\r\n    -webkit-box-shadow: none;\r\n}\r\n.formContacto textarea:focus {\r\n    outline: none;\r\n}\r\n\r\n.formContacto input:-webkit-autofill,\r\n.formContacto input:-webkit-autofill:hover,\r\n.formContacto input:-webkit-autofill:focus,\r\n.formContacto input:-webkit-autofill:active {\r\n   -webkit-transition-delay: 9999s;\r\n   transition-delay: 9999s;\r\n}\r\n\r\n.formContacto ::-webkit-input-placeholder { color:#fff; font-size: 25px; }\r\n.formContacto ::-moz-placeholder { color:#ffff; } /* firefox 19+ */\r\n.formContacto :-ms-input-placeholder { color:#ffff; } /* ie */\r\n.formContacto input:-moz-placeholder { color:#ffff; }", ""]);
 
 // exports
 
@@ -74061,8 +74080,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Gallery__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Gallery */ "./resources/js/components/Gallery.js");
 /* harmony import */ var _Exposition__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Exposition */ "./resources/js/components/Exposition.js");
 /* harmony import */ var _About__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./About */ "./resources/js/components/About.js");
-/* harmony import */ var _styles_App_css__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./styles/App.css */ "./resources/js/components/styles/App.css");
-/* harmony import */ var _styles_App_css__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_styles_App_css__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var _Contact__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./Contact */ "./resources/js/components/Contact.js");
+/* harmony import */ var _styles_App_css__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./styles/App.css */ "./resources/js/components/styles/App.css");
+/* harmony import */ var _styles_App_css__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_styles_App_css__WEBPACK_IMPORTED_MODULE_13__);
 
 
  // REDUX
@@ -74076,7 +74096,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
- // import Contact      from './Contact';
+
 
 
 
@@ -74099,6 +74119,10 @@ function App() {
     component: _Exposition__WEBPACK_IMPORTED_MODULE_10__["default"]
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
     exact: true,
+    path: "/contact",
+    component: _Contact__WEBPACK_IMPORTED_MODULE_12__["default"]
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+    exact: true,
     path: "/about",
     component: _About__WEBPACK_IMPORTED_MODULE_11__["default"]
   })));
@@ -74112,6 +74136,164 @@ if (document.getElementById('app')) {
     store: store
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(App, null)), document.getElementById('app'));
 }
+
+/***/ }),
+
+/***/ "./resources/js/components/Contact.js":
+/*!********************************************!*\
+  !*** ./resources/js/components/Contact.js ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _styles_Contact_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/Contact.css */ "./resources/js/components/styles/Contact.css");
+/* harmony import */ var _styles_Contact_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_Contact_css__WEBPACK_IMPORTED_MODULE_1__);
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { return function () { var Super = _getPrototypeOf(Derived), result; if (_isNativeReflectConstruct()) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+
+
+
+var Contact = /*#__PURE__*/function (_React$Component) {
+  _inherits(Contact, _React$Component);
+
+  var _super = _createSuper(Contact);
+
+  function Contact(props) {
+    var _this;
+
+    _classCallCheck(this, Contact);
+
+    _this = _super.call(this, props);
+    _this.state = {
+      name: '',
+      lastName: '',
+      email: '',
+      subject: '',
+      message: ''
+    };
+    _this.handleChange = _this.handleChange.bind(_assertThisInitialized(_this));
+    _this.handleSubmit = _this.handleSubmit.bind(_assertThisInitialized(_this));
+    return _this;
+  }
+
+  _createClass(Contact, [{
+    key: "handleChange",
+    value: function handleChange(event) {
+      this.setState(_defineProperty({}, event.target.name, event.target.value));
+    }
+  }, {
+    key: "handleSubmit",
+    value: function handleSubmit(event) {
+      this.sendMessage({
+        name: this.state.name,
+        email: this.state.email,
+        subject: this.state.subject,
+        message: this.state.message
+      });
+      event.preventDefault();
+    }
+  }, {
+    key: "sendMessage",
+    value: function sendMessage(object) {
+      window.emailjs.send('gmail', 'pruebatemplate', object).then(function (res) {
+        alert('Email successfully sent!');
+      })["catch"](function (err) {
+        return alert('Email failed.');
+      });
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "flex flex-col justifyc alignc divForm"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "SAY HELLO!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+        className: "formContacto"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "divInput marginDiv flex"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+        className: "sizeTextContact flex"
+      }, "NAME"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        className: "textInput sizeTextContact",
+        type: "text",
+        name: "lastName",
+        value: this.state.lastName,
+        onChange: this.handleChange.bind(this),
+        placeholder: "Joe Williams",
+        required: true
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "divInput marginDiv flex"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+        className: "sizeTextContact flex"
+      }, "E-MAIL"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        className: "textInput sizeTextContact",
+        type: "email",
+        name: "email",
+        value: this.state.email,
+        onChange: this.handleChange.bind(this),
+        placeholder: "jts.design@gmail.com",
+        required: true
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "divInput marginDiv flex"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+        className: "sizeTextContact flex"
+      }, "SUBJECT"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        className: "textInput sizeTextContact",
+        type: "text",
+        name: "subject",
+        value: this.state.subject,
+        onChange: this.handleChange.bind(this),
+        placeholder: "Web design",
+        required: true
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "marginDiv flex"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+        className: "flex sizeTextContact"
+      }, "MESSAGE"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("textarea", {
+        className: "textInput sizeTextContact",
+        name: "message",
+        value: this.state.message,
+        onChange: this.handleChange.bind(this),
+        placeholder: "Hello there",
+        required: true
+      }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        className: "submit",
+        type: "submit",
+        value: "Submit",
+        onClick: this.handleSubmit
+      })));
+    }
+  }]);
+
+  return Contact;
+}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (Contact);
 
 /***/ }),
 
@@ -74559,7 +74741,7 @@ var Navbar = function Navbar() {
     to: "/gallery",
     onClick: toggleNavbar
   }, "Projects"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "",
+    to: "/contact",
     onClick: toggleNavbar
   }, "Contact"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     to: "/about",
@@ -74610,6 +74792,36 @@ if(false) {}
 
 
 var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--5-1!../../../../node_modules/postcss-loader/src??ref--5-2!./App.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/styles/App.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./resources/js/components/styles/Contact.css":
+/*!****************************************************!*\
+  !*** ./resources/js/components/styles/Contact.css ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--5-1!../../../../node_modules/postcss-loader/src??ref--5-2!./Contact.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/styles/Contact.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -74904,7 +75116,7 @@ var CHANGE_DESCRIPTION = 'exposition_change_description';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\_WORK\Redux\JoeWilliamsWeb\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! D:\Documentos\Programacion\Proyectos\React\joeWilliamsWeb\resources\js\app.js */"./resources/js/app.js");
 
 
 /***/ })
