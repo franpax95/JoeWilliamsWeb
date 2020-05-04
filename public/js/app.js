@@ -6603,7 +6603,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".Exposition{ height: 100%; }\r\n.Exposition >div{\r\n    height: 100%;\r\n    width: 100%;\r\n    padding: 30px;\r\n    font-size: 1.1em;\r\n}\r\n.Exposition .title{\r\n    font-size: 4em;\r\n    letter-spacing: 2px;\r\n    text-transform: uppercase;\r\n    font-weight: 100;\r\n}\r\n.Exposition  hr{ margin-bottom: 30px; }\r\n\r\n.Exposition .title{ grid-area: title; }\r\n.Exposition .description{ grid-area: description; }\r\n.Exposition .type{ grid-area: type; }\r\n.Exposition .details{ grid-area: details; }\r\n.Exposition .img{ grid-area: img; }\r\n\r\n\r\n\r\n/* lets talk about the c-word */\r\n.Exposition .class-1.page-1{\r\n    display: grid;\r\n    grid-template-columns: 50% 50%;\r\n    grid-template-rows: 70% 20% 10%;\r\n    grid-template-areas: \r\n        'img title'\r\n        'img description'\r\n        'type description';\r\n}\r\n.Exposition .class-1.page-1 >div:not(.img){\r\n    z-index: 4;\r\n}\r\n.Exposition .class-1.page-1 .details,\r\n.Exposition .class-1.page-1 .type hr{\r\n    display: none;\r\n}\r\n.Exposition .class-1.page-1 .title{ margin-right: 75px; }\r\n.Exposition .class-1.page-1 .type,\r\n.Exposition .class-1.page-1 .description{\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: flex-end;\r\n}\r\n.Exposition .class-1.page-1 .img img{ \r\n    width: 110%;\r\n    min-width: 800px;\r\n    max-height: 80vh;\r\n    margin-top: 5%;\r\n    z-index: 1;\r\n}\r\n.Exposition .class-1.page-1 hr{ width: 40%; }\r\n\r\n.Exposition .class-1.page-2{\r\n    display: grid;\r\n    grid-template-columns: 70% 30%;\r\n    grid-template-rows: 70% 30%;\r\n    grid-template-areas: \r\n        'img title'\r\n        'img details';\r\n}\r\n.Exposition .class-1.page-2 .title,\r\n.Exposition .class-1.page-2 .description,\r\n.Exposition .class-1.page-2 .type,\r\n.Exposition .class-1.page-2 .details hr{\r\n    display: none;\r\n}\r\n.Exposition .class-1.page-2 .details{ margin-right: 50px; }\r\n.Exposition .class-1.page-2 .img img{\r\n    height: 100%;\r\n    max-width: 100vw;\r\n}\r\n.Exposition .class-1.page-2 >div:not(.img){\r\n    z-index: 4;\r\n}\r\n\r\n.Exposition .class-1.page-3{\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: flex-end;\r\n}\r\n.Exposition .class-1.page-3 .title,\r\n.Exposition .class-1.page-3 .description,\r\n.Exposition .class-1.page-3 .type,\r\n.Exposition .class-1.page-3 .details{\r\n    display: none;\r\n}\r\n.Exposition .class-1.page-3 .img,\r\n.Exposition .class-1.page-3 .img img{\r\n    height: 100%;\r\n}\r\n/*******************************************/\r\n\r\n\r\n/* Fluttering flamingo */\r\n.Exposition .class-2{\r\n    display: grid;\r\n    grid-template-columns: 40% 60%;\r\n    grid-template-rows: 70% 20% 10%;\r\n    grid-template-areas: \r\n        'img title'\r\n        'img description'\r\n        'img type';\r\n}\r\n.Exposition .class-2 .title{ margin-top: 50px; }\r\n.Exposition .class-2 .details,\r\n.Exposition .class-2 .type hr{\r\n    display: none;\r\n}\r\n.Exposition .class-2 .img img{ height: 100%; }\r\n.Exposition .class-2 .description hr{ width: 40%; }\r\n\r\n\r\n\r\n/* Fluttering flamingo */\r\n.Exposition .class-3{\r\n    display: grid;\r\n    grid-template-columns: 40% 40% 20%;\r\n    grid-template-rows: 60% 30% 10%;\r\n    grid-template-areas: \r\n        'img title title'\r\n        'img description description'\r\n        'img details type';\r\n}\r\n.Exposition .class-3 .title{ margin-top: 50px; }\r\n.Exposition .class-3 .details hr,\r\n.Exposition .class-3 .type hr{\r\n    display: none;\r\n}\r\n.Exposition .class-3 .description{ padding: 30px 30px 30px 0; }\r\n.Exposition .class-3 .description hr{ width: 30%; }\r\n.Exposition .class-3 .details,\r\n.Exposition .class-3 .type{\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: flex-end;\r\n}\r\n.Exposition .class-3 .img img{\r\n    max-width: 35vw;\r\n    max-height: 90vh;\r\n}\r\n.Exposition .class-3 >div:not(.img){\r\n    z-index: 4;\r\n}\r\n\r\n\r\n\r\n/* JAM */\r\n.Exposition .class-7{\r\n    display: grid;\r\n    grid-template-columns: 50% 50%;\r\n    grid-template-rows: 70% 30%;\r\n    grid-template-areas: \r\n        'img title'\r\n        'img description';\r\n}\r\n.Exposition .class-7 .title{ margin-top: 30px; }\r\n.Exposition .class-7 .type,\r\n.Exposition .class-7 .details{\r\n    display: none;\r\n}\r\n.Exposition .class-7 .img{ padding: 30px; }\r\n.Exposition .class-7 .img img{ \r\n    width: 95%;\r\n    max-height: 90vh;\r\n}\r\n.Exposition .class-7 hr{ width: 40%; }\r\n\r\n\r\n\r\n/* the dark elf */\r\n.Exposition .class-8{\r\n    display: grid;\r\n    grid-template-columns: 65% 35%;\r\n    grid-template-rows: 33.33%  33.33% 33.33%;\r\n    grid-template-areas: \r\n        'title img'\r\n        'details img'\r\n        'details img';\r\n}\r\n.Exposition .class-8 .description,\r\n.Exposition .class-8 .type{\r\n    display: none;\r\n}\r\n.Exposition .class-8 .img{ padding-top: 15%; }\r\n.Exposition .class-8 .img img{  height: 100%; }\r\n.Exposition .class-8 hr{ \r\n    width: 15%;\r\n    min-width: 70px;\r\n    margin-bottom: 30px;\r\n}\r\n\r\n\r\n\r\n/* lethal combination */\r\n.Exposition .class-9{\r\n    display: grid;\r\n    grid-template-columns: 33% 33% 33%;\r\n    grid-template-rows: 25% 25% 25% 25%;\r\n    grid-template-areas:\r\n        'title title title'\r\n        'type img img'\r\n        'type img img'\r\n        'type img img';\r\n}\r\n.Exposition .class-9 .description,\r\n.Exposition .class-9 .details{\r\n    display: none;\r\n}\r\n.Exposition .class-9 .img img{ \r\n    min-width: 60vw;\r\n    height: 100%;\r\n}\r\n.Exposition .class-9 hr{ \r\n    width: 25%;\r\n    margin-bottom: 30px;\r\n}\r\n\r\n\r\n\r\n/* I read the news today */\r\n.Exposition .class-1.page-10{\r\n    display: grid;\r\n    grid-template-columns: 50% 35% 15%;\r\n    grid-template-rows: 60% 40%;\r\n    grid-template-areas:\r\n        'img title title'\r\n        'img description type';\r\n}\r\n.Exposition .class-1.page-10 .details,\r\n.Exposition .class-1.page-10 .type hr{\r\n    display: none;\r\n}\r\n.Exposition .class-1.page-10 .title{ margin-top: 50px; }\r\n.Exposition .class-1.page-10 .description,\r\n.Exposition .class-1.page-10 .type{\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: flex-end;\r\n}\r\n.Exposition .class-1.page-10 .description{ margin-right: 20px; }\r\n.Exposition .class-1.page-10 .description hr{ width: 50%; }\r\n.Exposition .class-1.page-10 .type{ align-items: flex-end; }\r\n.Exposition .class-1.page-10 .img img{ height: 100%; }\r\n.Exposition .class-1.page-10 >div:not(.img){\r\n    z-index: 4;\r\n}\r\n\r\n\r\n\r\n/* velvet */\r\n.Exposition .class-1.page-11{\r\n    display: grid;\r\n    grid-template-columns: 70% 30%;\r\n    grid-template-rows: 30% 60% 10%;\r\n    grid-template-areas:\r\n        'title img'\r\n        'description img'\r\n        'type img';\r\n}\r\n.Exposition .class-1.page-11 .details,\r\n.Exposition .class-1.page-11 .type hr{\r\n    display: none;\r\n}\r\n.Exposition .class-1.page-11 .description{ width: 60%; }\r\n.Exposition .class-1.page-11 .description hr{ width: 40%; }\r\n.Exposition .class-1.page-11 .type{\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: flex-end;\r\n}\r\n.Exposition .class-1.page-11 .img img{ height: 100%; }", ""]);
+exports.push([module.i, ".page-box{\r\n    position: fixed;\r\n    display: flex;\r\n    flex-direction: row;\r\n    top: 0;\r\n    z-index: 20;\r\n    height: 100vh; \r\n    width: 100vw;\r\n    opacity: 0;\r\n}\r\n.page-box .prev, .page-box .next{\r\n    height: 100%;\r\n    width: 50%;\r\n}\r\n\r\n\r\n.Exposition{ height: 100%; }\r\n.Exposition >div{\r\n    height: 100%;\r\n    width: 100%;\r\n    padding: 30px;\r\n    font-size: 1.1em;\r\n}\r\n.Exposition .title{\r\n    font-size: 4em;\r\n    letter-spacing: 2px;\r\n    text-transform: uppercase;\r\n    font-weight: 100;\r\n}\r\n.Exposition  hr{ margin-bottom: 30px; }\r\n\r\n.Exposition .title{ grid-area: title; }\r\n.Exposition .description{ grid-area: description; }\r\n.Exposition .type{ grid-area: type; }\r\n.Exposition .details{ grid-area: details; }\r\n.Exposition .img{ grid-area: img; }\r\n\r\n\r\n\r\n/* lets talk about the c-word */\r\n.Exposition .class-1.page-1{\r\n    display: grid;\r\n    grid-template-columns: 50% 50%;\r\n    grid-template-rows: 70% 20% 10%;\r\n    grid-template-areas: \r\n        'img title'\r\n        'img description'\r\n        'type description';\r\n}\r\n.Exposition .class-1.page-1 >div:not(.img){\r\n    z-index: 4;\r\n}\r\n.Exposition .class-1.page-1 .details,\r\n.Exposition .class-1.page-1 .type hr{\r\n    display: none;\r\n}\r\n.Exposition .class-1.page-1 .title{ margin-right: 75px; }\r\n.Exposition .class-1.page-1 .type,\r\n.Exposition .class-1.page-1 .description{\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: flex-end;\r\n}\r\n.Exposition .class-1.page-1 .img img{ \r\n    width: 110%;\r\n    min-width: 800px;\r\n    max-height: 80vh;\r\n    margin-top: 5%;\r\n    z-index: 1;\r\n}\r\n.Exposition .class-1.page-1 hr{ width: 40%; }\r\n\r\n.Exposition .class-1.page-2{\r\n    display: grid;\r\n    grid-template-columns: 70% 30%;\r\n    grid-template-rows: 70% 30%;\r\n    grid-template-areas: \r\n        'img title'\r\n        'img details';\r\n}\r\n.Exposition .class-1.page-2 .title,\r\n.Exposition .class-1.page-2 .description,\r\n.Exposition .class-1.page-2 .type,\r\n.Exposition .class-1.page-2 .details hr{\r\n    display: none;\r\n}\r\n.Exposition .class-1.page-2 .details{ \r\n    margin-right: 50px; \r\n}\r\n.Exposition .class-1.page-2 .img img{\r\n    height: 100%;\r\n    max-width: 100vw;\r\n}\r\n.Exposition .class-1.page-2 >div:not(.img){\r\n    z-index: 4;\r\n}\r\n\r\n.Exposition .class-1.page-3,\r\n.Exposition .class-1.page-4,\r\n.Exposition .class-1.page-5,\r\n.Exposition .class-1.page-6,\r\n.Exposition .class-1.page-7,\r\n.Exposition .class-1.page-8{\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: flex-end;\r\n}\r\n.Exposition .class-1.page-3 .title,\r\n.Exposition .class-1.page-4 .title,\r\n.Exposition .class-1.page-5 .title,\r\n.Exposition .class-1.page-6 .title,\r\n.Exposition .class-1.page-7 .title,\r\n.Exposition .class-1.page-8 .title,\r\n.Exposition .class-1.page-3 .description,\r\n.Exposition .class-1.page-4 .description,\r\n.Exposition .class-1.page-5 .description,\r\n.Exposition .class-1.page-6 .description,\r\n.Exposition .class-1.page-7 .description,\r\n.Exposition .class-1.page-8 .description,\r\n.Exposition .class-1.page-3 .type,\r\n.Exposition .class-1.page-4 .type,\r\n.Exposition .class-1.page-5 .type,\r\n.Exposition .class-1.page-6 .type,\r\n.Exposition .class-1.page-7 .type,\r\n.Exposition .class-1.page-8 .type,\r\n.Exposition .class-1.page-3 .details,\r\n.Exposition .class-1.page-4 .details,\r\n.Exposition .class-1.page-5 .details,\r\n.Exposition .class-1.page-6 .details,\r\n.Exposition .class-1.page-7 .details,\r\n.Exposition .class-1.page-8 .details{\r\n    display: none;\r\n}\r\n.Exposition .class-1.page-3 .img,\r\n.Exposition .class-1.page-4 .img,\r\n.Exposition .class-1.page-5 .img,\r\n.Exposition .class-1.page-6 .img,\r\n.Exposition .class-1.page-7 .img,\r\n.Exposition .class-1.page-8 .img,\r\n.Exposition .class-1.page-3 .img img,\r\n.Exposition .class-1.page-4 .img img,\r\n.Exposition .class-1.page-5 .img img,\r\n.Exposition .class-1.page-6 .img img,\r\n.Exposition .class-1.page-7 .img img,\r\n.Exposition .class-1.page-8 .img img{\r\n    height: 100%;\r\n}\r\n/*******************************************/\r\n\r\n\r\n/* Fluttering flamingo */\r\n.Exposition .class-2.page-1{\r\n    display: grid;\r\n    grid-template-columns: 40% 60%;\r\n    grid-template-rows: 70% 20% 10%;\r\n    grid-template-areas: \r\n        'img title'\r\n        'img description'\r\n        'img type';\r\n}\r\n.Exposition .class-2.page-1 .title{ margin-top: 50px; }\r\n.Exposition .class-2.page-1 .details,\r\n.Exposition .class-2.page-1 .type hr{\r\n    display: none;\r\n}\r\n.Exposition .class-2.page-1 .img img{ height: 100%; }\r\n.Exposition .class-2.page-1 .description hr{ width: 40%; }\r\n\r\n.Exposition .class-2.page-5{\r\n    display: grid;\r\n    grid-template-columns: 50% 50%;\r\n    grid-template-rows: 90% 10%;\r\n    grid-template-areas:\r\n        'img img'\r\n        'type details';\r\n}\r\n.Exposition .class-2.page-5 .img{\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: flex-end;\r\n}\r\n.Exposition .class-2.page-5 .img img{ width: 100%; }\r\n\r\n.Exposition .class-2.page-2,\r\n.Exposition .class-2.page-3,\r\n.Exposition .class-2.page-4,\r\n.Exposition .class-2.page-6,\r\n.Exposition .class-2.page-7{\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n.Exposition .class-2.page-2 .title,\r\n.Exposition .class-2.page-3 .title,\r\n.Exposition .class-2.page-4 .title,\r\n.Exposition .class-2.page-5 .title,\r\n.Exposition .class-2.page-6 .title,\r\n.Exposition .class-2.page-7 .title,\r\n.Exposition .class-2.page-2 .description,\r\n.Exposition .class-2.page-3 .description,\r\n.Exposition .class-2.page-4 .description,\r\n.Exposition .class-2.page-5 .description,\r\n.Exposition .class-2.page-6 .description,\r\n.Exposition .class-2.page-7 .description,\r\n.Exposition .class-2.page-2 .details,\r\n.Exposition .class-2.page-3 .details,\r\n.Exposition .class-2.page-4 .details,\r\n.Exposition .class-2.page-6 .details,\r\n.Exposition .class-2.page-7 .details,\r\n.Exposition .class-2.page-2 .type,\r\n.Exposition .class-2.page-3 .type,\r\n.Exposition .class-2.page-4 .type,\r\n.Exposition .class-2.page-5 .type,\r\n.Exposition .class-2.page-6 .type,\r\n.Exposition .class-2.page-7 .type{\r\n    display: none;\r\n}\r\n.Exposition .class-2.page-2 .img,\r\n.Exposition .class-2.page-3 .img,\r\n.Exposition .class-2.page-4 .img,\r\n.Exposition .class-2.page-6 .img,\r\n.Exposition .class-2.page-7 .img,\r\n.Exposition .class-2.page-2 .img img,\r\n.Exposition .class-2.page-3 .img img,\r\n.Exposition .class-2.page-4 .img img,\r\n.Exposition .class-2.page-6 .img img,\r\n.Exposition .class-2.page-7 .img img{\r\n    max-height: 95vh;\r\n    max-width: 95vw;\r\n}\r\n\r\n\r\n\r\n/* the lara logan case */\r\n.Exposition .class-3.page-1{\r\n    display: grid;\r\n    grid-template-columns: 40% 40% 20%;\r\n    grid-template-rows: 60% 30% 10%;\r\n    grid-template-areas: \r\n        'img title title'\r\n        'img description description'\r\n        'img details type';\r\n}\r\n.Exposition .class-3.page-1 .title{ margin-top: 50px; }\r\n.Exposition .class-3.page-1 .details hr,\r\n.Exposition .class-3.page-1 .type hr{\r\n    display: none;\r\n}\r\n.Exposition .class-3.page-1 .description{ padding: 30px 30px 30px 0; }\r\n.Exposition .class-3.page-1 .description hr{ width: 30%; }\r\n.Exposition .class-3.page-1 .details,\r\n.Exposition .class-3.page-1 .type{\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: flex-end;\r\n}\r\n.Exposition .class-3.page-1 .img img{\r\n    max-width: 35vw;\r\n    max-height: 90vh;\r\n}\r\n.Exposition .class-3.page-1 >div:not(.img){\r\n    z-index: 4;\r\n}\r\n\r\n.Exposition .class-3.page-2,\r\n.Exposition .class-3.page-3,\r\n.Exposition .class-3.page-4,\r\n.Exposition .class-3.page-5,\r\n.Exposition .class-3.page-6,\r\n.Exposition .class-3.page-7{\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n.Exposition .class-3.page-2 .title,\r\n.Exposition .class-3.page-3 .title,\r\n.Exposition .class-3.page-4 .title,\r\n.Exposition .class-3.page-5 .title,\r\n.Exposition .class-3.page-6 .title,\r\n.Exposition .class-3.page-7 .title,\r\n.Exposition .class-3.page-2 .description,\r\n.Exposition .class-3.page-3 .description,\r\n.Exposition .class-3.page-4 .description,\r\n.Exposition .class-3.page-5 .description,\r\n.Exposition .class-3.page-6 .description,\r\n.Exposition .class-3.page-7 .description,\r\n.Exposition .class-3.page-2 .details,\r\n.Exposition .class-3.page-3 .details,\r\n.Exposition .class-3.page-4 .details,\r\n.Exposition .class-3.page-5 .details,\r\n.Exposition .class-3.page-6 .details,\r\n.Exposition .class-3.page-7 .details,\r\n.Exposition .class-3.page-2 .type,\r\n.Exposition .class-3.page-3 .type,\r\n.Exposition .class-3.page-4 .type,\r\n.Exposition .class-3.page-5 .type,\r\n.Exposition .class-3.page-6 .type,\r\n.Exposition .class-3.page-7 .type{\r\n    display: none;\r\n}\r\n.Exposition .class-3.page-2 .img img,\r\n.Exposition .class-3.page-3 .img img,\r\n.Exposition .class-3.page-4 .img img,\r\n.Exposition .class-3.page-5 .img img,\r\n.Exposition .class-3.page-6 .img img,\r\n.Exposition .class-3.page-7 .img img{\r\n    max-width: 95vw;\r\n    max-height: 95vh;\r\n}\r\n\r\n\r\n\r\n/* JAM */\r\n.Exposition .class-7{\r\n    display: grid;\r\n    grid-template-columns: 50% 50%;\r\n    grid-template-rows: 70% 30%;\r\n    grid-template-areas: \r\n        'img title'\r\n        'img description';\r\n}\r\n.Exposition .class-7 .title{ margin-top: 30px; }\r\n.Exposition .class-7 .type,\r\n.Exposition .class-7 .details{\r\n    display: none;\r\n}\r\n.Exposition .class-7 .img{ padding: 30px; }\r\n.Exposition .class-7 .img img{ \r\n    width: 95%;\r\n    max-height: 90vh;\r\n}\r\n.Exposition .class-7 hr{ width: 40%; }\r\n\r\n\r\n\r\n/* the dark elf */\r\n.Exposition .class-8{\r\n    display: grid;\r\n    grid-template-columns: 65% 35%;\r\n    grid-template-rows: 33.33%  33.33% 33.33%;\r\n    grid-template-areas: \r\n        'title img'\r\n        'details img'\r\n        'details img';\r\n}\r\n.Exposition .class-8 .description,\r\n.Exposition .class-8 .type{\r\n    display: none;\r\n}\r\n.Exposition .class-8 .img{ padding-top: 15%; }\r\n.Exposition .class-8 .img img{  height: 100%; }\r\n.Exposition .class-8 hr{ \r\n    width: 15%;\r\n    min-width: 70px;\r\n    margin-bottom: 30px;\r\n}\r\n\r\n\r\n\r\n/* lethal combination */\r\n.Exposition .class-9{\r\n    display: grid;\r\n    grid-template-columns: 33% 33% 33%;\r\n    grid-template-rows: 25% 25% 25% 25%;\r\n    grid-template-areas:\r\n        'title title title'\r\n        'type img img'\r\n        'type img img'\r\n        'type img img';\r\n}\r\n.Exposition .class-9 .description,\r\n.Exposition .class-9 .details{\r\n    display: none;\r\n}\r\n.Exposition .class-9 .img img{ \r\n    min-width: 60vw;\r\n    height: 100%;\r\n}\r\n.Exposition .class-9 hr{ \r\n    width: 25%;\r\n    margin-bottom: 30px;\r\n}\r\n\r\n\r\n\r\n/* I read the news today */\r\n.Exposition .class-10.page-1{\r\n    display: grid;\r\n    grid-template-columns: 50% 35% 15%;\r\n    grid-template-rows: 60% 40%;\r\n    grid-template-areas:\r\n        'img title title'\r\n        'img description type';\r\n}\r\n.Exposition .class-10.page-1 .details,\r\n.Exposition .class-10.page-1 .type hr{\r\n    display: none;\r\n}\r\n.Exposition .class-10.page-1 .title{ margin-top: 50px; }\r\n.Exposition .class-10.page-1 .description,\r\n.Exposition .class-10.page-1 .type{\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: flex-end;\r\n}\r\n.Exposition .class-10.page-1 .description{ margin-right: 20px; }\r\n.Exposition .class-10.page-1 .description hr{ width: 50%; }\r\n.Exposition .class-10.page-1 .type{ align-items: flex-end; }\r\n.Exposition .class-10.page-1 .img img{ height: 100%; }\r\n.Exposition .class-10.page-1 >div:not(.img){\r\n    z-index: 4;\r\n}\r\n\r\n.Exposition .class-10.page-2,\r\n.Exposition .class-10.page-3,\r\n.Exposition .class-10.page-4,\r\n.Exposition .class-10.page-5,\r\n.Exposition .class-10.page-6,\r\n.Exposition .class-10.page-7{\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n.Exposition .class-10.page-2 .title,\r\n.Exposition .class-10.page-3 .title,\r\n.Exposition .class-10.page-4 .title,\r\n.Exposition .class-10.page-5 .title,\r\n.Exposition .class-10.page-6 .title,\r\n.Exposition .class-10.page-7 .title,\r\n.Exposition .class-10.page-2 .description,\r\n.Exposition .class-10.page-3 .description,\r\n.Exposition .class-10.page-4 .description,\r\n.Exposition .class-10.page-5 .description,\r\n.Exposition .class-10.page-6 .description,\r\n.Exposition .class-10.page-7 .description,\r\n.Exposition .class-10.page-2 .details,\r\n.Exposition .class-10.page-3 .details,\r\n.Exposition .class-10.page-4 .details,\r\n.Exposition .class-10.page-5 .details,\r\n.Exposition .class-10.page-6 .details,\r\n.Exposition .class-10.page-7 .details,\r\n.Exposition .class-10.page-2 .type,\r\n.Exposition .class-10.page-3 .type,\r\n.Exposition .class-10.page-4 .type,\r\n.Exposition .class-10.page-5 .type,\r\n.Exposition .class-10.page-6 .type,\r\n.Exposition .class-10.page-7 .type{\r\n    display: none;\r\n}\r\n.Exposition .class-10.page-2 .img img,\r\n.Exposition .class-10.page-3 .img img,\r\n.Exposition .class-10.page-4 .img img,\r\n.Exposition .class-10.page-5 .img img,\r\n.Exposition .class-10.page-6 .img img,\r\n.Exposition .class-10.page-7 .img img{\r\n    max-width: 95vw;\r\n    max-height: 95vh;\r\n}\r\n\r\n\r\n\r\n/* velvet */\r\n.Exposition .class-11.page-1{\r\n    display: grid;\r\n    grid-template-columns: 70% 30%;\r\n    grid-template-rows: 30% 60% 10%;\r\n    grid-template-areas:\r\n        'title img'\r\n        'description img'\r\n        'type img';\r\n}\r\n.Exposition .class-11.page-1 .details,\r\n.Exposition .class-11.page-1 .type hr{\r\n    display: none;\r\n}\r\n.Exposition .class-11.page-1 .description{ width: 60%; }\r\n.Exposition .class-11.page-1 .description hr{ width: 40%; }\r\n.Exposition .class-11.page-1 .type{\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: flex-end;\r\n}\r\n.Exposition .class-11.page-1 .img img{ height: 100%; }", ""]);
 
 // exports
 
@@ -74312,13 +74312,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
 /* harmony import */ var _actions_expositionActions__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../actions/expositionActions */ "./resources/js/actions/expositionActions.js");
-/* harmony import */ var _styles_Exposition_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./styles/Exposition.css */ "./resources/js/components/styles/Exposition.css");
-/* harmony import */ var _styles_Exposition_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_Exposition_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _General_Loading__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./General/Loading */ "./resources/js/components/General/Loading.js");
+/* harmony import */ var _General_Fatal__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./General/Fatal */ "./resources/js/components/General/Fatal.js");
+/* harmony import */ var _styles_Exposition_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./styles/Exposition.css */ "./resources/js/components/styles/Exposition.css");
+/* harmony import */ var _styles_Exposition_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_styles_Exposition_css__WEBPACK_IMPORTED_MODULE_6__);
 
 
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
 
 function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
+
 
 
 
@@ -74373,8 +74377,17 @@ var Exposition = function Exposition(props) {
     }
   };
 
+  var prevPage = function prevPage() {
+    if (Object.keys(props.exposition.img).length > 2 && props.currentPage === 1) {
+      var lastPage = Object.keys(props.exposition.img).length - 1;
+      props.changePage(lastPage);
+    } else {
+      props.changePage(props.currentPage - 1);
+    }
+  };
+
   var replaceNewLine = function replaceNewLine(text) {
-    return text.split('\r\n').map(function (substr, i) {
+    return text.split('\n').map(function (substr, i) {
       if (substr === "") {
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, {
           key: i
@@ -74388,6 +74401,11 @@ var Exposition = function Exposition(props) {
   };
 
   var renderExposition = function renderExposition() {
+    if (props.loading) return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_General_Loading__WEBPACK_IMPORTED_MODULE_4__["default"], null);
+    if (props.error) return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_General_Fatal__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      mensaje: props.error
+    });
+
     if (Object.entries(props.exposition).length) {
       var img_url = "/storage".concat(Object.values(props.exposition.img)[props.currentPage]);
       var div_class = "class-".concat(props.exposition.id, " page-").concat(props.currentPage);
@@ -74409,10 +74427,17 @@ var Exposition = function Exposition(props) {
     }
   };
 
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "body Exposition",
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "body Exposition"
+  }, renderExposition()), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "page-box"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "prev",
+    onClick: prevPage
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "next",
     onClick: nextPage
-  }, renderExposition());
+  })));
 };
 
 var mapStateToProps = function mapStateToProps(_ref) {
@@ -74420,53 +74445,7 @@ var mapStateToProps = function mapStateToProps(_ref) {
   return expositionReducer;
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_2__["connect"])(mapStateToProps, _actions_expositionActions__WEBPACK_IMPORTED_MODULE_3__)(Exposition)); // class Exposition extends React.Component {
-//     constructor(props){
-//         super(props);
-//         this.state = {
-//             id: props.match.params.expoId,
-//             elems: data.elems,
-//             elemsExpo: dataImg.elems
-//         }
-//     }
-//     renderExpo(){
-//         const element = this.state.elems.filter(filtro => filtro.id == this.state.id);
-//         const elementExpo = this.state.elemsExpo.filter( filter => filter.id == element[0].id)
-//         return(
-//             <React.Fragment>
-//                 {element.map(elem => {
-//                     return(
-//                         <div className={`gallery-expo ${elementExpo[0].class}`} >
-//                             <div className="title"><h1>{elem.title}</h1></div>
-//                             <div className="description"><hr />{elem.description}</div>
-//                             <div className="type">{elem.type}</div>
-//                             <div className="details">{elem.details}</div>
-//                             <div className="imagen">
-//                                 <img
-//                                     src={"/storage" + elementExpo[0].img}
-//                                     alt={elementExpo[0].title} />
-//                             </div>
-//                         </div>
-//                     )
-//                 }
-//             )}
-//             </React.Fragment>
-//         )
-//     }
-//     render(){
-//         return(
-//             <React.Fragment>
-//                 <Header 
-//                     left="Home"
-//                     right="Gallery"
-//                 />
-//                 <div className="exposition flex justifyc alignc">
-//                     {this.renderExpo()}
-//                 </div>
-//             </React.Fragment>
-//         )
-//     }
-// }
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_2__["connect"])(mapStateToProps, _actions_expositionActions__WEBPACK_IMPORTED_MODULE_3__)(Exposition));
 
 /***/ }),
 
@@ -74684,33 +74663,15 @@ var Loading = function Loading(props) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var _styles_Index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/Index.css */ "./resources/js/components/styles/Index.css");
-/* harmony import */ var _styles_Index_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_Index_css__WEBPACK_IMPORTED_MODULE_2__);
-
+/* harmony import */ var _styles_Index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/Index.css */ "./resources/js/components/styles/Index.css");
+/* harmony import */ var _styles_Index_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_Index_css__WEBPACK_IMPORTED_MODULE_1__);
 
 
 
 var Index = function Index() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "background-flame Index flex flex-col justifyc alignc"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "A creative space"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "by Joe Williams"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "exposition/1"
-  }, " Exposici\xF3n 1"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "exposition/2"
-  }, " Exposici\xF3n 2"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "exposition/3"
-  }, " Exposici\xF3n 3"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "exposition/7"
-  }, " Exposici\xF3n 7"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "exposition/8"
-  }, " Exposici\xF3n 8"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "exposition/9"
-  }, " Exposici\xF3n 9"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "exposition/10"
-  }, " Exposici\xF3n 10"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "exposition/11"
-  }, " Exposici\xF3n 11"));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "A creative space"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "by Joe Williams"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);

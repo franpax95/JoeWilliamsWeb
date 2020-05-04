@@ -120,7 +120,7 @@ class DatabaseSeeder extends Seeder
         );
         Expositions::create([
             'title' => "Sync",
-            'description' => "A project analysing human synchronization through rhythm in a confined space./r/n/r/nThe sculpture consists of a pattern created by peoples movements in response to the sounds they hear. Each layer represents a specific time frame within a confined space and as the sounds intensify peoples movements start to synchronise. The layers are then individually screen printed on to a layer of perspex and held together by two concrete blocks that emulate the walls of this confined space. This allows us to see how peoples movements expand through the group as a kind of domino effect depending on the sounds they hear.",
+            'description' => "A project analysing human synchronization through rhythm in a confined space./nThe sculpture consists of a pattern created by peoples movements in response to the sounds they hear. Each layer represents a specific time frame within a confined space and as the sounds intensify peoples movements start to synchronise. The layers are then individually screen printed on to a layer of perspex and held together by two concrete blocks that emulate the walls of this confined space. This allows us to see how peoples movements expand through the group as a kind of domino effect depending on the sounds they hear.",
             'type' => "Conceptual Design, Sculpture, Screen Printing, Concrete work & Metal Work",
             'details' => "",
             'img' => $sync,
@@ -135,7 +135,7 @@ class DatabaseSeeder extends Seeder
         );
         Expositions::create([
             'title' => "JAM",
-            'description' => "A short documentary on Bristols most vibrant jazz bars LEFTBANK./r/nEvery Thursday they hold a jam night where different musicians come together to create unique music. Most of the people who come to play have never met and are completely improvising, this creates an exciting atmosphere as each person brings a their own flair to the group creating a different music every night./r/nWe also designed a casing for the documentary as seen here.",
+            'description' => "A short documentary on Bristols most vibrant jazz bars LEFTBANK./nEvery Thursday they hold a jam night where different musicians come together to create unique music. Most of the people who come to play have never met and are completely improvising, this creates an exciting atmosphere as each person brings a their own flair to the group creating a different music every night./nWe also designed a casing for the documentary as seen here.",
             'type' => "",
             'details' => "",
             'img' => $jam,
@@ -186,7 +186,7 @@ class DatabaseSeeder extends Seeder
         );
         Expositions::create([
             'title' => "I read the news today",
-            'description' => "We live in a world with so many constant news updates from so many sources its hard to keep track and judge which problems are important, weather it be a local problem or global./r/nThe idea behind this publication is to highlight important news articles over one summer and curate them into a manageable information for the reader. Non bias news from local to global hopefully giving up a better understanding of the things that have happened in this time",
+            'description' => "We live in a world with so many constant news updates from so many sources its hard to keep track and judge which problems are important, weather it be a local problem or global./nThe idea behind this publication is to highlight important news articles over one summer and curate them into a manageable information for the reader. Non bias news from local to global hopefully giving up a better understanding of the things that have happened in this time",
             'type' => "Editorial Design & Research",
             'details' => "",
             'img' => $readNews,
