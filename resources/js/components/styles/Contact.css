@@ -1,57 +1,82 @@
 .divForm {
     width: 100%;
-    height: 80%;
+    height: 100%;
     align-items: center;
+    background-image: url("/storage/background.jpg");
 }
 .formContacto {
-    width: 82%;
-    align-items: center;
+    width: 100%;
+    padding: 10px;
+    margin-top: 13%;
 }
 
-.formContacto .textoLabel {
+.divForm h1 {
+    position: fixed;
+    top: 6%;
+    left: 1%;
+}
+
+.formContacto label { width:  20%;  margin-top: 4px;}
+
+.formContacto .marginDiv .flex label { margin-top: 12px; }
+
+.formContacto .divInput { border-bottom: 2px solid white; }
+
+.formContacto .marginDiv {
+    height: 60px;
+    width: auto;
+    margin-top: 44px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.formContacto .textInput {
+    width:  80%;
+    border: none;
+    background: transparent;
     color: white;
 }
-
-.formContacto .namelastName {
-    width: 100%;
+.formContacto .divInput input {
+    height: 31px;
 }
-
-.formContacto .divName {
-    width: 50%;
-    margin: 0 1%;
-}
-
-
-.formContacto .allInputs {
-    width: 100%;
-    height: 40px;
-}
-
-.formContacto .restDiv {
-    margin: 1%;
-}
-
-.formContacto label {
-    margin-bottom: 3px
-}
-
-.formContacto .txtarea {
+.formContacto textarea {
     height: 100px;
     resize: none;
 }
-
-.formContacto .submit {
+.divForm .submit {
     cursor: pointer;
     background: transparent;
     border: 2px solid white;
     color: white;
     padding: 14px 49px;
     margin: 1%;
+    margin-top: 80px;
     font-weight: bold;
     font-size: medium;
 }
-
-.formContacto .submit:hover {
+.divForm .submit:hover {
     background: white;
     color: black;
 }
+.formContacto input:focus {
+    outline: none;
+    outline-width: 0;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.formContacto textarea:focus {
+    outline: none;
+}
+
+.formContacto input:-webkit-autofill,
+.formContacto input:-webkit-autofill:hover,
+.formContacto input:-webkit-autofill:focus,
+.formContacto input:-webkit-autofill:active {
+   -webkit-transition-delay: 9999s;
+   transition-delay: 9999s;
+}
+
+.formContacto ::-webkit-input-placeholder { color:#fff; font-size: 25px; }
+.formContacto ::-moz-placeholder { color:#ffff; } /* firefox 19+ */
+.formContacto :-ms-input-placeholder { color:#ffff; } /* ie */
+.formContacto input:-moz-placeholder { color:#ffff; }

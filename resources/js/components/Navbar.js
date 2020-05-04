@@ -27,7 +27,7 @@ const Navbar = () => {
             {/*toggle with visible*/}
             <div className={`Navbar ${classname}`}>
                 <Link to="/gallery" onClick={toggleNavbar}>Projects</Link>
-                <Link to="" onClick={toggleNavbar}>Contact</Link>
+                <Link to="/contact" onClick={toggleNavbar}>Contact</Link>
                 <Link to="/about" onClick={toggleNavbar}>About</Link>
             </div>
         </React.Fragment>

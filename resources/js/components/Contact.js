@@ -1,8 +1,5 @@
 import React from 'react';
-//import { Link } from 'react-router-dom';
-
 import './styles/Contact.css';
-import Footer from '../components/Footer';
 
 class Contact extends React.Component {
     constructor(props) {
@@ -41,60 +38,45 @@ class Contact extends React.Component {
     render(){
         return(
             <React.Fragment>
-                <Header 
-                    left="Home"
-                    right="About"
-                />
                 <div className="flex flex-col justifyc alignc divForm">
+                <h1>SAY HELLO!</h1>
                      <form className='formContacto'>
-                        <div className='namelastName flex'>
-                            <div className='divName'>
-                                <label className='textoLabel flex'>First Name*</label>
-                                <input  className='allInputs'
-                                        type ='text' 
-                                        name='name'
-                                        value={this.state.name}
-                                        onChange={this.handleChange.bind(this)} required/>
-                            </div>
-                            <div className='divName'>
-                                <label className='textoLabel flex'>Last Name*</label>
-                                <input  className='allInputs'
+                        <div className='divInput marginDiv flex'>
+                                <label className='sizeTextContact flex'>NAME</label>
+                                <input  className='textInput sizeTextContact'
                                         type ='text' 
                                         name='lastName'
                                         value={this.state.lastName}
-                                        onChange={this.handleChange.bind(this)} required/>
-                            </div>
+                                        onChange={this.handleChange.bind(this)} placeholder="Joe Williams" required/>
                         </div>
-                        <div className='restDiv'>
-                            <label className='textoLabel flex'>Email*</label>
-                            <input  className='allInputs'
+                        <div className='divInput marginDiv flex'>
+                            <label className='sizeTextContact flex'>E-MAIL</label>
+                            <input  className='textInput sizeTextContact'
                                     type ='email' 
                                     name='email'
                                     value={this.state.email}
-                                    onChange={this.handleChange.bind(this)} required/>
+                                    onChange={this.handleChange.bind(this)}  placeholder="jts.design@gmail.com" required/>
                         </div>
-                        <div className='restDiv'>
-                            <label className='textoLabel  flex'>Subject*</label>
-                            <input  className='allInputs'
+                        <div className='divInput marginDiv flex'>
+                            <label className='sizeTextContact flex'>SUBJECT</label>
+                            <input  className='textInput sizeTextContact'
                                     type ='text'
                                     name='subject'
                                     value={this.state.subject}
-                                    onChange={this.handleChange.bind(this)} required/>    
+                                    onChange={this.handleChange.bind(this)} placeholder="Web design" required/>    
                         </div>
-                        <div className='restDiv'>
-                            <label className='textoLabel  flex'>Message*</label>
-                            <textarea   className='allInputs txtarea'
+                        <div className='marginDiv flex'>
+                            <label className='flex sizeTextContact'>MESSAGE</label>
+                            <textarea   className='textInput sizeTextContact'
                                         name='message'
                                         value={this.state.message}
-                                        onChange={this.handleChange.bind(this)} required></textarea>
+                                        onChange={this.handleChange.bind(this)} placeholder="Hello there" required></textarea>         
                         </div>
-                        <input className='submit' type='submit' value='Submit' onClick={this.handleSubmit}/>
                     </form>
+                    <input className='submit' type='submit' value='Submit' onClick={this.handleSubmit}/>    
                 </div>
-                <Footer />
             </React.Fragment>
         )
     }
 }
-
 export default Contact;

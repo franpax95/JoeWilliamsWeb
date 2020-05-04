@@ -13,7 +13,7 @@ import Index        from './Index';
 import Gallery      from './Gallery';
 import Exposition   from './Exposition';
 import About        from './About';
-// import Contact      from './Contact';
+import Contact      from './Contact';
 
 import './styles/App.css';
 
@@ -26,8 +26,8 @@ function App(){
                 <Route exact path="/home" component={Index} />
                 <Route exact path="/gallery" component={Gallery} />
                 <Route exact path="/exposition/:id" component={Exposition} />
+                <Route exact path="/contact" component={Contact} />
                 <Route exact path="/about" component={About} />
-                {/* <Route exact path="/contact" component={Contact} /> */}
             </Switch>
         </BrowserRouter>
     );
