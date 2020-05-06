@@ -14,15 +14,15 @@ class DatabaseSeeder extends Seeder
     {
         $coverCunt = json_encode(
             array(
-                "cover" => "/image/covercunt.png",
-                "img1"  => "/image/covercunt.png",
-                "img2"  => "/image/cuntcover.jpg",
-                "img3"  => "/image/cunt13.jpg",
-                "img4"  => "/image/cunt15.jpg",
-                "img5"  => "/image/cunt18.jpg",
-                "img6"  => "/image/cunt20.jpg",
-                "img7"  => "/image/cunt27.jpg",
-                "img8"  => "/image/cunt35.jpg"
+                "cover" => "/image/covercunt.jpg",
+                "img1"  => ["/image/covercunt.jpg"],
+                "img2"  => ["/image/cuntcover.jpg"],
+                "img3"  => ["/image/cunt13.jpg"],
+                "img4"  => ["/image/cunt15.jpg"],
+                "img5"  => ["/image/cunt18.jpg"],
+                "img6"  => ["/image/cunt20.jpg"],
+                "img7"  => ["/image/cunt27.jpg"],
+                "img8"  => ["/image/cunt35.jpg"]
             )
         );
         Expositions::create([
@@ -34,16 +34,17 @@ class DatabaseSeeder extends Seeder
         ]);
 
 
+
         $finalFlamingo = json_encode(
             array(
-                "cover" => "/image/Final_flamingo_cover.jpg",
-                "img1"  => "/image/Final_flamingo_6.jpg",
-                "img2"  => "/image/Final_flamingo_2.jpg",
-                "img3"  => "/image/Final_flamingo_1.jpg",
-                "img4"  => "/image/Final_flamingo_3.jpg",
-                "img5"  => "/image/Final_flamingo_4.jpg",
-                "img6"  => "/image/Final_flamingo_5.jpg",
-                "img7"  => "/image/Final_flamingo_cover.jpg"
+                "cover" => "/image/Final_flamingo_the_fucking_final_one14.jpg",
+                "img1"  => ["/image/Final_flamingo_cover.jpg"],
+                "img2"  => ["/image/Final_flamingo_the_fucking_final_one4.jpg"],
+                "img3"  => ["/image/Final_flamingo_the_fucking_final_one10.jpg"],
+                "img4"  => ["/image/Final_flamingo_the_fucking_final_one14.jpg"],
+                "img5"  => ["/image/Final_flamingo_the_fucking_final_one16.jpg"],
+                "img6"  => ["/image/Final_flamingo_the_fucking_final_one19.jpg"],
+                "img7"  => ["/image/Final_flamingo_the_fucking_final_one21.jpg"]
             )
         );
         Expositions::create([
@@ -55,16 +56,17 @@ class DatabaseSeeder extends Seeder
         ]);
 
 
+
         $laraLogan = json_encode(
             array(
-                "cover" => "/image/laracover.png",
-                "img1"  => "/image/laracover.png",
-                "img2"  => "/image/LARA3.jpg",
-                "img3"  => "/image/LARA5.jpg",
-                "img4"  => "/image/LARA8.jpg",
-                "img5"  => "/image/LARA9.jpg",
-                "img6"  => "/image/LARA10.jpg",
-                "img7"  => "/image/LARA11.jpg"
+                "cover" => "/image/laracover.jpg",
+                "img1"  => ["/image/laracover.jpg"],
+                "img2"  => ["/image/LARA3.jpg"],
+                "img3"  => ["/image/LARA5.jpg"],
+                "img4"  => ["/image/LARA8.jpg"],
+                "img5"  => ["/image/LARA9.jpg"],
+                "img6"  => ["/image/LARA10.jpg"],
+                "img7"  => ["/image/LARA11.jpg"]
             )
         );
         Expositions::create([
@@ -76,10 +78,11 @@ class DatabaseSeeder extends Seeder
         ]);
 
 
+
         $synchronicity = json_encode(
             array(
-                "cover" => "/image/syncvid.png",
-                "img1"  => "/image/syncvid.png"
+                "cover" => "/image/syncvid.jpg",
+                "img1"  => ["/image/syncvid.jpg"]
             )
         );
         Expositions::create([
@@ -91,16 +94,17 @@ class DatabaseSeeder extends Seeder
         ]);
 
 
+
         $humanHerd = json_encode(
             array(
                 "cover" => "/image/herd_front_cover.jpg",
-                "img1"  => "/image/herd_front_cover.jpg",
-                "img2"  => "/image/herd8.jpg",
-                "img3"  => "/image/herd_red_1.jpg",
-                "img4"  => "/image/herd15.jpg",
-                "img5"  => "/image/herd_red_2.jpg",
-                "img6"  => "/image/herd20.jpg",
-                "img7"  => "/image/herd_red.jpg"
+                "img1"  => ["/image/herd_front_cover.jpg"],
+                "img2"  => ["/image/herd8.jpg"],
+                "img3"  => ["/image/herd_red_1.jpg"],
+                "img4"  => ["/image/herd15.jpg"],
+                "img5"  => ["/image/herd_red_2.jpg"],
+                "img6"  => ["/image/herd20.jpg"],
+                "img7"  => ["/image/herd_red.jpg"]
             )
         );
         Expositions::create([
@@ -108,14 +112,15 @@ class DatabaseSeeder extends Seeder
             'description' => "A publication exploring herd mentality within humans. Analysing certain situations where people, once becoming part of a large group,  lose their individuality and their power to reason for themselves. These situations result in the individuals behaviour becoming out of the ordinary.",
             'type' => "Editorial Design",
             'details' => "",
-            'img' =>  $humanHerd,
+            'img' =>  $humanHerd
         ]);
+
 
 
         $sync = json_encode(
             array(
                 "cover" => "/image/sync2.jpg",
-                "img1"  => "/image/sync2.jpg"
+                "img1"  => ["/image/sync2.jpg"]
             )
         );
         Expositions::create([
@@ -127,10 +132,11 @@ class DatabaseSeeder extends Seeder
         ]);
 
 
+
         $jam = json_encode(
             array(
-                "cover" => "/image/jamcover.png",
-                "img1"  => "/image/jamcover.png"
+                "cover" => "/image/jamcover.jpg",
+                "img1"  => ["/image/jamcover.jpg"]
             )
         );
         Expositions::create([
@@ -142,10 +148,11 @@ class DatabaseSeeder extends Seeder
         ]);
 
 
+
         $darkElf = json_encode(
             array(
                 "cover" => "/image/ira.jpg",
-                "img1"  => "/image/ira.jpg"
+                "img1"  => ["/image/ira.jpg"]
             )
         );
         Expositions::create([
@@ -157,10 +164,11 @@ class DatabaseSeeder extends Seeder
         ]);
 
 
+
         $lethalCombination = json_encode(
             array(
                 "cover" => "/image/lethal_combination.jpg",
-                "img1"  => "/image/lethal_combination.jpg"
+                "img1"  => ["/image/lethal_combination.jpg"]
             )
         );
         Expositions::create([
@@ -172,16 +180,17 @@ class DatabaseSeeder extends Seeder
         ]);
 
 
+
         $readNews = json_encode(
             array(
                 "cover" => "/image/news_cover.jpg",
-                "img1"  => "/image/news.jpg",
-                "img2"  => "/image/news2.jpg",
-                "img3"  => "/image/news4.jpg",
-                "img4"  => "/image/news8.jpg",
-                "img5"  => "/image/news11.jpg",
-                "img6"  => "/image/news12.jpg",
-                "img7"  => "/image/news15.jpg"
+                "img1"  => ["/image/news.jpg"],
+                "img2"  => ["/image/news2.jpg"],
+                "img3"  => ["/image/news4.jpg"],
+                "img4"  => ["/image/news8.jpg"],
+                "img5"  => ["/image/news11.jpg"],
+                "img6"  => ["/image/news12.jpg"],
+                "img7"  => ["/image/news15.jpg"]
             )
         );
         Expositions::create([
@@ -193,17 +202,15 @@ class DatabaseSeeder extends Seeder
         ]);
 
 
+
         $velvet = json_encode(
             array(
                 "cover" => "/image/velvet000675.jpg",
-                "img1"  => "/image/velvet000675.jpg",
-                "img2"  => "/image/velvet000673.jpg",
-                "img3"  => "/image/velvet000682.jpg",
-                "img4"  => "/image/velvet000676.jpg",
-                "img5"  => "/image/velvet000677.jpg",
-                "img6"  => "/image/velvet000678.jpg",
-                "img7"  => "/image/velvet000684.jpg",
-                "img8"  => "/image/velvet000685.jpg"
+                "img1"  => ["/image/velvet000675.jpg", "/image/velver000676.jpg"],
+                "img2"  => ["/image/velvet000682.jpg"],
+                "img3"  => ["/image/velvet000673.jpg"],
+                "img4"  => ["/image/velvet000677.jpg", "/image/velvet000678.jpg"],
+                "img5"  => ["/image/velvet000684.jpg", "/image/velvet000685.jpg"]
             )
         );
         Expositions::create([

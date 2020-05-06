@@ -33,7 +33,8 @@
 .Exposition .description{ grid-area: description; }
 .Exposition .type{ grid-area: type; }
 .Exposition .details{ grid-area: details; }
-.Exposition .img{ grid-area: img; }
+.Exposition .img-0{ grid-area: img0; }
+.Exposition .img-1{ grid-area: img1; }
 
 
 
@@ -43,11 +44,11 @@
     grid-template-columns: 50% 50%;
     grid-template-rows: 70% 20% 10%;
     grid-template-areas: 
-        'img title'
-        'img description'
+        'img0 title'
+        'img0 description'
         'type description';
 }
-.Exposition .class-1.page-1 >div:not(.img){
+.Exposition .class-1.page-1 >div:not(.img-0){
     z-index: 4;
 }
 .Exposition .class-1.page-1 .details,
@@ -61,7 +62,7 @@
     flex-direction: column;
     justify-content: flex-end;
 }
-.Exposition .class-1.page-1 .img img{ 
+.Exposition .class-1.page-1 .img-0 img{ 
     width: 110%;
     min-width: 800px;
     max-height: 80vh;
@@ -75,8 +76,8 @@
     grid-template-columns: 70% 30%;
     grid-template-rows: 70% 30%;
     grid-template-areas: 
-        'img title'
-        'img details';
+        'img0 title'
+        'img0 details';
 }
 .Exposition .class-1.page-2 .title,
 .Exposition .class-1.page-2 .description,
@@ -87,11 +88,11 @@
 .Exposition .class-1.page-2 .details{ 
     margin-right: 50px; 
 }
-.Exposition .class-1.page-2 .img img{
+.Exposition .class-1.page-2 .img-0 img{
     height: 100%;
     max-width: 100vw;
 }
-.Exposition .class-1.page-2 >div:not(.img){
+.Exposition .class-1.page-2 >div:not(.img-0){
     z-index: 4;
 }
 
@@ -131,18 +132,18 @@
 .Exposition .class-1.page-8 .details{
     display: none;
 }
-.Exposition .class-1.page-3 .img,
-.Exposition .class-1.page-4 .img,
-.Exposition .class-1.page-5 .img,
-.Exposition .class-1.page-6 .img,
-.Exposition .class-1.page-7 .img,
-.Exposition .class-1.page-8 .img,
-.Exposition .class-1.page-3 .img img,
-.Exposition .class-1.page-4 .img img,
-.Exposition .class-1.page-5 .img img,
-.Exposition .class-1.page-6 .img img,
-.Exposition .class-1.page-7 .img img,
-.Exposition .class-1.page-8 .img img{
+.Exposition .class-1.page-3 .img-0,
+.Exposition .class-1.page-4 .img-0,
+.Exposition .class-1.page-5 .img-0,
+.Exposition .class-1.page-6 .img-0,
+.Exposition .class-1.page-7 .img-0,
+.Exposition .class-1.page-8 .img-0,
+.Exposition .class-1.page-3 .img-0 img,
+.Exposition .class-1.page-4 .img-0 img,
+.Exposition .class-1.page-5 .img-0 img,
+.Exposition .class-1.page-6 .img-0 img,
+.Exposition .class-1.page-7 .img-0 img,
+.Exposition .class-1.page-8 .img-0 img{
     height: 100%;
 }
 /*******************************************/
@@ -154,16 +155,16 @@
     grid-template-columns: 40% 60%;
     grid-template-rows: 70% 20% 10%;
     grid-template-areas: 
-        'img title'
-        'img description'
-        'img type';
+        'img0 title'
+        'img0 description'
+        'img0 type';
 }
 .Exposition .class-2.page-1 .title{ margin-top: 50px; }
 .Exposition .class-2.page-1 .details,
 .Exposition .class-2.page-1 .type hr{
     display: none;
 }
-.Exposition .class-2.page-1 .img img{ height: 100%; }
+.Exposition .class-2.page-1 .img-0 img{ height: 100%; }
 .Exposition .class-2.page-1 .description hr{ width: 40%; }
 
 .Exposition .class-2.page-5{
@@ -174,12 +175,12 @@
         'img img'
         'type details';
 }
-.Exposition .class-2.page-5 .img{
+.Exposition .class-2.page-5 .img-0{
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
-.Exposition .class-2.page-5 .img img{ width: 100%; }
+.Exposition .class-2.page-5 .img-0 img{ width: 100%; }
 
 .Exposition .class-2.page-2,
 .Exposition .class-2.page-3,
@@ -216,16 +217,16 @@
 .Exposition .class-2.page-7 .type{
     display: none;
 }
-.Exposition .class-2.page-2 .img,
-.Exposition .class-2.page-3 .img,
-.Exposition .class-2.page-4 .img,
-.Exposition .class-2.page-6 .img,
-.Exposition .class-2.page-7 .img,
-.Exposition .class-2.page-2 .img img,
-.Exposition .class-2.page-3 .img img,
-.Exposition .class-2.page-4 .img img,
-.Exposition .class-2.page-6 .img img,
-.Exposition .class-2.page-7 .img img{
+.Exposition .class-2.page-2 .img-0,
+.Exposition .class-2.page-3 .img-0,
+.Exposition .class-2.page-4 .img-0,
+.Exposition .class-2.page-6 .img-0,
+.Exposition .class-2.page-7 .img-0,
+.Exposition .class-2.page-2 .img-0 img,
+.Exposition .class-2.page-3 .img-0 img,
+.Exposition .class-2.page-4 .img-0 img,
+.Exposition .class-2.page-6 .img-0 img,
+.Exposition .class-2.page-7 .img-0 img{
     max-height: 95vh;
     max-width: 95vw;
 }
@@ -238,9 +239,9 @@
     grid-template-columns: 40% 40% 20%;
     grid-template-rows: 60% 30% 10%;
     grid-template-areas: 
-        'img title title'
-        'img description description'
-        'img details type';
+        'img0 title title'
+        'img0 description description'
+        'img0 details type';
 }
 .Exposition .class-3.page-1 .title{ margin-top: 50px; }
 .Exposition .class-3.page-1 .details hr,
@@ -255,11 +256,11 @@
     flex-direction: column;
     justify-content: flex-end;
 }
-.Exposition .class-3.page-1 .img img{
+.Exposition .class-3.page-1 .img-0 img{
     max-width: 35vw;
     max-height: 90vh;
 }
-.Exposition .class-3.page-1 >div:not(.img){
+.Exposition .class-3.page-1 >div:not(.img-0){
     z-index: 4;
 }
 
@@ -299,14 +300,104 @@
 .Exposition .class-3.page-7 .type{
     display: none;
 }
-.Exposition .class-3.page-2 .img img,
-.Exposition .class-3.page-3 .img img,
-.Exposition .class-3.page-4 .img img,
-.Exposition .class-3.page-5 .img img,
-.Exposition .class-3.page-6 .img img,
-.Exposition .class-3.page-7 .img img{
+.Exposition .class-3.page-2 .img-0 img,
+.Exposition .class-3.page-3 .img-0 img,
+.Exposition .class-3.page-4 .img-0 img,
+.Exposition .class-3.page-5 .img-0 img,
+.Exposition .class-3.page-6 .img-0 img,
+.Exposition .class-3.page-7 .img-0 img{
     max-width: 95vw;
     max-height: 95vh;
+}
+
+
+
+/* human herd mentality */
+.Exposition .class-5.page-1{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 10% 70% 20%;
+    grid-template-areas: 
+        'title title'
+        'type img0'
+        'description img0';
+}
+.Exposition .class-5.page-1 .details,
+.Exposition .class-5.page-1 .type hr{
+    display: none;
+}
+.Exposition .class-5.page-1 .description hr{ width: 50%; }
+.Exposition .class-5.page-1 .type{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+.Exposition .class-5.page-1 .img-0{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.Exposition .class-5.page-1 .img-0 img{ height: 100%; }
+.Exposition .class-5.page-1 >div:not(.img-0){
+    z-index: 4;
+}
+
+.Exposition .class-5.page-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Exposition .class-5.page-2 .title,
+.Exposition .class-5.page-3 .title,
+.Exposition .class-5.page-4 .title,
+.Exposition .class-5.page-5 .title,
+.Exposition .class-5.page-6 .title,
+.Exposition .class-5.page-7 .title,
+.Exposition .class-5.page-2 .description,
+.Exposition .class-5.page-3 .description,
+.Exposition .class-5.page-4 .description,
+.Exposition .class-5.page-5 .description,
+.Exposition .class-5.page-6 .description,
+.Exposition .class-5.page-7 .description,
+.Exposition .class-5.page-2 .type,
+.Exposition .class-5.page-3 .type,
+.Exposition .class-5.page-4 .type,
+.Exposition .class-5.page-5 .type,
+.Exposition .class-5.page-6 .type,
+.Exposition .class-5.page-7 .type,
+.Exposition .class-5.page-2 .details,
+.Exposition .class-5.page-3 .details,
+.Exposition .class-5.page-4 .details,
+.Exposition .class-5.page-5 .details,
+.Exposition .class-5.page-6 .details,
+.Exposition .class-5.page-7 .details{
+    display: none;
+}
+.Exposition .class-5.page-2 .img-0,
+.Exposition .class-5.page-3 .img-0,
+.Exposition .class-5.page-4 .img-0,
+.Exposition .class-5.page-5 .img-0,
+.Exposition .class-5.page-6 .img-0,
+.Exposition .class-5.page-7 .img-0{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Exposition .class-5.page-2 .img-0 img,
+.Exposition .class-5.page-3 .img-0 img,
+.Exposition .class-5.page-4 .img-0 img,
+.Exposition .class-5.page-5 .img-0 img,
+.Exposition .class-5.page-6 .img-0 img,
+.Exposition .class-5.page-7 .img-0 img{
+    height: 100%;
+}
+.Exposition .class-5.page-3 .img-0 img,
+.Exposition .class-5.page-5 .img-0 img,
+.Exposition .class-5.page-7 .img-0 img{
+    width: 100%;
 }
 
 
@@ -317,16 +408,16 @@
     grid-template-columns: 50% 50%;
     grid-template-rows: 70% 30%;
     grid-template-areas: 
-        'img title'
-        'img description';
+        'img0 title'
+        'img0 description';
 }
 .Exposition .class-7 .title{ margin-top: 30px; }
 .Exposition .class-7 .type,
 .Exposition .class-7 .details{
     display: none;
 }
-.Exposition .class-7 .img{ padding: 30px; }
-.Exposition .class-7 .img img{ 
+.Exposition .class-7 .img-0{ padding: 30px; }
+.Exposition .class-7 .img-0 img{ 
     width: 95%;
     max-height: 90vh;
 }
@@ -340,16 +431,16 @@
     grid-template-columns: 65% 35%;
     grid-template-rows: 33.33%  33.33% 33.33%;
     grid-template-areas: 
-        'title img'
-        'details img'
-        'details img';
+        'title img0'
+        'details img0'
+        'details img0';
 }
 .Exposition .class-8 .description,
 .Exposition .class-8 .type{
     display: none;
 }
-.Exposition .class-8 .img{ padding-top: 15%; }
-.Exposition .class-8 .img img{  height: 100%; }
+.Exposition .class-8 .img-0{ padding-top: 15%; }
+.Exposition .class-8 .img-0 img{  height: 100%; }
 .Exposition .class-8 hr{ 
     width: 15%;
     min-width: 70px;
@@ -365,15 +456,15 @@
     grid-template-rows: 25% 25% 25% 25%;
     grid-template-areas:
         'title title title'
-        'type img img'
-        'type img img'
-        'type img img';
+        'type img0 img0'
+        'type img0 img0'
+        'type img0 img0';
 }
 .Exposition .class-9 .description,
 .Exposition .class-9 .details{
     display: none;
 }
-.Exposition .class-9 .img img{ 
+.Exposition .class-9 .img-0 img{ 
     min-width: 60vw;
     height: 100%;
 }
@@ -390,8 +481,8 @@
     grid-template-columns: 50% 35% 15%;
     grid-template-rows: 60% 40%;
     grid-template-areas:
-        'img title title'
-        'img description type';
+        'img0 title title'
+        'img0 description type';
 }
 .Exposition .class-10.page-1 .details,
 .Exposition .class-10.page-1 .type hr{
@@ -407,8 +498,8 @@
 .Exposition .class-10.page-1 .description{ margin-right: 20px; }
 .Exposition .class-10.page-1 .description hr{ width: 50%; }
 .Exposition .class-10.page-1 .type{ align-items: flex-end; }
-.Exposition .class-10.page-1 .img img{ height: 100%; }
-.Exposition .class-10.page-1 >div:not(.img){
+.Exposition .class-10.page-1 .img-0 img{ height: 100%; }
+.Exposition .class-10.page-1 >div:not(.img-0){
     z-index: 4;
 }
 
@@ -448,12 +539,12 @@
 .Exposition .class-10.page-7 .type{
     display: none;
 }
-.Exposition .class-10.page-2 .img img,
-.Exposition .class-10.page-3 .img img,
-.Exposition .class-10.page-4 .img img,
-.Exposition .class-10.page-5 .img img,
-.Exposition .class-10.page-6 .img img,
-.Exposition .class-10.page-7 .img img{
+.Exposition .class-10.page-2 .img-0 img,
+.Exposition .class-10.page-3 .img-0 img,
+.Exposition .class-10.page-4 .img-0 img,
+.Exposition .class-10.page-5 .img-0 img,
+.Exposition .class-10.page-6 .img-0 img,
+.Exposition .class-10.page-7 .img-0 img{
     max-width: 95vw;
     max-height: 95vh;
 }
@@ -481,4 +572,4 @@
     flex-direction: column;
     justify-content: flex-end;
 }
-.Exposition .class-11.page-1 .img img{ height: 100%; }
+.Exposition .class-11.page-1 .img-0 img{ height: 100%; }
