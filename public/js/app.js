@@ -6565,7 +6565,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "*{\r\n    box-sizing: border-box;\r\n    margin: 0;\r\n    font-family: halogen, sans-serif;\r\n    font-style: normal;\r\n    font-weight: 300;\r\n}\r\n\r\nhtml, body, #app{ height: 100%; }\r\na{ text-decoration: none; }\r\n\r\n.grid{ display: grid; }\r\n.flex{ display: flex; }\r\n.flex-row{ flex-direction: row; }\r\n.flex-row-reverse { flex-direction: row-reverse; }\r\n.flex-col{ flex-direction: column; }\r\n.justifyc{ justify-content: center; }\r\n.alignc{ align-items: center; }\r\n\r\n.height-100{ height: 100%; }\r\n\r\nhtml{\r\n    background-color: black;\r\n    color: white;\r\n}\r\n.background-flame{\r\n    background-image: url(\"/storage/background.jpg\");\r\n    /* background-color: black; */\r\n    background-size: cover;\r\n    background-repeat: no-repeat;\r\n    background-attachment:fixed;\r\n    color: white;\r\n}\r\n.center { text-align: center; }\r\n.rojo { color: red; }\r\n\r\n.sizeTextContact {\r\n    font-size: 2.5vh;\r\n}", ""]);
+exports.push([module.i, "*{\r\n    box-sizing: border-box;\r\n    margin: 0;\r\n    font-family: \"Halogen-Light\";\r\n}\r\n\r\nhtml, body, #app{ height: 100%; }\r\na{ text-decoration: none; }\r\n\r\n.grid{ display: grid; }\r\n.flex{ display: flex; }\r\n.flex-row{ flex-direction: row; }\r\n.flex-row-reverse { flex-direction: row-reverse; }\r\n.flex-col{ flex-direction: column; }\r\n.justifyc{ justify-content: center; }\r\n.alignc{ align-items: center; }\r\n\r\n.height-100{ height: 100%; }\r\n\r\nhtml{\r\n    background-color: black;\r\n    color: white;\r\n}\r\n.background-flame{\r\n    background-image: url(\"/storage/background.jpg\");\r\n    /* background-color: black; */\r\n    background-size: cover;\r\n    background-repeat: no-repeat;\r\n    background-attachment:fixed;\r\n    color: white;\r\n}\r\n.center { text-align: center; }\r\n.rojo { color: red; }\r\n\r\n@font-face {\r\n    font-family: \"Halogen-Light\";\r\n    src: url('/storage/fonts/Halogen-Light.otf');\r\n\r\n    /* src: url('/storage/fonts/Halogen-Black.otf'),url('/storage/fonts/Halogen-BlackOblique.otf'),url('/storage/fonts/Halogen-Bold.otf'),url('/storage/fonts/Halogen-BoldOblique.otf'),\r\n    url('/storage/fonts/Halogen-Hairline.otf'),url('/storage/fonts/Halogen-HairlineOblique.otf'),url('/storage/fonts/Halogen-Medium.otf'),url('/storage/fonts/Halogen-MediumOblique.otf'),\r\n    url('/storage/fonts/Halogen-Regular.otf'),url('/storage/fonts/Halogen-RegularOblique.otf'),url('/storage/fonts/Halogen-Thin.otf'),url('/storage/fonts/Halogen-ThinOblique.otf'), */\r\n}", ""]);
 
 // exports
 
@@ -6584,7 +6584,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".divForm {\r\n    width: 100%;\r\n    height: 100%;\r\n    align-items: center;\r\n    background-image: url(\"/storage/background.jpg\");\r\n}\r\n.formContacto {\r\n    width: 100%;\r\n    padding: 10px;\r\n    margin-top: 13%;\r\n}\r\n\r\n.divForm h1 {\r\n    position: fixed;\r\n    top: 6%;\r\n    left: 1%;\r\n}\r\n\r\n.formContacto label { width:  20%;  margin-top: 4px;}\r\n\r\n.formContacto .marginDiv .flex label { margin-top: 12px; }\r\n\r\n.formContacto .divInput { border-bottom: 2px solid white; }\r\n\r\n.formContacto .marginDiv {\r\n    height: 60px;\r\n    width: auto;\r\n    margin-top: 44px;\r\n    margin-left: 10px;\r\n    margin-right: 10px;\r\n}\r\n.formContacto .textInput {\r\n    width:  80%;\r\n    border: none;\r\n    background: transparent;\r\n    color: white;\r\n}\r\n.formContacto .divInput input {\r\n    height: 31px;\r\n}\r\n.formContacto textarea {\r\n    height: 100px;\r\n    resize: none;\r\n}\r\n.divForm .submit {\r\n    cursor: pointer;\r\n    background: transparent;\r\n    border: 2px solid white;\r\n    color: white;\r\n    padding: 14px 49px;\r\n    margin: 1%;\r\n    margin-top: 80px;\r\n    font-weight: bold;\r\n    font-size: medium;\r\n}\r\n.divForm .submit:hover {\r\n    background: white;\r\n    color: black;\r\n}\r\n.formContacto input:focus {\r\n    outline: none;\r\n    outline-width: 0;\r\n    box-shadow: none;\r\n    -moz-box-shadow: none;\r\n    -webkit-box-shadow: none;\r\n}\r\n.formContacto textarea:focus {\r\n    outline: none;\r\n}\r\n\r\n.formContacto input:-webkit-autofill,\r\n.formContacto input:-webkit-autofill:hover,\r\n.formContacto input:-webkit-autofill:focus,\r\n.formContacto input:-webkit-autofill:active {\r\n   -webkit-transition-delay: 9999s;\r\n   transition-delay: 9999s;\r\n}\r\n\r\n.formContacto ::-webkit-input-placeholder { color:#fff; font-size: 25px; }\r\n.formContacto ::-moz-placeholder { color:#ffff; } /* firefox 19+ */\r\n.formContacto :-ms-input-placeholder { color:#ffff; } /* ie */\r\n.formContacto input:-moz-placeholder { color:#ffff; }", ""]);
+exports.push([module.i, ".divForm {\r\n    width: 100%;\r\n    height: 100%;\r\n    align-items: center;\r\n    background-image: url(\"/storage/background.jpg\");\r\n}\r\n.formContacto {\r\n    width: 100%;\r\n    padding: 10px;\r\n    margin-top: 13%;\r\n}\r\n\r\n.divForm h1 {\r\n    position: fixed;\r\n    top: 6%;\r\n    left: 1%;\r\n}\r\n\r\n.formContacto label { width:  30%;  margin-top: 4px; color: rgba(255,255,255, 0.8);}\r\n\r\n.formContacto .marginDiv .flex label { margin-top: 12px; }\r\n\r\n.formContacto .divInput { border-bottom: 2px solid white; }\r\n\r\n.formContacto .marginDiv {\r\n    height: 60px;\r\n    width: auto;\r\n    margin-top: 44px;\r\n    margin-left: 10px;\r\n    margin-right: 10px;\r\n}\r\n.formContacto .textInput {\r\n    width:  70%;\r\n    border: none;\r\n    background: transparent;\r\n    color: white;\r\n}\r\n.formContacto .divInput input {\r\n    height: 31px;\r\n}\r\n.formContacto textarea {\r\n    height: 100px;\r\n    resize: none;\r\n}\r\n.formContacto .sizeTextContact {\r\n    font-size: 1.8vh;\r\n}\r\n.formContacto .sizeTextInput {\r\n    font-size: 3vh;\r\n}\r\n.divForm .submit {\r\n    cursor: pointer;\r\n    background: transparent;\r\n    border: 2px solid white;\r\n    color: white;\r\n    padding: 14px 49px;\r\n    margin: 1%;\r\n    margin-top: 80px;\r\n    font-weight: bold;\r\n    font-size: medium;\r\n}\r\n.divForm .submit:hover {\r\n    background: white;\r\n    color: black;\r\n}\r\n.formContacto input:focus {\r\n    outline: none;\r\n    outline-width: 0;\r\n    box-shadow: none;\r\n    -moz-box-shadow: none;\r\n    -webkit-box-shadow: none;\r\n}\r\n.formContacto textarea:focus {\r\n    outline: none;\r\n}\r\n\r\n.formContacto input:-webkit-autofill,\r\n.formContacto input:-webkit-autofill:hover,\r\n.formContacto input:-webkit-autofill:focus,\r\n.formContacto input:-webkit-autofill:active {\r\n   -webkit-transition-delay: 9999s;\r\n   transition-delay: 9999s;\r\n}\r\n\r\n.formContacto ::-webkit-input-placeholder { color:#fff; font-size: 3vh; }\r\n.formContacto ::-moz-placeholder { color:#ffff; } /* firefox 19+ */\r\n.formContacto :-ms-input-placeholder { color:#ffff; } /* ie */\r\n.formContacto input:-moz-placeholder { color:#ffff; }", ""]);
 
 // exports
 
@@ -74239,7 +74239,7 @@ var Contact = /*#__PURE__*/function (_React$Component) {
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "sizeTextContact flex"
       }, "NAME"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-        className: "textInput sizeTextContact",
+        className: "textInput sizeTextInput",
         type: "text",
         name: "lastName",
         value: this.state.lastName,
@@ -74251,7 +74251,7 @@ var Contact = /*#__PURE__*/function (_React$Component) {
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "sizeTextContact flex"
       }, "E-MAIL"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-        className: "textInput sizeTextContact",
+        className: "textInput sizeTextInput",
         type: "email",
         name: "email",
         value: this.state.email,
@@ -74263,7 +74263,7 @@ var Contact = /*#__PURE__*/function (_React$Component) {
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "sizeTextContact flex"
       }, "SUBJECT"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-        className: "textInput sizeTextContact",
+        className: "textInput sizeTextInput",
         type: "text",
         name: "subject",
         value: this.state.subject,
@@ -74275,7 +74275,7 @@ var Contact = /*#__PURE__*/function (_React$Component) {
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "flex sizeTextContact"
       }, "MESSAGE"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("textarea", {
-        className: "textInput sizeTextContact",
+        className: "textInput sizeTextInput",
         name: "message",
         value: this.state.message,
         onChange: this.handleChange.bind(this),
@@ -74387,16 +74387,10 @@ var Exposition = function Exposition(props) {
   };
 
   var replaceNewLine = function replaceNewLine(text) {
-    return text.split('\n').map(function (substr, i) {
-      if (substr === "") {
-        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, {
-          key: i
-        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null));
-      } else {
-        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
-          key: i
-        }, substr);
-      }
+    return text.split('/n').map(function (substr, i) {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+        key: i
+      }, substr, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null));
     });
   };
 

@@ -43,7 +43,7 @@ class Contact extends React.Component {
                      <form className='formContacto'>
                         <div className='divInput marginDiv flex'>
                                 <label className='sizeTextContact flex'>NAME</label>
-                                <input  className='textInput sizeTextContact'
+                                <input  className='textInput sizeTextInput'
                                         type ='text' 
                                         name='lastName'
                                         value={this.state.lastName}
@@ -51,7 +51,7 @@ class Contact extends React.Component {
                         </div>
                         <div className='divInput marginDiv flex'>
                             <label className='sizeTextContact flex'>E-MAIL</label>
-                            <input  className='textInput sizeTextContact'
+                            <input  className='textInput sizeTextInput'
                                     type ='email' 
                                     name='email'
                                     value={this.state.email}
@@ -59,7 +59,7 @@ class Contact extends React.Component {
                         </div>
                         <div className='divInput marginDiv flex'>
                             <label className='sizeTextContact flex'>SUBJECT</label>
-                            <input  className='textInput sizeTextContact'
+                            <input  className='textInput sizeTextInput'
                                     type ='text'
                                     name='subject'
                                     value={this.state.subject}
@@ -67,7 +67,7 @@ class Contact extends React.Component {
                         </div>
                         <div className='marginDiv flex'>
                             <label className='flex sizeTextContact'>MESSAGE</label>
-                            <textarea   className='textInput sizeTextContact'
+                            <textarea   className='textInput sizeTextInput'
                                         name='message'
                                         value={this.state.message}
                                         onChange={this.handleChange.bind(this)} placeholder="Hello there" required></textarea>         

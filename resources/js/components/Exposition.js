@@ -42,12 +42,8 @@ const Exposition = (props) => {
     }
 
     const replaceNewLine = (text) => (
-        text.split('\n').map((substr, i) => {
-            if(substr === ""){
-                return <React.Fragment key={i}><br/><br/></React.Fragment>
-            }else{
-                return <span key={i}>{substr}</span>;
-            }
+        text.split('/n').map((substr, i) => {
+            return <span key={i}>{substr}<br/><br/></span>;
         })
     );
 
