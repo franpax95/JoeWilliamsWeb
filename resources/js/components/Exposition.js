@@ -52,7 +52,7 @@ const Exposition = (props) => {
             let currentImages = Object.values(props.exposition.img)[props.currentPage];
             return currentImages.map((img, key) => (
                 <div className={`img-${key}`} key={key}>
-                    <img src={`/storage${img}`} />
+                    <img src={`${img}`} />
                 </div>
             ));
         }
