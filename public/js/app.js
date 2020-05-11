@@ -6660,7 +6660,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "/* icon style */\r\n.icon{\r\n    z-index: 50;\r\n    position: fixed;\r\n    top: 10px;\r\n    right: 10px;\r\n\r\n    outline: none;\r\n    border: none;\r\n    background: none;\r\n    color: white;\r\n    cursor: pointer;\r\n\r\n    font-size: 4em;\r\n}\r\n\r\n/* Navbar styles */\r\n.none{ display: none; }\r\n.visible{ display: flex; }\r\n\r\n.Navbar{ \r\n    position: fixed;\r\n    z-index: 49;\r\n    width: 100%;\r\n    height: 100%;\r\n    overflow: hidden;\r\n\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n\r\n    background-image: url(\"/storage/background.jpg\");\r\n    /* background-color: black; */\r\n    background-position: center;\r\n    background-size: cover;\r\n}\r\n\r\n.Navbar a{\r\n    padding: 1% 0;\r\n\r\n    color: white;\r\n\r\n    font-size: 4vw;\r\n    text-transform: uppercase;\r\n    letter-spacing: 1px;\r\n}", ""]);
+exports.push([module.i, "/* Extra small devices (phones, 600px and down) */\r\n@media only screen and (max-width: 600px) {\r\n    .icon{ font-size: 3em; }\r\n    .Navbar a{\r\n        font-size: 2em;\r\n        margin-bottom: 10px;\r\n    }\r\n}\r\n\r\n/* Small devices (portrait tablets and large phones, 600px and up) */\r\n@media only screen and (min-width: 600px) {\r\n    .icon{ font-size: 4em; }\r\n    .Navbar a{\r\n        font-size: 4vw;\r\n    }\r\n}\r\n\r\n/* icon style */\r\n.icon{\r\n    z-index: 50;\r\n    position: fixed;\r\n    top: 10px;\r\n    right: 10px;\r\n\r\n    outline: none;\r\n    border: none;\r\n    background: none;\r\n    color: white;\r\n    cursor: pointer;\r\n}\r\n\r\n/* Navbar styles */\r\n.none{ display: none; }\r\n.visible{ display: flex; }\r\n\r\n.Navbar{ \r\n    position: fixed;\r\n    z-index: 49;\r\n    width: 100%;\r\n    height: 100%;\r\n    overflow: hidden;\r\n\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n\r\n    background-image: url(\"/storage/background.jpg\");\r\n    background-position: center;\r\n    background-size: cover;\r\n}\r\n\r\n.Navbar a{\r\n    padding: 1% 0;\r\n\r\n    color: white;\r\n    text-transform: uppercase;\r\n    letter-spacing: 1px;\r\n}", ""]);
 
 // exports
 
@@ -75122,7 +75122,7 @@ var CHANGE_DESCRIPTION = 'exposition_change_description';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Documentos\Programacion\Proyectos\React\joeWilliamsWeb\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\_WORK\Redux\JoeWilliamsWeb\resources\js\app.js */"./resources/js/app.js");
 
 
 /***/ })
