@@ -1,12 +1,12 @@
 import React from 'react';
 import './styles/Contact.css';
+import axios from 'axios';
 
 class Contact extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
             name: '',
-            lastName: '',
             email: '',
             subject: '',
             message: ''
@@ -22,12 +22,13 @@ class Contact extends React.Component {
         })
     }
     handleSubmit(event) {
-        this.sendMessage({
-            name: this.state.name,
-            email: this.state.email,
-            subject: this.state.subject,
-            message: this.state.message
+        
+        axios.post('/api/sendMail', this.state).then( resp => {
+            console.log('respuesta',resp.data)
+        }).catch((error) => {
+            console.log('error', error.response)
         })
+
         event.preventDefault();
     }
     sendMessage (object) {        
@@ -45,7 +46,7 @@ class Contact extends React.Component {
                                 <label className='sizeTextContact flex'>NAME</label>
                                 <input  className='textInput sizeTextInput'
                                         type ='text' 
-                                        name='lastName'
+                                        name='name'
                                         value={this.state.lastName}
                                         onChange={this.handleChange.bind(this)} placeholder="Joe Williams" required/>
                         </div>

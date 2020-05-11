@@ -74152,6 +74152,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _styles_Contact_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/Contact.css */ "./resources/js/components/styles/Contact.css");
 /* harmony import */ var _styles_Contact_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_Contact_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
@@ -74179,6 +74181,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 
 
+
 var Contact = /*#__PURE__*/function (_React$Component) {
   _inherits(Contact, _React$Component);
 
@@ -74192,7 +74195,6 @@ var Contact = /*#__PURE__*/function (_React$Component) {
     _this = _super.call(this, props);
     _this.state = {
       name: '',
-      lastName: '',
       email: '',
       subject: '',
       message: ''
@@ -74210,11 +74212,10 @@ var Contact = /*#__PURE__*/function (_React$Component) {
   }, {
     key: "handleSubmit",
     value: function handleSubmit(event) {
-      this.sendMessage({
-        name: this.state.name,
-        email: this.state.email,
-        subject: this.state.subject,
-        message: this.state.message
+      axios__WEBPACK_IMPORTED_MODULE_2___default.a.post('/api/sendMail', this.state).then(function (resp) {
+        console.log('respuesta', resp.data);
+      })["catch"](function (error) {
+        console.log('error', error.response);
       });
       event.preventDefault();
     }
@@ -74241,7 +74242,7 @@ var Contact = /*#__PURE__*/function (_React$Component) {
       }, "NAME"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
         className: "textInput sizeTextInput",
         type: "text",
-        name: "lastName",
+        name: "name",
         value: this.state.lastName,
         onChange: this.handleChange.bind(this),
         placeholder: "Joe Williams",

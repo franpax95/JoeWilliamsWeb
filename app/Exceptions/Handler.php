@@ -56,8 +56,15 @@ class Handler extends ExceptionHandler
          return response()->json([
               'message' => 'Resource not found'
           ], 404);
+        } 
+        else if($exception instanceof \Symfony\Component\HttpKernel\Exception\HttpException) 
+        {
+           return response()->json([
+                'message' => 'Error',
+                'completed' => false
+            ], 500);
         }
-         
-        return parent::render($request, $exception);
+
+       return parent::render($request, $exception);
     }
 }
