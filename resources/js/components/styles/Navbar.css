@@ -1,3 +1,20 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .icon{ font-size: 3em; }
+    .Navbar a{
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .icon{ font-size: 4em; }
+    .Navbar a{
+        font-size: 4vw;
+    }
+}
+
 /* icon style */
 .icon{
     z-index: 50;
@@ -10,8 +27,6 @@
     background: none;
     color: white;
     cursor: pointer;
-
-    font-size: 4em;
 }
 
 /* Navbar styles */
@@ -30,7 +45,6 @@
     align-items: center;
 
     background-image: url("/storage/background.jpg");
-    /* background-color: black; */
     background-position: center;
     background-size: cover;
 }
@@ -39,8 +53,6 @@
     padding: 1% 0;
 
     color: white;
-
-    font-size: 4vw;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
