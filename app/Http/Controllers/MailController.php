@@ -17,7 +17,6 @@ class MailController extends Controller
 
         $correo = new \App\Mail\Mail($name,$email,$messageBody,$subject);
         \Mail::to($destinatario)->send($correo);
-        abort(500);
         return $request;
     }
 }
