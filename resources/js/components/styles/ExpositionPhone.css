@@ -1,0 +1,274 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .Exposition .title{
+        margin-top: 60px;
+        margin-left: 15px;
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .Exposition .details,
+    .Exposition .type,
+    .Exposition .description{ 
+        font-size: 0.7em;
+        margin-top: 30px;
+        padding: 10px;
+    }
+    .Exposition .img-0,
+    .Exposition .img-1{
+        margin-top: 30px;
+    }
+
+    .Exposition .class-1.page-1{
+        grid-template-columns: auto;
+        grid-template-areas: 
+            'title'
+            'img0'
+            'description'
+            'type';
+    }
+    .Exposition .class-1.page-1 img{ width: 100%; }
+
+    .Exposition .class-1.page-2{
+        grid-template-areas: 
+            'details'
+            'img0';
+    }
+    .Exposition .class-1.page-2 >div:not(.img-0){
+        z-index: 4;
+    }
+    .Exposition .class-1.page-2 .details{ margin-top: 60px; }
+    .Exposition .class-1.page-2 .img-0 img{ width: 100%; }
+
+    .Exposition .class-1.page-3,
+    .Exposition .class-1.page-4,
+    .Exposition .class-1.page-5,
+    .Exposition .class-1.page-6,
+    .Exposition .class-1.page-7,
+    .Exposition .class-1.page-8,
+    .Exposition .class-1.page-3 .img-0,
+    .Exposition .class-1.page-4 .img-0,
+    .Exposition .class-1.page-5 .img-0,
+    .Exposition .class-1.page-6 .img-0,
+    .Exposition .class-1.page-7 .img-0,
+    .Exposition .class-1.page-8 .img-0{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Exposition .class-1.page-3 .img-0 img,
+    .Exposition .class-1.page-4 .img-0 img,
+    .Exposition .class-1.page-5 .img-0 img,
+    .Exposition .class-1.page-6 .img-0 img,
+    .Exposition .class-1.page-7 .img-0 img,
+    .Exposition .class-1.page-8 .img-0 img{
+        width: 100%;
+    }
+    /*******************************************/
+
+    /* Fluttering flamingo */
+    .Exposition .class-2.page-1{
+        grid-template-areas: 
+            'title'
+            'img0'
+            'description'
+            'type';
+    }
+    .Exposition .class-2.page-1 .img-0 img{ 
+        width: 60%;
+        margin-left: 20px;
+    }
+
+    .Exposition .class-2.page-5{
+        grid-template-areas:
+            'img0'
+            'type'
+            'details';
+    }
+    .Exposition .class-2.page-5 .img-0 img{ 
+        width: 95%;
+        margin-top: 60px;
+    }
+
+    .Exposition .class-2.page-2 .img-0,
+    .Exposition .class-2.page-3 .img-0,
+    .Exposition .class-2.page-4 .img-0,
+    .Exposition .class-2.page-6 .img-0,
+    .Exposition .class-2.page-7 .img-0,
+    .Exposition .class-2.page-2 .img-0 img,
+    .Exposition .class-2.page-3 .img-0 img,
+    .Exposition .class-2.page-4 .img-0 img,
+    .Exposition .class-2.page-6 .img-0 img,
+    .Exposition .class-2.page-7 .img-0 img{
+        margin-top: 60px;
+    }
+    /*******************************************/
+
+
+    /* the lara logan case */
+    .Exposition .class-3.page-1{
+        grid-template-areas: 
+            'title'
+            'img0' 
+            'description'
+            'details'
+            'type';
+    }
+    .Exposition .class-3.page-1 .img-0 img{
+        width: 60%;
+        margin-left: 40px;
+    }
+    .Exposition .class-3.page-2 .img-0 img,
+    .Exposition .class-3.page-3 .img-0 img,
+    .Exposition .class-3.page-4 .img-0 img,
+    .Exposition .class-3.page-5 .img-0 img,
+    .Exposition .class-3.page-6 .img-0 img,
+    .Exposition .class-3.page-7 .img-0 img{
+        width: 100%;
+        margin-top: 70px;
+    }
+    /*******************************************/
+}
+
+@media only screen and (min-width: 600px) {
+    .Exposition >div{
+        height: 100%;
+        width: 100%;
+        padding: 30px;
+    }
+
+    .Exposition .title{
+        font-size: 3em;
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+    .Exposition .type,
+    .Exposition .description{ font-size: 0.8em; } 
+    .Exposition  hr{ margin-bottom: 30px; }
+
+    /* lets talk about the c-word */
+    .Exposition .class-1.page-1{
+        grid-template-columns: 35% 65%;
+        grid-template-rows: 70% 20% 10%;
+        grid-template-areas: 
+            'img0 title'
+            'img0 description'
+            'type description';
+    }
+    .Exposition .class-1.page-1 >div:not(.img-0){
+        z-index: 4;
+    }
+    .Exposition .class-1.page-1 .title{ 
+        font-size: 2.6em;
+        margin-right: 30px; 
+        margin-top: 50px;
+    }
+    .Exposition .class-1.page-1 .type,
+    .Exposition .class-1.page-1 .description{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .Exposition .class-1.page-1 .img-0 img{ 
+        min-width: 800px;
+        max-height: 80vh;
+        height: 100%;
+        margin-top: 5%;
+        z-index: 1;
+    }
+    .Exposition .class-1.page-2{
+        grid-template-columns: 70% 30%;
+        grid-template-rows: 70% 30%;
+        grid-template-areas: 
+            'img0 title'
+            'img0 details';
+    }
+    .Exposition .class-1.page-2 .details{ 
+        margin-right: 50px; 
+    }
+    .Exposition .class-1.page-2 >div:not(.img-0){
+        z-index: 4;
+    }
+    .Exposition .class-1.page-2 .img-0 img{
+        height: 100%;
+        max-width: 100vw;
+    }
+    .Exposition .class-1.page-3 .img-0,
+    .Exposition .class-1.page-4 .img-0,
+    .Exposition .class-1.page-5 .img-0,
+    .Exposition .class-1.page-6 .img-0,
+    .Exposition .class-1.page-7 .img-0,
+    .Exposition .class-1.page-8 .img-0,
+    .Exposition .class-1.page-3 .img-0 img,
+    .Exposition .class-1.page-4 .img-0 img,
+    .Exposition .class-1.page-5 .img-0 img,
+    .Exposition .class-1.page-6 .img-0 img,
+    .Exposition .class-1.page-7 .img-0 img,
+    .Exposition .class-1.page-8 .img-0 img{
+        height: 100%;
+    }
+    /*******************************************/
+
+    /* Fluttering flamingo */
+    .Exposition .class-2.page-1{
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 70% 20% 10%;
+        grid-template-areas: 
+            'img0 title'
+            'img0 description'
+            'img0 type';
+    }
+    .Exposition .class-2.page-1 .title{ margin-top: 50px; }
+    .Exposition .class-2.page-1 .img-0 img{ height: 100%; }
+    .Exposition .class-2.page-1 >div:not(.img-0){
+        z-index: 4;
+    }
+
+    .Exposition .class-2.page-5{
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 90% 10%;
+        grid-template-areas:
+            'img0 img0'
+            'type details';
+    }
+    .Exposition .class-2.page-5 .img-0 img{ height: 99%; }
+    /*******************************************/
+
+
+    /* the lara logan case */
+    .Exposition .class-3.page-1{
+        grid-template-columns: 40% 40% 20%;
+        grid-template-rows: 60% 30% 10%;
+        grid-template-areas: 
+            'img0 title title'
+            'img0 description description'
+            'img0 details type';
+    }
+    .Exposition .class-3.page-1 .description{ 
+        padding: 30px 30px 30px 0;
+    }
+    .Exposition .class-3.page-1 .type{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .Exposition .class-3.page-1 .img-0 img{
+        max-width: 35vw;
+        max-height: 90vh;
+    }
+    .Exposition .class-3.page-1 >div:not(.img-0){
+        z-index: 4;
+    }
+
+    .Exposition .class-3.page-2 .img-0 img,
+    .Exposition .class-3.page-3 .img-0 img,
+    .Exposition .class-3.page-4 .img-0 img,
+    .Exposition .class-3.page-5 .img-0 img,
+    .Exposition .class-3.page-6 .img-0 img,
+    .Exposition .class-3.page-7 .img-0 img{
+        max-width: 95vw;
+        max-height: 95vh;
+    }
+    /*******************************************/
+}

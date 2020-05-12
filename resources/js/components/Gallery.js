@@ -24,7 +24,7 @@ class Gallery extends React.Component {
                 return(
                     <Link to={link} className="gallery-img" key={elem.id}>
                         <img 
-                            src={"storage" + elem.img.cover}
+                            src={elem.img.cover}
                             alt={elem.title}
                             className={`img-${elem.id}`} />
                     </Link>

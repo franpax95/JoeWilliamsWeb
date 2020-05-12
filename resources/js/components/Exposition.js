@@ -7,6 +7,7 @@ import Loading from './General/Loading';
 import Fatal from './General/Fatal';
 
 import './styles/Exposition.css';
+import './styles/ExpositionPhone.css';
 
 const Exposition = (props) => {
     useEffect(() => {
@@ -52,7 +53,7 @@ const Exposition = (props) => {
             let currentImages = Object.values(props.exposition.img)[props.currentPage];
             return currentImages.map((img, key) => (
                 <div className={`img-${key}`} key={key}>
-                    <img src={`/storage${img}`} />
+                    <img src={`${img}`} />
                 </div>
             ));
         }
