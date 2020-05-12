@@ -6565,7 +6565,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "*{\r\n    box-sizing: border-box;\r\n    margin: 0;\r\n    font-family: \"Halogen-Light\";\r\n}\r\n\r\nhtml, body, #app{ height: 100%; }\r\na{ text-decoration: none; }\r\n\r\n.grid{ display: grid; }\r\n.flex{ display: flex; }\r\n.flex-row{ flex-direction: row; }\r\n.flex-row-reverse { flex-direction: row-reverse; }\r\n.flex-col{ flex-direction: column; }\r\n.justifyc{ justify-content: center; }\r\n.alignc{ align-items: center; }\r\n\r\n.height-100{ height: 100%; }\r\n\r\nhtml{\r\n    background-color: black;\r\n    color: white;\r\n}\r\n.background-flame{\r\n    background-image: url(\"/storage/background.jpg\");\r\n    /* background-color: black; */\r\n    background-size: cover;\r\n    background-repeat: no-repeat;\r\n    background-attachment:fixed;\r\n    color: white;\r\n}\r\n.center { text-align: center; }\r\n.rojo { color: red; }\r\n\r\n@font-face {\r\n    font-family: \"Halogen-Light\";\r\n    src: url('/storage/fonts/Halogen-Light.otf');\r\n\r\n    /* src: url('/storage/fonts/Halogen-Black.otf'),url('/storage/fonts/Halogen-BlackOblique.otf'),url('/storage/fonts/Halogen-Bold.otf'),url('/storage/fonts/Halogen-BoldOblique.otf'),\r\n    url('/storage/fonts/Halogen-Hairline.otf'),url('/storage/fonts/Halogen-HairlineOblique.otf'),url('/storage/fonts/Halogen-Medium.otf'),url('/storage/fonts/Halogen-MediumOblique.otf'),\r\n    url('/storage/fonts/Halogen-Regular.otf'),url('/storage/fonts/Halogen-RegularOblique.otf'),url('/storage/fonts/Halogen-Thin.otf'),url('/storage/fonts/Halogen-ThinOblique.otf'), */\r\n}", ""]);
+exports.push([module.i, "*{\r\n    box-sizing: border-box;\r\n    margin: 0;\r\n    font-family: \"Halogen-Light\";\r\n}\r\n\r\nhtml, body, #app{ height: 100%; }\r\na{ text-decoration: none; }\r\n\r\n.grid{ display: grid; }\r\n.flex{ display: flex; }\r\n.flex-row{ flex-direction: row; }\r\n.flex-row-reverse { flex-direction: row-reverse; }\r\n.flex-col{ flex-direction: column; }\r\n.justifyc{ justify-content: center; }\r\n.alignc{ align-items: center; }\r\n\r\n.height-100{ height: 100%; }\r\n\r\nhtml{\r\n    background-color: black;\r\n    color: white;\r\n}\r\n.background-flame{\r\n    background-image: url(\"/storage/background.jpg\");\r\n    /* background-color: black; */\r\n    background-size: cover;\r\n    background-repeat: no-repeat;\r\n    background-attachment:fixed;\r\n    color: white;\r\n}\r\n.center { text-align: center; }\r\n.rojo { color: red; }\r\n\r\n@font-face {\r\n    font-family: \"Halogen-Light\";\r\n    src: url('/storage/fonts/Halogen-Light.otf');\r\n\r\n    /* src: url('/storage/fonts/Halogen-Black.otf'),url('/storage/fonts/Halogen-BlackOblique.otf'),url('/storage/fonts/Halogen-Bold.otf'),url('/storage/fonts/Halogen-BoldOblique.otf'),\r\n    url('/storage/fonts/Halogen-Hairline.otf'),url('/storage/fonts/Halogen-HairlineOblique.otf'),url('/storage/fonts/Halogen-Medium.otf'),url('/storage/fonts/Halogen-MediumOblique.otf'),\r\n    url('/storage/fonts/Halogen-Regular.otf'),url('/storage/fonts/Halogen-RegularOblique.otf'),url('/storage/fonts/Halogen-Thin.otf'),url('/storage/fonts/Halogen-ThinOblique.otf'), */\r\n}\r\n\r\n.overlay {\r\n    position: fixed;\r\n    z-index: 50;\r\n    width: 100%;\r\n    height: 100%;\r\n    background-color: rgba(0,0,0,0.4);\r\n}", ""]);
 
 // exports
 
@@ -6584,7 +6584,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".divForm {\r\n    width: 100%;\r\n    height: 100%;\r\n    align-items: center;\r\n    background-image: url(\"/storage/background.jpg\");\r\n}\r\n.formContacto {\r\n    width: 100%;\r\n    padding: 10px;\r\n    margin-top: 13%;\r\n}\r\n\r\n.divForm h1 {\r\n    position: fixed;\r\n    top: 6%;\r\n    left: 1%;\r\n}\r\n\r\n.formContacto label { width:  30%;  margin-top: 4px; color: rgba(255,255,255, 0.8);}\r\n\r\n.formContacto .marginDiv .flex label { margin-top: 12px; }\r\n\r\n.formContacto .divInput { border-bottom: 2px solid white; }\r\n\r\n.formContacto .marginDiv {\r\n    height: 60px;\r\n    width: auto;\r\n    margin-top: 44px;\r\n    margin-left: 10px;\r\n    margin-right: 10px;\r\n}\r\n.formContacto .textInput {\r\n    width:  70%;\r\n    border: none;\r\n    background: transparent;\r\n    color: white;\r\n}\r\n.formContacto .divInput input {\r\n    height: 31px;\r\n}\r\n.formContacto textarea {\r\n    height: 100px;\r\n    resize: none;\r\n}\r\n.formContacto .sizeTextContact {\r\n    font-size: 1.8vh;\r\n}\r\n.formContacto .sizeTextInput {\r\n    font-size: 3vh;\r\n}\r\n.divForm .submit {\r\n    cursor: pointer;\r\n    background: transparent;\r\n    border: 2px solid white;\r\n    color: white;\r\n    padding: 14px 49px;\r\n    margin: 1%;\r\n    margin-top: 80px;\r\n    font-weight: bold;\r\n    font-size: medium;\r\n}\r\n.divForm .submit:hover {\r\n    background: white;\r\n    color: black;\r\n}\r\n.formContacto input:focus {\r\n    outline: none;\r\n    outline-width: 0;\r\n    box-shadow: none;\r\n    -moz-box-shadow: none;\r\n    -webkit-box-shadow: none;\r\n}\r\n.formContacto textarea:focus {\r\n    outline: none;\r\n}\r\n\r\n.formContacto input:-webkit-autofill,\r\n.formContacto input:-webkit-autofill:hover,\r\n.formContacto input:-webkit-autofill:focus,\r\n.formContacto input:-webkit-autofill:active {\r\n   -webkit-transition-delay: 9999s;\r\n   transition-delay: 9999s;\r\n}\r\n\r\n.formContacto ::-webkit-input-placeholder { color:#fff; font-size: 3vh; }\r\n.formContacto ::-moz-placeholder { color:#ffff; } /* firefox 19+ */\r\n.formContacto :-ms-input-placeholder { color:#ffff; } /* ie */\r\n.formContacto input:-moz-placeholder { color:#ffff; }", ""]);
+exports.push([module.i, ".divForm {\r\n    width: 100%;\r\n    height: 100%;\r\n    align-items: center;\r\n    background-image: url(\"/storage/background.jpg\");\r\n}\r\n.formContacto {\r\n    width: 100%;\r\n    padding: 10px;\r\n    margin-top: 8%;\r\n}\r\n\r\n.divForm h1 {\r\n    position: fixed;\r\n    top: 6%;\r\n    left: 1%;\r\n}\r\n\r\n.formContacto label { width:  30%;  margin-top: 4px; color: rgba(255,255,255, 0.8);}\r\n\r\n.formContacto .marginDiv .flex label { margin-top: 12px; }\r\n\r\n.formContacto .divInput { border-bottom: 2px solid white; }\r\n\r\n.formContacto .marginDiv {\r\n    height: 60px;\r\n    width: auto;\r\n    margin-top: 44px;\r\n    margin-left: 10px;\r\n    margin-right: 10px;\r\n}\r\n.formContacto .textInput {\r\n    width:  70%;\r\n    border: none;\r\n    background: transparent;\r\n    color: white;\r\n}\r\n.formContacto .divInput input {\r\n    height: 31px;\r\n}\r\n.formContacto textarea {\r\n    height: 100px;\r\n    resize: none;\r\n}\r\n.formContacto .sizeTextContact {\r\n    font-size: 1.8vh;\r\n}\r\n.formContacto .sizeTextInput {\r\n    font-size: 3vh;\r\n}\r\n.formContacto .contentButton {\r\n    margin-top: 30px;\r\n}\r\n.divForm .formContacto .submit {\r\n    cursor: pointer;\r\n    background: transparent;\r\n    border: 2px solid white;\r\n    color: white;\r\n    padding: 14px 49px;\r\n    font-weight: bold;\r\n    font-size: medium;\r\n    margin: auto;\r\n}\r\n.divForm .submit:hover {\r\n    background: white;\r\n    color: black;\r\n}\r\n.formContacto input:focus {\r\n    outline: none;\r\n    outline-width: 0;\r\n    box-shadow: none;\r\n    -moz-box-shadow: none;\r\n    -webkit-box-shadow: none;\r\n}\r\n.formContacto textarea:focus {\r\n    outline: none;\r\n}\r\n\r\n.formContacto input:-webkit-autofill,\r\n.formContacto input:-webkit-autofill:hover,\r\n.formContacto input:-webkit-autofill:focus,\r\n.formContacto input:-webkit-autofill:active {\r\n   -webkit-transition-delay: 9999s;\r\n   transition-delay: 9999s;\r\n}\r\n\r\n.formContacto ::-webkit-input-placeholder { color:#fff; font-size: 3vh; }\r\n.formContacto ::-moz-placeholder { color:#ffff; } /* firefox 19+ */\r\n.formContacto :-ms-input-placeholder { color:#ffff; } /* ie */\r\n.formContacto input:-moz-placeholder { color:#ffff; }\r\n", ""]);
 
 // exports
 
@@ -6642,6 +6642,25 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 // module
 exports.push([module.i, ".Index{\r\n    height: 100%;\r\n    width: 100%;\r\n\r\n    font-size: 5vw;\r\n    text-transform: uppercase;\r\n    letter-spacing: 5px;\r\n    font-weight: bold;\r\n}\r\n.Index a{\r\n    font-size: 16px;\r\n    color: white;\r\n}\r\n.Index a:hover{\r\n    color: red;\r\n}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/styles/Modal.css":
+/*!**********************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./resources/js/components/styles/Modal.css ***!
+  \**********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".modalContent {\r\n    margin: auto;\r\n    background-color: rgb(0, 0, 0);\r\n    position: relative;\r\n    padding: 0;\r\n    outline: 0;\r\n    width: 600px;\r\n    height: 300px;\r\n}\r\n\r\n.container {\r\n    padding: 0.01em 16px;\r\n}\r\n\r\n.container p {\r\n    color: white;\r\n    font-size: 23px;\r\n}\r\n\r\n/* Close Icon */\r\n.close.icon {\r\n    color: #fff;\r\n    position: absolute;\r\n    right: 38px;\r\n    top: 20px;\r\n    width: 21px;\r\n    height: 21px;\r\n  }\r\n  .close.icon:before {\r\n    content: '';\r\n    position: absolute;\r\n    top: 10px;\r\n    width: 21px;\r\n    height: 1px;\r\n    background-color: currentColor;\r\n    -webkit-transform: rotate(-45deg);\r\n            transform: rotate(-45deg);\r\n  }\r\n  .close.icon:after {\r\n    content: '';\r\n    position: absolute;\r\n    top: 10px;\r\n    width: 21px;\r\n    height: 1px;\r\n    background-color: currentColor;\r\n    -webkit-transform: rotate(45deg);\r\n            transform: rotate(45deg);\r\n  }", ""]);
 
 // exports
 
@@ -74154,6 +74173,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_Contact_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_Contact_css__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _General_Modal__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./General/Modal */ "./resources/js/components/General/Modal.js");
+/* harmony import */ var _General_Loading__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./General/Loading */ "./resources/js/components/General/Loading.js");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
@@ -74182,6 +74203,8 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 
 
+
+
 var Contact = /*#__PURE__*/function (_React$Component) {
   _inherits(Contact, _React$Component);
 
@@ -74197,10 +74220,13 @@ var Contact = /*#__PURE__*/function (_React$Component) {
       name: '',
       email: '',
       subject: '',
-      message: ''
+      message: '',
+      showModal: false,
+      showSpinner: false
     };
     _this.handleChange = _this.handleChange.bind(_assertThisInitialized(_this));
     _this.handleSubmit = _this.handleSubmit.bind(_assertThisInitialized(_this));
+    _this.closeModal = _this.closeModal.bind(_assertThisInitialized(_this));
     return _this;
   }
 
@@ -74212,20 +74238,36 @@ var Contact = /*#__PURE__*/function (_React$Component) {
   }, {
     key: "handleSubmit",
     value: function handleSubmit(event) {
+      var _this2 = this;
+
+      this.setState({
+        showSpinner: true
+      });
       axios__WEBPACK_IMPORTED_MODULE_2___default.a.post('/api/sendMail', this.state).then(function (resp) {
-        console.log('respuesta', resp.data);
+        _this2.setState({
+          showModal: true,
+          showSpinner: false
+        });
       })["catch"](function (error) {
-        console.log('error', error.response);
+        _this2.setState({
+          showModal: true,
+          showSpinner: false
+        });
       });
       event.preventDefault();
     }
   }, {
-    key: "sendMessage",
-    value: function sendMessage(object) {
-      window.emailjs.send('gmail', 'pruebatemplate', object).then(function (res) {
-        alert('Email successfully sent!');
-      })["catch"](function (err) {
-        return alert('Email failed.');
+    key: "showLoading",
+    value: function showLoading() {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "overlay flex justifyc alignc flex-col"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_General_Loading__WEBPACK_IMPORTED_MODULE_4__["default"], null));
+    }
+  }, {
+    key: "closeModal",
+    value: function closeModal() {
+      this.setState({
+        showModal: false
       });
     }
   }, {
@@ -74234,7 +74276,8 @@ var Contact = /*#__PURE__*/function (_React$Component) {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "flex flex-col justifyc alignc divForm"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "SAY HELLO!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
-        className: "formContacto"
+        className: "formContacto",
+        onSubmit: this.handleSubmit
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "divInput marginDiv flex"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
@@ -74244,7 +74287,7 @@ var Contact = /*#__PURE__*/function (_React$Component) {
         type: "text",
         name: "name",
         value: this.state.lastName,
-        onChange: this.handleChange.bind(this),
+        onChange: this.handleChange,
         placeholder: "Joe Williams",
         required: true
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -74256,7 +74299,7 @@ var Contact = /*#__PURE__*/function (_React$Component) {
         type: "email",
         name: "email",
         value: this.state.email,
-        onChange: this.handleChange.bind(this),
+        onChange: this.handleChange,
         placeholder: "jts.design@gmail.com",
         required: true
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -74268,7 +74311,7 @@ var Contact = /*#__PURE__*/function (_React$Component) {
         type: "text",
         name: "subject",
         value: this.state.subject,
-        onChange: this.handleChange.bind(this),
+        onChange: this.handleChange,
         placeholder: "Web design",
         required: true
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -74279,15 +74322,18 @@ var Contact = /*#__PURE__*/function (_React$Component) {
         className: "textInput sizeTextInput",
         name: "message",
         value: this.state.message,
-        onChange: this.handleChange.bind(this),
+        onChange: this.handleChange,
         placeholder: "Hello there",
         required: true
-      }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "contentButton flex"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
         className: "submit",
         type: "submit",
-        value: "Submit",
-        onClick: this.handleSubmit
-      })));
+        value: "Submit"
+      }))), this.state.showSpinner ? this.showLoading() : '', this.state.showModal ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_General_Modal__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        clickModal: this.closeModal
+      }) : ''));
     }
   }]);
 
@@ -74658,6 +74704,80 @@ var Loading = function Loading(props) {
 
 /***/ }),
 
+/***/ "./resources/js/components/General/Modal.js":
+/*!**************************************************!*\
+  !*** ./resources/js/components/General/Modal.js ***!
+  \**************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _styles_Modal_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/Modal.css */ "./resources/js/components/styles/Modal.css");
+/* harmony import */ var _styles_Modal_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_Modal_css__WEBPACK_IMPORTED_MODULE_1__);
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { return function () { var Super = _getPrototypeOf(Derived), result; if (_isNativeReflectConstruct()) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+
+
+
+var Modal = /*#__PURE__*/function (_React$Component) {
+  _inherits(Modal, _React$Component);
+
+  var _super = _createSuper(Modal);
+
+  function Modal() {
+    _classCallCheck(this, Modal);
+
+    return _super.apply(this, arguments);
+  }
+
+  _createClass(Modal, [{
+    key: "render",
+    value: function render() {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        onClick: this.props.clickModal,
+        className: "overlay flex justifyc alignc flex-col"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        onClick: this.props.clickModal,
+        className: "modalContent flex justifyc alignc flex-col"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "container center"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        onClick: this.props.clickModal,
+        className: "close icon"
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Tu correo se ha enviado correctamente"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, " En breve me pondre en contacto contigo "))));
+    }
+  }]);
+
+  return Modal;
+}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (Modal);
+
+/***/ }),
+
 /***/ "./resources/js/components/Index.js":
 /*!******************************************!*\
   !*** ./resources/js/components/Index.js ***!
@@ -74918,6 +75038,36 @@ if(false) {}
 
 
 var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--5-1!../../../../node_modules/postcss-loader/src??ref--5-2!./Index.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/styles/Index.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./resources/js/components/styles/Modal.css":
+/*!**************************************************!*\
+  !*** ./resources/js/components/styles/Modal.css ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--5-1!../../../../node_modules/postcss-loader/src??ref--5-2!./Modal.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/styles/Modal.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
