@@ -5,6 +5,7 @@
         margin-left: 15px;
         font-size: 1.5em;
         font-weight: bold;
+        line-height: 4px;
     }
     .Exposition .details,
     .Exposition .type,
@@ -12,6 +13,7 @@
         font-size: 0.7em;
         margin-top: 30px;
         padding: 10px;
+        line-height: 2px;
     }
     .Exposition .img-0,
     .Exposition .img-1{
