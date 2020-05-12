@@ -206,7 +206,7 @@ class DatabaseSeeder extends Seeder
         $velvet = json_encode(
             array(
                 "cover" => "/image/velvet000675.jpg",
-                "img1"  => ["/image/velvet000675.jpg", "/image/velver000676.jpg"],
+                "img1"  => ["/image/velvet000675.jpg", "/image/velvet000676.jpg"],
                 "img2"  => ["/image/velvet000682.jpg"],
                 "img3"  => ["/image/velvet000673.jpg"],
                 "img4"  => ["/image/velvet000677.jpg", "/image/velvet000678.jpg"],
