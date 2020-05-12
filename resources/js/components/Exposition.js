@@ -7,6 +7,7 @@ import Loading from './General/Loading';
 import Fatal from './General/Fatal';
 
 import './styles/Exposition.css';
+import './styles/ExpositionPhone.css';
 
 const Exposition = (props) => {
     useEffect(() => {
