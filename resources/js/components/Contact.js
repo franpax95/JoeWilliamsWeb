@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles/Contact.css';
+import './styles/ContactPhone.css';
 import axios from 'axios';
 import Modal from './General/Modal';
 import Loading from './General/Loading';
@@ -66,30 +67,30 @@ class Contact extends React.Component {
                 <h1>SAY HELLO!</h1>
                     <form className='formContacto' onSubmit={this.handleSubmit}>
                         <div className='divInput marginDiv flex'>
-                                <label className='sizeTextContact flex'>NAME</label>
+                                <label className='sizeTextContact flex labelPhone'>NAME</label>
                                 <input  className='textInput sizeTextInput'
                                         type ='text' 
                                         name='name'
                                         value={this.state.lastName}
                                         onChange={this.handleChange} placeholder="Joe Williams" required/>
                         </div>
-                        <div className='divInput marginDiv flex'>
-                            <label className='sizeTextContact flex'>E-MAIL</label>
+                        <div className='divInput marginDiv margint flex'>
+                            <label className='sizeTextContact flex labelPhone'>E-MAIL</label>
                             <input  className='textInput sizeTextInput'
                                     type ='email' 
                                     name='email'
                                     value={this.state.email}
                                     onChange={this.handleChange}  placeholder="jts.design@gmail.com" required/>
                         </div>
-                        <div className='divInput marginDiv flex'>
-                            <label className='sizeTextContact flex'>SUBJECT</label>
+                        <div className='divInput marginDiv margint flex'>
+                            <label className='sizeTextContact flex labelPhone'>SUBJECT</label>
                             <input  className='textInput sizeTextInput'
                                     type ='text'
                                     name='subject'
                                     value={this.state.subject}
                                     onChange={this.handleChange} placeholder="Web design" required/>    
                         </div>
-                        <div className='marginDiv flex'>
+                        <div className='marginDiv margint flex'>
                             <label className='flex sizeTextContact'>MESSAGE</label>
                             <textarea   className='textInput sizeTextInput'
                                         name='message'

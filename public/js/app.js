@@ -6584,7 +6584,26 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".divForm {\r\n    width: 100%;\r\n    height: 100%;\r\n    align-items: center;\r\n    background-image: url(\"/image/background.jpg\");\r\n}\r\n.formContacto {\r\n    width: 100%;\r\n    padding: 10px;\r\n    margin-top: 8%;\r\n}\r\n\r\n.divForm h1 {\r\n    position: fixed;\r\n    top: 6%;\r\n    left: 1%;\r\n}\r\n\r\n.formContacto label { width:  30%;  margin-top: 4px; color: rgba(255,255,255, 0.8);}\r\n\r\n.formContacto .marginDiv .flex label { margin-top: 12px; }\r\n\r\n.formContacto .divInput { border-bottom: 2px solid white; }\r\n\r\n.formContacto .marginDiv {\r\n    height: 60px;\r\n    width: auto;\r\n    margin-top: 44px;\r\n    margin-left: 10px;\r\n    margin-right: 10px;\r\n}\r\n.formContacto .textInput {\r\n    width:  70%;\r\n    border: none;\r\n    background: transparent;\r\n    color: white;\r\n}\r\n.formContacto .divInput input {\r\n    height: 31px;\r\n}\r\n.formContacto textarea {\r\n    height: 100px;\r\n    resize: none;\r\n}\r\n.formContacto .sizeTextContact {\r\n    font-size: 1.8vh;\r\n}\r\n.formContacto .sizeTextInput {\r\n    font-size: 3vh;\r\n}\r\n.formContacto .contentButton {\r\n    margin-top: 30px;\r\n}\r\n.divForm .formContacto .submit {\r\n    cursor: pointer;\r\n    background: transparent;\r\n    border: 2px solid white;\r\n    color: white;\r\n    padding: 14px 49px;\r\n    font-weight: bold;\r\n    font-size: medium;\r\n    margin: auto;\r\n}\r\n.divForm .submit:hover {\r\n    background: white;\r\n    color: black;\r\n}\r\n.formContacto input:focus {\r\n    outline: none;\r\n    outline-width: 0;\r\n    box-shadow: none;\r\n    -moz-box-shadow: none;\r\n    -webkit-box-shadow: none;\r\n}\r\n.formContacto textarea:focus {\r\n    outline: none;\r\n}\r\n\r\n.formContacto input:-webkit-autofill,\r\n.formContacto input:-webkit-autofill:hover,\r\n.formContacto input:-webkit-autofill:focus,\r\n.formContacto input:-webkit-autofill:active {\r\n   -webkit-transition-delay: 9999s;\r\n   transition-delay: 9999s;\r\n}\r\n\r\n.formContacto ::-webkit-input-placeholder { color:#fff; font-size: 3vh; }\r\n.formContacto ::-moz-placeholder { color:#ffff; } /* firefox 19+ */\r\n.formContacto :-ms-input-placeholder { color:#ffff; } /* ie */\r\n.formContacto input:-moz-placeholder { color:#ffff; }\r\n", ""]);
+exports.push([module.i, ".divForm {\r\n    width: 100%;\r\n    height: 100%;\r\n    align-items: center;\r\n    background-image: url(\"/image/background.jpg\");\r\n}\r\n.formContacto {\r\n    width: 100%;\r\n    padding: 10px;\r\n    margin-top: 5%;\r\n}\r\n\r\n.divForm h1 {\r\n    position: fixed;\r\n    top: 6%;\r\n    left: 1%;\r\n}\r\n\r\n.formContacto label { width:  30%;  margin-top: 4px; color: rgba(255,255,255, 0.8);}\r\n\r\n.formContacto .marginDiv .flex label { margin-top: 12px; }\r\n\r\n.formContacto .divInput { border-bottom: 2px solid white; }\r\n\r\n.formContacto .marginDiv {\r\n    height: 60px;\r\n    width: auto;\r\n    margin-left: 10px;\r\n    margin-right: 10px;\r\n}\r\n.formContacto .margint {\r\n    margin-top: 44px;\r\n}\r\n.formContacto .textInput {\r\n    width:  70%;\r\n    border: none;\r\n    background: transparent;\r\n    color: white;\r\n}\r\n.formContacto .divInput input {\r\n    height: 31px;\r\n}\r\n.formContacto textarea {\r\n    height: 100px;\r\n    resize: none;\r\n}\r\n.formContacto .sizeTextContact {\r\n    font-size: 1.8vh;\r\n}\r\n.formContacto .sizeTextInput {\r\n    font-size: 3vh;\r\n}\r\n.formContacto .contentButton {\r\n    margin-top: 76px;\r\n}\r\n.divForm .formContacto .submit {\r\n    cursor: pointer;\r\n    background: transparent;\r\n    border: 2px solid white;\r\n    color: white;\r\n    padding: 14px 49px;\r\n    font-weight: bold;\r\n    font-size: medium;\r\n    margin: auto;\r\n}\r\n.divForm .submit:hover {\r\n    background: white;\r\n    color: black;\r\n}\r\n.formContacto input:focus {\r\n    outline: none;\r\n    outline-width: 0;\r\n    box-shadow: none;\r\n    -moz-box-shadow: none;\r\n    -webkit-box-shadow: none;\r\n}\r\n.formContacto textarea:focus {\r\n    outline: none;\r\n}\r\n\r\n.formContacto input:-webkit-autofill,\r\n.formContacto input:-webkit-autofill:hover,\r\n.formContacto input:-webkit-autofill:focus,\r\n.formContacto input:-webkit-autofill:active {\r\n   -webkit-transition-delay: 9999s;\r\n   transition-delay: 9999s;\r\n}\r\n\r\n.formContacto ::-webkit-input-placeholder { color:#fff; font-size: 3vh; }\r\n.formContacto ::-moz-placeholder { color:#ffff; } /* firefox 19+ */\r\n.formContacto :-ms-input-placeholder { color:#ffff; } /* ie */\r\n.formContacto input:-moz-placeholder { color:#ffff; }\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/styles/ContactPhone.css":
+/*!*****************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./resources/js/components/styles/ContactPhone.css ***!
+  \*****************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "@media only screen and (max-width: 600px) {\r\n\r\n    .divForm .formContacto {\r\n        width: 90%;\r\n        position: fixed;\r\n        bottom: 20px; \r\n    }\r\n\r\n    .divForm h1 {\r\n        top: 19%;\r\n        left: 9%;\r\n        font-size: 1em;   \r\n    }\r\n\r\n    .formContacto .sizeTextContact {\r\n        font-size: 1.5vh;\r\n    }\r\n\r\n    .formContacto .labelPhone {\r\n        margin-top: 20px;\r\n    }\r\n\r\n    .formContacto .sizeTextInput {\r\n        font-size: 2vh;\r\n    }\r\n\r\n    .formContacto .divInput input {\r\n        height: 48px;\r\n    }\r\n    .divForm .formContacto .submit {\r\n        padding: 7px 42px;\r\n    }\r\n\r\n    .formContacto ::-webkit-input-placeholder { \r\n        color:#fff; \r\n        font-size: 2vh;\r\n        height: 30px; \r\n    }\r\n    .formContacto ::-moz-placeholder {\r\n         color:#ffff; \r\n         font-size: 2vh;\r\n    } /* firefox 19+ */\r\n    .formContacto :-ms-input-placeholder {\r\n         color:#ffff; \r\n         font-size: 2vh;\r\n    } /* ie */\r\n    .formContacto input:-moz-placeholder {\r\n         color:#ffff; \r\n         font-size: 2vh;\r\n    }\r\n}", ""]);
 
 // exports
 
@@ -74190,10 +74209,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _styles_Contact_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/Contact.css */ "./resources/js/components/styles/Contact.css");
 /* harmony import */ var _styles_Contact_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_Contact_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _General_Modal__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./General/Modal */ "./resources/js/components/General/Modal.js");
-/* harmony import */ var _General_Loading__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./General/Loading */ "./resources/js/components/General/Loading.js");
+/* harmony import */ var _styles_ContactPhone_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/ContactPhone.css */ "./resources/js/components/styles/ContactPhone.css");
+/* harmony import */ var _styles_ContactPhone_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_ContactPhone_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _General_Modal__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./General/Modal */ "./resources/js/components/General/Modal.js");
+/* harmony import */ var _General_Loading__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./General/Loading */ "./resources/js/components/General/Loading.js");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
@@ -74217,6 +74238,7 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
 
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
 
 
 
@@ -74262,7 +74284,7 @@ var Contact = /*#__PURE__*/function (_React$Component) {
       this.setState({
         showSpinner: true
       });
-      axios__WEBPACK_IMPORTED_MODULE_2___default.a.post('/api/sendMail', this.state).then(function (resp) {
+      axios__WEBPACK_IMPORTED_MODULE_3___default.a.post('/api/sendMail', this.state).then(function (resp) {
         _this2.setState({
           showModal: true,
           showSpinner: false
@@ -74280,7 +74302,7 @@ var Contact = /*#__PURE__*/function (_React$Component) {
     value: function showLoading() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "overlay flex justifyc alignc flex-col"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_General_Loading__WEBPACK_IMPORTED_MODULE_4__["default"], null));
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_General_Loading__WEBPACK_IMPORTED_MODULE_5__["default"], null));
     }
   }, {
     key: "closeModal",
@@ -74300,7 +74322,7 @@ var Contact = /*#__PURE__*/function (_React$Component) {
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "divInput marginDiv flex"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
-        className: "sizeTextContact flex"
+        className: "sizeTextContact flex labelPhone"
       }, "NAME"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
         className: "textInput sizeTextInput",
         type: "text",
@@ -74310,9 +74332,9 @@ var Contact = /*#__PURE__*/function (_React$Component) {
         placeholder: "Joe Williams",
         required: true
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "divInput marginDiv flex"
+        className: "divInput marginDiv margint flex"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
-        className: "sizeTextContact flex"
+        className: "sizeTextContact flex labelPhone"
       }, "E-MAIL"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
         className: "textInput sizeTextInput",
         type: "email",
@@ -74322,9 +74344,9 @@ var Contact = /*#__PURE__*/function (_React$Component) {
         placeholder: "jts.design@gmail.com",
         required: true
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "divInput marginDiv flex"
+        className: "divInput marginDiv margint flex"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
-        className: "sizeTextContact flex"
+        className: "sizeTextContact flex labelPhone"
       }, "SUBJECT"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
         className: "textInput sizeTextInput",
         type: "text",
@@ -74334,7 +74356,7 @@ var Contact = /*#__PURE__*/function (_React$Component) {
         placeholder: "Web design",
         required: true
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "marginDiv flex"
+        className: "marginDiv margint flex"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         className: "flex sizeTextContact"
       }, "MESSAGE"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("textarea", {
@@ -74350,7 +74372,7 @@ var Contact = /*#__PURE__*/function (_React$Component) {
         className: "submit",
         type: "submit",
         value: "Submit"
-      }))), this.state.showSpinner ? this.showLoading() : '', this.state.showModal ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_General_Modal__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      }))), this.state.showSpinner ? this.showLoading() : '', this.state.showModal ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_General_Modal__WEBPACK_IMPORTED_MODULE_4__["default"], {
         clickModal: this.closeModal
       }) : ''));
     }
@@ -74970,6 +74992,36 @@ if(false) {}
 
 
 var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--5-1!../../../../node_modules/postcss-loader/src??ref--5-2!./Contact.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/styles/Contact.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./resources/js/components/styles/ContactPhone.css":
+/*!*********************************************************!*\
+  !*** ./resources/js/components/styles/ContactPhone.css ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--5-1!../../../../node_modules/postcss-loader/src??ref--5-2!./ContactPhone.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/styles/ContactPhone.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
