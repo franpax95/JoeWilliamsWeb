@@ -75326,7 +75326,7 @@ var CHANGE_DESCRIPTION = 'exposition_change_description';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\_WORK\Redux\JoeWilliamsWeb\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! D:\Documentos\Programacion\Proyectos\React\joeWilliamsWeb\resources\js\app.js */"./resources/js/app.js");
 
 
 /***/ })
