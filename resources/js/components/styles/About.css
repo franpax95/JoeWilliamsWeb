@@ -12,18 +12,18 @@
 
 .About div .red{ color: red; }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     .About div{
         margin-top: 100px;
         font-size: 0.5em;
         line-height: 400%;
     }
 }
-@media only screen and (min-width: 500px) {
+/* @media only screen and (min-width: 500px) {
     .About div{
         font-size: 1.7em;
     }
-}
+} */
 @media only screen and (min-width: 870px) {
     .About div{
         font-size: 2em;
