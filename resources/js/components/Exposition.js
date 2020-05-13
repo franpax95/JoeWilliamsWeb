@@ -7,7 +7,6 @@ import Loading from './General/Loading';
 import Fatal from './General/Fatal';
 
 import './styles/Exposition.css';
-import './styles/ExpositionPhone.css';
 
 const Exposition = (props) => {
     useEffect(() => {
@@ -34,11 +33,13 @@ const Exposition = (props) => {
     }
 
     const prevPage = () => {
-        if((Object.keys(props.exposition.img).length > 2) && (props.currentPage === 1)){
-            const lastPage = Object.keys(props.exposition.img).length - 1;
-            props.changePage(lastPage);
-        }else{
-            props.changePage(props.currentPage - 1);
+        if(Object.keys(props.exposition.img).length > 2){
+            if(props.currentPage === 1){
+                const lastPage = Object.keys(props.exposition.img).length - 1;
+                props.changePage(lastPage);
+            }else{
+                props.changePage(props.currentPage - 1);
+            }
         }
     }
 
