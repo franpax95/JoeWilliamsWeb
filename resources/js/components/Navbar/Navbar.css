@@ -10,9 +10,16 @@
     transition: opacity .3s;
 }
 
+.Navbar.black a,
+.Navbar.black button {
+    color: black;
+}
+.Navbar.white a,
+.Navbar.white button {
+    color: white;
+}
 
 .Navbar a{
-    color: black;
     font-size: 2em;
     transition: color .2s;
 }

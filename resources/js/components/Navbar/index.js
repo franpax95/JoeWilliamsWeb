@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, withRouter } from 'react-router-dom';
 
 import { MdMenu, MdClose } from 'react-icons/md';
 
@@ -7,10 +7,12 @@ import './Navbar.css';
 
 
 const Navbar = (props) => {
+    const { pathname } = props.location;
+    const isWhiteColor = (pathname.toLowerCase() === "/home" || pathname === "/") ? true : false;
+
     const [isOpen, setIsOpen] = useState(false);
     const navbarRef = useRef(null);
-    // const isWhiteColor = props.location;
-    // console.log(isWhiteColor);
+
 
     const toggleNavbarEffect = () => {
         navbarRef.current.style.opacity = '0';
@@ -39,10 +41,10 @@ const Navbar = (props) => {
 
 
     return (
-        <div className="Navbar" ref={navbarRef}>
+        <div className={`Navbar ${(isWhiteColor) ? 'white' : 'black'}`} ref={navbarRef}>
             {(isOpen) ? renderOpenedNavbar() : renderClosedNavbar()}
         </div>
     );
 }
 
-export default Navbar;
+export default withRouter(Navbar);
