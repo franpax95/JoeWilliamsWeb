@@ -1,0 +1,10 @@
+.ProjectCard{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.ProjectCard img{
+    object-fit: contain;
+    height: 100%;
+}

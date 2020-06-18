@@ -1,0 +1,41 @@
+.Navbar{
+    position: fixed;
+    right: 10px;
+    top: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    transition: opacity .3s;
+}
+
+.Navbar.black a,
+.Navbar.black button {
+    color: black;
+}
+.Navbar.white a,
+.Navbar.white button {
+    color: white;
+}
+
+.Navbar a{
+    font-size: 2em;
+    transition: color .2s;
+}
+.Navbar a:hover{ color: gray; }
+
+.Navbar button{
+    padding: 0;
+
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: none;
+
+    font-size: 3em;
+    transition: color .2s;
+}
+
+.Navbar button.open:hover{ color: gray; }
+.Navbar button.close:hover{ color: red; }
