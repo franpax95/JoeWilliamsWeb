@@ -1,0 +1,1106 @@
+.page-box{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    z-index: 20;
+    height: 100vh; 
+    width: 100vw;
+    opacity: 0;
+}
+.page-box .prev, .page-box .next{
+    height: 100%;
+    width: 50%;
+}
+
+.Exposition{ height: 100%; }
+.Exposition .title{ text-transform: uppercase; }
+.Exposition img{ object-fit: cover; }
+
+.Exposition >div{ display: grid; }
+.Exposition .title{ grid-area: title; }
+.Exposition .description{ grid-area: description; }
+.Exposition .type{ grid-area: type; }
+.Exposition .details{ grid-area: details; }
+.Exposition .img-0{ grid-area: img0; }
+.Exposition .img-1{ grid-area: img1; }
+
+
+
+/* lets talk about the c-word */
+.Exposition .class-1.page-1 .details,
+.Exposition .class-1.page-1 .type hr{
+    display: none;
+}
+.Exposition .class-1.page-1 hr{ width: 40%; }
+
+.Exposition .class-1.page-2 .title,
+.Exposition .class-1.page-2 .description,
+.Exposition .class-1.page-2 .type,
+.Exposition .class-1.page-2 .details hr{
+    display: none;
+}
+
+.Exposition .class-1.page-3,
+.Exposition .class-1.page-4,
+.Exposition .class-1.page-5,
+.Exposition .class-1.page-6,
+.Exposition .class-1.page-7,
+.Exposition .class-1.page-8{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.Exposition .class-1.page-3 .title,
+.Exposition .class-1.page-4 .title,
+.Exposition .class-1.page-5 .title,
+.Exposition .class-1.page-6 .title,
+.Exposition .class-1.page-7 .title,
+.Exposition .class-1.page-8 .title,
+.Exposition .class-1.page-3 .description,
+.Exposition .class-1.page-4 .description,
+.Exposition .class-1.page-5 .description,
+.Exposition .class-1.page-6 .description,
+.Exposition .class-1.page-7 .description,
+.Exposition .class-1.page-8 .description,
+.Exposition .class-1.page-3 .type,
+.Exposition .class-1.page-4 .type,
+.Exposition .class-1.page-5 .type,
+.Exposition .class-1.page-6 .type,
+.Exposition .class-1.page-7 .type,
+.Exposition .class-1.page-8 .type,
+.Exposition .class-1.page-3 .details,
+.Exposition .class-1.page-4 .details,
+.Exposition .class-1.page-5 .details,
+.Exposition .class-1.page-6 .details,
+.Exposition .class-1.page-7 .details,
+.Exposition .class-1.page-8 .details{
+    display: none;
+}
+/*******************************************/
+
+
+/* Fluttering flamingo */
+.Exposition .class-2.page-1 .details,
+.Exposition .class-2.page-1 .type hr{
+    display: none;
+}
+.Exposition .class-2.page-1 .description hr{ width: 40%; }
+
+.Exposition .class-2.page-5 .details hr{ margin: 0; }
+.Exposition .class-2.page-5 .img-0{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Exposition .class-2.page-2,
+.Exposition .class-2.page-3,
+.Exposition .class-2.page-4,
+.Exposition .class-2.page-6,
+.Exposition .class-2.page-7{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Exposition .class-2.page-2 .title,
+.Exposition .class-2.page-3 .title,
+.Exposition .class-2.page-4 .title,
+.Exposition .class-2.page-5 .title,
+.Exposition .class-2.page-6 .title,
+.Exposition .class-2.page-7 .title,
+.Exposition .class-2.page-2 .description,
+.Exposition .class-2.page-3 .description,
+.Exposition .class-2.page-4 .description,
+.Exposition .class-2.page-5 .description,
+.Exposition .class-2.page-6 .description,
+.Exposition .class-2.page-7 .description,
+.Exposition .class-2.page-2 .details,
+.Exposition .class-2.page-3 .details,
+.Exposition .class-2.page-4 .details,
+.Exposition .class-2.page-6 .details,
+.Exposition .class-2.page-7 .details,
+.Exposition .class-2.page-2 .type,
+.Exposition .class-2.page-3 .type,
+.Exposition .class-2.page-4 .type,
+.Exposition .class-2.page-5 .type,
+.Exposition .class-2.page-6 .type,
+.Exposition .class-2.page-7 .type{
+    display: none;
+}
+.Exposition .class-2.page-2 .img-0,
+.Exposition .class-2.page-3 .img-0,
+.Exposition .class-2.page-4 .img-0,
+.Exposition .class-2.page-6 .img-0,
+.Exposition .class-2.page-7 .img-0,
+.Exposition .class-2.page-2 .img-0 img,
+.Exposition .class-2.page-3 .img-0 img,
+.Exposition .class-2.page-4 .img-0 img,
+.Exposition .class-2.page-6 .img-0 img,
+.Exposition .class-2.page-7 .img-0 img{
+    max-height: 95vh;
+    max-width: 95vw;
+}
+/*******************************************/
+
+
+/* the lara logan case */
+.Exposition .class-3.page-1 .details hr,
+.Exposition .class-3.page-1 .type hr{
+    display: none;
+}
+.Exposition .class-3.page-1 .title{ margin-top: 50px; }
+.Exposition .class-3.page-1 .description hr{ width: 30%; }
+
+.Exposition .class-3.page-2,
+.Exposition .class-3.page-3,
+.Exposition .class-3.page-4,
+.Exposition .class-3.page-5,
+.Exposition .class-3.page-6,
+.Exposition .class-3.page-7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Exposition .class-3.page-2 .title,
+.Exposition .class-3.page-3 .title,
+.Exposition .class-3.page-4 .title,
+.Exposition .class-3.page-5 .title,
+.Exposition .class-3.page-6 .title,
+.Exposition .class-3.page-7 .title,
+.Exposition .class-3.page-2 .description,
+.Exposition .class-3.page-3 .description,
+.Exposition .class-3.page-4 .description,
+.Exposition .class-3.page-5 .description,
+.Exposition .class-3.page-6 .description,
+.Exposition .class-3.page-7 .description,
+.Exposition .class-3.page-2 .details,
+.Exposition .class-3.page-3 .details,
+.Exposition .class-3.page-4 .details,
+.Exposition .class-3.page-5 .details,
+.Exposition .class-3.page-6 .details,
+.Exposition .class-3.page-7 .details,
+.Exposition .class-3.page-2 .type,
+.Exposition .class-3.page-3 .type,
+.Exposition .class-3.page-4 .type,
+.Exposition .class-3.page-5 .type,
+.Exposition .class-3.page-6 .type,
+.Exposition .class-3.page-7 .type{
+    display: none;
+}
+/*******************************************/
+
+
+/* Synchronicity */
+.Exposition .class-4.page-1 .type hr,
+.Exposition .class-4.page-1 .details{
+    display: none;
+}
+/*******************************************/
+
+
+/* human herd mentality */
+.Exposition .class-5.page-1 .details,
+.Exposition .class-5.page-1 .type hr{
+    display: none;
+}
+.Exposition .class-5.page-1 .description hr{ width: 50%; }
+
+
+.Exposition .class-5.page-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Exposition .class-5.page-2 .title,
+.Exposition .class-5.page-3 .title,
+.Exposition .class-5.page-4 .title,
+.Exposition .class-5.page-5 .title,
+.Exposition .class-5.page-6 .title,
+.Exposition .class-5.page-7 .title,
+.Exposition .class-5.page-2 .description,
+.Exposition .class-5.page-3 .description,
+.Exposition .class-5.page-4 .description,
+.Exposition .class-5.page-5 .description,
+.Exposition .class-5.page-6 .description,
+.Exposition .class-5.page-7 .description,
+.Exposition .class-5.page-2 .type,
+.Exposition .class-5.page-3 .type,
+.Exposition .class-5.page-4 .type,
+.Exposition .class-5.page-5 .type,
+.Exposition .class-5.page-6 .type,
+.Exposition .class-5.page-7 .type,
+.Exposition .class-5.page-2 .details,
+.Exposition .class-5.page-3 .details,
+.Exposition .class-5.page-4 .details,
+.Exposition .class-5.page-5 .details,
+.Exposition .class-5.page-6 .details,
+.Exposition .class-5.page-7 .details{
+    display: none;
+}
+.Exposition .class-5.page-2 .img-0,
+.Exposition .class-5.page-3 .img-0,
+.Exposition .class-5.page-4 .img-0,
+.Exposition .class-5.page-5 .img-0,
+.Exposition .class-5.page-6 .img-0,
+.Exposition .class-5.page-7 .img-0{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*******************************************/
+
+/* SYNC */
+.Exposition .class-6 .type hr,
+.Exposition .class-6 .details{
+    display: none;
+}
+/*******************************************/
+
+
+/* JAM */
+.Exposition .class-7 .type,
+.Exposition .class-7 .details{
+    display: none;
+}
+.Exposition .class-7 hr{ width: 40%; }
+/*******************************************/
+
+
+/* the dark elf */
+.Exposition .class-8 .description,
+.Exposition .class-8 .type{
+    display: none;
+}
+.Exposition .class-8 hr{ 
+    width: 15%;
+    min-width: 70px;
+    margin-bottom: 30px;
+}
+/*******************************************/
+
+
+/* lethal combination */
+.Exposition .class-9 .description,
+.Exposition .class-9 .details{
+    display: none;
+}
+.Exposition .class-9 hr{ 
+    width: 25%;
+    margin-bottom: 30px;
+}
+/*******************************************/
+
+
+/* I read the news today */
+.Exposition .class-10.page-1 .details,
+.Exposition .class-10.page-1 .type hr{
+    display: none;
+}
+.Exposition .class-10.page-1 .type{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.Exposition .class-10.page-1 .type{ align-items: flex-end; }
+.Exposition .class-10.page-1 .description hr{ width: 50%; }
+
+.Exposition .class-10.page-2,
+.Exposition .class-10.page-3,
+.Exposition .class-10.page-4,
+.Exposition .class-10.page-5,
+.Exposition .class-10.page-6,
+.Exposition .class-10.page-7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Exposition .class-10.page-2 .title,
+.Exposition .class-10.page-3 .title,
+.Exposition .class-10.page-4 .title,
+.Exposition .class-10.page-5 .title,
+.Exposition .class-10.page-6 .title,
+.Exposition .class-10.page-7 .title,
+.Exposition .class-10.page-2 .description,
+.Exposition .class-10.page-3 .description,
+.Exposition .class-10.page-4 .description,
+.Exposition .class-10.page-5 .description,
+.Exposition .class-10.page-6 .description,
+.Exposition .class-10.page-7 .description,
+.Exposition .class-10.page-2 .details,
+.Exposition .class-10.page-3 .details,
+.Exposition .class-10.page-4 .details,
+.Exposition .class-10.page-5 .details,
+.Exposition .class-10.page-6 .details,
+.Exposition .class-10.page-7 .details,
+.Exposition .class-10.page-2 .type,
+.Exposition .class-10.page-3 .type,
+.Exposition .class-10.page-4 .type,
+.Exposition .class-10.page-5 .type,
+.Exposition .class-10.page-6 .type,
+.Exposition .class-10.page-7 .type{
+    display: none;
+}
+.Exposition .class-10.page-2 .img-0 img,
+.Exposition .class-10.page-3 .img-0 img,
+.Exposition .class-10.page-4 .img-0 img,
+.Exposition .class-10.page-5 .img-0 img,
+.Exposition .class-10.page-6 .img-0 img,
+.Exposition .class-10.page-7 .img-0 img{
+    max-width: 95vw;
+    max-height: 95vh;
+}
+/*******************************************/
+
+
+
+/* velvet */
+.Exposition .class-11.page-1 .details,
+.Exposition .class-11.page-1 .type hr{
+    display: none;
+}
+.Exposition .class-11.page-1 .description hr{ width: 40%; }
+
+.Exposition .class-11.page-2 .title,
+.Exposition .class-11.page-3 .title,
+.Exposition .class-11.page-4 .title,
+.Exposition .class-11.page-5 .title,
+.Exposition .class-11.page-2 .description,
+.Exposition .class-11.page-3 .description,
+.Exposition .class-11.page-4 .description,
+.Exposition .class-11.page-5 .description,
+.Exposition .class-11.page-2 .details,
+.Exposition .class-11.page-3 .details,
+.Exposition .class-11.page-4 .details,
+.Exposition .class-11.page-5 .details,
+.Exposition .class-11.page-2 .type,
+.Exposition .class-11.page-3 .type,
+.Exposition .class-11.page-4 .type,
+.Exposition .class-11.page-5 .type{
+    display: none;
+}
+.Exposition .class-11.page-2,
+.Exposition .class-11.page-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Exposition .class-11.page-2 .img-0 img,
+.Exposition .class-11.page-3 .img-0 img{
+    max-width: 95vw;
+    max-height: 95vh;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .Exposition .title{
+        margin-top: 60px;
+        margin-left: 15px;
+        font-size: 1.5em;
+        font-weight: bold;
+        line-height: 200%;
+    }
+    .Exposition .details,
+    .Exposition .type,
+    .Exposition .description{ 
+        font-size: 0.7em;
+        margin-top: 30px;
+        padding: 10px;
+        line-height: 1.6;
+    }
+    .Exposition .img-0,
+    .Exposition .img-1{
+        margin-top: 30px;
+    }
+
+    .Exposition .class-1.page-1{
+        grid-template-columns: auto;
+        grid-template-areas: 
+            'title'
+            'img0'
+            'description'
+            'type';
+    }
+    .Exposition .class-1.page-1 img{ width: 100%; }
+
+    .Exposition .class-1.page-2{
+        grid-template-areas: 
+            'details'
+            'img0';
+    }
+    .Exposition .class-1.page-2 >div:not(.img-0){
+        z-index: 4;
+    }
+    .Exposition .class-1.page-2 .details{ margin-top: 60px; }
+    .Exposition .class-1.page-2 .img-0 img{ width: 100%; }
+
+    .Exposition .class-1.page-3,
+    .Exposition .class-1.page-4,
+    .Exposition .class-1.page-5,
+    .Exposition .class-1.page-6,
+    .Exposition .class-1.page-7,
+    .Exposition .class-1.page-8,
+    .Exposition .class-1.page-3 .img-0,
+    .Exposition .class-1.page-4 .img-0,
+    .Exposition .class-1.page-5 .img-0,
+    .Exposition .class-1.page-6 .img-0,
+    .Exposition .class-1.page-7 .img-0,
+    .Exposition .class-1.page-8 .img-0{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Exposition .class-1.page-3 .img-0 img,
+    .Exposition .class-1.page-4 .img-0 img,
+    .Exposition .class-1.page-5 .img-0 img,
+    .Exposition .class-1.page-6 .img-0 img,
+    .Exposition .class-1.page-7 .img-0 img,
+    .Exposition .class-1.page-8 .img-0 img{
+        width: 100%;
+    }
+    /*******************************************/
+
+    /* Fluttering flamingo */
+    .Exposition .class-2.page-1{
+        grid-template-areas: 
+            'title'
+            'img0'
+            'description'
+            'type';
+    }
+    .Exposition .class-2.page-1 .img-0 img{ 
+        width: 60%;
+        margin-left: 20px;
+    }
+
+    .Exposition .class-2.page-5{
+        grid-template-areas:
+            'img0'
+            'type'
+            'details';
+    }
+    .Exposition .class-2.page-5 .img-0 img{ 
+        width: 95%;
+        margin-top: 60px;
+    }
+
+    .Exposition .class-2.page-2 .img-0,
+    .Exposition .class-2.page-3 .img-0,
+    .Exposition .class-2.page-4 .img-0,
+    .Exposition .class-2.page-6 .img-0,
+    .Exposition .class-2.page-7 .img-0,
+    .Exposition .class-2.page-2 .img-0 img,
+    .Exposition .class-2.page-3 .img-0 img,
+    .Exposition .class-2.page-4 .img-0 img,
+    .Exposition .class-2.page-6 .img-0 img,
+    .Exposition .class-2.page-7 .img-0 img{
+        margin-top: 60px;
+    }
+    /*******************************************/
+
+
+    /* the lara logan case */
+    .Exposition .class-3.page-1{
+        grid-template-areas: 
+            'title'
+            'img0' 
+            'description'
+            'details'
+            'type';
+    }
+    .Exposition .class-3.page-1 .img-0 img{
+        width: 60%;
+        margin-left: 40px;
+    }
+    .Exposition .class-3.page-2 .img-0 img,
+    .Exposition .class-3.page-3 .img-0 img,
+    .Exposition .class-3.page-4 .img-0 img,
+    .Exposition .class-3.page-5 .img-0 img,
+    .Exposition .class-3.page-6 .img-0 img,
+    .Exposition .class-3.page-7 .img-0 img{
+        width: 100%;
+        margin-top: 70px;
+    }
+    /*******************************************/
+
+    /* Synchronicity */
+    .Exposition .class-4.page-1{
+        grid-template-areas: 
+            'title'
+            'img0'
+            'description'
+            'type';
+    }
+    .Exposition .class-4.page-1 .img-0{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+    .Exposition .class-4.page-1 .img-0 img{
+        width: 130%;
+        overflow: hidden;
+    }
+    /*******************************************/
+
+
+    /* human herd mentality */
+    .Exposition .class-5.page-1{
+        grid-template-areas: 
+            'title'
+            'img0'
+            'description'
+            'type';
+    }
+    .Exposition .class-5.page-1 .img-0 img{ 
+        width: 100%; 
+    }
+
+    .Exposition .class-5.page-2 .img-0 img,
+    .Exposition .class-5.page-3 .img-0 img,
+    .Exposition .class-5.page-4 .img-0 img,
+    .Exposition .class-5.page-5 .img-0 img,
+    .Exposition .class-5.page-6 .img-0 img,
+    .Exposition .class-5.page-7 .img-0 img{
+        margin-top: 70px;
+        width: 95%;
+    }
+    /*******************************************/
+
+    /* SYNC */
+    .Exposition .class-6{
+        grid-template-areas: 
+            'title'
+            'img0'
+            'description'
+            'type';
+    }
+    .Exposition .class-6 .img-0 img{ 
+        width: 95%;
+        margin-left: 10px;
+    }
+    /*******************************************/
+
+    /* JAM */
+    .Exposition .class-7{
+        grid-template-areas: 
+            'title'
+            'img0'
+            'description';
+    }
+    .Exposition .class-7 .title{
+        font-size: 3em;
+    }
+    .Exposition .class-7 .img-0 img{ 
+        width: 95%;
+        max-height: 90vh;
+        margin-left: 10px;
+    }
+    /*******************************************/
+
+    /* the dark elf */
+    .Exposition .class-8{
+        grid-template-areas: 
+            'title'
+            'img0'
+            'details';
+    }
+    .Exposition .class-8 .title{
+        font-size: 2em;
+    }
+    .Exposition .class-8 .details{
+        margin-left: 30px;
+        margin-bottom: 60px;
+    }
+    .Exposition .class-8 .img-0 img{  
+        width: 70%;
+        margin-left: 30px; 
+    }
+    /*******************************************/
+
+    /* lethal combination */
+    .Exposition .class-9{
+        grid-template-areas:
+            'title'
+            'img0'
+            'type';
+    }
+    .Exposition .class-9 .img-0 img{ 
+        width: 90%;
+        margin-left: 40px;
+    }
+    /*******************************************/
+
+    /* I read the news today */
+    .Exposition .class-10.page-1{
+        grid-template-areas:
+            'title'
+            'img0'
+            'description'
+            'type';
+    }
+    .Exposition .class-10.page-1 .img-0 img{ 
+        width: 80%;
+        margin-left: 5px;
+    }
+
+    .Exposition .class-10.page-2 .img-0 img,
+    .Exposition .class-10.page-3 .img-0 img,
+    .Exposition .class-10.page-4 .img-0 img,
+    .Exposition .class-10.page-5 .img-0 img,
+    .Exposition .class-10.page-6 .img-0 img,
+    .Exposition .class-10.page-7 .img-0 img{
+        width: 100%;
+        margin-top: 80px; 
+    }
+    /*******************************************/
+
+    /* velvet */
+    .Exposition .class-11.page-1{
+        grid-template-columns: 30% 70%;
+        grid-template-areas:
+            'title title'
+            'img1 img0'
+            'description description'
+            'type type';
+    }
+    .Exposition .class-11.page-1 .title{
+        font-size: 3em;
+        margin: 60px 0 20px 20px;
+    }
+    .Exposition .class-11.page-1 .img-0,
+    .Exposition .class-11.page-1 .img-1{
+        display: flex;
+        align-items: flex-end;
+    }
+    .Exposition .class-11.page-1 .img-0 img{
+        width: 90%;
+    }
+    .Exposition .class-11.page-1 .img-1 img{ 
+        width: 90%;
+        margin-left: 10px;
+    }
+
+    .Exposition .class-11.page-2 .img-0 img,
+    .Exposition .class-11.page-3 .img-0 img{
+        margin-top: 70px;
+    }
+
+    .Exposition .class-11.page-4{
+        grid-template-areas:
+            'img0'
+            'img1';
+    }
+    .Exposition .class-11.page-4 .img-0{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .Exposition .class-11.page-4 .img-1{
+        display: flex;
+    }
+    .Exposition .class-11.page-4 .img-0 img,
+    .Exposition .class-11.page-4 .img-1 img{
+        width: 90%;
+        margin: 30px 0;
+    }
+
+    .Exposition .class-11.page-5{
+        grid-template-areas:
+            'img1'
+            'img0';
+    }
+    .Exposition .class-11.page-5 .img-1{
+        display: flex;
+    }
+    .Exposition .class-11.page-5 .img-0{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    .Exposition .class-11.page-5 .img-0 img,
+    .Exposition .class-11.page-5 .img-1 img{
+        width: 90%;
+        max-height: 100vh;
+        margin: 25px 0;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .Exposition >div{
+        height: 100%;
+        width: 100%;
+        padding: 30px;
+    }
+
+    .Exposition .title{
+        font-size: 3em;
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+    .Exposition .type,
+    .Exposition .description{ font-size: 0.8em; } 
+    .Exposition  hr{ margin-bottom: 30px; }
+
+    /* lets talk about the c-word */
+    .Exposition .class-1.page-1{
+        grid-template-columns: 35% 65%;
+        grid-template-rows: 70% 20% 10%;
+        grid-template-areas: 
+            'img0 title'
+            'img0 description'
+            'type description';
+    }
+    .Exposition .class-1.page-1 >div:not(.img-0){
+        z-index: 4;
+    }
+    .Exposition .class-1.page-1 .title{ 
+        font-size: 2.6em;
+        margin-right: 30px; 
+        margin-top: 50px;
+    }
+    .Exposition .class-1.page-1 .type,
+    .Exposition .class-1.page-1 .description{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .Exposition .class-1.page-1 .img-0 img{ 
+        min-width: 800px;
+        max-height: 80vh;
+        height: 100%;
+        margin-top: 5%;
+        z-index: 1;
+    }
+    .Exposition .class-1.page-2{
+        grid-template-columns: 70% 30%;
+        grid-template-rows: 70% 30%;
+        grid-template-areas: 
+            'img0 title'
+            'img0 details';
+    }
+    .Exposition .class-1.page-2 .details{ 
+        margin-right: 50px; 
+    }
+    .Exposition .class-1.page-2 >div:not(.img-0){
+        z-index: 4;
+    }
+    .Exposition .class-1.page-2 .img-0 img{
+        height: 100%;
+        max-width: 100vw;
+    }
+    .Exposition .class-1.page-3 .img-0,
+    .Exposition .class-1.page-4 .img-0,
+    .Exposition .class-1.page-5 .img-0,
+    .Exposition .class-1.page-6 .img-0,
+    .Exposition .class-1.page-7 .img-0,
+    .Exposition .class-1.page-8 .img-0,
+    .Exposition .class-1.page-3 .img-0 img,
+    .Exposition .class-1.page-4 .img-0 img,
+    .Exposition .class-1.page-5 .img-0 img,
+    .Exposition .class-1.page-6 .img-0 img,
+    .Exposition .class-1.page-7 .img-0 img,
+    .Exposition .class-1.page-8 .img-0 img{
+        height: 100%;
+    }
+    /*******************************************/
+
+    /* Fluttering flamingo */
+    .Exposition .class-2.page-1{
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 70% 20% 10%;
+        grid-template-areas: 
+            'img0 title'
+            'img0 description'
+            'img0 type';
+    }
+    .Exposition .class-2.page-1 .title{ margin-top: 50px; }
+    .Exposition .class-2.page-1 .img-0 img{ height: 100%; }
+    .Exposition .class-2.page-1 >div:not(.img-0){
+        z-index: 4;
+    }
+
+    .Exposition .class-2.page-5{
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 90% 10%;
+        grid-template-areas:
+            'img0 img0'
+            'type details';
+    }
+    .Exposition .class-2.page-5 .img-0 img{ height: 99%; }
+    /*******************************************/
+
+
+    /* the lara logan case */
+    .Exposition .class-3.page-1{
+        grid-template-columns: 40% 40% 20%;
+        grid-template-rows: 60% 30% 10%;
+        grid-template-areas: 
+            'img0 title title'
+            'img0 description description'
+            'img0 details type';
+    }
+    .Exposition .class-3.page-1 .description{ 
+        padding: 30px 30px 30px 0;
+    }
+    .Exposition .class-3.page-1 .type{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .Exposition .class-3.page-1 .img-0 img{
+        height: 90vh;
+        max-width: 35vw;
+    }
+    .Exposition .class-3.page-1 >div:not(.img-0){
+        z-index: 4;
+    }
+
+    .Exposition .class-3.page-2 .img-0 img,
+    .Exposition .class-3.page-3 .img-0 img,
+    .Exposition .class-3.page-4 .img-0 img,
+    .Exposition .class-3.page-5 .img-0 img,
+    .Exposition .class-3.page-6 .img-0 img,
+    .Exposition .class-3.page-7 .img-0 img{
+        max-width: 95vw;
+        max-height: 95vh;
+    }
+    /*******************************************/
+
+    /* Synchronicity */
+    .Exposition .class-4.page-1{
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 60% 30% 10%;
+        grid-template-areas: 
+            'title img0'
+            'description img0'
+            'type img0';
+    }
+    .Exposition .class-4.page-1 .type hr,
+    .Exposition .class-4.page-1 .details{
+        display: none;
+    }
+    .Exposition .class-4.page-1 .img-0{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+    .Exposition .class-4.page-1 .img-0 img{
+        width: 130%;
+        overflow: hidden;
+    }
+    /*******************************************/
+
+    /* human herd mentality */
+    .Exposition .class-5.page-1{
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 10% 70% 20%;
+        grid-template-areas: 
+            'title title'
+            'type img0'
+            'description img0';
+    }
+    .Exposition .class-5.page-1 .type{
+        display: flex;
+        align-items: flex-end;
+        margin-bottom: 30px;
+    }
+    .Exposition .class-5.page-1 .img-0{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    .Exposition .class-5.page-1 .img-0 img{ height: 100%; }
+    .Exposition .class-5.page-1 >div:not(.img-0){
+        z-index: 4;
+    }
+
+    .Exposition .class-5.page-2 .img-0 img,
+    .Exposition .class-5.page-3 .img-0 img,
+    .Exposition .class-5.page-4 .img-0 img,
+    .Exposition .class-5.page-5 .img-0 img,
+    .Exposition .class-5.page-6 .img-0 img,
+    .Exposition .class-5.page-7 .img-0 img{
+        height: 100%;
+    }
+    .Exposition .class-5.page-3 .img-0 img,
+    .Exposition .class-5.page-5 .img-0 img,
+    .Exposition .class-5.page-7 .img-0 img{
+        width: 100%;
+    }
+    /*******************************************/
+
+    /* SYNC */
+    .Exposition .class-6{
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 60% 30% 10%;
+        grid-template-areas: 
+            'img0 title'
+            'img0 description'
+            'type description';
+    }
+    .Exposition .class-6 .title{
+        font-size: 4em;
+        margin-top: 50px;
+    }
+    .Exposition .class-6 .type,
+    .Exposition .class-6 .description{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 10px;
+    }
+    .Exposition .class-6 .type{ margin-bottom: 20px; }
+    .Exposition .class-6 .img-0 img{ 
+        height: 80%;
+        max-height: 90vh;
+    }
+    .Exposition .class-6 >div:not(.img-0){
+        z-index: 4;
+    }
+    /*******************************************/
+
+    /* JAM */
+    .Exposition .class-7{
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 70% 30%;
+        grid-template-areas: 
+            'img0 title'
+            'img0 description';
+    }
+    .Exposition .class-7 .title{ 
+        margin-top: 30px;
+    }
+    .Exposition .class-7 .img-0{ padding: 30px; }
+    .Exposition .class-7 .img-0 img{ 
+        width: 95%;
+        max-height: 90vh;
+    }
+    /*******************************************/
+
+    /* the dark elf */
+    .Exposition .class-8{
+        grid-template-columns: 65% 35%;
+        grid-template-rows: 33.33%  33.33% 33.33%;
+        grid-template-areas: 
+            'title img0'
+            'details img0'
+            'details img0';
+    }
+    .Exposition .class-8 .img-0{ padding-top: 15%; }
+    .Exposition .class-8 .img-0 img{  height: 100%; }
+    /*******************************************/
+
+
+    /* lethal combination */
+    .Exposition .class-9{
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 25% 25% 25% 25%;
+        grid-template-areas:
+            'title title title'
+            'type img0 img0'
+            'type img0 img0'
+            'type img0 img0';
+    }
+    .Exposition .class-9 .img-0{overflow: hidden;}
+    .Exposition .class-9 .img-0 img{ 
+        min-width: 40vw;
+        min-height: 40vh;
+        width: 100%;
+        overflow: hidden;
+    }
+    /*******************************************/
+
+    /* I read the news today */
+    .Exposition .class-10.page-1{
+        grid-template-columns: 40% 45% 15%;
+        grid-template-rows: 60% 40%;
+        grid-template-areas:
+            'img0 title title'
+            'img0 description type';
+    }
+    .Exposition .class-10.page-1 .title{ 
+        margin-top: 50px;
+    }
+    .Exposition .class-10.page-1 .description{ 
+        margin-right: 20px;
+    }
+    .Exposition .class-10.page-1 .img-0 img{ height: 100%; }
+    .Exposition .class-10.page-1 >div:not(.img-0){
+        z-index: 4;
+    }
+    /*******************************************/
+
+    /* velvet */
+    .Exposition .class-11.page-1{
+        grid-template-columns: 60% 10% 30%;
+        grid-template-rows: 30% 60% 10%;
+        grid-template-areas:
+            'title img1 img0'
+            'description img1 img0'
+            'type img1 img0';
+    }
+    .Exposition .class-11.page-1 .description{ width: 60%; }
+    .Exposition .class-11.page-1 .type{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .Exposition .class-11.page-1 .img-0,
+    .Exposition .class-11.page-1 .img-1{
+        display: flex;
+        align-items: flex-end;
+    }
+    .Exposition .class-11.page-1 .img-0 img{
+        min-width: 30vw;
+        max-height: 85vh;
+    }
+    .Exposition .class-11.page-1 .img-1 img{ 
+        width: 100%;
+        min-height: 20vh;
+    }
+
+    .Exposition .class-11.page-4{
+        grid-gap: 0 40px;
+        grid-template-columns: 50% 50%;
+        grid-template-areas:
+            'img0 img1';
+    }
+    .Exposition .class-11.page-4 .img-0{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .Exposition .class-11.page-4 .img-1{
+        display: flex;
+    }
+    .Exposition .class-11.page-4 .img-0 img,
+    .Exposition .class-11.page-4 .img-1 img{
+        max-height: 90vh;
+    }
+
+    .Exposition .class-11.page-5{
+        grid-template-columns: 70% 30%;
+        grid-template-areas:
+            'img1 img0';
+    }
+    .Exposition .class-11.page-5 .img-1{
+        display: flex;
+    }
+    .Exposition .class-11.page-5 .img-0{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    .Exposition .class-11.page-5 .img-1 img{
+        width: 100%;
+        max-height: 100vh;
+    }
+    .Exposition .class-11.page-5 .img-0 img{
+        width: 95%;
+        max-height: 30vh;
+    }
+}

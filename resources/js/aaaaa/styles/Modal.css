@@ -1,0 +1,48 @@
+.modalContent {
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    padding: 0;
+    outline: 0;
+    width: 600px;
+    height: 300px;
+}
+
+.container {
+    padding: 0.01em 16px;
+}
+
+.container p {
+    color: white;
+    font-size: 23px;
+}
+
+/* Close Icon */
+.close.icon {
+    color: #fff;
+    position: absolute;
+    right: 38px;
+    top: 20px;
+    width: 21px;
+    height: 21px;
+  }
+  .close.icon:before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    width: 21px;
+    height: 1px;
+    background-color: currentColor;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+  .close.icon:after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    width: 21px;
+    height: 1px;
+    background-color: currentColor;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }

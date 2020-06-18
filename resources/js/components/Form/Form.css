@@ -1,0 +1,14 @@
+.Form-Contact {
+    width: 100%;
+    padding: 10px;
+}
+
+.Input-Container {
+    height: 100px;
+}
+.Input-Container > * {
+    width: 50%;
+}
+.Input-Container > label {
+    margin-left: 50px;
+}
