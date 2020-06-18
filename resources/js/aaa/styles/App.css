@@ -1,4 +1,4 @@
-/* *{
+*{
     box-sizing: border-box;
     margin: 0;
     font-family: "Halogen-Light";
@@ -13,7 +13,7 @@ a{ text-decoration: none; }
 .flex-row-reverse { flex-direction: row-reverse; }
 .flex-col{ flex-direction: column; }
 .justifyc{ justify-content: center; }
-.alignc{ align-items: center; } */
+.alignc{ align-items: center; }
 
 .height-100{ height: 100%; }
 

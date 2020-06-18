@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "Halogen-Light";
+    src: url('/fonts/Halogen-Light.otf');
+
+    /* src: url('/storage/fonts/Halogen-Black.otf'),url('/storage/fonts/Halogen-BlackOblique.otf'),url('/storage/fonts/Halogen-Bold.otf'),url('/storage/fonts/Halogen-BoldOblique.otf'),
+    url('/storage/fonts/Halogen-Hairline.otf'),url('/storage/fonts/Halogen-HairlineOblique.otf'),url('/storage/fonts/Halogen-Medium.otf'),url('/storage/fonts/Halogen-MediumOblique.otf'),
+    url('/storage/fonts/Halogen-Regular.otf'),url('/storage/fonts/Halogen-RegularOblique.otf'),url('/storage/fonts/Halogen-Thin.otf'),url('/storage/fonts/Halogen-ThinOblique.otf'), */
+}
+
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -5,13 +15,3 @@
 }
 
 a{ text-decoration: none; }
-
-.grid{ display: grid; }
-.flex{ display: flex; }
-.flex-row{ flex-direction: row; }
-.flex-row-reverse { flex-direction: row-reverse; }
-.flex-col{ flex-direction: column; }
-.justifyc{ justify-content: center; }
-.alignc{ align-items: center; }
-
-.height-100{ height: 100%; }

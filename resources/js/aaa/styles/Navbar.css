@@ -25,6 +25,7 @@
     outline: none;
     border: none;
     background: none;
+    color: white;
     cursor: pointer;
 }
 .icon .fa{ font-weight: 100; }

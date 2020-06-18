@@ -64,9 +64,8 @@ class Contact extends React.Component {
         return(
             <React.Fragment>
                 <div className="flex flex-col justifyc alignc divForm">
-                    {/* <h1>SAY HELLO!</h1> */}
-                    <div className="prueba"></div>
-                    <form className='formContacto  prueba' onSubmit={this.handleSubmit}>
+                <h1>SAY HELLO!</h1>
+                    <form className='formContacto' onSubmit={this.handleSubmit}>
                         <div className='divInput marginDiv flex'>
                                 <label className='sizeTextContact flex labelPhone'>NAME</label>
                                 <input  className='textInput sizeTextInput'
