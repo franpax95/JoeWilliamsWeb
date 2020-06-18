@@ -8,6 +8,7 @@ const Form = () => {
             <form className='Form-Contact'>
                 <div className='Input-Container alignc flex'>
                     <label className=''>NAME</label>
+                    <label className=''>NAME</label>
                     <Input name='name' value='name' placeholder='Joe Williams'/>
                 </div>
                 <div className='Input-Container alignc flex'>
