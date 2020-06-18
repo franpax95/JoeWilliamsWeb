@@ -1,50 +1,24 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-// REDUX
-import { createStore, applyMiddleware } from 'redux';
-import { Provider } from 'react-redux';
-import reducers     from '../reducers';
-import reduxThunk   from 'redux-thunk';
 
-// COMPONENTS
-import Navbar       from './Navbar';
-import Index        from './Index';
-import Gallery      from './Gallery';
-import Exposition   from './Exposition';
-import About        from './About';
-import Contact      from './Contact';
+import Navbar from './Navbar';
 
-import './styles/App.css';
+import Index from '../pages/Index';
 
-function App(){
-    return (
-        <BrowserRouter>
-            <Navbar />
-            <Switch>
-                <Route exact path="/" component={Index} />
-                <Route exact path="/home" component={Index} />
-                <Route exact path="/gallery" component={Gallery} />
-                <Route exact path="/exposition/:id" component={Exposition} />
-                <Route exact path="/contact" component={Contact} />
-                <Route exact path="/about" component={About} />
-            </Switch>
-        </BrowserRouter>
-    );
-}
-export default App;
+import './App.css';
 
-const store = createStore(
-    reducers,
-    {},
-    applyMiddleware(reduxThunk)
+const App = () => (
+    <BrowserRouter>
+        <Navbar />
+        <Switch>
+            <Route exact path="/" component={Index} />
+            <Route exact path="/home" component={Index} />
+            {/* <Route exact path="/gallery" component={Gallery} />
+            <Route exact path="/exposition/:id" component={Exposition} />
+            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/about" component={About} /> */}
+        </Switch>
+    </BrowserRouter>
 );
 
-if (document.getElementById('app')) {
-    ReactDOM.render(
-        <Provider store={store}>
-            <App />
-        </Provider>, 
-        document.getElementById('app')
-    );
-}
+export default App;
