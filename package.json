@@ -25,10 +25,7 @@
         "sass-loader": "^8.0.0"
     },
     "dependencies": {
-<<<<<<< HEAD
-=======
         "react-icons": "^3.10.0",
->>>>>>> d094965044d2dfe4c0858c1bb576329b155c60ad
         "react-newline-to-break": "^1.0.6",
         "react-redux": "^7.2.0",
         "react-router": "^5.1.2",

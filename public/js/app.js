@@ -6546,7 +6546,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "@font-face {\r\n    font-family: \"Halogen-Light\";\r\n    src: url('/fonts/Halogen-Light.otf');\r\n\r\n    /* src: url('/storage/fonts/Halogen-Black.otf'),url('/storage/fonts/Halogen-BlackOblique.otf'),url('/storage/fonts/Halogen-Bold.otf'),url('/storage/fonts/Halogen-BoldOblique.otf'),\r\n    url('/storage/fonts/Halogen-Hairline.otf'),url('/storage/fonts/Halogen-HairlineOblique.otf'),url('/storage/fonts/Halogen-Medium.otf'),url('/storage/fonts/Halogen-MediumOblique.otf'),\r\n    url('/storage/fonts/Halogen-Regular.otf'),url('/storage/fonts/Halogen-RegularOblique.otf'),url('/storage/fonts/Halogen-Thin.otf'),url('/storage/fonts/Halogen-ThinOblique.otf'), */\r\n}\r\n\r\n\r\n*{\r\n    box-sizing: border-box;\r\n    margin: 0;\r\n    font-family: \"Halogen-Light\";\r\n}\r\n\r\na{ text-decoration: none; }", ""]);
+exports.push([module.i, "@font-face {\r\n    font-family: \"Halogen-Light\";\r\n    src: url('/fonts/Halogen-Light.otf');\r\n\r\n    /* src: url('/storage/fonts/Halogen-Black.otf'),url('/storage/fonts/Halogen-BlackOblique.otf'),url('/storage/fonts/Halogen-Bold.otf'),url('/storage/fonts/Halogen-BoldOblique.otf'),\r\n    url('/storage/fonts/Halogen-Hairline.otf'),url('/storage/fonts/Halogen-HairlineOblique.otf'),url('/storage/fonts/Halogen-Medium.otf'),url('/storage/fonts/Halogen-MediumOblique.otf'),\r\n    url('/storage/fonts/Halogen-Regular.otf'),url('/storage/fonts/Halogen-RegularOblique.otf'),url('/storage/fonts/Halogen-Thin.otf'),url('/storage/fonts/Halogen-ThinOblique.otf'), */\r\n}\r\n\r\n\r\n*{\r\n    box-sizing: border-box;\r\n    margin: 0;\r\n    font-family: \"Halogen-Light\";\r\n}\r\n\r\na{ text-decoration: none; }\r\n.grid{ display: grid; }\r\n.flex{ display: flex; }\r\n.flex-row{ flex-direction: row; }\r\n.flex-row-reverse { flex-direction: row-reverse; }\r\n.flex-col{ flex-direction: column; }\r\n.justifyc{ justify-content: center; }\r\n.alignc{ align-items: center; }", ""]);
 
 // exports
 
@@ -6660,7 +6660,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "html, body, #app{ width: 100%; }\r\n\r\n.About{\r\n    width: 100%;\r\n    padding-left: 20px;\r\n\r\n    display: flex;\r\n    flex-direction: column;\r\n    overflow: hidden;\r\n\r\n    color: white;\r\n    background: rgb(255,255,255);\r\n    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(223,205,205,1) 60%, rgba(98,84,85,1) 100%);\r\n    background-attachment: fixed;\r\n    background-position: center;\r\n}\r\n\r\n.About > span{\r\n    height: 10vh;\r\n\r\n    font-size: 3vw;\r\n    text-transform: uppercase;\r\n}\r\n\r\n.About .hello{ color: black; }", ""]);
+exports.push([module.i, "html, body, #app{ width: 100%; }\r\n\r\n.About{\r\n    width: 100%;\r\n    padding-left: 20px;\r\n\r\n    display: flex;\r\n    flex-direction: column;\r\n    overflow: hidden;\r\n\r\n    color: white;\r\n    background: rgb(255,255,255);\r\n    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(223,205,205,1) 60%, rgba(98,84,85,1) 100%);\r\n    background-attachment: fixed;\r\n    background-position: center;\r\n}\r\n\r\n.About > span{\r\n    height: 10vh;\r\n\r\n    font-size: 3vw;\r\n    text-transform: uppercase;\r\n}\r\n\r\n.About .hello{ color: black; }\r\n", ""]);
 
 // exports
 
@@ -79142,8 +79142,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pages_Index__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../pages/Index */ "./resources/js/pages/Index/index.js");
 /* harmony import */ var _pages_About__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../pages/About */ "./resources/js/pages/About/index.js");
 /* harmony import */ var _pages_Projects__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../pages/Projects */ "./resources/js/pages/Projects/index.js");
-/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./App.css */ "./resources/js/components/App.css");
-/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_App_css__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _pages_Contact__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../pages/Contact */ "./resources/js/pages/Contact/index.js");
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./App.css */ "./resources/js/components/App.css");
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_App_css__WEBPACK_IMPORTED_MODULE_7__);
+
 
 
 
@@ -79169,6 +79171,10 @@ var App = function App() {
     exact: true,
     path: "/projects/:id",
     component: _pages_Projects__WEBPACK_IMPORTED_MODULE_5__["default"]
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    exact: true,
+    path: "/contact",
+    component: _pages_Contact__WEBPACK_IMPORTED_MODULE_6__["default"]
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
     exact: true,
     path: "/about",
@@ -79551,6 +79557,32 @@ var ProjectCard = function ProjectCard(_ref) {
 
 /***/ }),
 
+/***/ "./resources/js/components/SpaceBetween/index.js":
+/*!*******************************************************!*\
+  !*** ./resources/js/components/SpaceBetween/index.js ***!
+  \*******************************************************/
+/*! exports provided: SpaceBetween */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SpaceBetween", function() { return SpaceBetween; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+var SpaceBetween = function SpaceBetween(_ref) {
+  var _ref$height = _ref.height,
+      height = _ref$height === void 0 ? '100px' : _ref$height;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      height: height,
+      minHeight: height
+    }
+  });
+};
+
+/***/ }),
+
 /***/ "./resources/js/index.js":
 /*!*******************************!*\
   !*** ./resources/js/index.js ***!
@@ -79629,30 +79661,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _About_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./About.css */ "./resources/js/pages/About/About.css");
 /* harmony import */ var _About_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_About_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_SpaceBetween__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/SpaceBetween */ "./resources/js/components/SpaceBetween/index.js");
 
 
 
-var SpaceBetween = function SpaceBetween(_ref) {
-  var _ref$height = _ref.height,
-      height = _ref$height === void 0 ? '100px' : _ref$height;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    style: {
-      height: height,
-      minHeight: height
-    }
-  });
-};
 
 var About = function About() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "About"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SpaceBetween, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_SpaceBetween__WEBPACK_IMPORTED_MODULE_2__["SpaceBetween"], {
     height: "40vh"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "A little about me"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SpaceBetween, {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "A little about me"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_SpaceBetween__WEBPACK_IMPORTED_MODULE_2__["SpaceBetween"], {
     height: "20vh"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "My name is Joe Williams."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "I am a creative designer and"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "maker of interesting things."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SpaceBetween, {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "My name is Joe Williams."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "I am a creative designer and"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "maker of interesting things."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_SpaceBetween__WEBPACK_IMPORTED_MODULE_2__["SpaceBetween"], {
     height: "20vh"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "I have created this space as a"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "platform to showcase a range"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "of my work and collaborations."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SpaceBetween, {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "I have created this space as a"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "platform to showcase a range"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "of my work and collaborations."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_SpaceBetween__WEBPACK_IMPORTED_MODULE_2__["SpaceBetween"], {
     height: "20vh"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "If you have any questions or"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "would like to work together"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "on your next project please"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "feel free to ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "hello"
@@ -79660,6 +79683,17 @@ var About = function About() {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (About);
+
+/***/ }),
+
+/***/ "./resources/js/pages/Contact/index.js":
+/*!*********************************************!*\
+  !*** ./resources/js/pages/Contact/index.js ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\DOCUMENTOS\\Proyectos\\Codes\\Proyectos\\JoeWWeb\\JoeWilliamsWeb-master\\resources\\js\\pages\\Contact\\index.js: Unexpected token (9:4)\n\n\u001b[0m \u001b[90m  7 | \u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  8 | \u001b[39m    \u001b[36mconst\u001b[39m onSubmit\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  9 | \u001b[39m    \u001b[36mreturn\u001b[39m(\u001b[0m\n\u001b[0m \u001b[90m    | \u001b[39m    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 10 | \u001b[39m        \u001b[33m<\u001b[39m\u001b[33mdiv\u001b[39m className\u001b[33m=\u001b[39m\u001b[32m\"Contact-Container flex justifyc\"\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 11 | \u001b[39m            \u001b[33m<\u001b[39m\u001b[33mSpaceBetween\u001b[39m height\u001b[33m=\u001b[39m\u001b[32m\"35vh\"\u001b[39m \u001b[33m/\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 12 | \u001b[39m            \u001b[33m<\u001b[39m\u001b[33mForm\u001b[39m onSUbmit\u001b[33m=\u001b[39m{onSUbmit}\u001b[33m/\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n    at Object._raise (C:\\DOCUMENTOS\\Proyectos\\Codes\\Proyectos\\JoeWWeb\\JoeWilliamsWeb-master\\node_modules\\@babel\\parser\\lib\\index.js:742:17)\n    at Object.raiseWithData (C:\\DOCUMENTOS\\Proyectos\\Codes\\Proyectos\\JoeWWeb\\JoeWilliamsWeb-master\\node_modules\\@babel\\parser\\lib\\index.js:735:17)\n    at Object.raise (C:\\DOCUMENTOS\\Proyectos\\Codes\\Proyectos\\JoeWWeb\\JoeWilliamsWeb-master\\node_modules\\@babel\\parser\\lib\\index.js:729:17)\n    at Object.unexpected (C:\\DOCUMENTOS\\Proyectos\\Codes\\Proyectos\\JoeWWeb\\JoeWilliamsWeb-master\\node_modules\\@babel\\parser\\lib\\index.js:8757:16)\n    at Object.parseVar (C:\\DOCUMENTOS\\Proyectos\\Codes\\Proyectos\\JoeWWeb\\JoeWilliamsWeb-master\\node_modules\\@babel\\parser\\lib\\index.js:11744:18)\n    at Object.parseVarStatement (C:\\DOCUMENTOS\\Proyectos\\Codes\\Proyectos\\JoeWWeb\\JoeWilliamsWeb-master\\node_modules\\@babel\\parser\\lib\\index.js:11549:10)\n    at Object.parseStatementContent (C:\\DOCUMENTOS\\Proyectos\\Codes\\Proyectos\\JoeWWeb\\JoeWilliamsWeb-master\\node_modules\\@babel\\parser\\lib\\index.js:11148:21)\n    at Object.parseStatement (C:\\DOCUMENTOS\\Proyectos\\Codes\\Proyectos\\JoeWWeb\\JoeWilliamsWeb-master\\node_modules\\@babel\\parser\\lib\\index.js:11081:17)\n    at Object.parseBlockOrModuleBlockBody (C:\\DOCUMENTOS\\Proyectos\\Codes\\Proyectos\\JoeWWeb\\JoeWilliamsWeb-master\\node_modules\\@babel\\parser\\lib\\index.js:11656:25)\n    at Object.parseBlockBody (C:\\DOCUMENTOS\\Proyectos\\Codes\\Proyectos\\JoeWWeb\\JoeWilliamsWeb-master\\node_modules\\@babel\\parser\\lib\\index.js:11642:10)\n    at Object.parseBlock (C:\\DOCUMENTOS\\Proyectos\\Codes\\Proyectos\\JoeWWeb\\JoeWilliamsWeb-master\\node_modules\\@babel\\parser\\lib\\index.js:11626:10)\n    at Object.parseFunctionBody (C:\\DOCUMENTOS\\Proyectos\\Codes\\Proyectos\\JoeWWeb\\JoeWilliamsWeb-master\\node_modules\\@babel\\parser\\lib\\index.js:10634:24)\n    at Object.parseArrowExpression (C:\\DOCUMENTOS\\Proyectos\\Codes\\Proyectos\\JoeWWeb\\JoeWilliamsWeb-master\\node_modules\\@babel\\parser\\lib\\index.js:10603:10)\n    at Object.parseParenAndDistinguishExpression (C:\\DOCUMENTOS\\Proyectos\\Codes\\Proyectos\\JoeWWeb\\JoeWilliamsWeb-master\\node_modules\\@babel\\parser\\lib\\index.js:10221:12)\n    at Object.parseExprAtom (C:\\DOCUMENTOS\\Proyectos\\Codes\\Proyectos\\JoeWWeb\\JoeWilliamsWeb-master\\node_modules\\@babel\\parser\\lib\\index.js:9947:21)\n    at Object.parseExprAtom (C:\\DOCUMENTOS\\Proyectos\\Codes\\Proyectos\\JoeWWeb\\JoeWilliamsWeb-master\\node_modules\\@babel\\parser\\lib\\index.js:4614:20)\n    at Object.parseExprSubscripts (C:\\DOCUMENTOS\\Proyectos\\Codes\\Proyectos\\JoeWWeb\\JoeWilliamsWeb-master\\node_modules\\@babel\\parser\\lib\\index.js:9602:23)\n    at Object.parseMaybeUnary (C:\\DOCUMENTOS\\Proyectos\\Codes\\Proyectos\\JoeWWeb\\JoeWilliamsWeb-master\\node_modules\\@babel\\parser\\lib\\index.js:9582:21)\n    at Object.parseExprOps (C:\\DOCUMENTOS\\Proyectos\\Codes\\Proyectos\\JoeWWeb\\JoeWilliamsWeb-master\\node_modules\\@babel\\parser\\lib\\index.js:9452:23)\n    at Object.parseMaybeConditional (C:\\DOCUMENTOS\\Proyectos\\Codes\\Proyectos\\JoeWWeb\\JoeWilliamsWeb-master\\node_modules\\@babel\\parser\\lib\\index.js:9425:23)\n    at Object.parseMaybeAssign (C:\\DOCUMENTOS\\Proyectos\\Codes\\Proyectos\\JoeWWeb\\JoeWilliamsWeb-master\\node_modules\\@babel\\parser\\lib\\index.js:9380:21)\n    at Object.parseVar (C:\\DOCUMENTOS\\Proyectos\\Codes\\Proyectos\\JoeWWeb\\JoeWilliamsWeb-master\\node_modules\\@babel\\parser\\lib\\index.js:11740:26)\n    at Object.parseVarStatement (C:\\DOCUMENTOS\\Proyectos\\Codes\\Proyectos\\JoeWWeb\\JoeWilliamsWeb-master\\node_modules\\@babel\\parser\\lib\\index.js:11549:10)\n    at Object.parseStatementContent (C:\\DOCUMENTOS\\Proyectos\\Codes\\Proyectos\\JoeWWeb\\JoeWilliamsWeb-master\\node_modules\\@babel\\parser\\lib\\index.js:11148:21)\n    at Object.parseStatement (C:\\DOCUMENTOS\\Proyectos\\Codes\\Proyectos\\JoeWWeb\\JoeWilliamsWeb-master\\node_modules\\@babel\\parser\\lib\\index.js:11081:17)\n    at Object.parseBlockOrModuleBlockBody (C:\\DOCUMENTOS\\Proyectos\\Codes\\Proyectos\\JoeWWeb\\JoeWilliamsWeb-master\\node_modules\\@babel\\parser\\lib\\index.js:11656:25)\n    at Object.parseBlockBody (C:\\DOCUMENTOS\\Proyectos\\Codes\\Proyectos\\JoeWWeb\\JoeWilliamsWeb-master\\node_modules\\@babel\\parser\\lib\\index.js:11642:10)\n    at Object.parseTopLevel (C:\\DOCUMENTOS\\Proyectos\\Codes\\Proyectos\\JoeWWeb\\JoeWilliamsWeb-master\\node_modules\\@babel\\parser\\lib\\index.js:11012:10)\n    at Object.parse (C:\\DOCUMENTOS\\Proyectos\\Codes\\Proyectos\\JoeWWeb\\JoeWilliamsWeb-master\\node_modules\\@babel\\parser\\lib\\index.js:12637:10)\n    at parse (C:\\DOCUMENTOS\\Proyectos\\Codes\\Proyectos\\JoeWWeb\\JoeWilliamsWeb-master\\node_modules\\@babel\\parser\\lib\\index.js:12688:38)\n    at parser (C:\\DOCUMENTOS\\Proyectos\\Codes\\Proyectos\\JoeWWeb\\JoeWilliamsWeb-master\\node_modules\\@babel\\core\\lib\\parser\\index.js:54:34)\n    at parser.next (<anonymous>)\n    at normalizeFile (C:\\DOCUMENTOS\\Proyectos\\Codes\\Proyectos\\JoeWWeb\\JoeWilliamsWeb-master\\node_modules\\@babel\\core\\lib\\transformation\\normalize-file.js:93:38)\n    at normalizeFile.next (<anonymous>)\n    at run (C:\\DOCUMENTOS\\Proyectos\\Codes\\Proyectos\\JoeWWeb\\JoeWilliamsWeb-master\\node_modules\\@babel\\core\\lib\\transformation\\index.js:31:50)\n    at run.next (<anonymous>)");
 
 /***/ }),
 
@@ -79765,7 +79799,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
 /* harmony import */ var _actions_expositionActions__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../actions/expositionActions */ "./resources/js/actions/expositionActions.js");
 /* harmony import */ var _components_ProjectCard__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/ProjectCard */ "./resources/js/components/ProjectCard/index.js");
-/* harmony import */ var _components_Project__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../components/Project */ "./resources/js/components/Project/index.js");
+/* harmony import */ var _components_Project__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/Project */ "./resources/js/components/Project/index.js");
 /* harmony import */ var _components_Loading__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/Loading */ "./resources/js/components/Loading/index.js");
 /* harmony import */ var _components_Fatal__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../components/Fatal */ "./resources/js/components/Fatal/index.js");
 /* harmony import */ var _Projects_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Projects.css */ "./resources/js/pages/Projects/Projects.css");
@@ -79871,7 +79905,7 @@ var Projects = function Projects(props) {
     if (error) return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Fatal__WEBPACK_IMPORTED_MODULE_7__["Fatal"], {
       message: error
     });
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Project__WEBPACK_IMPORTED_MODULE_9__["default"], null);
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Project__WEBPACK_IMPORTED_MODULE_5__["default"], null);
   };
 
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -79912,7 +79946,13 @@ var INITIAL_STATE = {
   exposition: {},
   currentPage: '',
   loading: false,
-  error: ''
+  error: '',
+  form: {
+    name: '',
+    email: '',
+    subject: '',
+    message: ''
+  }
 };
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : INITIAL_STATE;
@@ -80013,7 +80053,7 @@ var CHANGE_DESCRIPTION = 'exposition_change_description';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\_WORK\Redux\JoeWilliamsWeb\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\DOCUMENTOS\Proyectos\Codes\Proyectos\JoeWWeb\JoeWilliamsWeb-master\resources\js\app.js */"./resources/js/app.js");
 
 
 /***/ })

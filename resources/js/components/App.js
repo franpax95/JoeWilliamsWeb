@@ -6,6 +6,7 @@ import Navbar from './Navbar';
 import Index from '../pages/Index';
 import About from '../pages/About';
 import Projects from '../pages/Projects';
+import Contact from '../pages/Contact';
 
 import './App.css';
 
@@ -17,7 +18,7 @@ const App = () => (
             <Route exact path="/home" component={Index} />
             <Route exact path="/projects" component={Projects} />
             <Route exact path="/projects/:id" component={Projects} />
-            {/* <Route exact path="/contact" component={Contact} /> */}
+            <Route exact path="/contact" component={Contact} />
             <Route exact path="/about" component={About} />
         </Switch>
     </BrowserRouter>

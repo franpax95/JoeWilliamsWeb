@@ -1,9 +1,6 @@
 import React from 'react';
 import './About.css';
-
-const SpaceBetween = ({ height = '100px'}) => (
-    <div style={{ height: height, minHeight: height }}></div>
-);
+import {SpaceBetween} from '../../components/SpaceBetween';
 
 const About = () => (
     <div className="About">

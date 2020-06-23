@@ -12,7 +12,13 @@ const INITIAL_STATE = {
     exposition: {},
     currentPage: '',
     loading: false,
-    error: ''
+    error: '',
+    form: {
+        name: '',
+        email: '',
+        subject: '',
+        message: ''
+    }
 }
 
 export default (state = INITIAL_STATE, action) => {
