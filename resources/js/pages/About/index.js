@@ -1,9 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import './About.css';
-
-const SpaceBetween = ({ height = '100px'}) => (
-    <div style={{ height: height, minHeight: height }}></div>
-);
+import {SpaceBetween} from '../../components/SpaceBetween';
 
 const About = (props) => {
     const aboutRef = useRef(null);

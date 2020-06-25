@@ -34,6 +34,39 @@ class ExpositionsTableSeeder extends Seeder
             'img' =>  $coverCunt,
         ]);
 
+        $velvet = json_encode(
+            array(
+                "cover"=> "/image/velvet000682.jpg",
+                "img1"=> "/image/velvet000673.jpg",
+                "img2"=> "/image/velvet000675.jpg",
+                "img3"=> "/image/velvet000676.jpg",
+                "img4"=> "/image/velvet000677.jpg",
+                "img5"=> "/image/velvet000678.jpg",
+                "img6"=> "/image/velvet000684.jpg",
+                "img7"=> "/image/velvet000685.jpg"
+            )
+        );
+        Expositions::create([
+            'title' => "Velvet",
+            'description' => "Directing a personal project in collaboration with some friends where we make hand made garments unique to the buyers needs trying to fight the idea of quality in mass produced objects.",
+            'type' => "Art Direction & Fashion Design",
+            'details' => "",
+            'img' => $velvet,
+        ]);
+
+        $sync = json_encode(
+            array(
+                "cover" => "/image/sync2.jpg",
+                "img1"  => "/image/sync2.jpg"
+            )
+        );
+        Expositions::create([
+            'title' => "Sync",
+            'description' => "A project analysing human synchronization through rhythm in a confined space. The sculpture consists of a pattern created by peoples movements in response to the sounds they hear. Each layer represents a specific time frame within a confined space and as the sounds intensify peoples movements start to synchronise. The layers are then individually screen printed on to a layer of perspex and held together by two concrete blocks that emulate the walls of this confined space. This allows us to see how peoples movements expand through the group as a kind of domino effect depending on the sounds they hear.",
+            'type' => "Conceptual Design, Sculpture, Screen Printing, Concrete work & Metal Work",
+            'details' => "",
+            'img' => $sync,
+        ]);
 
         $finalFlamingo = json_encode(
             array(
@@ -56,6 +89,20 @@ class ExpositionsTableSeeder extends Seeder
             'img' => $finalFlamingo,
         ]);
 
+        $synchronicity = json_encode(
+            array(
+                "cover" => "/image/syncvid.png",
+                "img1"  => "/image/syncvid.png"
+            )
+        );
+        Expositions::create([
+            'title' => "Synchronicity",
+            'description' => "An experimental video on Carl Jung's theory of Synchronicity.",
+            'type' => "Videography & Sound Design",
+            'details' => "",
+            'img' => $synchronicity,
+        ]);
+
 
         $laraLogan = json_encode(
             array(
@@ -76,21 +123,33 @@ class ExpositionsTableSeeder extends Seeder
             'img' => $laraLogan,
         ]);
 
+        // $jam = json_encode(
+        //     array(
+        //         "cover" => "/image/jamcover.png",
+        //         "img1"  => "/image/jamcover.png"
+        //     )
+        // );
+        // Expositions::create([
+        //     'title' => "JAM",
+        //     'description' => "A short documentary on Bristols most vibrant jazz bars LEFTBANK. Every Thursday they hold a jam night where different musicians come together to create unique music. Most of the people who come to play have never met and are completely improvising, this creates an exciting atmosphere as each person brings a their own flair to the group creating a different music every night. We also designed a casing for the documentary as seen here.",
+        //     'type' => "",
+        //     'details' => "",
+        //     'img' => $jam,
+        // ]);
 
-        $synchronicity = json_encode(
+        $darkElf = json_encode(
             array(
-                "cover" => "/image/syncvid.png",
-                "img1"  => "/image/syncvid.png"
+                "cover" => "/image/ira.jpg",
+                "img1"  => "/image/ira.jpg"
             )
         );
         Expositions::create([
-            'title' => "Synchronicity",
-            'description' => "An experimental video on Carl Jung's theory of Synchronicity.",
-            'type' => "Videography & Sound Design",
-            'details' => "",
-            'img' => $synchronicity,
+            'title' => "The Dark Elf",
+            'description' => "",
+            'type' => "",
+            'details' => "Portrait Photography.",
+            'img' => $darkElf,
         ]);
-
 
         $humanHerd = json_encode(
             array(
@@ -108,106 +167,39 @@ class ExpositionsTableSeeder extends Seeder
             'img' =>  $humanHerd,
         ]);
 
-
-        $sync = json_encode(
-            array(
-                "cover" => "/image/sync2.jpg",
-                "img1"  => "/image/sync2.jpg"
-            )
-        );
-        Expositions::create([
-            'title' => "Sync",
-            'description' => "A project analysing human synchronization through rhythm in a confined space. The sculpture consists of a pattern created by peoples movements in response to the sounds they hear. Each layer represents a specific time frame within a confined space and as the sounds intensify peoples movements start to synchronise. The layers are then individually screen printed on to a layer of perspex and held together by two concrete blocks that emulate the walls of this confined space. This allows us to see how peoples movements expand through the group as a kind of domino effect depending on the sounds they hear.",
-            'type' => "Conceptual Design, Sculpture, Screen Printing, Concrete work & Metal Work",
-            'details' => "",
-            'img' => $sync,
-        ]);
-
-
-        $jam = json_encode(
-            array(
-                "cover" => "/image/jamcover.png",
-                "img1"  => "/image/jamcover.png"
-            )
-        );
-        Expositions::create([
-            'title' => "JAM",
-            'description' => "A short documentary on Bristols most vibrant jazz bars LEFTBANK. Every Thursday they hold a jam night where different musicians come together to create unique music. Most of the people who come to play have never met and are completely improvising, this creates an exciting atmosphere as each person brings a their own flair to the group creating a different music every night. We also designed a casing for the documentary as seen here.",
-            'type' => "",
-            'details' => "",
-            'img' => $jam,
-        ]);
+        // $lethalCombination = json_encode(
+        //     array(
+        //         "cover" => "/image/lethal_combination.jpg",
+        //         "img1"  => "/image/lethal_combination.jpg"
+        //     )
+        // );
+        // Expositions::create([
+        //     'title' => "Lethal Combination",
+        //     'description' => "",
+        //     'type' => "Custom typeface for logo design.",
+        //     'details' => "",
+        //     'img' =>  $lethalCombination
+        // ]);
 
 
-        $darkElf = json_encode(
-            array(
-                "cover" => "/image/ira.jpg",
-                "img1"  => "/image/ira.jpg"
-            )
-        );
-        Expositions::create([
-            'title' => "The Dark Elf",
-            'description' => "",
-            'type' => "",
-            'details' => "Portrait Photography.",
-            'img' => $darkElf,
-        ]);
-
-
-        $lethalCombination = json_encode(
-            array(
-                "cover" => "/image/lethal_combination.jpg",
-                "img1"  => "/image/lethal_combination.jpg"
-            )
-        );
-        Expositions::create([
-            'title' => "Lethal Combination",
-            'description' => "",
-            'type' => "Custom typeface for logo design.",
-            'details' => "",
-            'img' =>  $lethalCombination
-        ]);
-
-
-        $readNews = json_encode(
-            array(
-                "cover"=> "/image/news_cover.jpg",
-                "img1"=> "/image/news.jpg",
-                "img2"=> "/image/news2.jpg",
-                "img3"=> "/image/news4.jpg",
-                "img4"=> "/image/news8.jpg",
-                "img5"=> "/image/news11.jpg",
-                "img6"=> "/image/news12.jpg",
-                "img7"=> "/image/news15.jpg"
-            )
-        );
-        Expositions::create([
-            'title' => "I read the news today",
-            'description' => "We live in a world with so many constant news updates from so many sources its hard to keep track and judge which problems are important, weather it be a local problem or global. The idea behind this publication is to highlight important news articles over one summer and curate them into a manageable information for the reader. Non bias news from local to global hopefully giving up a better understanding of the things that have happened in this time",
-            'type' => "Editorial Design & Research",
-            'details' => "",
-            'img' => $readNews,
-        ]);
-
-
-        $velvet = json_encode(
-            array(
-                "cover"=> "/image/velvet000682.jpg",
-                "img1"=> "/image/velvet000673.jpg",
-                "img2"=> "/image/velvet000675.jpg",
-                "img3"=> "/image/velvet000676.jpg",
-                "img4"=> "/image/velvet000677.jpg",
-                "img5"=> "/image/velvet000678.jpg",
-                "img6"=> "/image/velvet000684.jpg",
-                "img7"=> "/image/velvet000685.jpg"
-            )
-        );
-        Expositions::create([
-            'title' => "Velvet",
-            'description' => "Directing a personal project in collaboration with some friends where we make hand made garments unique to the buyers needs trying to fight the idea of quality in mass produced objects.",
-            'type' => "Art Direction & Fashion Design",
-            'details' => "",
-            'img' => $velvet,
-        ]);
+        // $readNews = json_encode(
+        //     array(
+        //         "cover"=> "/image/news_cover.jpg",
+        //         "img1"=> "/image/news.jpg",
+        //         "img2"=> "/image/news2.jpg",
+        //         "img3"=> "/image/news4.jpg",
+        //         "img4"=> "/image/news8.jpg",
+        //         "img5"=> "/image/news11.jpg",
+        //         "img6"=> "/image/news12.jpg",
+        //         "img7"=> "/image/news15.jpg"
+        //     )
+        // );
+        // Expositions::create([
+        //     'title' => "I read the news today",
+        //     'description' => "We live in a world with so many constant news updates from so many sources its hard to keep track and judge which problems are important, weather it be a local problem or global. The idea behind this publication is to highlight important news articles over one summer and curate them into a manageable information for the reader. Non bias news from local to global hopefully giving up a better understanding of the things that have happened in this time",
+        //     'type' => "Editorial Design & Research",
+        //     'details' => "",
+        //     'img' => $readNews,
+        // ]);
     }
 }

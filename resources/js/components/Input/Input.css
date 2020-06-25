@@ -1,0 +1,23 @@
+.Input-Container textarea:focus,input:focus  {
+    outline: none;
+}
+
+.Input-Container input,textarea {
+    border: none;
+    color: white;
+    resize: none;
+}
+
+.Input-Container input:-webkit-autofill,
+.Input-Container input:-webkit-autofill:hover,
+.Input-Container input:-webkit-autofill:focus,
+.Input-Container input:-webkit-autofill:active {
+   -webkit-transition-delay: 9999s;
+   transition-delay: 9999s;
+}
+
+.Input-Container ::-webkit-input-placeholder { color:#fff; font-size: 3vh; }
+.Input-Container ::-moz-placeholder { color:#ffff; } /* firefox 19+ */
+.Input-Container :-ms-input-placeholder { color:#ffff; } /* ie */
+.Input-Container input:-moz-placeholder { color:#ffff; }
+

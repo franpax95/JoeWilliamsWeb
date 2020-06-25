@@ -6546,7 +6546,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "@font-face {\r\n    font-family: \"Halogen-Light\";\r\n    src: url('/fonts/Halogen-Light.otf');\r\n\r\n    /* src: url('/storage/fonts/Halogen-Black.otf'),url('/storage/fonts/Halogen-BlackOblique.otf'),url('/storage/fonts/Halogen-Bold.otf'),url('/storage/fonts/Halogen-BoldOblique.otf'),\r\n    url('/storage/fonts/Halogen-Hairline.otf'),url('/storage/fonts/Halogen-HairlineOblique.otf'),url('/storage/fonts/Halogen-Medium.otf'),url('/storage/fonts/Halogen-MediumOblique.otf'),\r\n    url('/storage/fonts/Halogen-Regular.otf'),url('/storage/fonts/Halogen-RegularOblique.otf'),url('/storage/fonts/Halogen-Thin.otf'),url('/storage/fonts/Halogen-ThinOblique.otf'), */\r\n}\r\n\r\n\r\n*{\r\n    box-sizing: border-box;\r\n    margin: 0;\r\n    font-family: \"Halogen-Light\";\r\n}\r\n\r\na{ text-decoration: none; }", ""]);
+exports.push([module.i, "@font-face {\r\n    font-family: \"Halogen-Light\";\r\n    src: url('/fonts/Halogen-Light.otf');\r\n\r\n    /* src: url('/storage/fonts/Halogen-Black.otf'),url('/storage/fonts/Halogen-BlackOblique.otf'),url('/storage/fonts/Halogen-Bold.otf'),url('/storage/fonts/Halogen-BoldOblique.otf'),\r\n    url('/storage/fonts/Halogen-Hairline.otf'),url('/storage/fonts/Halogen-HairlineOblique.otf'),url('/storage/fonts/Halogen-Medium.otf'),url('/storage/fonts/Halogen-MediumOblique.otf'),\r\n    url('/storage/fonts/Halogen-Regular.otf'),url('/storage/fonts/Halogen-RegularOblique.otf'),url('/storage/fonts/Halogen-Thin.otf'),url('/storage/fonts/Halogen-ThinOblique.otf'), */\r\n}\r\n\r\n\r\n*{\r\n    box-sizing: border-box;\r\n    margin: 0;\r\n    font-family: \"Halogen-Light\";\r\n}\r\n\r\na{ text-decoration: none; }\r\n.grid{ display: grid; }\r\n.flex{ display: flex; }\r\n.flex-row{ flex-direction: row; }\r\n.flex-row-reverse { flex-direction: row-reverse; }\r\n.flex-col{ flex-direction: column; }\r\n.justifyc{ justify-content: center; }\r\n.alignc{ align-items: center; }", ""]);
 
 // exports
 
@@ -6566,6 +6566,44 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 // module
 exports.push([module.i, ".Fatal{\r\n    font-size: 2em;\r\n    text-align: center;\r\n    color: red;\r\n}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/Form/Form.css":
+/*!*******************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./resources/js/components/Form/Form.css ***!
+  \*******************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".Form-Contact {\r\n    width: 100%;\r\n    padding: 10px;\r\n    display: flex;\r\n    flex-direction: column;\r\n}\r\n\r\n.Input-Container {\r\n    height: 100px;\r\n    border-bottom: 2px solid white;\r\n    color: white;\r\n}\r\n.Input-Container > * {\r\n    width: 50%;\r\n    background: transparent;\r\n}\r\n.Input-Container > label {\r\n    margin-left: 50px;\r\n}\r\n\r\n.submit {\r\n    cursor: pointer;\r\n    background: transparent;\r\n    border: 2px solid white;\r\n    color: white;\r\n    padding: 14px 49px;\r\n    font-weight: bold;\r\n    font-size: medium;\r\n    margin: auto;\r\n    margin-top: 76px;\r\n}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/Input/Input.css":
+/*!*********************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./resources/js/components/Input/Input.css ***!
+  \*********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".Input-Container textarea:focus,input:focus  {\r\n    outline: none;\r\n}\r\n\r\n.Input-Container input,textarea {\r\n    border: none;\r\n    color: white;\r\n    resize: none;\r\n}\r\n\r\n.Input-Container input:-webkit-autofill,\r\n.Input-Container input:-webkit-autofill:hover,\r\n.Input-Container input:-webkit-autofill:focus,\r\n.Input-Container input:-webkit-autofill:active {\r\n   -webkit-transition-delay: 9999s;\r\n   transition-delay: 9999s;\r\n}\r\n\r\n.Input-Container ::-webkit-input-placeholder { color:#fff; font-size: 3vh; }\r\n.Input-Container ::-moz-placeholder { color:#ffff; } /* firefox 19+ */\r\n.Input-Container :-ms-input-placeholder { color:#ffff; } /* ie */\r\n.Input-Container input:-moz-placeholder { color:#ffff; }\r\n\r\n", ""]);
 
 // exports
 
@@ -6661,6 +6699,25 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 // module
 exports.push([module.i, "html, body, #app{ width: 100%; }\r\n\r\n.About{\r\n    width: 100%;\r\n    padding-left: 20px;\r\n\r\n    display: flex;\r\n    flex-direction: column;\r\n    overflow: hidden;\r\n\r\n    color: white;\r\n    background: rgb(255,255,255);\r\n    background: linear-gradient(to bottom, rgba(255,255,255,1) 5%, rgba(244,238,238,1) 30%, rgba(223,205,205,1) 79%, rgba(223,205,205,1) 93%);\r\n    background-attachment: fixed;\r\n    background-position: center;\r\n\r\n    transition: opacity .5s;\r\n}\r\n\r\n.About > span{\r\n    height: 10vh;\r\n\r\n    font-size: 3vw;\r\n    text-transform: uppercase;\r\n}\r\n\r\n.About .hello{ color: black; }\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/pages/Contact/Contact.css":
+/*!********************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./resources/js/pages/Contact/Contact.css ***!
+  \********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".Contact-Container {\r\n    width: 100%;\r\n    /* height: 100vh; */\r\n    align-items: center;\r\n    flex-flow: column;\r\n    background: linear-gradient(to bottom, rgba(255,255,255,1) 5%, rgba(244,238,238,1) 30%, rgba(223,205,205,1) 79%, rgba(223,205,205,1) 93%);\r\n}", ""]);
 
 // exports
 
@@ -83098,8 +83155,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pages_Index__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../pages/Index */ "./resources/js/pages/Index/index.js");
 /* harmony import */ var _pages_About__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../pages/About */ "./resources/js/pages/About/index.js");
 /* harmony import */ var _pages_Projects__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../pages/Projects */ "./resources/js/pages/Projects/index.js");
-/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./App.css */ "./resources/js/components/App.css");
-/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_App_css__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _pages_Contact__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../pages/Contact */ "./resources/js/pages/Contact/index.js");
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./App.css */ "./resources/js/components/App.css");
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_App_css__WEBPACK_IMPORTED_MODULE_7__);
+
 
 
 
@@ -83125,6 +83184,10 @@ var App = function App() {
     exact: true,
     path: "/projects/:id",
     component: _pages_Projects__WEBPACK_IMPORTED_MODULE_5__["default"]
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    exact: true,
+    path: "/contact",
+    component: _pages_Contact__WEBPACK_IMPORTED_MODULE_6__["default"]
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
     exact: true,
     path: "/about",
@@ -83189,6 +83252,175 @@ var Fatal = function Fatal(_ref) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "Fatal"
   }, message);
+};
+
+/***/ }),
+
+/***/ "./resources/js/components/Form/Form.css":
+/*!***********************************************!*\
+  !*** ./resources/js/components/Form/Form.css ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--5-1!../../../../node_modules/postcss-loader/src??ref--5-2!./Form.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/Form/Form.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./resources/js/components/Form/index.js":
+/*!***********************************************!*\
+  !*** ./resources/js/components/Form/index.js ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Form_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Form.css */ "./resources/js/components/Form/Form.css");
+/* harmony import */ var _Form_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Form_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Input__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Input */ "./resources/js/components/Input/index.js");
+
+
+
+
+var Form = function Form(_ref) {
+  var onSubmit = _ref.onSubmit;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+    className: "Form-Contact"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "Input-Container alignc flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: ""
+  }, "NAME"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Input__WEBPACK_IMPORTED_MODULE_2__["Input"], {
+    name: "name",
+    placeholder: "Joe Williams"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "Input-Container alignc flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: ""
+  }, "E-MAIL"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Input__WEBPACK_IMPORTED_MODULE_2__["Input"], {
+    name: "email",
+    type: "email",
+    placeholder: "jts.design@gmail.com"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "Input-Container alignc flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: ""
+  }, "SUBJECT"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Input__WEBPACK_IMPORTED_MODULE_2__["Input"], {
+    name: "subject",
+    placeholder: "Web Design"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "Input-Container alignc flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: ""
+  }, "MESSAGE"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Input__WEBPACK_IMPORTED_MODULE_2__["TextArea"], {
+    name: "message",
+    placeholder: "Hello There"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    className: "submit",
+    type: "submit",
+    value: "Submit"
+  }));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Form);
+
+/***/ }),
+
+/***/ "./resources/js/components/Input/Input.css":
+/*!*************************************************!*\
+  !*** ./resources/js/components/Input/Input.css ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--5-1!../../../../node_modules/postcss-loader/src??ref--5-2!./Input.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/Input/Input.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./resources/js/components/Input/index.js":
+/*!************************************************!*\
+  !*** ./resources/js/components/Input/index.js ***!
+  \************************************************/
+/*! exports provided: Input, TextArea */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Input", function() { return Input; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TextArea", function() { return TextArea; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Input_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Input.css */ "./resources/js/components/Input/Input.css");
+/* harmony import */ var _Input_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Input_css__WEBPACK_IMPORTED_MODULE_1__);
+
+
+var Input = function Input(_ref) {
+  var name = _ref.name,
+      value = _ref.value,
+      _ref$type = _ref.type,
+      type = _ref$type === void 0 ? 'text' : _ref$type,
+      placeholder = _ref.placeholder;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    className: "",
+    type: type,
+    name: name,
+    value: value,
+    placeholder: placeholder,
+    required: true
+  });
+};
+var TextArea = function TextArea(_ref2) {
+  var name = _ref2.name,
+      value = _ref2.value,
+      placeholder = _ref2.placeholder;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("textarea", {
+    className: "",
+    name: name,
+    value: value,
+    placeholder: placeholder,
+    required: true
+  });
 };
 
 /***/ }),
@@ -83738,6 +83970,32 @@ var ProjectCard = function ProjectCard(_ref) {
 
 /***/ }),
 
+/***/ "./resources/js/components/SpaceBetween/index.js":
+/*!*******************************************************!*\
+  !*** ./resources/js/components/SpaceBetween/index.js ***!
+  \*******************************************************/
+/*! exports provided: SpaceBetween */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SpaceBetween", function() { return SpaceBetween; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+var SpaceBetween = function SpaceBetween(_ref) {
+  var _ref$height = _ref.height,
+      height = _ref$height === void 0 ? '100px' : _ref$height;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      height: height,
+      minHeight: height
+    }
+  });
+};
+
+/***/ }),
+
 /***/ "./resources/js/index.js":
 /*!*******************************!*\
   !*** ./resources/js/index.js ***!
@@ -83816,19 +84074,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _About_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./About.css */ "./resources/js/pages/About/About.css");
 /* harmony import */ var _About_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_About_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_SpaceBetween__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/SpaceBetween */ "./resources/js/components/SpaceBetween/index.js");
 
 
 
-var SpaceBetween = function SpaceBetween(_ref) {
-  var _ref$height = _ref.height,
-      height = _ref$height === void 0 ? '100px' : _ref$height;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    style: {
-      height: height,
-      minHeight: height
-    }
-  });
-};
 
 var About = function About(props) {
   var aboutRef = Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])(null);
@@ -83841,13 +84090,13 @@ var About = function About(props) {
     style: {
       opacity: '0'
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SpaceBetween, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_SpaceBetween__WEBPACK_IMPORTED_MODULE_2__["SpaceBetween"], {
     height: "40vh"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "A little about me"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SpaceBetween, {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "A little about me"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_SpaceBetween__WEBPACK_IMPORTED_MODULE_2__["SpaceBetween"], {
     height: "20vh"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "My name is Joe Williams."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "I am a creative designer and"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "maker of interesting things."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SpaceBetween, {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "My name is Joe Williams."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "I am a creative designer and"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "maker of interesting things."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_SpaceBetween__WEBPACK_IMPORTED_MODULE_2__["SpaceBetween"], {
     height: "20vh"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "I have created this space as a"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "platform to showcase a range"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "of my work and collaborations."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SpaceBetween, {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "I have created this space as a"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "platform to showcase a range"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "of my work and collaborations."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_SpaceBetween__WEBPACK_IMPORTED_MODULE_2__["SpaceBetween"], {
     height: "20vh"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "If you have any questions or"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "would like to work together"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "on your next project please"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "feel free to ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "hello"
@@ -83855,6 +84104,74 @@ var About = function About(props) {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (About);
+
+/***/ }),
+
+/***/ "./resources/js/pages/Contact/Contact.css":
+/*!************************************************!*\
+  !*** ./resources/js/pages/Contact/Contact.css ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--5-1!../../../../node_modules/postcss-loader/src??ref--5-2!./Contact.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/pages/Contact/Contact.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./resources/js/pages/Contact/index.js":
+/*!*********************************************!*\
+  !*** ./resources/js/pages/Contact/index.js ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Contact_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Contact.css */ "./resources/js/pages/Contact/Contact.css");
+/* harmony import */ var _Contact_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Contact_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_Form__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Form */ "./resources/js/components/Form/index.js");
+/* harmony import */ var _components_SpaceBetween__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/SpaceBetween */ "./resources/js/components/SpaceBetween/index.js");
+
+
+
+
+
+var Contact = function Contact() {
+  var onSubmit = function onSubmit() {
+    console.log('submit');
+  };
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "Contact-Container flex justifyc"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_SpaceBetween__WEBPACK_IMPORTED_MODULE_3__["SpaceBetween"], {
+    height: "35vh"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Form__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    onSubmit: onSubmit
+  }));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Contact);
 
 /***/ }),
 
@@ -84124,7 +84441,13 @@ var INITIAL_STATE = {
   exposition: {},
   currentPage: '',
   loading: false,
-  error: ''
+  error: '',
+  form: {
+    name: '',
+    email: '',
+    subject: '',
+    message: ''
+  }
 };
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : INITIAL_STATE;

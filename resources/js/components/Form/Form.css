@@ -1,0 +1,31 @@
+.Form-Contact {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Input-Container {
+    height: 100px;
+    border-bottom: 2px solid white;
+    color: white;
+}
+.Input-Container > * {
+    width: 50%;
+    background: transparent;
+}
+.Input-Container > label {
+    margin-left: 50px;
+}
+
+.submit {
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 14px 49px;
+    font-weight: bold;
+    font-size: medium;
+    margin: auto;
+    margin-top: 76px;
+}
