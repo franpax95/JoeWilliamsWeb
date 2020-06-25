@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export const Button = ({text, type, clase, onClick}) => {
     return (
-        <button type={type} className={clase} onClick={onClick}>
+        <button type={type} className={clase} >
             {
                 text === 'HOME' ?  <Link to="/home">{text}</Link> : text
             }

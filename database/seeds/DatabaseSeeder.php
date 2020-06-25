@@ -14,45 +14,48 @@ class DatabaseSeeder extends Seeder
     {
         $coverCunt = json_encode(
             array(
-                "cover" => "/image/covercunt.png",
-                "img1"  => "/image/covercunt.png",
-                "img2"  => "/image/cunt13.jpg",
+                "cover" => "/image/covercunt.jpg",
+                "img1"  => "/image/covercunt.jpg",
+                "img2"  => "/image/cuntcover.jpg",
                 "img3"  => "/image/cunt15.jpg",
-                "img4"  => "/image/cunt18.jpg",
-                "img5"  => "/image/cunt20.jpg",
-                "img6"  => "/image/cunt27.jpg",
-                "img7"  => "/image/cunt32.jpg",
-                "img8"  => "/image/cunt35.jpg",
-                "img9"  => "/image/cuntcover.jpg"
+                "img4"  => "/image/cunt13.jpg",
+                "img5"  => "/image/cunt18.jpg",
+                "img6"  => "/image/cunt20.jpg",
+                "img7"  => "/image/cunt27.jpg",
+                "img8"  => "/image/cunt32.jpg",
+                "img9"  => "/image/cunt35.jpg"
             )
         );
         Expositions::create([
             'title' => "Let's talk about the c-word",
-            'description' => "The word I chose was “cunt”. This word interested me as it is known to be one of the most offensive words in the English language. I wanted to find out where this word came from and why it is considered one of the worst. In this book I dive into the history of the word. Detailing the first time it appears in literature, the first time it appears on TV and today’s public opinion of word. The book also includes an interview with UWE’s  Senior Lecturer in Visual Culture Rachel Miles, where we have an in depth conversation on the words role in modern culture and how it has come to have so much power.",
+            'description' => "In this book I dive into the history of one of the most most offensive words. In the English language, the word cunt. Detailing the complex history and evolution of the word. The book also includes an interview with Rachel Miles a Senior Lecturer in VIsual Culture at UWE, where we have and in depth conversation on the words role in modern culture and how it has come to have so much power.",
             'type' => "Editorial Design & Custom Bookbinding",
             'details' => "The rose on the books cover has been laser cut into the card and the book's spine is made from sandpaper to give the book a rough texture as soon as you pick it up.",
             'img' =>  $coverCunt,
         ]);
 
+
+
         $velvet = json_encode(
             array(
-                "cover"=> "/image/velvet000682.jpg",
-                "img1"=> "/image/velvet000673.jpg",
-                "img2"=> "/image/velvet000675.jpg",
-                "img3"=> "/image/velvet000676.jpg",
+                "cover"=> "/image/velvet000675.jpg",
+                "img1"=> "/image/velvet000675.jpg",
+                "img2"=> "/image/velvet000682.jpg",
+                "img3"=> "",
                 "img4"=> "/image/velvet000677.jpg",
-                "img5"=> "/image/velvet000678.jpg",
-                "img6"=> "/image/velvet000684.jpg",
-                "img7"=> "/image/velvet000685.jpg"
+                "img5"=> "/image/velvet000673.jpg",
+                "img6"=> ""
             )
         );
         Expositions::create([
             'title' => "Velvet",
-            'description' => "Directing a personal project in collaboration with some friends where we make hand made garments unique to the buyers needs trying to fight the idea of quality in mass produced objects.",
+            'description' => "Concept clothing for creatives. \n velvet is aN ONGOING collaboration with local businesses to create hand made garments. using organic fabrics & natural dyeS WE ARE HOPING FOR A SUSTAINABLE ALTERNATIVE TO THE FASHION INDUSTRIALISED FASHION INDUSTRY.",
             'type' => "Art Direction & Fashion Design",
             'details' => "",
-            'img' => $velvet,
+            'img' => $velvet
         ]);
+
+
 
         $sync = json_encode(
             array(
@@ -62,57 +65,62 @@ class DatabaseSeeder extends Seeder
         );
         Expositions::create([
             'title' => "Sync",
-            'description' => "A project analysing human synchronization through rhythm in a confined space. The sculpture consists of a pattern created by peoples movements in response to the sounds they hear. Each layer represents a specific time frame within a confined space and as the sounds intensify peoples movements start to synchronise. The layers are then individually screen printed on to a layer of perspex and held together by two concrete blocks that emulate the walls of this confined space. This allows us to see how peoples movements expand through the group as a kind of domino effect depending on the sounds they hear.",
-            'type' => "Conceptual Design, Sculpture, Screen Printing, Concrete work & Metal Work",
+            'description' => "A scupture representing a visual analisis of human synchronization through rhythm in a confined space. The sculpture consists of a pattern created by peoples movements in response to the sounds they hear. The pattern is divided in to specific time frames that have each been screen printed on layers of perspex, as the rythm progresses you can see the fluctuations of synchronised movements move through the crowd. The layers are then held together by two concrete blocks that emulate the walls of this confined space.",
+            'type' => "Editorial Design & Custom Bookbinding",
             'details' => "",
             'img' => $sync,
         ]);
 
+
+
         $finalFlamingo = json_encode(
             array(
                 "cover" => "/image/Final_flamingo_cover.jpg",
-                "img1"  => "/image/Final_flamingo_6.jpg",
-                "img2"  => "/image/Final_flamingo_2.jpg",
-                "img3"  => "/image/Final_flamingo_3.jpg",
-                "img4"  => "/image/Final_flamingo_4.jpg",
-                "img5"  => "/image/Final_flamingo_5.jpg",
-                "img6"  => "/image/Final_flamingo_1.jpg",
-                "img7"  => "/image/Final_flamingo_7.jpg",
-                "img8"  => "/image/Final_flamingo_8.jpg"
+                "img1"  => "/image/Final_flamingo_cover.jpg",
+                "img2"  => "/image/Final_flamingo_the_fucking_final_one4.jpg",
+                "img3"  => "/image/Final_flamingo_the_fucking_final_one10.jpg",
+                "img4"  => "/image/Final_flamingo_the_fucking_final_one14.jpg",
+                "img5"  => "/image/Final_flamingo_the_fucking_final_one16.jpg",
+                "img6"  => "/image/Final_flamingo_the_fucking_final_one19.jpg",
+                // "img7"  => "",
+                // "img8"  => ""
             )
         );
         Expositions::create([
             'title' => "Fluttering Flamingo",
-            'description' => "A publication analysing the flamingos flight patterns and yearly migration. This is a fascinating moment in nature as these birds migrate from all over the world to lake Nakuru at the exact date every year.",
+            'description' => "A publication analysing the flamingos flight patterns and yearly migration. This is a fascinating moment in nature as these birds are capable of migrating miles, at the exact date every year, from all over the world to lake Nakuru.",
             'type' => "Editorial Design & Custom Bookbinding",
-            'details' => "The publication also features fold out pages showing the birds flight formations. These pages are designed to mimic the flamingos wing span.",
+            'details' => "The publication also features fold out pages showing the birds flight formations. \n These pages are designed to mimic the flamingos wing span.",
             'img' => $finalFlamingo,
         ]);
 
+
+
         $synchronicity = json_encode(
             array(
-                "cover" => "/image/syncvid.png",
-                "img1"  => "/image/syncvid.png"
+                "cover" => "/image/syncvid.jpg",
+                "img1"  => "/image/syncvid.jpg"
             )
         );
         Expositions::create([
             'title' => "Synchronicity",
-            'description' => "An experimental video on Carl Jung's theory of Synchronicity.",
-            'type' => "Videography & Sound Design",
+            'description' => "A moving image piece on Carl Jung's theory of Synchronicity. \n Many of my projects stem from his research in to this subject. There is still so much we dont know when ir comes to the subconcious connections humans have with eachother and this fascinates me. Small details in movements and behaviour that sometimes go unnoticed can often stem from a depp and complex proccess in our subconcious.",
+            'type' => "Moving Image & Sound Design",
             'details' => "",
             'img' => $synchronicity,
         ]);
 
 
+
         $laraLogan = json_encode(
             array(
-                "cover" => "/image/laracover.png",
-                "img1"  => "/image/LARA3.jpg",
-                "img2"  => "/image/LARA5.jpg",
-                "img3"  => "/image/LARA8.jpg",
-                "img4"  => "/image/LARA9.jpg",
-                "img5"  => "/image/LARA10.jpg",
-                "img6"  => "/image/LARA11.jpg"
+                "cover" => "/image/laracover.jpg",
+                "img1"  => "/image/laracover.jpg",
+                "img2"  => "/image/LARA8.jpg",
+                "img3"  => "/image/LARA9.jpg",
+                "img4"  => "/image/LARA10.jpg",
+                "img5"  => "/image/LARA11.jpg",
+                // "img6"  => ""
             )
         );
         Expositions::create([
@@ -123,19 +131,7 @@ class DatabaseSeeder extends Seeder
             'img' => $laraLogan,
         ]);
 
-        // $jam = json_encode(
-        //     array(
-        //         "cover" => "/image/jamcover.png",
-        //         "img1"  => "/image/jamcover.png"
-        //     )
-        // );
-        // Expositions::create([
-        //     'title' => "JAM",
-        //     'description' => "A short documentary on Bristols most vibrant jazz bars LEFTBANK. Every Thursday they hold a jam night where different musicians come together to create unique music. Most of the people who come to play have never met and are completely improvising, this creates an exciting atmosphere as each person brings a their own flair to the group creating a different music every night. We also designed a casing for the documentary as seen here.",
-        //     'type' => "",
-        //     'details' => "",
-        //     'img' => $jam,
-        // ]);
+
 
         $darkElf = json_encode(
             array(
@@ -145,7 +141,7 @@ class DatabaseSeeder extends Seeder
         );
         Expositions::create([
             'title' => "The Dark Elf",
-            'description' => "",
+            'description' => "Photography colaboration with makeup artist Ira Kamu.",
             'type' => "",
             'details' => "Portrait Photography.",
             'img' => $darkElf,
@@ -153,10 +149,14 @@ class DatabaseSeeder extends Seeder
 
         $humanHerd = json_encode(
             array(
-                "cover"=> "/image/herd_red_2.jpg",
-                "img1"=> "/image/herd_red.jpg",
-                "img2"=> "/image/herd_red_1.jpg",
-                "img3"=> "/image/herd_front_cover.jpg"
+                "cover"=> "/image/herd_front_cover.jpg",
+                "img1" => "/image/herd_front_cover.jpg",
+                "img2" => "/image/herd8.jpg",
+                "img3" => "/image/herd_red_1.jpg",
+                "img4" => "/image/herd15.jpg",
+                "img5" => "/image/herd20.jpg",
+                "img6" => "/image/herd_red.jpg",
+                "img7"=> "/image/herd_red_2.jpg"
             )
         );
         Expositions::create([
@@ -166,6 +166,8 @@ class DatabaseSeeder extends Seeder
             'details' => "",
             'img' =>  $humanHerd,
         ]);
+
+
 
         // $lethalCombination = json_encode(
         //     array(
@@ -200,6 +202,20 @@ class DatabaseSeeder extends Seeder
         //     'type' => "Editorial Design & Research",
         //     'details' => "",
         //     'img' => $readNews,
+        // ]);
+
+                // $jam = json_encode(
+        //     array(
+        //         "cover" => "/image/jamcover.png",
+        //         "img1"  => "/image/jamcover.png"
+        //     )
+        // );
+        // Expositions::create([
+        //     'title' => "JAM",
+        //     'description' => "A short documentary on Bristols most vibrant jazz bars LEFTBANK. Every Thursday they hold a jam night where different musicians come together to create unique music. Most of the people who come to play have never met and are completely improvising, this creates an exciting atmosphere as each person brings a their own flair to the group creating a different music every night. We also designed a casing for the documentary as seen here.",
+        //     'type' => "",
+        //     'details' => "",
+        //     'img' => $jam,
         // ]);
     }
 }

@@ -6603,11 +6603,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-<<<<<<< HEAD
 exports.push([module.i, ".Form-Contact {\r\n    width: 100%;\r\n    padding: 10px;\r\n    display: flex;\r\n    flex-direction: column;\r\n}\r\n\r\n.Input-Container {\r\n    height: 100px;\r\n    border-bottom: 2px solid white;\r\n    color: white;\r\n}\r\n.Input-Container > * {\r\n    width: 50%;\r\n    background: transparent;\r\n}\r\n.Input-Container > label {\r\n    margin-left: 50px;\r\n}", ""]);
-=======
-exports.push([module.i, ".Form-Contact {\r\n    width: 100%;\r\n    padding: 10px;\r\n    display: flex;\r\n    flex-direction: column;\r\n}\r\n\r\n.Input-Container {\r\n    height: 100px;\r\n    border-bottom: 2px solid white;\r\n    color: white;\r\n}\r\n.Input-Container > * {\r\n    width: 50%;\r\n    background: transparent;\r\n}\r\n.Input-Container > label {\r\n    margin-left: 50px;\r\n}\r\n\r\n.submit {\r\n    cursor: pointer;\r\n    background: transparent;\r\n    border: 2px solid white;\r\n    color: white;\r\n    padding: 14px 49px;\r\n    font-weight: bold;\r\n    font-size: medium;\r\n    margin: auto;\r\n    margin-top: 76px;\r\n}", ""]);
->>>>>>> 5811404468992c28105f4cf09bf083eb94389b6e
 
 // exports
 
@@ -6626,11 +6622,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-<<<<<<< HEAD
 exports.push([module.i, ".Input-Container textarea:focus,input:focus  {\r\n    outline: none;\r\n}\r\n\r\n.Input-Container input,textarea {\r\n    border: none;\r\n    color: white;\r\n    resize: none;\r\n}\r\n\r\n.Input-Container input {\r\nheight: 40px;\r\n}\r\n\r\n.Input-Container input:-webkit-autofill,\r\n.Input-Container input:-webkit-autofill:hover,\r\n.Input-Container input:-webkit-autofill:focus,\r\n.Input-Container input:-webkit-autofill:active {\r\n   -webkit-transition-delay: 9999s;\r\n   transition-delay: 9999s;\r\n}\r\n\r\n.Input-Container ::-webkit-input-placeholder { color:#fff; font-size: 3vh; }\r\n.Input-Container ::-moz-placeholder { color:#ffff; } /* firefox 19+ */\r\n.Input-Container :-ms-input-placeholder { color:#ffff; } /* ie */\r\n.Input-Container input:-moz-placeholder { color:#ffff; }\r\n\r\n", ""]);
-=======
-exports.push([module.i, ".Input-Container textarea:focus,input:focus  {\r\n    outline: none;\r\n}\r\n\r\n.Input-Container input,textarea {\r\n    border: none;\r\n    color: white;\r\n    resize: none;\r\n}\r\n\r\n.Input-Container input:-webkit-autofill,\r\n.Input-Container input:-webkit-autofill:hover,\r\n.Input-Container input:-webkit-autofill:focus,\r\n.Input-Container input:-webkit-autofill:active {\r\n   -webkit-transition-delay: 9999s;\r\n   transition-delay: 9999s;\r\n}\r\n\r\n.Input-Container ::-webkit-input-placeholder { color:#fff; font-size: 3vh; }\r\n.Input-Container ::-moz-placeholder { color:#ffff; } /* firefox 19+ */\r\n.Input-Container :-ms-input-placeholder { color:#ffff; } /* ie */\r\n.Input-Container input:-moz-placeholder { color:#ffff; }\r\n\r\n", ""]);
->>>>>>> 5811404468992c28105f4cf09bf083eb94389b6e
 
 // exports
 
@@ -6706,7 +6698,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".Project{\r\n    height: 90%;\r\n    display: flex;\r\n    flex-direction: row;\r\n    flex-wrap: nowrap;\r\n    justify-content: flex-start;\r\n    align-items: flex-end;\r\n}\r\n\r\n.Project .title{\r\n    position: fixed;\r\n    top: 10vh;\r\n    left: 30px;\r\n\r\n    font-size: 1.5em;\r\n    font-weight: bold;\r\n    text-transform: uppercase;\r\n}\r\n\r\n\r\n.FirstElement{\r\n    height: 80%;\r\n    min-width: 60vw;\r\n    padding: 0 20px;\r\n\r\n    position: relative;\r\n    display: flex;\r\n    flex-direction: column;\r\n}\r\n.FirstElement .desc{\r\n    position: absolute;\r\n    top: 20vh;\r\n}\r\n.FirstElement .type{\r\n    position: absolute;\r\n    bottom: 0;\r\n    font-size: 0.8em;\r\n}\r\n\r\n.ImgWrapper{\r\n    height: 90%;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n.ImgWrapper img{ object-fit: contain; }\r\n.ImgWrapper.big img{ height: 100%; }\r\n.ImgWrapper.medium img{ height: 90%; padding: 0 2vw; } \r\n.ImgWrapper.small img{ height: 80%; padding: 0 5vw; }\r\n.ImgWrapper.background-none{ margin: 0 5px; }\r\n.ImgWrapper.c-word{ background-color: #625455; }\r\n.ImgWrapper.fluttering-flamingo{ background-color: #935a49; min-width: 40vw;  }\r\n\r\n.TextWrapper{\r\n    width: 70vw;\r\n    padding: 5vh 5vw;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: flex-end;\r\n}\r\n", ""]);
+exports.push([module.i, ".Project{\r\n    height: 90%;\r\n    display: flex;\r\n    flex-direction: row;\r\n    flex-wrap: nowrap;\r\n    justify-content: flex-start;\r\n    align-items: flex-end;\r\n}\r\n\r\n.Project .title{\r\n    position: fixed;\r\n    top: 10vh;\r\n    left: 30px;\r\n\r\n    font-size: 1.5em;\r\n    font-weight: bold;\r\n    text-transform: uppercase;\r\n}\r\n\r\n\r\n.FirstElement{\r\n    height: 80%;\r\n    min-width: 60vw;\r\n    padding: 0 20px;\r\n\r\n    position: relative;\r\n    display: flex;\r\n    flex-direction: column;\r\n}\r\n.FirstElement .desc{\r\n    position: absolute;\r\n    top: 20vh;\r\n}\r\n.FirstElement .type{\r\n    position: absolute;\r\n    bottom: 0;\r\n    font-size: 0.8em;\r\n}\r\n\r\n.ImgWrapper{\r\n    height: 90%;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n.ImgWrapper img{ object-fit: contain; }\r\n.ImgWrapper.big img{ height: 100%; }\r\n.ImgWrapper.medium img{ height: 90%; padding: 0 2vw; } \r\n.ImgWrapper.small img{ height: 80%; padding: 0 5vw; }\r\n.ImgWrapper.background-none{ margin: 0 5px; }\r\n.ImgWrapper.c-word{ background-color: #625455; }\r\n.ImgWrapper.fluttering-flamingo{ background-color: #935a49; min-width: 40vw;  }\r\n.ImgWrapper.lara-logan{ background-color: #78423c; }\r\n.ImgWrapper.human-herd{ background-color: #625455; }\r\n\r\n.TextWrapper{\r\n    width: 70vw;\r\n    padding: 5vh 5vw;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: flex-end;\r\n}\r\n", ""]);
 
 // exports
 
@@ -6745,25 +6737,6 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 // module
 exports.push([module.i, "html, body, #app{ width: 100%; }\r\n\r\n.About{\r\n    width: 100%;\r\n    padding-left: 20px;\r\n\r\n    display: flex;\r\n    flex-direction: column;\r\n    overflow: hidden;\r\n\r\n    color: white;\r\n    background: rgb(255,255,255);\r\n    background: linear-gradient(to bottom, rgba(255,255,255,1) 5%, rgba(244,238,238,1) 30%, rgba(223,205,205,1) 79%, rgba(223,205,205,1) 93%);\r\n    background-attachment: fixed;\r\n    background-position: center;\r\n\r\n    transition: opacity .5s;\r\n}\r\n\r\n.About > span{\r\n    height: 10vh;\r\n\r\n    font-size: 3vw;\r\n    text-transform: uppercase;\r\n}\r\n\r\n.About .hello{ color: black; }\r\n", ""]);
-
-// exports
-
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/pages/Contact/Contact.css":
-/*!********************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./resources/js/pages/Contact/Contact.css ***!
-  \********************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
-// imports
-
-
-// module
-exports.push([module.i, ".Contact-Container {\r\n    width: 100%;\r\n    /* height: 100vh; */\r\n    align-items: center;\r\n    flex-flow: column;\r\n    background: linear-gradient(to bottom, rgba(255,255,255,1) 5%, rgba(244,238,238,1) 30%, rgba(223,205,205,1) 79%, rgba(223,205,205,1) 93%);\r\n}", ""]);
 
 // exports
 
@@ -83319,8 +83292,7 @@ var Button = function Button(_ref) {
       onClick = _ref.onClick;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
     type: type,
-    className: clase,
-    onClick: onClick
+    className: clase
   }, text === 'HOME' ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
     to: "/home"
   }, text) : text);
@@ -83429,19 +83401,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Form_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Form.css */ "./resources/js/components/Form/Form.css");
 /* harmony import */ var _Form_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Form_css__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Input__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Input */ "./resources/js/components/Input/index.js");
-<<<<<<< HEAD
 /* harmony import */ var _Loading__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Loading */ "./resources/js/components/Loading/index.js");
 /* harmony import */ var _Buttons__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Buttons */ "./resources/js/components/Buttons/index.js");
 
 
-=======
->>>>>>> 5811404468992c28105f4cf09bf083eb94389b6e
 
 
 
 
 var Form = function Form(_ref) {
-<<<<<<< HEAD
   var onSubmit = _ref.onSubmit,
       onChange = _ref.onChange,
       showSpinner = _ref.showSpinner;
@@ -83449,23 +83417,13 @@ var Form = function Form(_ref) {
     className: "Form-Contact",
     onSubmit: onSubmit
   }, showSpinner ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Loading__WEBPACK_IMPORTED_MODULE_3__["Loading"], null) : '', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-=======
-  var onSubmit = _ref.onSubmit;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
-    className: "Form-Contact"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
->>>>>>> 5811404468992c28105f4cf09bf083eb94389b6e
     className: "Input-Container alignc flex"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
     className: ""
   }, "NAME"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Input__WEBPACK_IMPORTED_MODULE_2__["Input"], {
     name: "name",
-<<<<<<< HEAD
     placeholder: "Joe Williams",
     onChange: onChange
-=======
-    placeholder: "Joe Williams"
->>>>>>> 5811404468992c28105f4cf09bf083eb94389b6e
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "Input-Container alignc flex"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
@@ -83473,44 +83431,28 @@ var Form = function Form(_ref) {
   }, "E-MAIL"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Input__WEBPACK_IMPORTED_MODULE_2__["Input"], {
     name: "email",
     type: "email",
-<<<<<<< HEAD
     placeholder: "jts.design@gmail.com",
     onChange: onChange
-=======
-    placeholder: "jts.design@gmail.com"
->>>>>>> 5811404468992c28105f4cf09bf083eb94389b6e
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "Input-Container alignc flex"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
     className: ""
   }, "SUBJECT"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Input__WEBPACK_IMPORTED_MODULE_2__["Input"], {
     name: "subject",
-<<<<<<< HEAD
     placeholder: "Web Design",
     onChange: onChange
-=======
-    placeholder: "Web Design"
->>>>>>> 5811404468992c28105f4cf09bf083eb94389b6e
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "Input-Container alignc flex"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
     className: ""
   }, "MESSAGE"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Input__WEBPACK_IMPORTED_MODULE_2__["TextArea"], {
     name: "message",
-<<<<<<< HEAD
     placeholder: "Hello There",
     onChange: onChange
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Buttons__WEBPACK_IMPORTED_MODULE_4__["Button"], {
     text: "Submit",
     type: "submit",
     clase: "submit"
-=======
-    placeholder: "Hello There"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-    className: "submit",
-    type: "submit",
-    value: "Submit"
->>>>>>> 5811404468992c28105f4cf09bf083eb94389b6e
   }));
 };
 
@@ -83570,43 +83512,29 @@ var Input = function Input(_ref) {
       value = _ref.value,
       _ref$type = _ref.type,
       type = _ref$type === void 0 ? 'text' : _ref$type,
-<<<<<<< HEAD
       placeholder = _ref.placeholder,
       onChange = _ref.onChange;
-=======
-      placeholder = _ref.placeholder;
->>>>>>> 5811404468992c28105f4cf09bf083eb94389b6e
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     className: "",
     type: type,
     name: name,
     value: value,
     placeholder: placeholder,
-<<<<<<< HEAD
     onChange: onChange,
-=======
->>>>>>> 5811404468992c28105f4cf09bf083eb94389b6e
     required: true
   });
 };
 var TextArea = function TextArea(_ref2) {
   var name = _ref2.name,
       value = _ref2.value,
-<<<<<<< HEAD
       placeholder = _ref2.placeholder,
       onChange = _ref2.onChange;
-=======
-      placeholder = _ref2.placeholder;
->>>>>>> 5811404468992c28105f4cf09bf083eb94389b6e
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("textarea", {
     className: "",
     name: name,
     value: value,
     placeholder: placeholder,
-<<<<<<< HEAD
     onChange: onChange,
-=======
->>>>>>> 5811404468992c28105f4cf09bf083eb94389b6e
     required: true
   });
 };
@@ -83985,7 +83913,7 @@ var ProjectController = function ProjectController(_ref5) {
           alt: project.title,
           size: "big"
         }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(TextWrapper, {
-          text: project.description
+          text: project.details
         }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
           src: project.img.img3,
           alt: project.title,
@@ -84025,7 +83953,7 @@ var ProjectController = function ProjectController(_ref5) {
 
       /** Velvet */
 
-      case 11:
+      case 2:
         //Cambiar seed para ponerlo el 2do
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Project, {
           project: project
@@ -84061,7 +83989,7 @@ var ProjectController = function ProjectController(_ref5) {
 
       /** Sync */
 
-      case 6:
+      case 3:
         //Cambiar seed para ponerlo el 3ero
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Project, {
           project: project
@@ -84072,7 +84000,7 @@ var ProjectController = function ProjectController(_ref5) {
 
       /** fluttering flamingo */
 
-      case 2:
+      case 4:
         //Cambiar seed para ponerlo el 4to
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Project, {
           project: project
@@ -84108,38 +84036,93 @@ var ProjectController = function ProjectController(_ref5) {
           alt: project.title,
           size: "medium",
           background: "fluttering-flamingo"
-        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
-          src: project.img.img7,
-          alt: project.title,
-          size: "medium",
-          background: "fluttering-flamingo"
-        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
-          src: project.img.img8,
-          alt: project.title,
-          size: "medium",
-          background: "fluttering-flamingo"
         }));
 
-      /** lara logan case */
+      /** Synchronicity */
 
       case 5:
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Project, {
           project: project
-        });
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
+          src: project.img.img1,
+          alt: project.title
+        }));
 
       /** lara logan case */
 
       case 6:
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Project, {
           project: project
-        });
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
+          src: project.img.img1,
+          alt: project.title,
+          size: "medium",
+          background: "lara-logan"
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
+          src: project.img.img2,
+          alt: project.title,
+          size: "medium",
+          background: "lara-logan"
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
+          src: project.img.img3,
+          alt: project.title,
+          size: "medium",
+          background: "lara-logan"
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
+          src: project.img.img4,
+          alt: project.title,
+          size: "medium",
+          background: "lara-logan"
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
+          src: project.img.img5,
+          alt: project.title,
+          size: "medium",
+          background: "lara-logan"
+        }));
 
-      /** lara logan case */
+      /** Dark Elf */
 
       case 7:
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Project, {
           project: project
-        });
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
+          src: project.img.img1,
+          alt: project.title
+        }));
+
+      /** Human Herd*/
+
+      case 8:
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Project, {
+          project: project
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
+          src: project.img.img1,
+          alt: project.title
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
+          src: project.img.img2,
+          alt: project.title,
+          size: "small",
+          background: "human-herd"
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
+          src: project.img.img3,
+          alt: project.title
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
+          src: project.img.img4,
+          alt: project.title,
+          size: "small",
+          background: "human-herd"
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
+          src: project.img.img5,
+          alt: project.title,
+          size: "small",
+          background: "human-herd"
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
+          src: project.img.img6,
+          alt: project.title
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
+          src: project.img.img7,
+          alt: project.title
+        }));
 
       default:
         return "";
@@ -84407,7 +84390,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Contact_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Contact.css */ "./resources/js/pages/Contact/Contact.css");
 /* harmony import */ var _Contact_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Contact_css__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_Form__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Form */ "./resources/js/components/Form/index.js");
-<<<<<<< HEAD
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _components_SpaceBetween__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/SpaceBetween */ "./resources/js/components/SpaceBetween/index.js");
@@ -84434,16 +84416,12 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 
-=======
-/* harmony import */ var _components_SpaceBetween__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/SpaceBetween */ "./resources/js/components/SpaceBetween/index.js");
->>>>>>> 5811404468992c28105f4cf09bf083eb94389b6e
 
 
 
 
 
 var Contact = function Contact() {
-<<<<<<< HEAD
   var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])({
     name: '',
     email: '',
@@ -84474,14 +84452,14 @@ var Contact = function Contact() {
   };
 
   var hadleSubmit = function hadleSubmit(event) {
-    setShowSpinner(true);
-    sendEmail(); //   setTimeout(() => {
-    //     setEmailSent(false)
-    //     setShowSpinner(false)
-    //     setShowModal(true)
-    //   },1000)
-
     event.preventDefault();
+    setShowSpinner(true); // sendEmail();
+
+    setTimeout(function () {
+      setEmailSent(true);
+      setShowSpinner(false);
+      setShowModal(true);
+    }, 1000);
   };
 
   var sendEmail = function sendEmail() {
@@ -84500,7 +84478,6 @@ var Contact = function Contact() {
     className: "Contact-Container flex justifyc"
   }, showModal ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Modal__WEBPACK_IMPORTED_MODULE_5__["Modal"], {
     text: emailSent ? 'THANKS FOR SAYNG HELLO!' : 'OOPS SOMETHING WENT WRONG PLEASE CHECK DETAILS',
-    onClick: sendEmail,
     emailSent: emailSent
   }) : '', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_SpaceBetween__WEBPACK_IMPORTED_MODULE_4__["SpaceBetween"], {
     height: "45vh"
@@ -84511,21 +84488,6 @@ var Contact = function Contact() {
   }));
 };
 
-=======
-  var onSubmit = function onSubmit() {
-    console.log('submit');
-  };
-
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "Contact-Container flex justifyc"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_SpaceBetween__WEBPACK_IMPORTED_MODULE_3__["SpaceBetween"], {
-    height: "35vh"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Form__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    onSubmit: onSubmit
-  }));
-};
-
->>>>>>> 5811404468992c28105f4cf09bf083eb94389b6e
 /* harmony default export */ __webpack_exports__["default"] = (Contact);
 
 /***/ }),
@@ -84897,7 +84859,7 @@ var CHANGE_DESCRIPTION = 'exposition_change_description';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\WORK\ReactJS\JoeWilliamsWeb\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\DOCUMENTOS\Proyectos\Codes\Proyectos\JoeWWeb\JoeWilliamsWeb-master\resources\js\app.js */"./resources/js/app.js");
 
 
 /***/ })

@@ -28,17 +28,16 @@ const Contact = () => {
     }
 
     const hadleSubmit = (event) => {
+        event.preventDefault();
         setShowSpinner(true)
         
-        sendEmail();
+        // sendEmail();
 
-        //   setTimeout(() => {
-        //     setEmailSent(false)
-        //     setShowSpinner(false)
-        //     setShowModal(true)
-        //   },1000)
-          
-        event.preventDefault();
+        setTimeout(() => {
+        setEmailSent(true)
+        setShowSpinner(false)
+        setShowModal(true)
+        },1000)   
     }
 
     const sendEmail = () => {
@@ -58,7 +57,6 @@ const Contact = () => {
             {
                 showModal ? <Modal 
                                 text={emailSent ? 'THANKS FOR SAYNG HELLO!' : 'OOPS SOMETHING WENT WRONG PLEASE CHECK DETAILS'} 
-                                onClick={sendEmail} 
                                 emailSent={emailSent}/> : ''
             }
             <SpaceBetween height="45vh" />

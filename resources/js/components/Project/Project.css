@@ -50,6 +50,8 @@
 .ImgWrapper.background-none{ margin: 0 5px; }
 .ImgWrapper.c-word{ background-color: #625455; }
 .ImgWrapper.fluttering-flamingo{ background-color: #935a49; min-width: 40vw;  }
+.ImgWrapper.lara-logan{ background-color: #78423c; }
+.ImgWrapper.human-herd{ background-color: #625455; }
 
 .TextWrapper{
     width: 70vw;
