@@ -12,6 +12,15 @@
     overflow-x: scroll;
 }
 
+.Projects.in{
+    transition: opacity .5s;
+    opacity: 1;
+}
+.Projects.out{
+    transition: opacity .1s;
+    opacity: 0;
+}
+
 .Projects::-webkit-scrollbar { height: 5px; }
 .Projects::-webkit-scrollbar-track { background: lightgray; }/* Track */
 .Projects::-webkit-scrollbar-thumb { background: darkgray; }/* Handle */
@@ -19,4 +28,23 @@
 
 .Projects > *{
     margin: 0 10px 25px 10px;
+}
+
+.Projects .back-btn{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: none;
+    color: black;
+
+    font-size: 2.5em;
+
+    transition: .3s color;
+}
+.Projects .back-btn:hover{
+    color: gray;
 }

@@ -1,3 +1,60 @@
 .Project{
-    
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.Project .title{
+    position: fixed;
+    top: 10vh;
+    left: 30px;
+
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.FirstElement{
+    height: 80%;
+    min-width: 60vw;
+    padding: 0 20px;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.FirstElement .desc{
+    position: absolute;
+    top: 20vh;
+}
+.FirstElement .type{
+    position: absolute;
+    bottom: 0;
+    font-size: 0.8em;
+}
+
+.ImgWrapper{
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ImgWrapper img{ object-fit: contain; }
+.ImgWrapper.big img{ height: 100%; }
+.ImgWrapper.medium img{ height: 90%; padding: 0 2vw; } 
+.ImgWrapper.small img{ height: 80%; padding: 0 5vw; }
+.ImgWrapper.background-none{ margin: 0 5px; }
+.ImgWrapper.c-word{ background-color: #625455; }
+.ImgWrapper.fluttering-flamingo{ background-color: #935a49; min-width: 40vw;  }
+
+.TextWrapper{
+    width: 70vw;
+    padding: 5vh 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }

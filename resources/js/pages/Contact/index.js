@@ -64,7 +64,7 @@ const Contact = () => {
             <SpaceBetween height="45vh" />
             <Form onSubmit={hadleSubmit} onChange={handleInputChange} showSpinner={showSpinner}/>
         </div>
-    )
+    );
 }
 
 export default Contact;

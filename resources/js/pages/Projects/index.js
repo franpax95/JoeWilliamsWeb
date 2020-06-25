@@ -1,12 +1,15 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useLayoutEffect, useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
 
 import { connect } from 'react-redux';
 import * as expositionActions from '../../actions/expositionActions';
 
 import ProjectCard from '../../components/ProjectCard';
-import Project from '../../components/Project';
+import ProjectController from '../../components/Project';
 import { Loading } from '../../components/Loading';
 import { Fatal } from '../../components/Fatal';
+
+import { AiOutlineArrowLeft } from "react-icons/ai";
 
 import './Projects.css';
 
@@ -29,7 +32,17 @@ const Projects = (props) => {
         }
         
         fetchData();
-    }, []);
+    }, [props.location]);
+
+    useLayoutEffect(() => {
+        ref.current.classList.remove("in");
+        ref.current.classList.add("out");
+
+        setTimeout(() => {
+            ref.current.classList.remove("out");
+            ref.current.classList.add("in");
+        }, 2000);
+    }, [props.location]);
 
     const onWheel = (e) => {
         const largeContainerScrollPosition = ref.current.scrollLeft;
@@ -56,20 +69,22 @@ const Projects = (props) => {
             />
         ));
     }
+    
+
 
     const renderProject = () => {
         const { exposition, loading, error } = props;
 
         if(loading) return <Loading />;
         if(error)   return <Fatal message={error} />;
-        
-        return(
-            <Project />
-        );
+        return (<>
+            <Link className="back-btn" to="/projects"><AiOutlineArrowLeft /></Link>
+            <ProjectController project={exposition} />
+        </>);
     }
 
     return (
-        <div className="Projects" onWheel={onWheel} ref={ref}>
+        <div className="Projects out" onWheel={onWheel} ref={ref}>
             {(props.match.params.id) ? renderProject() : renderProjects()}
         </div>
     );
