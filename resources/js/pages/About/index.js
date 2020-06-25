@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import './About.css';
-import {SpaceBetween} from '../../components/SpaceBetween';
+import { SpaceBetween } from '../../components/SpaceBetween';
 
 const About = (props) => {
     const aboutRef = useRef(null);
