@@ -8,6 +8,10 @@
     resize: none;
 }
 
+.Input-Container input {
+height: 40px;
+}
+
 .Input-Container input:-webkit-autofill,
 .Input-Container input:-webkit-autofill:hover,
 .Input-Container input:-webkit-autofill:focus,

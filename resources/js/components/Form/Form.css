@@ -17,15 +17,3 @@
 .Input-Container > label {
     margin-left: 50px;
 }
-
-.submit {
-    cursor: pointer;
-    background: transparent;
-    border: 2px solid white;
-    color: white;
-    padding: 14px 49px;
-    font-weight: bold;
-    font-size: medium;
-    margin: auto;
-    margin-top: 76px;
-}

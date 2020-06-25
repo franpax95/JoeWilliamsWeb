@@ -1,0 +1,24 @@
+.overlay {
+  position: fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0; 
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal {
+  text-align: center;
+  color: white;
+  background-color: rgb(70, 64, 70);;
+  width: 98%;
+  padding: 79px 1px;
+  margin: 20% auto;
+  position: relative;
+  flex-flow: column;
+}
+
+.text-modal {
+  font-size: x-large;
+}

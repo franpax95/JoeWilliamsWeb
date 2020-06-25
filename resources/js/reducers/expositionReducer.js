@@ -13,12 +13,6 @@ const INITIAL_STATE = {
     currentPage: '',
     loading: false,
     error: '',
-    form: {
-        name: '',
-        email: '',
-        subject: '',
-        message: ''
-    }
 }
 
 export default (state = INITIAL_STATE, action) => {

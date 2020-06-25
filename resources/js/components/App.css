@@ -22,3 +22,4 @@ a{ text-decoration: none; }
 .flex-col{ flex-direction: column; }
 .justifyc{ justify-content: center; }
 .alignc{ align-items: center; }
+.pos-relative{ position: relative;}
