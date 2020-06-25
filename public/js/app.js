@@ -6546,7 +6546,26 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "@font-face {\r\n    font-family: \"Halogen-Light\";\r\n    src: url('/fonts/Halogen-Light.otf');\r\n\r\n    /* src: url('/storage/fonts/Halogen-Black.otf'),url('/storage/fonts/Halogen-BlackOblique.otf'),url('/storage/fonts/Halogen-Bold.otf'),url('/storage/fonts/Halogen-BoldOblique.otf'),\r\n    url('/storage/fonts/Halogen-Hairline.otf'),url('/storage/fonts/Halogen-HairlineOblique.otf'),url('/storage/fonts/Halogen-Medium.otf'),url('/storage/fonts/Halogen-MediumOblique.otf'),\r\n    url('/storage/fonts/Halogen-Regular.otf'),url('/storage/fonts/Halogen-RegularOblique.otf'),url('/storage/fonts/Halogen-Thin.otf'),url('/storage/fonts/Halogen-ThinOblique.otf'), */\r\n}\r\n\r\n\r\n*{\r\n    box-sizing: border-box;\r\n    margin: 0;\r\n    font-family: \"Halogen-Light\";\r\n}\r\n\r\na{ text-decoration: none; }\r\n.grid{ display: grid; }\r\n.flex{ display: flex; }\r\n.flex-row{ flex-direction: row; }\r\n.flex-row-reverse { flex-direction: row-reverse; }\r\n.flex-col{ flex-direction: column; }\r\n.justifyc{ justify-content: center; }\r\n.alignc{ align-items: center; }", ""]);
+exports.push([module.i, "@font-face {\r\n    font-family: \"Halogen-Light\";\r\n    src: url('/fonts/Halogen-Light.otf');\r\n\r\n    /* src: url('/storage/fonts/Halogen-Black.otf'),url('/storage/fonts/Halogen-BlackOblique.otf'),url('/storage/fonts/Halogen-Bold.otf'),url('/storage/fonts/Halogen-BoldOblique.otf'),\r\n    url('/storage/fonts/Halogen-Hairline.otf'),url('/storage/fonts/Halogen-HairlineOblique.otf'),url('/storage/fonts/Halogen-Medium.otf'),url('/storage/fonts/Halogen-MediumOblique.otf'),\r\n    url('/storage/fonts/Halogen-Regular.otf'),url('/storage/fonts/Halogen-RegularOblique.otf'),url('/storage/fonts/Halogen-Thin.otf'),url('/storage/fonts/Halogen-ThinOblique.otf'), */\r\n}\r\n\r\n\r\n*{\r\n    box-sizing: border-box;\r\n    margin: 0;\r\n    font-family: \"Halogen-Light\";\r\n}\r\n\r\na{ text-decoration: none; }\r\n.grid{ display: grid; }\r\n.flex{ display: flex; }\r\n.flex-row{ flex-direction: row; }\r\n.flex-row-reverse { flex-direction: row-reverse; }\r\n.flex-col{ flex-direction: column; }\r\n.justifyc{ justify-content: center; }\r\n.alignc{ align-items: center; }\r\n.pos-relative{ position: relative;}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/Buttons/Buttons.css":
+/*!*************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./resources/js/components/Buttons/Buttons.css ***!
+  \*************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "button {\r\n  outline:none;\r\n}\r\n.modal-button {\r\n    margin-top: 50px;\r\n    cursor: pointer;\r\n    background: transparent;\r\n    border: 2px solid white;\r\n    color: white;\r\n    padding: 10px 32px;\r\n    font-weight: bold;\r\n    font-size: medium;\r\n}\r\n\r\n.modal-button a {\r\n  font-size: medium;\r\n  color: white;\r\n}\r\n.submit {\r\n  cursor: pointer;\r\n  background: transparent;\r\n  border: 2px solid white;\r\n  color: white;\r\n  padding: 14px 62px;\r\n  font-weight: bold;\r\n  font-size: medium;\r\n  margin: auto;\r\n  margin-top: 76px;\r\n\r\n}\r\n", ""]);
 
 // exports
 
@@ -6584,7 +6603,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".Form-Contact {\r\n    width: 100%;\r\n    padding: 10px;\r\n    display: flex;\r\n    flex-direction: column;\r\n}\r\n\r\n.Input-Container {\r\n    height: 100px;\r\n    border-bottom: 2px solid white;\r\n    color: white;\r\n}\r\n.Input-Container > * {\r\n    width: 50%;\r\n    background: transparent;\r\n}\r\n.Input-Container > label {\r\n    margin-left: 50px;\r\n}\r\n\r\n.submit {\r\n    cursor: pointer;\r\n    background: transparent;\r\n    border: 2px solid white;\r\n    color: white;\r\n    padding: 14px 49px;\r\n    font-weight: bold;\r\n    font-size: medium;\r\n    margin: auto;\r\n    margin-top: 76px;\r\n}", ""]);
+exports.push([module.i, ".Form-Contact {\r\n    width: 100%;\r\n    padding: 10px;\r\n    display: flex;\r\n    flex-direction: column;\r\n}\r\n\r\n.Input-Container {\r\n    height: 100px;\r\n    border-bottom: 2px solid white;\r\n    color: white;\r\n}\r\n.Input-Container > * {\r\n    width: 50%;\r\n    background: transparent;\r\n}\r\n.Input-Container > label {\r\n    margin-left: 50px;\r\n}", ""]);
 
 // exports
 
@@ -6603,7 +6622,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".Input-Container textarea:focus,input:focus  {\r\n    outline: none;\r\n}\r\n\r\n.Input-Container input,textarea {\r\n    border: none;\r\n    color: white;\r\n    resize: none;\r\n}\r\n\r\n.Input-Container input:-webkit-autofill,\r\n.Input-Container input:-webkit-autofill:hover,\r\n.Input-Container input:-webkit-autofill:focus,\r\n.Input-Container input:-webkit-autofill:active {\r\n   -webkit-transition-delay: 9999s;\r\n   transition-delay: 9999s;\r\n}\r\n\r\n.Input-Container ::-webkit-input-placeholder { color:#fff; font-size: 3vh; }\r\n.Input-Container ::-moz-placeholder { color:#ffff; } /* firefox 19+ */\r\n.Input-Container :-ms-input-placeholder { color:#ffff; } /* ie */\r\n.Input-Container input:-moz-placeholder { color:#ffff; }\r\n\r\n", ""]);
+exports.push([module.i, ".Input-Container textarea:focus,input:focus  {\r\n    outline: none;\r\n}\r\n\r\n.Input-Container input,textarea {\r\n    border: none;\r\n    color: white;\r\n    resize: none;\r\n}\r\n\r\n.Input-Container input {\r\nheight: 40px;\r\n}\r\n\r\n.Input-Container input:-webkit-autofill,\r\n.Input-Container input:-webkit-autofill:hover,\r\n.Input-Container input:-webkit-autofill:focus,\r\n.Input-Container input:-webkit-autofill:active {\r\n   -webkit-transition-delay: 9999s;\r\n   transition-delay: 9999s;\r\n}\r\n\r\n.Input-Container ::-webkit-input-placeholder { color:#fff; font-size: 3vh; }\r\n.Input-Container ::-moz-placeholder { color:#ffff; } /* firefox 19+ */\r\n.Input-Container :-ms-input-placeholder { color:#ffff; } /* ie */\r\n.Input-Container input:-moz-placeholder { color:#ffff; }\r\n\r\n", ""]);
 
 // exports
 
@@ -6622,7 +6641,26 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".lds-ring {\r\n    display: inline-block;\r\n    position: relative;\r\n    width: 80px;\r\n    height: 80px;\r\n}\r\n.lds-ring div {\r\n    box-sizing: border-box;\r\n    display: block;\r\n    position: absolute;\r\n    width: 64px;\r\n    height: 64px;\r\n    margin: 8px;\r\n    border: 8px solid #000000;\r\n    border-radius: 50%;\r\n    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;\r\n    border-color: #000000 transparent transparent transparent;\r\n}\r\n.lds-ring div:nth-child(1) {\r\n    animation-delay: -0.45s;\r\n}\r\n.lds-ring div:nth-child(2) {\r\n    animation-delay: -0.3s;\r\n}\r\n.lds-ring div:nth-child(3) {\r\n    animation-delay: -0.15s;\r\n}\r\n@keyframes lds-ring {\r\n    0% {\r\n        transform: rotate(0deg);\r\n    }\r\n    100% {\r\n        transform: rotate(360deg);\r\n    }\r\n}", ""]);
+exports.push([module.i, ".lds-ring {\r\n    display: inline-block;\r\n    position: relative;\r\n    width: 80px;\r\n    height: 80px;\r\n}\r\n.lds-ring div {\r\n    box-sizing: border-box;\r\n    display: block;\r\n    position: absolute;\r\n    width: 64px;\r\n    height: 64px;\r\n    margin: 8px;\r\n    border: 8px solid #000000;\r\n    border-radius: 50%;\r\n    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;\r\n    border-color: #000000 transparent transparent transparent;\r\n}\r\n.lds-ring div:nth-child(1) {\r\n    animation-delay: -0.45s;\r\n}\r\n.lds-ring div:nth-child(2) {\r\n    animation-delay: -0.3s;\r\n}\r\n.lds-ring div:nth-child(3) {\r\n    animation-delay: -0.15s;\r\n}\r\n@keyframes lds-ring {\r\n    0% {\r\n        transform: rotate(0deg);\r\n    }\r\n    100% {\r\n        transform: rotate(360deg);\r\n    }\r\n}\r\n\r\n.center{\r\n    width: 10%;\r\n    height: 18vh;\r\n    /* text-align: center; */\r\n    position: absolute;\r\n    right: 43%;\r\n    top: 70%;\r\n    bottom: 0;\r\n}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/Modal/Modal.css":
+/*!*********************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./resources/js/components/Modal/Modal.css ***!
+  \*********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".overlay {\r\n  position: fixed;\r\n  top:0;\r\n  right:0;\r\n  bottom:0;\r\n  left:0; \r\n  height: 100%;\r\n  background-color: rgba(0,0,0,0.4);\r\n}\r\n\r\n.modal {\r\n  text-align: center;\r\n  color: white;\r\n  background-color: rgb(70, 64, 70);;\r\n  width: 98%;\r\n  padding: 79px 1px;\r\n  margin: 20% auto;\r\n  position: relative;\r\n  flex-flow: column;\r\n}\r\n\r\n.text-modal {\r\n  font-size: x-large;\r\n}", ""]);
 
 // exports
 
@@ -6660,7 +6698,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".Project{\r\n    height: 90%;\r\n    display: flex;\r\n    flex-direction: row;\r\n    flex-wrap: nowrap;\r\n    justify-content: flex-start;\r\n    align-items: flex-end;\r\n}\r\n\r\n.Project .title{\r\n    position: fixed;\r\n    top: 10vh;\r\n    left: 30px;\r\n\r\n    font-size: 1.5em;\r\n    font-weight: bold;\r\n    text-transform: uppercase;\r\n}\r\n\r\n\r\n.FirstElement{\r\n    height: 80%;\r\n    min-width: 60vw;\r\n    padding: 0 20px;\r\n\r\n    position: relative;\r\n    display: flex;\r\n    flex-direction: column;\r\n}\r\n.FirstElement .desc{\r\n    position: absolute;\r\n    top: 20vh;\r\n}\r\n.FirstElement .type{\r\n    position: absolute;\r\n    bottom: 0;\r\n    font-size: 0.8em;\r\n}\r\n\r\n.ImgWrapper{\r\n    height: 90%;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n.ImgWrapper img{ object-fit: contain; }\r\n.ImgWrapper.big img{ height: 100%; }\r\n.ImgWrapper.medium img{ height: 90%; padding: 0 2vw; } \r\n.ImgWrapper.small img{ height: 80%; padding: 0 5vw; }\r\n.ImgWrapper.background-none{ margin: 0 5px; }\r\n.ImgWrapper.c-word{ background-color: #625455; }\r\n.ImgWrapper.fluttering-flamingo{ background-color: #935a49; min-width: 40vw;  }\r\n\r\n.TextWrapper{\r\n    width: 70vw;\r\n    padding: 5vh 5vw;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: flex-end;\r\n}\r\n", ""]);
+exports.push([module.i, ".Project{\r\n    height: 90%;\r\n    display: flex;\r\n    flex-direction: row;\r\n    flex-wrap: nowrap;\r\n    justify-content: flex-start;\r\n    align-items: flex-end;\r\n}\r\n\r\n.Project .title{\r\n    position: fixed;\r\n    top: 10vh;\r\n    left: 30px;\r\n\r\n    font-size: 1.5em;\r\n    font-weight: bold;\r\n    text-transform: uppercase;\r\n}\r\n\r\n\r\n.FirstElement{\r\n    height: 80%;\r\n    min-width: 60vw;\r\n    padding: 0 20px;\r\n\r\n    position: relative;\r\n    display: flex;\r\n    flex-direction: column;\r\n}\r\n.FirstElement .desc{\r\n    position: absolute;\r\n    top: 20vh;\r\n}\r\n.FirstElement .type{\r\n    position: absolute;\r\n    bottom: 0;\r\n    font-size: 0.8em;\r\n}\r\n\r\n.ImgWrapper{\r\n    height: 90%;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n.ImgWrapper img{ object-fit: contain; }\r\n.ImgWrapper.big img{ height: 100%; }\r\n.ImgWrapper.medium img{ height: 90%; padding: 0 2vw; } \r\n.ImgWrapper.small img{ height: 80%; padding: 0 5vw; }\r\n.ImgWrapper.background-none{ margin: 0 5px; }\r\n.ImgWrapper.c-word{ background-color: #625455; }\r\n.ImgWrapper.fluttering-flamingo{ background-color: #935a49; min-width: 40vw;  }\r\n.ImgWrapper.lara-logan{ background-color: #78423c; }\r\n.ImgWrapper.human-herd{ background-color: #625455; }\r\n\r\n.TextWrapper{\r\n    width: 70vw;\r\n    padding: 5vh 5vw;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: flex-end;\r\n}\r\n", ""]);
 
 // exports
 
@@ -83199,6 +83237,69 @@ var App = function App() {
 
 /***/ }),
 
+/***/ "./resources/js/components/Buttons/Buttons.css":
+/*!*****************************************************!*\
+  !*** ./resources/js/components/Buttons/Buttons.css ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--5-1!../../../../node_modules/postcss-loader/src??ref--5-2!./Buttons.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/Buttons/Buttons.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./resources/js/components/Buttons/index.js":
+/*!**************************************************!*\
+  !*** ./resources/js/components/Buttons/index.js ***!
+  \**************************************************/
+/*! exports provided: Button */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Button", function() { return Button; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Buttons_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Buttons.css */ "./resources/js/components/Buttons/Buttons.css");
+/* harmony import */ var _Buttons_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Buttons_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+
+
+
+var Button = function Button(_ref) {
+  var text = _ref.text,
+      type = _ref.type,
+      clase = _ref.clase,
+      onClick = _ref.onClick;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    type: type,
+    className: clase
+  }, text === 'HOME' ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "/home"
+  }, text) : text);
+};
+
+/***/ }),
+
 /***/ "./resources/js/components/Fatal/Fatal.css":
 /*!*************************************************!*\
   !*** ./resources/js/components/Fatal/Fatal.css ***!
@@ -83300,21 +83401,29 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Form_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Form.css */ "./resources/js/components/Form/Form.css");
 /* harmony import */ var _Form_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Form_css__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Input__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Input */ "./resources/js/components/Input/index.js");
+/* harmony import */ var _Loading__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Loading */ "./resources/js/components/Loading/index.js");
+/* harmony import */ var _Buttons__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Buttons */ "./resources/js/components/Buttons/index.js");
+
+
 
 
 
 
 var Form = function Form(_ref) {
-  var onSubmit = _ref.onSubmit;
+  var onSubmit = _ref.onSubmit,
+      onChange = _ref.onChange,
+      showSpinner = _ref.showSpinner;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
-    className: "Form-Contact"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "Form-Contact",
+    onSubmit: onSubmit
+  }, showSpinner ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Loading__WEBPACK_IMPORTED_MODULE_3__["Loading"], null) : '', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "Input-Container alignc flex"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
     className: ""
   }, "NAME"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Input__WEBPACK_IMPORTED_MODULE_2__["Input"], {
     name: "name",
-    placeholder: "Joe Williams"
+    placeholder: "Joe Williams",
+    onChange: onChange
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "Input-Container alignc flex"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
@@ -83322,25 +83431,28 @@ var Form = function Form(_ref) {
   }, "E-MAIL"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Input__WEBPACK_IMPORTED_MODULE_2__["Input"], {
     name: "email",
     type: "email",
-    placeholder: "jts.design@gmail.com"
+    placeholder: "jts.design@gmail.com",
+    onChange: onChange
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "Input-Container alignc flex"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
     className: ""
   }, "SUBJECT"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Input__WEBPACK_IMPORTED_MODULE_2__["Input"], {
     name: "subject",
-    placeholder: "Web Design"
+    placeholder: "Web Design",
+    onChange: onChange
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "Input-Container alignc flex"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
     className: ""
   }, "MESSAGE"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Input__WEBPACK_IMPORTED_MODULE_2__["TextArea"], {
     name: "message",
-    placeholder: "Hello There"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-    className: "submit",
+    placeholder: "Hello There",
+    onChange: onChange
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Buttons__WEBPACK_IMPORTED_MODULE_4__["Button"], {
+    text: "Submit",
     type: "submit",
-    value: "Submit"
+    clase: "submit"
   }));
 };
 
@@ -83400,25 +83512,29 @@ var Input = function Input(_ref) {
       value = _ref.value,
       _ref$type = _ref.type,
       type = _ref$type === void 0 ? 'text' : _ref$type,
-      placeholder = _ref.placeholder;
+      placeholder = _ref.placeholder,
+      onChange = _ref.onChange;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     className: "",
     type: type,
     name: name,
     value: value,
     placeholder: placeholder,
+    onChange: onChange,
     required: true
   });
 };
 var TextArea = function TextArea(_ref2) {
   var name = _ref2.name,
       value = _ref2.value,
-      placeholder = _ref2.placeholder;
+      placeholder = _ref2.placeholder,
+      onChange = _ref2.onChange;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("textarea", {
     className: "",
     name: name,
     value: value,
     placeholder: placeholder,
+    onChange: onChange,
     required: true
   });
 };
@@ -83477,6 +83593,74 @@ var Loading = function Loading() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "lds-ring"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null)));
+};
+
+/***/ }),
+
+/***/ "./resources/js/components/Modal/Modal.css":
+/*!*************************************************!*\
+  !*** ./resources/js/components/Modal/Modal.css ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--5-1!../../../../node_modules/postcss-loader/src??ref--5-2!./Modal.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/Modal/Modal.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./resources/js/components/Modal/index.js":
+/*!************************************************!*\
+  !*** ./resources/js/components/Modal/index.js ***!
+  \************************************************/
+/*! exports provided: Modal */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Modal", function() { return Modal; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Modal_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Modal.css */ "./resources/js/components/Modal/Modal.css");
+/* harmony import */ var _Modal_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Modal_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Buttons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Buttons */ "./resources/js/components/Buttons/index.js");
+
+
+
+var Modal = function Modal(_ref) {
+  var onClick = _ref.onClick,
+      text = _ref.text,
+      emailSent = _ref.emailSent;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "overlay"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "modal flex alignc"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text-modal"
+  }, text), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Buttons__WEBPACK_IMPORTED_MODULE_2__["Button"], {
+    text: emailSent ? 'HOME' : 'RETRY',
+    type: "button",
+    clase: "modal-button",
+    onClick: onClick
+  })));
 };
 
 /***/ }),
@@ -83729,7 +83913,7 @@ var ProjectController = function ProjectController(_ref5) {
           alt: project.title,
           size: "big"
         }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(TextWrapper, {
-          text: project.description
+          text: project.details
         }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
           src: project.img.img3,
           alt: project.title,
@@ -83769,7 +83953,7 @@ var ProjectController = function ProjectController(_ref5) {
 
       /** Velvet */
 
-      case 11:
+      case 2:
         //Cambiar seed para ponerlo el 2do
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Project, {
           project: project
@@ -83805,7 +83989,7 @@ var ProjectController = function ProjectController(_ref5) {
 
       /** Sync */
 
-      case 6:
+      case 3:
         //Cambiar seed para ponerlo el 3ero
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Project, {
           project: project
@@ -83816,7 +84000,7 @@ var ProjectController = function ProjectController(_ref5) {
 
       /** fluttering flamingo */
 
-      case 2:
+      case 4:
         //Cambiar seed para ponerlo el 4to
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Project, {
           project: project
@@ -83852,38 +84036,93 @@ var ProjectController = function ProjectController(_ref5) {
           alt: project.title,
           size: "medium",
           background: "fluttering-flamingo"
-        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
-          src: project.img.img7,
-          alt: project.title,
-          size: "medium",
-          background: "fluttering-flamingo"
-        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
-          src: project.img.img8,
-          alt: project.title,
-          size: "medium",
-          background: "fluttering-flamingo"
         }));
 
-      /** lara logan case */
+      /** Synchronicity */
 
       case 5:
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Project, {
           project: project
-        });
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
+          src: project.img.img1,
+          alt: project.title
+        }));
 
       /** lara logan case */
 
       case 6:
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Project, {
           project: project
-        });
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
+          src: project.img.img1,
+          alt: project.title,
+          size: "medium",
+          background: "lara-logan"
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
+          src: project.img.img2,
+          alt: project.title,
+          size: "medium",
+          background: "lara-logan"
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
+          src: project.img.img3,
+          alt: project.title,
+          size: "medium",
+          background: "lara-logan"
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
+          src: project.img.img4,
+          alt: project.title,
+          size: "medium",
+          background: "lara-logan"
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
+          src: project.img.img5,
+          alt: project.title,
+          size: "medium",
+          background: "lara-logan"
+        }));
 
-      /** lara logan case */
+      /** Dark Elf */
 
       case 7:
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Project, {
           project: project
-        });
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
+          src: project.img.img1,
+          alt: project.title
+        }));
+
+      /** Human Herd*/
+
+      case 8:
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Project, {
+          project: project
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
+          src: project.img.img1,
+          alt: project.title
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
+          src: project.img.img2,
+          alt: project.title,
+          size: "small",
+          background: "human-herd"
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
+          src: project.img.img3,
+          alt: project.title
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
+          src: project.img.img4,
+          alt: project.title,
+          size: "small",
+          background: "human-herd"
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
+          src: project.img.img5,
+          alt: project.title,
+          size: "small",
+          background: "human-herd"
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
+          src: project.img.img6,
+          alt: project.title
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
+          src: project.img.img7,
+          alt: project.title
+        }));
 
       default:
         return "";
@@ -84151,23 +84390,101 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Contact_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Contact.css */ "./resources/js/pages/Contact/Contact.css");
 /* harmony import */ var _Contact_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Contact_css__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_Form__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Form */ "./resources/js/components/Form/index.js");
-/* harmony import */ var _components_SpaceBetween__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/SpaceBetween */ "./resources/js/components/SpaceBetween/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _components_SpaceBetween__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/SpaceBetween */ "./resources/js/components/SpaceBetween/index.js");
+/* harmony import */ var _components_Modal__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/Modal */ "./resources/js/components/Modal/index.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(n); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
+
+
 
 
 
 
 
 var Contact = function Contact() {
-  var onSubmit = function onSubmit() {
-    console.log('submit');
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])({
+    name: '',
+    email: '',
+    subject: '',
+    message: ''
+  }),
+      _useState2 = _slicedToArray(_useState, 2),
+      form = _useState2[0],
+      setForm = _useState2[1];
+
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
+      _useState4 = _slicedToArray(_useState3, 2),
+      showModal = _useState4[0],
+      setShowModal = _useState4[1];
+
+  var _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
+      _useState6 = _slicedToArray(_useState5, 2),
+      showSpinner = _useState6[0],
+      setShowSpinner = _useState6[1];
+
+  var _useState7 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
+      _useState8 = _slicedToArray(_useState7, 2),
+      emailSent = _useState8[0],
+      setEmailSent = _useState8[1];
+
+  var handleInputChange = function handleInputChange(event) {
+    setForm(_objectSpread({}, form, _defineProperty({}, event.target.name, event.target.value)));
+  };
+
+  var hadleSubmit = function hadleSubmit(event) {
+    event.preventDefault();
+    setShowSpinner(true); // sendEmail();
+
+    setTimeout(function () {
+      setEmailSent(true);
+      setShowSpinner(false);
+      setShowModal(true);
+    }, 1000);
+  };
+
+  var sendEmail = function sendEmail() {
+    axios__WEBPACK_IMPORTED_MODULE_3___default.a.post('/api/sendMail', form).then(function (resp) {
+      setEmailSent(true);
+      setShowSpinner(false);
+      setShowModal(true);
+    })["catch"](function (error) {
+      setEmailSent(false);
+      setShowSpinner(false);
+      setShowModal(true);
+    });
   };
 
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "Contact-Container flex justifyc"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_SpaceBetween__WEBPACK_IMPORTED_MODULE_3__["SpaceBetween"], {
-    height: "35vh"
+  }, showModal ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Modal__WEBPACK_IMPORTED_MODULE_5__["Modal"], {
+    text: emailSent ? 'THANKS FOR SAYNG HELLO!' : 'OOPS SOMETHING WENT WRONG PLEASE CHECK DETAILS',
+    emailSent: emailSent
+  }) : '', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_SpaceBetween__WEBPACK_IMPORTED_MODULE_4__["SpaceBetween"], {
+    height: "45vh"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Form__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    onSubmit: onSubmit
+    onSubmit: hadleSubmit,
+    onChange: handleInputChange,
+    showSpinner: showSpinner
   }));
 };
 
@@ -84441,13 +84758,7 @@ var INITIAL_STATE = {
   exposition: {},
   currentPage: '',
   loading: false,
-  error: '',
-  form: {
-    name: '',
-    email: '',
-    subject: '',
-    message: ''
-  }
+  error: ''
 };
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : INITIAL_STATE;
@@ -84548,7 +84859,7 @@ var CHANGE_DESCRIPTION = 'exposition_change_description';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\WORK\ReactJS\JoeWilliamsWeb\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\DOCUMENTOS\Proyectos\Codes\Proyectos\JoeWWeb\JoeWilliamsWeb-master\resources\js\app.js */"./resources/js/app.js");
 
 
 /***/ })

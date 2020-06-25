@@ -1,0 +1,30 @@
+button {
+  outline:none;
+}
+.modal-button {
+    margin-top: 50px;
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 32px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.modal-button a {
+  font-size: medium;
+  color: white;
+}
+.submit {
+  cursor: pointer;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 14px 62px;
+  font-weight: bold;
+  font-size: medium;
+  margin: auto;
+  margin-top: 76px;
+
+}
