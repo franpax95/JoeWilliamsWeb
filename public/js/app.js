@@ -83834,9 +83834,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Project_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Project_css__WEBPACK_IMPORTED_MODULE_1__);
 
 
+
+var nl2br = function nl2br(str) {
+  return str.split("\n").map(function (item, key) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
+      key: key
+    }, item, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null));
+  });
+};
 /**
  * Primer elemento de cada proyecto
  */
+
 
 var FirstElement = function FirstElement(_ref) {
   var description = _ref.description,
@@ -83845,9 +83854,9 @@ var FirstElement = function FirstElement(_ref) {
     className: "FirstElement"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "desc"
-  }, description), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, nl2br(description)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "type"
-  }, type));
+  }, nl2br(type)));
 };
 /**
  * Layout de los proyectos
@@ -83887,7 +83896,7 @@ var TextWrapper = function TextWrapper(_ref4) {
       text = _ref4$text === void 0 ? '' : _ref4$text;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "TextWrapper"
-  }, text);
+  }, nl2br(text));
 };
 /**
  * Controller
@@ -84025,7 +84034,7 @@ var ProjectController = function ProjectController(_ref5) {
           size: "medium",
           background: "fluttering-flamingo"
         }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(TextWrapper, {
-          text: project.type
+          text: project.details
         }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
           src: project.img.img5,
           alt: project.title,
@@ -84859,7 +84868,7 @@ var CHANGE_DESCRIPTION = 'exposition_change_description';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\DOCUMENTOS\Proyectos\Codes\Proyectos\JoeWWeb\JoeWilliamsWeb-master\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! D:\WORK\ReactJS\JoeWilliamsWeb\resources\js\app.js */"./resources/js/app.js");
 
 
 /***/ })

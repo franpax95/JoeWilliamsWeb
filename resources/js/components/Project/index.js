@@ -1,14 +1,17 @@
 import React from 'react';
 import './Project.css';
 
+const nl2br = (str) => str.split("\n").map((item, key) => (
+    <React.Fragment key={key}>{item}<br/></React.Fragment>
+));
 
 /**
  * Primer elemento de cada proyecto
  */
 const FirstElement = ({ description, type }) => (
     <div className="FirstElement">
-        <div className="desc">{description}</div>
-        <div className="type">{type}</div>
+        <div className="desc">{nl2br(description)}</div>
+        <div className="type">{nl2br(type)}</div>
     </div>
 );
 
@@ -32,7 +35,7 @@ const ImgWrapper = ({ src, alt, size = 'big', background = 'background-none' }) 
 );
 
 const TextWrapper = ({ text = '' }) => (
-    <div className="TextWrapper">{text}</div>
+    <div className="TextWrapper">{nl2br(text)}</div>
 );
 
 
@@ -92,7 +95,7 @@ const ProjectController = ({ project = {} }) => {
                         <ImgWrapper src={project.img.img2} alt={project.title} size="medium" background="fluttering-flamingo" />
                         <ImgWrapper src={project.img.img3} alt={project.title} size="medium" background="fluttering-flamingo" />
                         <ImgWrapper src={project.img.img4} alt={project.title} size="medium" background="fluttering-flamingo" />
-                        <TextWrapper text={project.type} />
+                        <TextWrapper text={project.details} />
                         <ImgWrapper src={project.img.img5} alt={project.title} size="medium" background="fluttering-flamingo" />
                         <ImgWrapper src={project.img.img6} alt={project.title} size="medium" background="fluttering-flamingo" />
                     </Project>
