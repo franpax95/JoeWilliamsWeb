@@ -25,3 +25,10 @@ html, body, #app{ width: 100%; }
 }
 
 .About .hello{ color: black; }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 700px) {
+    .About > span{ 
+        height: 4vh;
+    }
+}

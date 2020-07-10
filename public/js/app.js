@@ -6736,7 +6736,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "html, body, #app{ width: 100%; }\r\n\r\n.About{\r\n    width: 100%;\r\n    padding-left: 20px;\r\n\r\n    display: flex;\r\n    flex-direction: column;\r\n    overflow: hidden;\r\n\r\n    color: white;\r\n    background: rgb(255,255,255);\r\n    background: linear-gradient(to bottom, rgba(255,255,255,1) 5%, rgba(244,238,238,1) 30%, rgba(223,205,205,1) 79%, rgba(223,205,205,1) 93%);\r\n    background-attachment: fixed;\r\n    background-position: center;\r\n\r\n    transition: opacity .5s;\r\n}\r\n\r\n.About > span{\r\n    height: 10vh;\r\n\r\n    font-size: 3vw;\r\n    text-transform: uppercase;\r\n}\r\n\r\n.About .hello{ color: black; }\r\n", ""]);
+exports.push([module.i, "html, body, #app{ width: 100%; }\r\n\r\n.About{\r\n    width: 100%;\r\n    padding-left: 20px;\r\n\r\n    display: flex;\r\n    flex-direction: column;\r\n    overflow: hidden;\r\n\r\n    color: white;\r\n    background: rgb(255,255,255);\r\n    background: linear-gradient(to bottom, rgba(255,255,255,1) 5%, rgba(244,238,238,1) 30%, rgba(223,205,205,1) 79%, rgba(223,205,205,1) 93%);\r\n    background-attachment: fixed;\r\n    background-position: center;\r\n\r\n    transition: opacity .5s;\r\n}\r\n\r\n.About > span{\r\n    height: 10vh;\r\n\r\n    font-size: 3vw;\r\n    text-transform: uppercase;\r\n}\r\n\r\n.About .hello{ color: black; }\r\n\r\n/* Extra small devices (phones, 600px and down) */\r\n@media only screen and (max-width: 700px) {\r\n    .About > span{ \r\n        height: 4vh;\r\n    }\r\n}", ""]);
 
 // exports
 
@@ -6774,7 +6774,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".Index{\r\n    height: 100vh;\r\n    width: 100vw;\r\n\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n\r\n    background-image: url(\"/image/LIGHTbackground.jpg\");\r\n    background-size: cover;\r\n    background-repeat: no-repeat;\r\n    background-attachment:fixed;\r\n    color: white;\r\n\r\n    font-size: 2em;\r\n    text-transform: uppercase;\r\n}", ""]);
+exports.push([module.i, ".Index{\r\n    height: 100vh;\r\n    width: 100vw;\r\n\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n\r\n    background-image: url(\"/image/LIGHTbackground.jpg\");\r\n    background-size: cover;\r\n    background-repeat: no-repeat;\r\n    background-attachment:fixed;\r\n    color: white;\r\n\r\n    font-size: 2em;\r\n    text-align: center;\r\n    text-transform: uppercase;\r\n}\r\n\r\n/* Extra small devices (phones, 600px and down) */\r\n@media only screen and (max-width: 600px) {\r\n    .Index{ font-size: 0.8em; }\r\n}", ""]);
 
 // exports
 
@@ -85863,9 +85863,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Project_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Project_css__WEBPACK_IMPORTED_MODULE_1__);
 
 
+
+var nl2br = function nl2br(str) {
+  return str.split("\n").map(function (item, key) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
+      key: key
+    }, item, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null));
+  });
+};
 /**
  * Primer elemento de cada proyecto
  */
+
 
 var FirstElement = function FirstElement(_ref) {
   var description = _ref.description,
@@ -85874,9 +85883,9 @@ var FirstElement = function FirstElement(_ref) {
     className: "FirstElement"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "desc"
-  }, description), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, nl2br(description)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "type"
-  }, type));
+  }, nl2br(type)));
 };
 /**
  * Layout de los proyectos
@@ -85916,7 +85925,7 @@ var TextWrapper = function TextWrapper(_ref4) {
       text = _ref4$text === void 0 ? '' : _ref4$text;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "TextWrapper"
-  }, text);
+  }, nl2br(text));
 };
 /**
  * Controller
@@ -86054,7 +86063,7 @@ var ProjectController = function ProjectController(_ref5) {
           size: "medium",
           background: "fluttering-flamingo"
         }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(TextWrapper, {
-          text: project.type
+          text: project.details
         }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
           src: project.img.img5,
           alt: project.title,
@@ -86890,7 +86899,7 @@ var CHANGE_DESCRIPTION = 'exposition_change_description';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\DOCUMENTOS\Proyectos\Codes\Proyectos\JoeWWeb\JoeWilliamsWeb-master\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! D:\WORK\ReactJS\JoeWilliamsWeb\resources\js\app.js */"./resources/js/app.js");
 
 
 /***/ })
