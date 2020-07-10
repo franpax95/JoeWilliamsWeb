@@ -4,6 +4,7 @@ import { createStore, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
 import reducers     from './reducers';
 import reduxThunk   from 'redux-thunk';
+import { BrowserRouter } from 'react-router-dom';
 import App from './components/App';
 
 const store = createStore(
@@ -15,7 +16,9 @@ const store = createStore(
 if (document.getElementById('app')) {
     ReactDOM.render(
         <Provider store={store}>
-            <App />
+            <BrowserRouter>
+                <App /> 
+            </BrowserRouter>
         </Provider>, 
         document.getElementById('app')
     );
