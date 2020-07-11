@@ -34,15 +34,15 @@ const Projects = (props) => {
         fetchData();
     }, [props.location]);
 
-    useLayoutEffect(() => {
-        ref.current.classList.remove("in");
-        ref.current.classList.add("out");
+    // useLayoutEffect(() => {
+    //     ref.current.classList.remove("in");
+    //     ref.current.classList.add("out");
 
-        setTimeout(() => {
-            ref.current.classList.remove("out");
-            ref.current.classList.add("in");
-        }, 2000);
-    }, [props.location]);
+    //     setTimeout(() => {
+    //         ref.current.classList.remove("out");
+    //         ref.current.classList.add("in");
+    //     }, 2000);
+    // }, [props.location]);
 
     const onWheel = (e) => {
         const largeContainerScrollPosition = ref.current.scrollLeft;
@@ -84,7 +84,7 @@ const Projects = (props) => {
     }
 
     return (
-        <div className="Projects out" onWheel={onWheel} ref={ref}>
+        <div className="Projects" onWheel={onWheel} ref={ref}>
             {(props.match.params.id) ? renderProject() : renderProjects()}
         </div>
     );

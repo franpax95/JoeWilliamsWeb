@@ -20,25 +20,20 @@
 
 .FirstElement{
     height: 80%;
-    min-width: 60vw;
-    padding: 0 20px;
 
     position: relative;
     display: flex;
     flex-direction: column;
 }
 .FirstElement .desc{
+    padding: 0 20vw 0 20px;
     position: absolute;
-    top: 20vh;
 }
 .FirstElement .type{
     position: absolute;
-    bottom: 0;
-    font-size: 0.8em;
 }
 
 .ImgWrapper{
-    height: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,9 +49,56 @@
 .ImgWrapper.human-herd{ background-color: #625455; }
 
 .TextWrapper{
-    width: 70vw;
     padding: 5vh 5vw;
     display: flex;
     justify-content: center;
     align-items: flex-end;
+}
+
+@media only screen and (max-width: 800px) {
+    .FirstElement{
+        min-width: 85vw;
+    }
+    .FirstElement .desc{
+        line-height: 20px;
+        padding: 10px;
+        font-size: 14px;
+        top: 8vh;
+    }
+    .FirstElement .type{
+        font-size: 12px;
+        bottom: 5vh;
+    }
+    .ImgWrapper{
+        height: 70%;
+    }
+    .TextWrapper{
+        width: 85vw;
+        padding: 10px 20px;
+        font-size: 13px;
+        line-height: 30px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .FirstElement{
+        min-width: 60vw;
+    }
+    .FirstElement .desc{
+        padding: 0 20vw 0 20px;
+        font-size: 18px;
+        top: 20vh;
+    }
+    .FirstElement .type{
+        font-size: 16px;
+        bottom: 0;
+    }
+    .ImgWrapper{
+        height: 85%;
+    }
+    .TextWrapper{
+        width: 70vw;
+        padding: 5vh 5vw;
+        font-size: 18px;
+    }
 }
