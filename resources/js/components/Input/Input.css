@@ -1,15 +1,26 @@
+.Input-Container {
+    border-bottom: 2px solid white;
+    color: white;
+}
+.Input-Container-TextArea {
+    margin-top: 50px;
+}
 .Input-Container textarea:focus,input:focus  {
     outline: none;
 }
-
 .Input-Container input,textarea {
     border: none;
     color: white;
     resize: none;
 }
-
 .Input-Container input {
-height: 40px;
+    min-height: 50px; 
+}
+.Input-Container > * {
+    background: transparent;
+}
+.Input-Container > label {
+    margin-left: 50px;
 }
 
 .Input-Container input:-webkit-autofill,
@@ -20,8 +31,8 @@ height: 40px;
    transition-delay: 9999s;
 }
 
-.Input-Container ::-webkit-input-placeholder { color:#fff; font-size: 3vh; }
-.Input-Container ::-moz-placeholder { color:#ffff; } /* firefox 19+ */
-.Input-Container :-ms-input-placeholder { color:#ffff; } /* ie */
-.Input-Container input:-moz-placeholder { color:#ffff; }
+.Input-Container ::-webkit-input-placeholder { color:#fff;  }
+.Input-Container ::-moz-placeholder { color:#ffff; } 
+.Input-Container :-ms-input-placeholder { color:#ffff; }  
+.Input-Container input:-moz-placeholder { color:#ffff; } 
 

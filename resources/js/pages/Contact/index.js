@@ -1,10 +1,11 @@
-import React, {useState} from 'react';
+import React, {useState,useEffect } from 'react';
 import './Contact.css'
 import Form from '../../components/Form';
 import axios from 'axios';
 import {SpaceBetween} from '../../components/SpaceBetween';
 import {Modal} from '../../components/Modal';
 import { Link } from 'react-router-dom';
+import { update } from 'lodash';
 
 
 const Contact = () => {
@@ -15,10 +16,16 @@ const Contact = () => {
         subject: '',
         message: '',
     })
+    const [width, setWidth] = useState(window.innerWidth);
+    const updateWidth = () => {setWidth(window.innerWidth)}
 
     const [showModal, setShowModal] = useState(false);
     const [showSpinner, setShowSpinner] = useState(false);
     const [emailSent, setEmailSent] = useState(false);
+
+    useEffect(() => {
+       window.addEventListener('resize', updateWidth)
+    });
 
     const handleInputChange = (event) => {
         setForm({
@@ -60,7 +67,7 @@ const Contact = () => {
                                 emailSent={emailSent}/> : ''
             }
             <SpaceBetween height="45vh" />
-            <Form onSubmit={hadleSubmit} onChange={handleInputChange} showSpinner={showSpinner}/>
+            <Form onSubmit={hadleSubmit} onChange={handleInputChange} showSpinner={showSpinner} screenWidth={width}/>
         </div>
     );
 }

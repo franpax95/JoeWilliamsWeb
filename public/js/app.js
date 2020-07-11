@@ -6565,7 +6565,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "button {\r\n  outline:none;\r\n}\r\n.modal-button {\r\n    margin-top: 50px;\r\n    cursor: pointer;\r\n    background: transparent;\r\n    border: 2px solid white;\r\n    color: white;\r\n    padding: 10px 32px;\r\n    font-weight: bold;\r\n    font-size: medium;\r\n}\r\n\r\n.modal-button a {\r\n  font-size: medium;\r\n  color: white;\r\n}\r\n.submit {\r\n  cursor: pointer;\r\n  background: transparent;\r\n  border: 2px solid white;\r\n  color: white;\r\n  padding: 14px 62px;\r\n  font-weight: bold;\r\n  font-size: medium;\r\n  margin: auto;\r\n  margin-top: 76px;\r\n\r\n}\r\n", ""]);
+exports.push([module.i, "button {\r\n  outline:none;\r\n}\r\n.modal-button {\r\n    margin-top: 50px;\r\n    cursor: pointer;\r\n    background: transparent;\r\n    border: 2px solid white;\r\n    color: white;\r\n    padding: 10px 32px;\r\n    font-weight: bold;\r\n    font-size: medium;\r\n}\r\n\r\n.modal-button a {\r\n  font-size: medium;\r\n  color: white;\r\n}\r\n.submit {\r\n  cursor: pointer;\r\n  background: transparent;\r\n  border: 2px solid white;\r\n  color: white;\r\n  padding: 14px 62px;\r\n  font-weight: bold;\r\n  font-size: medium;\r\n  margin: auto;\r\n  margin-top: 59px;\r\n  margin-bottom: 45px;\r\n}\r\n", ""]);
 
 // exports
 
@@ -6603,7 +6603,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".Form-Contact {\r\n    width: 100%;\r\n    padding: 10px;\r\n    display: flex;\r\n    flex-direction: column;\r\n}\r\n\r\n.Input-Container {\r\n    height: 100px;\r\n    border-bottom: 2px solid white;\r\n    color: white;\r\n}\r\n.Input-Container > * {\r\n    width: 50%;\r\n    background: transparent;\r\n}\r\n.Input-Container > label {\r\n    margin-left: 50px;\r\n}", ""]);
+exports.push([module.i, ".Form-Contact {\r\n    width: 100%;\r\n    padding: 10px;\r\n    display: flex;\r\n    flex-direction: column;\r\n}\r\n\r\n", ""]);
 
 // exports
 
@@ -6622,7 +6622,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".Input-Container textarea:focus,input:focus  {\r\n    outline: none;\r\n}\r\n\r\n.Input-Container input,textarea {\r\n    border: none;\r\n    color: white;\r\n    resize: none;\r\n}\r\n\r\n.Input-Container input {\r\nheight: 40px;\r\n}\r\n\r\n.Input-Container input:-webkit-autofill,\r\n.Input-Container input:-webkit-autofill:hover,\r\n.Input-Container input:-webkit-autofill:focus,\r\n.Input-Container input:-webkit-autofill:active {\r\n   -webkit-transition-delay: 9999s;\r\n   transition-delay: 9999s;\r\n}\r\n\r\n.Input-Container ::-webkit-input-placeholder { color:#fff; font-size: 3vh; }\r\n.Input-Container ::-moz-placeholder { color:#ffff; } /* firefox 19+ */\r\n.Input-Container :-ms-input-placeholder { color:#ffff; } /* ie */\r\n.Input-Container input:-moz-placeholder { color:#ffff; }\r\n\r\n", ""]);
+exports.push([module.i, ".Input-Container {\r\n    border-bottom: 2px solid white;\r\n    color: white;\r\n}\r\n.Input-Container-TextArea {\r\n    margin-top: 50px;\r\n}\r\n.Input-Container textarea:focus,input:focus  {\r\n    outline: none;\r\n}\r\n.Input-Container input,textarea {\r\n    border: none;\r\n    color: white;\r\n    resize: none;\r\n}\r\n.Input-Container input {\r\n    min-height: 50px; \r\n}\r\n.Input-Container > * {\r\n    background: transparent;\r\n}\r\n.Input-Container > label {\r\n    margin-left: 50px;\r\n}\r\n\r\n.Input-Container input:-webkit-autofill,\r\n.Input-Container input:-webkit-autofill:hover,\r\n.Input-Container input:-webkit-autofill:focus,\r\n.Input-Container input:-webkit-autofill:active {\r\n   -webkit-transition-delay: 9999s;\r\n   transition-delay: 9999s;\r\n}\r\n\r\n.Input-Container ::-webkit-input-placeholder { color:#fff;  }\r\n.Input-Container ::-moz-placeholder { color:#ffff; } \r\n.Input-Container :-ms-input-placeholder { color:#ffff; }  \r\n.Input-Container input:-moz-placeholder { color:#ffff; } \r\n\r\n", ""]);
 
 // exports
 
@@ -6755,7 +6755,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".Contact-Container {\r\n    width: 100%;\r\n    /* height: 100vh; */\r\n    align-items: center;\r\n    flex-flow: column;\r\n    background: linear-gradient(to bottom, rgba(255,255,255,1) 5%, rgba(244,238,238,1) 30%, rgba(223,205,205,1) 79%, rgba(223,205,205,1) 93%);\r\n}", ""]);
+exports.push([module.i, ".Contact-Container {\r\n    width: 100%;\r\n    /* height: 100vh; */\r\n    align-items: center;\r\n    flex-flow: column;\r\n    background: linear-gradient(to bottom, rgba(255,255,255,1) 5%, rgba(244,238,238,1) 30%, rgba(223,205,205,1) 79%, rgba(223,205,205,1) 93%);\r\n}\r\n\r\n/* Mobile Style */\r\n\r\n/* 600px and down */\r\n@media only screen and (max-width: 600px) {\r\n    .Input-Container input,textarea {\r\n        font-size: 1.4em;\r\n    }\r\n    .Input-Container input {\r\n        /* min-height: 50px; */\r\n    }\r\n    .Input-Container > * {\r\n        width: 95%;\r\n    }\r\n    .Input-Container {\r\n        min-height: 50px;\r\n    }\r\n    .Input-Container:not(#container-input) {\r\n        margin-bottom: 50px;\r\n    }\r\n    .Input-Container > textarea {\r\n        height: 110px;\r\n        /* padding-top: 15px;     */\r\n    }\r\n    .Input-Container ::-webkit-input-placeholder {  }\r\n}\r\n\r\n/* 600px and up */\r\n@media only screen and (min-width: 600px) {\r\n    .Input-Container > * {\r\n        width: 50%;\r\n    }\r\n    .Input-Container {\r\n        height: 100px;\r\n    }\r\n    .Input-Container input,textarea {\r\n        font-size: 1.6em;\r\n    }\r\n}", ""]);
 
 // exports
 
@@ -85441,40 +85441,43 @@ __webpack_require__.r(__webpack_exports__);
 var Form = function Form(_ref) {
   var onSubmit = _ref.onSubmit,
       onChange = _ref.onChange,
-      showSpinner = _ref.showSpinner;
+      showSpinner = _ref.showSpinner,
+      screenWidth = _ref.screenWidth;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
     className: "Form-Contact",
     onSubmit: onSubmit
   }, showSpinner ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Loading__WEBPACK_IMPORTED_MODULE_3__["Loading"], null) : '', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "Input-Container alignc flex"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+  }, screenWidth > 600 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
     className: ""
-  }, "NAME"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Input__WEBPACK_IMPORTED_MODULE_2__["Input"], {
+  }, "NAME") : '', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Input__WEBPACK_IMPORTED_MODULE_2__["Input"], {
     name: "name",
     placeholder: "Joe Williams",
     onChange: onChange
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "Input-Container alignc flex"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+  }, screenWidth > 600 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
     className: ""
-  }, "E-MAIL"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Input__WEBPACK_IMPORTED_MODULE_2__["Input"], {
+  }, "E-MAIL") : '', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Input__WEBPACK_IMPORTED_MODULE_2__["Input"], {
     name: "email",
     type: "email",
     placeholder: "jts.design@gmail.com",
     onChange: onChange
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "Input-Container alignc flex"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: "Input-Container alignc flex",
+    id: "container-input"
+  }, screenWidth > 600 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
     className: ""
-  }, "SUBJECT"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Input__WEBPACK_IMPORTED_MODULE_2__["Input"], {
+  }, "SUBJECT") : '', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Input__WEBPACK_IMPORTED_MODULE_2__["Input"], {
     name: "subject",
     placeholder: "Web Design",
     onChange: onChange
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "Input-Container alignc flex"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: "Input-Container Input-Container-TextArea alignc flex",
+    id: "container-input"
+  }, screenWidth > 600 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
     className: ""
-  }, "MESSAGE"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Input__WEBPACK_IMPORTED_MODULE_2__["TextArea"], {
+  }, "MESSAGE") : '', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Input__WEBPACK_IMPORTED_MODULE_2__["TextArea"], {
     name: "message",
     placeholder: "Hello There",
     onChange: onChange
@@ -86435,6 +86438,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_SpaceBetween__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/SpaceBetween */ "./resources/js/components/SpaceBetween/index.js");
 /* harmony import */ var _components_Modal__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/Modal */ "./resources/js/components/Modal/index.js");
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_7__);
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
@@ -86461,6 +86466,7 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 
+
 var Contact = function Contact() {
   var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])({
     name: '',
@@ -86472,20 +86478,33 @@ var Contact = function Contact() {
       form = _useState2[0],
       setForm = _useState2[1];
 
-  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(window.innerWidth),
       _useState4 = _slicedToArray(_useState3, 2),
-      showModal = _useState4[0],
-      setShowModal = _useState4[1];
+      width = _useState4[0],
+      setWidth = _useState4[1];
+
+  var updateWidth = function updateWidth() {
+    setWidth(window.innerWidth);
+  };
 
   var _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
       _useState6 = _slicedToArray(_useState5, 2),
-      showSpinner = _useState6[0],
-      setShowSpinner = _useState6[1];
+      showModal = _useState6[0],
+      setShowModal = _useState6[1];
 
   var _useState7 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
       _useState8 = _slicedToArray(_useState7, 2),
-      emailSent = _useState8[0],
-      setEmailSent = _useState8[1];
+      showSpinner = _useState8[0],
+      setShowSpinner = _useState8[1];
+
+  var _useState9 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
+      _useState10 = _slicedToArray(_useState9, 2),
+      emailSent = _useState10[0],
+      setEmailSent = _useState10[1];
+
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
+    window.addEventListener('resize', updateWidth);
+  });
 
   var handleInputChange = function handleInputChange(event) {
     setForm(_objectSpread({}, form, _defineProperty({}, event.target.name, event.target.value)));
@@ -86524,7 +86543,8 @@ var Contact = function Contact() {
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Form__WEBPACK_IMPORTED_MODULE_2__["default"], {
     onSubmit: hadleSubmit,
     onChange: handleInputChange,
-    showSpinner: showSpinner
+    showSpinner: showSpinner,
+    screenWidth: width
   }));
 };
 
@@ -86899,7 +86919,7 @@ var CHANGE_DESCRIPTION = 'exposition_change_description';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\WORK\ReactJS\JoeWilliamsWeb\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\DOCUMENTOS\Proyectos\Codes\Proyectos\JoeWWeb\JoeWilliamsWeb-master\resources\js\app.js */"./resources/js/app.js");
 
 
 /***/ })

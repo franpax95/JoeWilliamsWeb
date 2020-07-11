@@ -5,15 +5,3 @@
     flex-direction: column;
 }
 
-.Input-Container {
-    height: 100px;
-    border-bottom: 2px solid white;
-    color: white;
-}
-.Input-Container > * {
-    width: 50%;
-    background: transparent;
-}
-.Input-Container > label {
-    margin-left: 50px;
-}
