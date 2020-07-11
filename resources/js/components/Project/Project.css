@@ -31,8 +31,6 @@
 }
 .FirstElement .type{
     position: absolute;
-    bottom: 0;
-    font-size: 0.8em;
 }
 
 .ImgWrapper{
@@ -62,12 +60,14 @@
         min-width: 85vw;
     }
     .FirstElement .desc{
+        line-height: 20px;
         padding: 10px;
         font-size: 14px;
-        top: 10vh;
+        top: 8vh;
     }
     .FirstElement .type{
         font-size: 12px;
+        bottom: 5vh;
     }
     .ImgWrapper{
         height: 70%;
@@ -76,6 +76,7 @@
         width: 85vw;
         padding: 10px 20px;
         font-size: 13px;
+        line-height: 30px;
     }
 }
 
@@ -90,6 +91,7 @@
     }
     .FirstElement .type{
         font-size: 16px;
+        bottom: 0;
     }
     .ImgWrapper{
         height: 85%;
