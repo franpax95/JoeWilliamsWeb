@@ -20,7 +20,7 @@ const FirstElement = ({ description, type }) => (
  */
 const Project = ({ project, children }) => {
     return (
-        <div className="Project">
+        <div className="Project" style={{ width: (children.length) ? 'auto' : '100%' }}>
             <div className="title">{project.title}</div>
             <FirstElement description={project.description} type={project.type} />
             {children}
@@ -29,7 +29,7 @@ const Project = ({ project, children }) => {
 }
 
 const ImgWrapper = ({ src, alt, size = 'big', background = 'background-none' }) => (
-    <div className={`ImgWrapper ${size} ${background}`}>
+    <div className={`ImgWrapper ${size} ${background}`}  style={{ marginLeft: (alt === "The Dark Elf") ? 'auto' : '' }}>
         <img src={src} alt={alt} />
     </div>
 );

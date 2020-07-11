@@ -34,10 +34,10 @@ const Contact = () => {
         // sendEmail();
 
         setTimeout(() => {
-        setEmailSent(true)
-        setShowSpinner(false)
-        setShowModal(true)
-        },1000)   
+            setEmailSent(true)
+            setShowSpinner(false)
+            setShowModal(true)
+        }, 1000);
     }
 
     const sendEmail = () => {

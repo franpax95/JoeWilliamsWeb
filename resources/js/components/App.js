@@ -16,28 +16,25 @@ const App = () => {
     const transitions = useTransition(location, location => location.pathname, {
         from: { opacity: 0, },
         enter: { opacity: 1,},
-        leave: { opacity: 0, }
+        leave: { opacity: 0, },
+        config: { duration: 500 }
     });
 
-    return (
-        <>
-            <Navbar />
-            {
-                transitions.map(({item, props, key}) => (
-                    <animated.div key={key} style={props}>
-                        <Switch location={item}>
-                            <Route exact path="/" component={Index} />
-                            <Route exact path="/home" component={Index} />
-                            <Route exact path="/projects" component={Projects} />
-                            <Route exact path="/projects/:id" component={Projects} />
-                            <Route exact path="/contact" component={Contact} />
-                            <Route exact path="/about" component={About} />
-                        </Switch>
-                    </animated.div>
-                ))
-            }
-        </>
-    )
+    return (<>
+        <Navbar />
+        {transitions.map(({item, props, key}) => (
+            <animated.div key={key} style={props}>
+                <Switch location={item}>
+                    <Route exact path="/" component={Index} />
+                    <Route exact path="/home" component={Index} />
+                    <Route exact path="/projects" component={Projects} />
+                    <Route exact path="/projects/:id" component={Projects} />
+                    <Route exact path="/contact" component={Contact} />
+                    <Route exact path="/about" component={About} />
+                </Switch>
+            </animated.div>
+        ))}
+    </>);
 }
 
 

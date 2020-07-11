@@ -1,10 +1,9 @@
 import React, { useState, useRef } from 'react';
-import { Link, withRouter } from 'react-router-dom';
+import { Link, withRouter, useLocation } from 'react-router-dom';
 
 import { MdMenu, MdClose } from 'react-icons/md';
 
 import './Navbar.css';
-
 
 const Navbar = (props) => {
     const { pathname } = props.location;
@@ -43,6 +42,7 @@ const Navbar = (props) => {
     return (
         <div className={`Navbar ${(isWhiteColor) ? 'white' : 'black'}`} ref={navbarRef}>
             {(isOpen) ? renderOpenedNavbar() : renderClosedNavbar()}
+            
         </div>
     );
 }

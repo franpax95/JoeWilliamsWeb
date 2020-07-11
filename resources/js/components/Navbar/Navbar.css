@@ -1,4 +1,5 @@
 .Navbar{
+    z-index: 1000;
     position: fixed;
     right: 10px;
     top: 10px;
@@ -8,6 +9,12 @@
     align-items: flex-end;
 
     transition: opacity .3s;
+}
+
+.Navbar .content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .Navbar.black a,
@@ -20,7 +27,6 @@
 }
 
 .Navbar a{
-    font-size: 2em;
     transition: color .2s;
 }
 .Navbar a:hover{ color: gray; }
@@ -33,9 +39,26 @@
     cursor: pointer;
     background: none;
 
-    font-size: 3em;
     transition: color .2s;
 }
 
 .Navbar button.open:hover{ color: gray; }
 .Navbar button.close:hover{ color: red; }
+
+
+@media only screen and (max-width: 600px) {
+    .Navbar a{ 
+        font-size: 1.2em; 
+        margin-top: 6px;
+    }
+    .Navbar button{
+        font-size: 1.8em;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .Navbar a{ font-size: 2em; }
+    .Navbar button{
+        font-size: 3em;
+    }
+}
