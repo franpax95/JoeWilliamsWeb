@@ -9,6 +9,16 @@
     align-items: flex-end;
 
     transition: opacity .3s;
+
+}
+.Navbar *{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .Navbar .content{

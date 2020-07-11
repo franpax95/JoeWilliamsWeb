@@ -10,7 +10,6 @@
 .Project .title{
     position: fixed;
     top: 10vh;
-    left: 30px;
 
     font-size: 1.5em;
     font-weight: bold;
@@ -56,6 +55,12 @@
 }
 
 @media only screen and (max-width: 800px) {
+    .Project .title{
+        line-height: 30px;
+        font-size: 22px;
+        left: 15px;
+    }
+
     .FirstElement{
         min-width: 85vw;
     }
@@ -81,6 +86,11 @@
 }
 
 @media only screen and (min-width: 800px) {
+    .Project .title{
+        font-size: 1.5em;
+        left: 30px;
+    }
+
     .FirstElement{
         min-width: 60vw;
     }
