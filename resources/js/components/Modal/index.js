@@ -2,16 +2,31 @@ import React from 'react';
 import './Modal.css';
 import {Button} from '../Buttons';
 
-export const Modal = ({onClick,text,emailSent}) => {
+export const Modal = ({onClick,sentEmail}) => {
+
+    const showMessageEmail = () => {
+        if(sentEmail) {
+            return(
+                <p className='text-modal'>THANKS FOR SAYNG HELLO!</p>
+            )
+        } else {
+            return (
+                <>
+                    <p className='text-modal' style={{marginBottom: 10 + 'px'}}>!OOPS</p>
+                    <p className='text-modal' style={{marginBottom: 10 + 'px'}}>SOMETHING WENT WRONG</p>
+                    <p className='text-modal'>CHECK DETAILS</p>
+                </>
+            )
+        }
+    }
     return(
         <div className="overlay">
         <div className="modal flex alignc">
-            <div className="text-modal">
-                {text}
-            </div>
+            {
+                showMessageEmail()
+            }
             <br />
-            <br />
-            <Button text={emailSent ? 'HOME' : 'RETRY'} type='button' clase='modal-button' onClick={onClick}/>
+            <Button text={sentEmail ? 'HOME' : 'RETRY'} type='button' clase='modal-button' onClick={onClick}/>
         </div>
     </div>
     )

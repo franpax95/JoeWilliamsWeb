@@ -22,7 +22,7 @@ const Form = ({ onSubmit,onChange,showSpinner, screenWidth }) => {
                 }  
                 <Input name='email' type='email' placeholder='jts.design@gmail.com' onChange={onChange}/>
             </div>
-            <div className='Input-Container alignc flex' id='container-input'>
+            <div className='Input-Container alignc flex' >
                 {
                     screenWidth > 600 ?  <label className=''>SUBJECT</label> : ''
                 } 
