@@ -19,6 +19,9 @@
     .Input-Container:not(#container-input) {
         margin-bottom: 70px;
     }
+    .Input-Container input {
+        margin-bottom: 15px;
+    }
 
     .Input-Container ::-webkit-input-placeholder {  }
 }
