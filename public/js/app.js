@@ -6755,7 +6755,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".Contact-Container {\r\n    width: 100%;\r\n    /* height: 100vh; */\r\n    align-items: center;\r\n    flex-flow: column;\r\n    background: linear-gradient(to bottom, rgba(255,255,255,1) 5%, rgba(244,238,238,1) 30%, rgba(223,205,205,1) 79%, rgba(223,205,205,1) 93%);\r\n}\r\n\r\n/* Mobile Style */\r\n\r\n/* 600px and down */\r\n@media only screen and (max-width: 600px) {\r\n    .Input-Container input,textarea {\r\n        font-size: 1.4em;\r\n    }\r\n    .Input-Container input {\r\n        /* min-height: 50px; */\r\n    }\r\n    /* .Input-Container-TextArea input:focus {\r\n        height: 110px;\r\n    } */\r\n    .Input-Container > * {\r\n        width: 95%;\r\n    }\r\n    .Input-Container {\r\n        min-height: 50px;\r\n    }\r\n    .Input-Container:not(#container-input) {\r\n        margin-bottom: 50px;\r\n    }\r\n    .Input-Container > textarea {\r\n        /* height: 110px; */\r\n        /* padding-top: 15px;     */\r\n    }\r\n    .Input-Container ::-webkit-input-placeholder {  }\r\n}\r\n\r\n/* 600px and up */\r\n@media only screen and (min-width: 600px) {\r\n    .Input-Container > * {\r\n        width: 50%;\r\n    }\r\n    .Input-Container {\r\n        height: 100px;\r\n    }\r\n    .Input-Container input,textarea {\r\n        font-size: 1.6em;\r\n    }\r\n}", ""]);
+exports.push([module.i, ".Contact-Container {\r\n    width: 100%;\r\n    /* height: 100vh; */\r\n    align-items: center;\r\n    flex-flow: column;\r\n    background: linear-gradient(to bottom, rgba(255,255,255,1) 5%, rgba(244,238,238,1) 30%, rgba(223,205,205,1) 79%, rgba(223,205,205,1) 93%);\r\n}\r\n\r\n/* Mobile Style */\r\n\r\n/* 600px and down */\r\n@media only screen and (max-width: 600px) {\r\n    .Input-Container input,textarea {\r\n        font-size: 1.4em;\r\n    }\r\n    .Input-Container > * {\r\n        width: 95%;\r\n    }\r\n    .Input-Container:not(#container-input) {\r\n        margin-bottom: 50px;\r\n    }\r\n\r\n    .Input-Container ::-webkit-input-placeholder {  }\r\n}\r\n\r\n/* 600px and up */\r\n@media only screen and (min-width: 600px) {\r\n    .Input-Container > * {\r\n        width: 50%;\r\n    }\r\n    .Input-Container {\r\n        height: 100px;\r\n    }\r\n    .Input-Container input,textarea {\r\n        font-size: 1.6em;\r\n    }\r\n}", ""]);
 
 // exports
 
@@ -87015,7 +87015,7 @@ var CHANGE_DESCRIPTION = 'exposition_change_description';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\WORK\ReactJS\JoeWilliamsWeb\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\DOCUMENTOS\Proyectos\Codes\Proyectos\JoeWWeb\JoeWilliamsWeb-master\resources\js\app.js */"./resources/js/app.js");
 
 
 /***/ })

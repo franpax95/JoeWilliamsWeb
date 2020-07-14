@@ -13,25 +13,13 @@
     .Input-Container input,textarea {
         font-size: 1.4em;
     }
-    .Input-Container input {
-        /* min-height: 50px; */
-    }
-    /* .Input-Container-TextArea input:focus {
-        height: 110px;
-    } */
     .Input-Container > * {
         width: 95%;
-    }
-    .Input-Container {
-        min-height: 50px;
     }
     .Input-Container:not(#container-input) {
         margin-bottom: 50px;
     }
-    .Input-Container > textarea {
-        /* height: 110px; */
-        /* padding-top: 15px;     */
-    }
+
     .Input-Container ::-webkit-input-placeholder {  }
 }
 
