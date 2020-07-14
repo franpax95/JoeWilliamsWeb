@@ -17,7 +17,7 @@
         width: 95%;
     }
     .Input-Container:not(#container-input) {
-        margin-bottom: 50px;
+        margin-bottom: 70px;
     }
 
     .Input-Container ::-webkit-input-placeholder {  }
