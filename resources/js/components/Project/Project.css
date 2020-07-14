@@ -1,5 +1,6 @@
 .Project{
     height: 90%;
+    padding-right: 10vw;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -10,7 +11,6 @@
 .Project .title{
     position: fixed;
     top: 10vh;
-    left: 30px;
 
     font-size: 1.5em;
     font-weight: bold;
@@ -39,12 +39,15 @@
     align-items: center;
 }
 .ImgWrapper img{ object-fit: contain; }
+.ImgWrapper.big{ padding: 0 20px; }
 .ImgWrapper.big img{ height: 100%; }
-.ImgWrapper.medium img{ height: 90%; padding: 0 2vw; } 
-.ImgWrapper.small img{ height: 80%; padding: 0 5vw; }
+.ImgWrapper.medium{ padding: 0 50px; }
+.ImgWrapper.medium img{ height: 90%; } 
+.ImgWrapper.small{ padding: 0 6vw; }
+.ImgWrapper.small img{ height: 80%; }
 .ImgWrapper.background-none{ margin: 0 5px; }
 .ImgWrapper.c-word{ background-color: #625455; }
-.ImgWrapper.fluttering-flamingo{ background-color: #935a49; min-width: 40vw;  }
+.ImgWrapper.fluttering-flamingo{ background-color: #935a49; min-width: 40vw; }
 .ImgWrapper.lara-logan{ background-color: #78423c; }
 .ImgWrapper.human-herd{ background-color: #625455; }
 
@@ -56,11 +59,17 @@
 }
 
 @media only screen and (max-width: 800px) {
+    .Project .title{
+        line-height: 30px;
+        font-size: 22px;
+        left: 15px;
+    }
+
     .FirstElement{
         min-width: 85vw;
     }
     .FirstElement .desc{
-        line-height: 20px;
+        line-height: 22px;
         padding: 10px;
         font-size: 14px;
         top: 8vh;
@@ -76,11 +85,17 @@
         width: 85vw;
         padding: 10px 20px;
         font-size: 13px;
-        line-height: 30px;
+        line-height: 20px;
     }
+    .ImgWrapper.fluttering-flamingo{ min-width: 100vw; }
 }
 
 @media only screen and (min-width: 800px) {
+    .Project .title{
+        font-size: 1.5em;
+        left: 30px;
+    }
+
     .FirstElement{
         min-width: 60vw;
     }

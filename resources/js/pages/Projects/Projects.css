@@ -12,22 +12,13 @@
     overflow-x: scroll;
 }
 
-.Projects.in{
-    transition: opacity .5s;
-    opacity: 1;
-}
-.Projects.out{
-    transition: opacity .1s;
-    opacity: 0;
-}
-
 .Projects::-webkit-scrollbar { height: 5px; }
 .Projects::-webkit-scrollbar-track { background: lightgray; }/* Track */
 .Projects::-webkit-scrollbar-thumb { background: darkgray; }/* Handle */
 .Projects::-webkit-scrollbar-thumb:hover { background: gray;  }/* Handle on hover */
 
 .Projects > *{
-    margin: 0 10px 25px 10px;
+    margin: 0 20px 25px 20px;
 }
 
 .Projects .back-btn{
