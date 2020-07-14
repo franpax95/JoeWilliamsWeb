@@ -10,7 +10,9 @@ const nl2br = (str) => str.split("\n").map((item, key) => (
  */
 const FirstElement = ({ description, type }) => (
     <div className="FirstElement">
-        <div className="desc">{nl2br(description)}</div>
+        <div className="desc" style={{ fontSize: (description.length > 100 && window.innerWidth < 800) ? '11px' : '14px' }}>
+            {nl2br(description)}
+        </div>
         <div className="type">{nl2br(type)}</div>
     </div>
 );
@@ -20,7 +22,7 @@ const FirstElement = ({ description, type }) => (
  */
 const Project = ({ project, children }) => {
     return (
-        <div className="Project" style={{ width: (children.length) ? 'auto' : '100%' }}>
+        <div className="Project" style={{ width: (children.length || window.innerWidth < 800) ? 'auto' : '100%' }}>
             <div className="title">{project.title}</div>
             <FirstElement description={project.description} type={project.type} />
             {children}

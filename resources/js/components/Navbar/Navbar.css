@@ -5,8 +5,9 @@
     top: 10px;
 
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
 
     transition: opacity .3s;
 
@@ -21,11 +22,11 @@
     -webkit-tap-highlight-color: transparent;
 }
 
-.Navbar .content{
+/* .Navbar .content{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-end;
-}
+} */
 
 .Navbar.black a,
 .Navbar.black button {
@@ -37,17 +38,23 @@
 }
 
 .Navbar a{
+    margin-left: 20px;
     transition: color .2s;
 }
 .Navbar a:hover{ color: gray; }
 
 .Navbar button{
     padding: 0;
+    margin-left: 20px;
 
     outline: none;
     border: none;
     cursor: pointer;
     background: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     transition: color .2s;
 }
@@ -58,17 +65,20 @@
 
 @media only screen and (max-width: 600px) {
     .Navbar a{ 
-        font-size: 1.4em; 
-        margin-top: 20px;
+        font-size: 13px; 
     }
     .Navbar button{
-        font-size: 2em;
+        font-size: 24px;
+        width: 28px;
+        height: 28px;
     }
 }
 
 @media only screen and (min-width: 600px) {
-    .Navbar a{ font-size: 2em; }
+    .Navbar a{ font-size: 20px; }
     .Navbar button{
-        font-size: 3em;
+        width: 40px;
+        height: 40px;
+        font-size: 35px;
     }
 }
