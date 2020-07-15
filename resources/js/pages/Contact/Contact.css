@@ -13,6 +13,7 @@
     .Input-Container input,textarea {
         font-size: 1em;
         line-height: 40px;
+        -webkit-font-feature-settings: off;
     }
     .Input-Container > * {
         width: 95%;
@@ -30,6 +31,7 @@
     .Input-Container input:focus {
         outline: none;
         text-decoration: none;
+        border: none;
     }
 }
 
