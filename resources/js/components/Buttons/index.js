@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 
 export const Button = ({text, type, clase, onClick}) => {
     return (
-        <button type={type} className={clase} >
+        <button type={type} className={`${clase} alignc justifyc`} >
             {
-                text === 'HOME' ?  <Link to="/home">{text}</Link> : text
+                text === 'HOME' ?  <Link to="/home">{text}</Link> : <p>{text}</p>
             }
         </button>
     )

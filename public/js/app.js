@@ -6565,7 +6565,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "button {\r\n  outline:none;\r\n}\r\n.modal-button {\r\n    margin-top: 50px;\r\n    cursor: pointer;\r\n    background: transparent;\r\n    border: 2px solid white;\r\n    color: white;\r\n    padding: 10px 32px;\r\n    font-weight: bold;\r\n    font-size: medium;\r\n}\r\n\r\n.modal-button a {\r\n  font-size: medium;\r\n  color: white;\r\n}\r\n.submit {\r\n  cursor: pointer;\r\n  background: transparent;\r\n  border: 2px solid white;\r\n  color: white;\r\n  padding: 14px 62px;\r\n  font-weight: bold;\r\n  font-size: medium;\r\n  margin: auto;\r\n  margin-top: 59px;\r\n  margin-bottom: 45px;\r\n}\r\n", ""]);
+exports.push([module.i, "button {\r\n  outline:none;\r\n}\r\n.modal-button {\r\n  margin-top: 30px;\r\n  cursor: pointer;\r\n  background: transparent;\r\n  border: 2px solid white;\r\n  color: white;\r\n  font-weight: bold;\r\n  display: flex;\r\n  width: 120px;\r\n  height: 30px;\r\n}\r\n\r\n.modal-button a {\r\n  font-size: 10px;\r\n  color: white;\r\n}\r\n.modal-button a,p {\r\n  font-size: 10px;\r\n}\r\n.submit p {\r\n  font-size: medium;\r\n  font-weight: bold;\r\n}\r\n.submit {\r\n  cursor: pointer;\r\n  background: transparent;\r\n  border: 2px solid white;\r\n  color: white;\r\n  display: flex;\r\n  width: 200px;\r\n  height: 52px;\r\n  margin: auto;\r\n  margin-top: 59px;\r\n  margin-bottom: 45px;\r\n}\r\n", ""]);
 
 // exports
 
@@ -6755,7 +6755,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".Contact-Container {\r\n    width: 100%;\r\n    /* height: 100vh; */\r\n    align-items: center;\r\n    flex-flow: column;\r\n    background: linear-gradient(to bottom, rgba(255,255,255,1) 5%, rgba(244,238,238,1) 30%, rgba(223,205,205,1) 79%, rgba(223,205,205,1) 93%);\r\n}\r\n\r\n/* Mobile Style */\r\n\r\n/* 600px and down */\r\n@media only screen and (max-width: 600px) {\r\n    .Input-Container input,textarea {\r\n        font-size: 1em;\r\n        line-height: 40px;\r\n        -webkit-font-feature-settings: off;\r\n    }\r\n    .Input-Container > * {\r\n        width: 95%;\r\n    }\r\n    .Input-Container:not(#container-input) {\r\n        margin-bottom: 70px;\r\n    }\r\n    .Input-Container input {\r\n        margin-bottom: 15px;\r\n    }\r\n\r\n    .Input-Container ::-webkit-input-placeholder { \r\n        line-height: 40px;  \r\n    }\r\n    .Input-Container input:focus {\r\n        outline: none;\r\n        text-decoration: none;\r\n        border: none;\r\n    }\r\n}\r\n\r\n/* 600px and up */\r\n@media only screen and (min-width: 600px) {\r\n    .Input-Container > * {\r\n        width: 50%;\r\n    }\r\n    .Input-Container {\r\n        height: 100px;\r\n    }\r\n    .Input-Container input,textarea {\r\n        font-size: 1.6em;\r\n    }\r\n}", ""]);
+exports.push([module.i, ".Contact-Container {\r\n    width: 100%;\r\n    /* height: 100vh; */\r\n    align-items: center;\r\n    flex-flow: column;\r\n    background: linear-gradient(to bottom, rgba(255,255,255,1) 5%, rgba(244,238,238,1) 30%, rgba(223,205,205,1) 79%, rgba(223,205,205,1) 93%);\r\n}\r\n\r\n/* Mobile Style */\r\n\r\n/* 600px and down */\r\n@media only screen and (max-width: 600px) {\r\n    .Input-Container input,textarea {\r\n        font-size: 1em;\r\n        line-height: 40px;    \r\n    }\r\n    .Input-Container > * {\r\n        width: 95%;\r\n    }\r\n    .Input-Container:not(#container-input) {\r\n        margin-bottom: 70px;\r\n    }\r\n    .Input-Container input {\r\n        margin-bottom: 15px;\r\n    }\r\n\r\n    .Input-Container ::-webkit-input-placeholder { \r\n        line-height: 40px;  \r\n    }\r\n    .Input-Container input:focus {\r\n        outline: none;\r\n        text-decoration: none;\r\n        border: none;\r\n    }\r\n}\r\n\r\n/* 600px and up */\r\n@media only screen and (min-width: 600px) {\r\n    .Input-Container > * {\r\n        width: 50%;\r\n    }\r\n    .Input-Container {\r\n        height: 100px;\r\n    }\r\n    .Input-Container input,textarea {\r\n        font-size: 1.6em;\r\n    }\r\n}", ""]);
 
 // exports
 
@@ -85324,10 +85324,10 @@ var Button = function Button(_ref) {
       onClick = _ref.onClick;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
     type: type,
-    className: clase
+    className: "".concat(clase, " alignc justifyc")
   }, text === 'HOME' ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
     to: "/home"
-  }, text) : text);
+  }, text) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, text));
 };
 
 /***/ }),

@@ -12,8 +12,7 @@
 @media only screen and (max-width: 600px) {
     .Input-Container input,textarea {
         font-size: 1em;
-        line-height: 40px;
-        -webkit-font-feature-settings: off;
+        line-height: 40px;    
     }
     .Input-Container > * {
         width: 95%;
