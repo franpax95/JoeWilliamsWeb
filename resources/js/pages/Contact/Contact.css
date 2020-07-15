@@ -27,6 +27,10 @@
     .Input-Container ::-webkit-input-placeholder { 
         line-height: 40px;  
     }
+    .Input-Container input:focus {
+        outline: none;
+        text-decoration: none;
+    }
 }
 
 /* 600px and up */
