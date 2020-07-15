@@ -6565,7 +6565,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "button {\r\n  outline:none;\r\n}\r\n.modal-button {\r\n  margin-top: 30px;\r\n  cursor: pointer;\r\n  background: transparent;\r\n  border: 2px solid white;\r\n  color: white;\r\n  font-weight: bold;\r\n  display: flex;\r\n  width: 120px;\r\n  height: 30px;\r\n}\r\n\r\n.modal-button a {\r\n  font-size: 10px;\r\n  color: white;\r\n}\r\n.modal-button a,p {\r\n  font-size: 10px;\r\n}\r\n.submit p {\r\n  font-size: medium;\r\n  font-weight: bold;\r\n}\r\n.submit {\r\n  cursor: pointer;\r\n  background: transparent;\r\n  border: 2px solid white;\r\n  color: white;\r\n  display: flex;\r\n  width: 200px;\r\n  height: 52px;\r\n  margin: auto;\r\n  margin-top: 59px;\r\n  margin-bottom: 45px;\r\n}\r\n", ""]);
+exports.push([module.i, "button {\r\n  outline:none;\r\n}\r\n.modal-button {\r\n  margin-top: 30px;\r\n  cursor: pointer;\r\n  background: transparent;\r\n  border: 2px solid white;\r\n  color: white;\r\n  font-weight: bold;\r\n  display: flex;\r\n  width: 120px;\r\n  height: 30px;\r\n}\r\n\r\n.modal-button a {\r\n  font-size: 10px;\r\n  color: white;\r\n}\r\n.modal-button {\r\n  font-size: 10px;\r\n}\r\n.submit {\r\n  cursor: pointer;\r\n  background: transparent;\r\n  border: 2px solid white;\r\n  color: white;\r\n  display: flex;\r\n  width: 200px;\r\n  height: 52px;\r\n  margin: auto;\r\n  margin-top: 59px;\r\n  margin-bottom: 45px;\r\n  font-size: medium;\r\n  font-weight: bold;\r\n}\r\n", ""]);
 
 // exports
 
@@ -85327,7 +85327,7 @@ var Button = function Button(_ref) {
     className: "".concat(clase, " alignc justifyc")
   }, text === 'HOME' ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
     to: "/home"
-  }, text) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, text));
+  }, text) : text);
 };
 
 /***/ }),
@@ -86634,7 +86634,7 @@ var Contact = function Contact() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "Contact-Container flex justifyc"
   }, showModal ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Modal__WEBPACK_IMPORTED_MODULE_5__["Modal"], {
-    sentEmail: sentEmail
+    sentEmail: false
   }) : '', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_SpaceBetween__WEBPACK_IMPORTED_MODULE_4__["SpaceBetween"], {
     height: "45vh"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Form__WEBPACK_IMPORTED_MODULE_2__["default"], {

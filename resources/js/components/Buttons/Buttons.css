@@ -17,12 +17,8 @@ button {
   font-size: 10px;
   color: white;
 }
-.modal-button a,p {
+.modal-button {
   font-size: 10px;
-}
-.submit p {
-  font-size: medium;
-  font-weight: bold;
 }
 .submit {
   cursor: pointer;
@@ -35,4 +31,6 @@ button {
   margin: auto;
   margin-top: 59px;
   margin-bottom: 45px;
+  font-size: medium;
+  font-weight: bold;
 }
