@@ -12,7 +12,7 @@
 @media only screen and (max-width: 600px) {
     .Input-Container input,textarea {
         font-size: 1.4em;
-        line-height: 30px;
+        line-height: 40px;
     }
     .Input-Container > * {
         width: 95%;
@@ -24,7 +24,10 @@
         margin-bottom: 15px;
     }
 
-    .Input-Container ::-webkit-input-placeholder { line-height: 30px;  }
+    .Input-Container ::-webkit-input-placeholder { 
+        line-height: 40px;  
+        outline: none;
+    }
 }
 
 /* 600px and up */
