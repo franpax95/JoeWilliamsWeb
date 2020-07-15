@@ -14,9 +14,6 @@
     color: white;
     resize: none;
 }
-/* .Input-Container input {
-    min-height: 70px; 
-} */
 .Input-Container > * {
     background: transparent;
 }
