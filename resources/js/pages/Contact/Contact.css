@@ -13,6 +13,8 @@
     .Input-Container input,textarea {
         font-size: 1.4em;
         line-height: 40px;
+        outline: none;
+        text-decoration: none;
     }
     .Input-Container > * {
         width: 95%;
@@ -26,7 +28,6 @@
 
     .Input-Container ::-webkit-input-placeholder { 
         line-height: 40px;  
-        outline: none;
     }
 }
 
