@@ -24,7 +24,7 @@
         margin-bottom: 15px;
     }
 
-    .Input-Container ::-webkit-input-placeholder {  }
+    .Input-Container ::-webkit-input-placeholder { line-height: 30px;  }
 }
 
 /* 600px and up */
