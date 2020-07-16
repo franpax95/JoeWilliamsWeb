@@ -85324,7 +85324,8 @@ var Button = function Button(_ref) {
       onClick = _ref.onClick;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
     type: type,
-    className: "".concat(clase, " alignc justifyc")
+    className: "".concat(clase, " alignc justifyc"),
+    onClick: onClick
   }, text === 'HOME' ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
     to: "/home"
   }, text) : text);
@@ -85671,8 +85672,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var Modal = function Modal(_ref) {
-  var onClick = _ref.onClick,
-      sentEmail = _ref.sentEmail;
+  var sentEmail = _ref.sentEmail,
+      onClickButton = _ref.onClickButton;
 
   var showMessageEmail = function showMessageEmail() {
     if (sentEmail) {
@@ -85704,7 +85705,7 @@ var Modal = function Modal(_ref) {
     text: sentEmail ? 'HOME' : 'RETRY',
     type: "button",
     clase: "modal-button",
-    onClick: onClick
+    onClick: sentEmail ? '' : onClickButton
   })));
 };
 
@@ -86612,7 +86613,10 @@ var Contact = function Contact() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "Contact-Container flex justifyc"
   }, showModal ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Modal__WEBPACK_IMPORTED_MODULE_5__["Modal"], {
-    sentEmail: false
+    sentEmail: sentEmail,
+    onClickButton: function onClickButton() {
+      return setShowModal(false);
+    }
   }) : '', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_SpaceBetween__WEBPACK_IMPORTED_MODULE_4__["SpaceBetween"], {
     height: "45vh"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Form__WEBPACK_IMPORTED_MODULE_2__["default"], {

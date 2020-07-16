@@ -2,7 +2,7 @@ import React from 'react';
 import './Modal.css';
 import {Button} from '../Buttons';
 
-export const Modal = ({onClick,sentEmail}) => {
+export const Modal = ({sentEmail,onClickButton}) => {
 
     const showMessageEmail = () => {
         if(sentEmail) {
@@ -26,7 +26,7 @@ export const Modal = ({onClick,sentEmail}) => {
                 showMessageEmail()
             }
             <br />
-            <Button text={sentEmail ? 'HOME' : 'RETRY'} type='button' clase='modal-button' onClick={onClick}/>
+            <Button text={sentEmail ? 'HOME' : 'RETRY'} type='button' clase='modal-button' onClick={sentEmail ? '' : onClickButton }/>
         </div>
     </div>
     )
