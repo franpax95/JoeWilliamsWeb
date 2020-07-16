@@ -8,3 +8,13 @@
     object-fit: contain;
     height: 100%;
 }
+
+.FlutteringFlamingo {
+    min-width: 60vh;
+    background-color: #935a49;
+}
+
+.FlutteringFlamingo img {
+    height: 90%;
+    align-self: center;
+}
