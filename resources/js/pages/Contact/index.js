@@ -16,16 +16,10 @@ const Contact = () => {
         subject: '',
         message: '',
     })
-    const [width, setWidth] = useState(window.innerWidth);
-    const updateWidth = () => {setWidth(window.innerWidth)}
 
     const [showModal, setShowModal] = useState(false);
     const [showSpinner, setShowSpinner] = useState(false);
     const [sentEmail, setsentEmail] = useState(false);
-
-    useEffect(() => {
-       window.addEventListener('resize', updateWidth)
-    });
 
     const handleInputChange = (event) => {
         setForm({
@@ -65,7 +59,7 @@ const Contact = () => {
                 showModal ? <Modal sentEmail={false}/> : ''
             }
             <SpaceBetween height="45vh" />
-            <Form onSubmit={hadleSubmit} onChange={handleInputChange} showSpinner={showSpinner} screenWidth={width}/>
+            <Form onSubmit={hadleSubmit} onChange={handleInputChange} showSpinner={showSpinner}/>
         </div>
     );
 }
