@@ -61,8 +61,8 @@
 @media only screen and (max-width: 800px) {
     .Project .title{
         line-height: 30px;
-        font-size: 22px;
-        left: 15px;
+        font-size: 17px;
+        left: 12px;
     }
 
     .FirstElement{

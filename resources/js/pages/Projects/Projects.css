@@ -1,6 +1,6 @@
 .Projects{
     height: 100vh;
-    min-width: 100vw;
+    /* min-width: 100vw; */
 
     display: flex;
     flex-wrap: nowrap;
@@ -11,6 +11,8 @@
     overflow-y: hidden;
     overflow-x: scroll;
 }
+
+
 
 .Projects::-webkit-scrollbar { height: 5px; }
 .Projects::-webkit-scrollbar-track { background: lightgray; }/* Track */
