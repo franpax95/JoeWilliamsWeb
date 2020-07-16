@@ -1,10 +1,11 @@
-.Input-Container {
+.Input-Container:not(#container-input) {
     border-bottom: 2px solid white;
     color: white;
 }
-.Input-Container-TextArea {
-    margin-top: 50px;
+.Input-Container-TextArea textarea {
+    min-height: 100px;
 }
+
 .Input-Container textarea:focus,input:focus  {
     outline: none;
 }
@@ -12,9 +13,6 @@
     border: none;
     color: white;
     resize: none;
-}
-.Input-Container input {
-    min-height: 50px; 
 }
 .Input-Container > * {
     background: transparent;

@@ -11,25 +11,27 @@
 /* 600px and down */
 @media only screen and (max-width: 600px) {
     .Input-Container input,textarea {
-        font-size: 1.4em;
-    }
-    .Input-Container input {
-        /* min-height: 50px; */
+        font-size: 1em;
+        line-height: 40px;    
     }
     .Input-Container > * {
         width: 95%;
     }
-    .Input-Container {
-        min-height: 50px;
-    }
     .Input-Container:not(#container-input) {
-        margin-bottom: 50px;
+        margin-bottom: 70px;
     }
-    .Input-Container > textarea {
-        height: 110px;
-        /* padding-top: 15px;     */
+    .Input-Container input {
+        margin-bottom: 15px;
     }
-    .Input-Container ::-webkit-input-placeholder {  }
+
+    .Input-Container ::-webkit-input-placeholder { 
+        line-height: 40px;  
+    }
+    .Input-Container input:focus {
+        outline: none;
+        text-decoration: none;
+        border: none;
+    }
 }
 
 /* 600px and up */

@@ -21,7 +21,7 @@ const Contact = () => {
 
     const [showModal, setShowModal] = useState(false);
     const [showSpinner, setShowSpinner] = useState(false);
-    const [emailSent, setEmailSent] = useState(false);
+    const [sentEmail, setsentEmail] = useState(false);
 
     useEffect(() => {
        window.addEventListener('resize', updateWidth)
@@ -41,7 +41,7 @@ const Contact = () => {
         // sendEmail();
 
         setTimeout(() => {
-            setEmailSent(true)
+            setsentEmail(true)
             setShowSpinner(false)
             setShowModal(true)
         }, 1000);
@@ -49,11 +49,11 @@ const Contact = () => {
 
     const sendEmail = () => {
         axios.post('/api/sendMail', form).then( resp => {
-            setEmailSent(true)
+            setsentEmail(true)
             setShowSpinner(false)
             setShowModal(true)
          }).catch((error) => {
-             setEmailSent(false)
+             setsentEmail(false)
              setShowSpinner(false)
              setShowModal(true)
          })
@@ -62,9 +62,7 @@ const Contact = () => {
     return(
         <div className="Contact-Container flex justifyc">
             {
-                showModal ? <Modal 
-                                text={emailSent ? 'THANKS FOR SAYNG HELLO!' : 'OOPS SOMETHING WENT WRONG PLEASE CHECK DETAILS'} 
-                                emailSent={emailSent}/> : ''
+                showModal ? <Modal sentEmail={false}/> : ''
             }
             <SpaceBetween height="45vh" />
             <Form onSubmit={hadleSubmit} onChange={handleInputChange} showSpinner={showSpinner} screenWidth={width}/>
