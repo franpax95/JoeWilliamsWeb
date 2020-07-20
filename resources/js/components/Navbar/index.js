@@ -32,9 +32,9 @@ const Navbar = (props) => {
         <button className="close" onClick={() => toggleNavbarEffect()}>
             <MdClose />
         </button>
-        <Link to="/projects" onClick={() => toggleNavbarEffect()}>Projects</Link>
-        <Link to="/contact" onClick={() => toggleNavbarEffect()}>Contact</Link>
         <Link to="/about" onClick={() => toggleNavbarEffect()}>About</Link>
+        <Link to="/contact" onClick={() => toggleNavbarEffect()}>Contact</Link>
+        <Link to="/projects" onClick={() => toggleNavbarEffect()}>Projects</Link>
     </>);
 
 

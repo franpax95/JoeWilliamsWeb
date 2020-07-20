@@ -41,10 +41,9 @@ class DatabaseSeeder extends Seeder
                 "cover"=> "/image/velvet000675.jpg",
                 "img1"=> "/image/velvet000675.jpg",
                 "img2"=> "/image/velvet000682.jpg",
-                "img3"=> "",
-                "img4"=> "/image/velvet000677.jpg",
-                "img5"=> "/image/velvet000673.jpg",
-                "img6"=> ""
+                "img3"=> "/image/velvet000666.jpg",
+                "img4"=> "/image/velvet000681.jpg",
+                "img5"=> "/image/velvet_crop.jpg"
             )
         );
         Expositions::create([

@@ -18,3 +18,13 @@
     height: 90%;
     align-self: center;
 }
+
+.TheLaraLoganCase {
+    min-width: 60vh;
+    background-color: #78423c;
+}
+
+.TheLaraLoganCase img {
+    height: 90%;
+    align-self: center;
+}

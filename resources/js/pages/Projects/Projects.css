@@ -1,6 +1,7 @@
 .Projects{
     height: 100vh;
     /* min-width: 100vw; */
+    padding-left: 50px;
 
     display: flex;
     flex-wrap: nowrap;
@@ -20,12 +21,12 @@
 .Projects::-webkit-scrollbar-thumb:hover { background: gray;  }/* Handle on hover */
 
 .Projects > *{
-    margin: 0 20px 25px 20px;
+    margin: 0 10px 25px 10px;
 }
 
 .Projects .back-btn{
     position: fixed;
-    top: 10px;
+    top: 15px;
     left: 10px;
     
     cursor: pointer;
@@ -33,9 +34,6 @@
     border: none;
     background: none;
     color: black;
-
-    font-size: 2.5em;
-
     transition: .3s color;
 }
 .Projects .back-btn:hover{
@@ -47,5 +45,5 @@
 }
 
 @media only screen and (min-width: 600px) {
-    .Projects .back-btn{ font-size: 2.2em; }
+    .Projects .back-btn{ font-size: 1.5em; }
 }

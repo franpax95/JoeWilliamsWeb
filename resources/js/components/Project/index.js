@@ -10,7 +10,7 @@ const nl2br = (str) => str.split("\n").map((item, key) => (
  */
 const FirstElement = ({ description, type }) => (
     <div className="FirstElement">
-        <div className="desc" style={{ fontSize: (description.length > 100 && window.innerWidth < 800) ? '11px' : '14px' }}>
+        <div className="desc" style={{ fontSize: (description.length > 100 && window.innerWidth < 800) ? '10px' : '10px' }}>
             {nl2br(description)}
         </div>
         <div className="type">{nl2br(type)}</div>

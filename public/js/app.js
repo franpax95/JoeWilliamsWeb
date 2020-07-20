@@ -6504,7 +6504,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".Input-Container:not(#container-input) {\r\n    border-bottom: 2px solid white;\r\n    color: white;\r\n    margin-bottom: 70px;\r\n}\r\n\r\n.Input-Container > * {\r\n    width: 95%;\r\n    border: none;\r\n    color: white;\r\n    resize: none;\r\n    background: transparent;\r\n    min-height: 60px;\r\n}\r\n\r\n.Input-Container input {\r\n    margin-bottom: 15px;\r\n}\r\n\r\n.Input-Container textarea:focus,input:focus  {\r\n    outline: none;\r\n}\r\n\r\n.Input-Container input:-webkit-autofill,\r\n.Input-Container input:-webkit-autofill:hover,\r\n.Input-Container input:-webkit-autofill:focus,\r\n.Input-Container input:-webkit-autofill:active {\r\n   -webkit-transition-delay: 9999s;\r\n   transition-delay: 9999s;\r\n}\r\n\r\n.Input-Container ::-webkit-input-placeholder { color:#fff;  }\r\n.Input-Container ::-moz-placeholder { color:#ffff; } \r\n.Input-Container :-ms-input-placeholder { color:#ffff; }  \r\n.Input-Container input:-moz-placeholder { color:#ffff; } \r\n\r\n", ""]);
+exports.push([module.i, ".Input-Container:not(#container-input) {\r\n    border-bottom: 2px solid white;\r\n    color: white;\r\n    /* margin-bottom: 70px; */\r\n}\r\n\r\n.Input-Container > *:not(textarea) {\r\n    width: 95%;\r\n    border: none;\r\n    color: white;\r\n    background: transparent;\r\n    min-height: 60px;\r\n}\r\n\r\n.Input-Container input {\r\n    margin: 15px 0;\r\n}\r\n\r\n.Input-Container textarea{\r\n    margin-top: 30px;\r\n    width: 95%;\r\n    border: none;\r\n    color: white;\r\n    resize: none;\r\n    background: transparent;\r\n    min-height: 120px;\r\n}\r\n\r\n.Input-Container textarea:focus,input:focus  {\r\n    outline: none;\r\n}\r\n\r\n.Input-Container input:-webkit-autofill,\r\n.Input-Container input:-webkit-autofill:hover,\r\n.Input-Container input:-webkit-autofill:focus,\r\n.Input-Container input:-webkit-autofill:active {\r\n   -webkit-transition-delay: 9999s;\r\n   transition-delay: 9999s;\r\n}\r\n\r\n.Input-Container ::-webkit-input-placeholder { color:#fff;  }\r\n.Input-Container ::-moz-placeholder { color:#ffff; } \r\n.Input-Container :-ms-input-placeholder { color:#ffff; }  \r\n.Input-Container input:-moz-placeholder { color:#ffff; } \r\n\r\n", ""]);
 
 // exports
 
@@ -6561,7 +6561,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".Navbar{\r\n    z-index: 1000;\r\n    position: fixed;\r\n    right: 10px;\r\n    top: 10px;\r\n\r\n    display: flex;\r\n    flex-direction: row-reverse;\r\n    align-items: center;\r\n    justify-content: center;\r\n\r\n    transition: opacity .3s;\r\n\r\n}\r\n.Navbar *{\r\n    -webkit-touch-callout: none;\r\n    -webkit-user-select: none;\r\n    -khtml-user-select: none;\r\n    -moz-user-select: none;\r\n    -ms-user-select: none;\r\n    user-select: none;\r\n    -webkit-tap-highlight-color: transparent;\r\n}\r\n\r\n/* .Navbar .content{\r\n    display: flex;\r\n    flex-direction: row;\r\n    align-items: flex-end;\r\n} */\r\n\r\n.Navbar.black a,\r\n.Navbar.black button {\r\n    color: black;\r\n}\r\n.Navbar.white a,\r\n.Navbar.white button {\r\n    color: white;\r\n}\r\n\r\n.Navbar a{\r\n    margin-left: 20px;\r\n    transition: color .2s;\r\n}\r\n.Navbar a:hover{ color: gray; }\r\n\r\n.Navbar button{\r\n    padding: 0;\r\n    margin-left: 20px;\r\n\r\n    outline: none;\r\n    border: none;\r\n    cursor: pointer;\r\n    background: none;\r\n\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n\r\n    transition: color .2s;\r\n}\r\n\r\n.Navbar button.open:hover{ color: gray; }\r\n.Navbar button.close:hover{ color: red; }\r\n\r\n\r\n@media only screen and (max-width: 600px) {\r\n    .Navbar a{ \r\n        font-size: 13px; \r\n    }\r\n    .Navbar button{\r\n        font-size: 24px;\r\n        width: 28px;\r\n        height: 28px;\r\n    }\r\n}\r\n\r\n@media only screen and (min-width: 600px) {\r\n    .Navbar a{ font-size: 20px; }\r\n    .Navbar button{\r\n        width: 40px;\r\n        height: 40px;\r\n        font-size: 35px;\r\n    }\r\n}", ""]);
+exports.push([module.i, ".Navbar{\r\n    z-index: 1000;\r\n    position: fixed;\r\n    right: 10px;\r\n    top: 10px;\r\n\r\n    display: flex;\r\n    flex-direction: row-reverse;\r\n    align-items: center;\r\n    justify-content: center;\r\n\r\n    transition: opacity .3s;\r\n\r\n}\r\n.Navbar *{\r\n    -webkit-touch-callout: none;\r\n    -webkit-user-select: none;\r\n    -khtml-user-select: none;\r\n    -moz-user-select: none;\r\n    -ms-user-select: none;\r\n    user-select: none;\r\n    -webkit-tap-highlight-color: transparent;\r\n}\r\n\r\n/* .Navbar .content{\r\n    display: flex;\r\n    flex-direction: row;\r\n    align-items: flex-end;\r\n} */\r\n\r\n.Navbar.black a,\r\n.Navbar.black button {\r\n    color: black;\r\n}\r\n.Navbar.white a,\r\n.Navbar.white button {\r\n    color: white;\r\n}\r\n\r\n.Navbar a{\r\n    margin-left: 20px;\r\n    transition: color .2s;\r\n}\r\n.Navbar a:hover{ color: gray; }\r\n\r\n.Navbar button{\r\n    padding: 0;\r\n    margin-left: 20px;\r\n\r\n    outline: none;\r\n    border: none;\r\n    cursor: pointer;\r\n    background: none;\r\n\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n\r\n    transition: color .2s;\r\n}\r\n\r\n.Navbar button.open:hover{ color: gray; }\r\n.Navbar button.close:hover{ color: red; }\r\n\r\n\r\n@media only screen and (max-width: 600px) {\r\n    .Navbar a{ \r\n        font-size: 13px; \r\n    }\r\n    .Navbar button{\r\n        font-size: 24px;\r\n        width: 28px;\r\n        height: 28px;\r\n    }\r\n}\r\n\r\n@media only screen and (min-width: 600px) {\r\n    .Navbar a{ font-size: 15px; }\r\n    .Navbar button{\r\n        width: 40px;\r\n        height: 40px;\r\n        font-size: 25px;\r\n    }\r\n}", ""]);
 
 // exports
 
@@ -6580,7 +6580,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".Project{\r\n    height: 90%;\r\n    padding-right: 10vw;\r\n    display: flex;\r\n    flex-direction: row;\r\n    flex-wrap: nowrap;\r\n    justify-content: flex-start;\r\n    align-items: flex-end;\r\n}\r\n\r\n.Project .title{\r\n    position: fixed;\r\n    top: 10vh;\r\n\r\n    font-size: 1.5em;\r\n    font-weight: bold;\r\n    text-transform: uppercase;\r\n}\r\n\r\n\r\n.FirstElement{\r\n    height: 80%;\r\n\r\n    position: relative;\r\n    display: flex;\r\n    flex-direction: column;\r\n}\r\n.FirstElement .desc{\r\n    padding: 0 20vw 0 20px;\r\n    position: absolute;\r\n}\r\n.FirstElement .type{\r\n    position: absolute;\r\n}\r\n\r\n.ImgWrapper{\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n.ImgWrapper img{ object-fit: contain; }\r\n.ImgWrapper.big{ padding: 0 20px; }\r\n.ImgWrapper.big img{ height: 100%; }\r\n.ImgWrapper.medium{ padding: 0 50px; }\r\n.ImgWrapper.medium img{ height: 90%; } \r\n.ImgWrapper.small{ padding: 0 6vw; }\r\n.ImgWrapper.small img{ height: 80%; }\r\n.ImgWrapper.background-none{ margin: 0 5px; }\r\n.ImgWrapper.c-word{ background-color: #625455; }\r\n.ImgWrapper.fluttering-flamingo{ background-color: #935a49; min-width: 40vw; }\r\n.ImgWrapper.lara-logan{ background-color: #78423c; }\r\n.ImgWrapper.human-herd{ background-color: #625455; }\r\n\r\n.TextWrapper{\r\n    padding: 5vh 5vw;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: flex-end;\r\n}\r\n\r\n@media only screen and (max-width: 800px) {\r\n    .Project .title{\r\n        line-height: 30px;\r\n        font-size: 17px;\r\n        left: 12px;\r\n    }\r\n\r\n    .FirstElement{\r\n        min-width: 85vw;\r\n    }\r\n    .FirstElement .desc{\r\n        line-height: 22px;\r\n        padding: 10px;\r\n        font-size: 14px;\r\n        top: 8vh;\r\n    }\r\n    .FirstElement .type{\r\n        font-size: 12px;\r\n        bottom: 5vh;\r\n    }\r\n    .ImgWrapper{\r\n        height: 70%;\r\n    }\r\n    .TextWrapper{\r\n        width: 85vw;\r\n        padding: 10px 20px;\r\n        font-size: 13px;\r\n        line-height: 20px;\r\n    }\r\n    .ImgWrapper.fluttering-flamingo{ min-width: 100vw; }\r\n}\r\n\r\n@media only screen and (min-width: 800px) {\r\n    .Project .title{\r\n        font-size: 1.5em;\r\n        left: 30px;\r\n    }\r\n\r\n    .FirstElement{\r\n        min-width: 60vw;\r\n    }\r\n    .FirstElement .desc{\r\n        padding: 0 20vw 0 20px;\r\n        font-size: 18px;\r\n        top: 20vh;\r\n    }\r\n    .FirstElement .type{\r\n        font-size: 16px;\r\n        bottom: 0;\r\n    }\r\n    .ImgWrapper{\r\n        height: 85%;\r\n    }\r\n    .TextWrapper{\r\n        width: 70vw;\r\n        padding: 5vh 5vw;\r\n        font-size: 18px;\r\n    }\r\n}", ""]);
+exports.push([module.i, ".Project{\r\n    height: 90%;\r\n    padding-right: 10vw;\r\n    display: flex;\r\n    flex-direction: row;\r\n    flex-wrap: nowrap;\r\n    justify-content: flex-start;\r\n    align-items: flex-end;\r\n}\r\n\r\n.Project .title{\r\n    position: fixed;\r\n    top: 10vh;\r\n\r\n    font-size: 1.5em;\r\n    font-weight: bold;\r\n    text-transform: uppercase;\r\n}\r\n\r\n\r\n.FirstElement{\r\n    height: 80%;\r\n\r\n    position: relative;\r\n    display: flex;\r\n    flex-direction: column;\r\n}\r\n.FirstElement .desc{\r\n    padding: 0 20vw 0 20px;\r\n    position: absolute;\r\n}\r\n.FirstElement .type{\r\n    position: absolute;\r\n}\r\n\r\n.ImgWrapper{\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n.ImgWrapper img{ object-fit: contain; }\r\n.ImgWrapper.big{ padding: 0 5px; }\r\n.ImgWrapper.big img{ height: 100%; }\r\n.ImgWrapper.medium{ padding: 0 50px; }\r\n.ImgWrapper.medium img{ height: 90%; } \r\n.ImgWrapper.small{ padding: 0 6vw; }\r\n.ImgWrapper.small img{ height: 80%; }\r\n.ImgWrapper.background-none{ margin: 0 5px; }\r\n.ImgWrapper.c-word{ background-color: #625455; }\r\n.ImgWrapper.fluttering-flamingo{ background-color: #935a49; min-width: 40vw; }\r\n.ImgWrapper.lara-logan{ background-color: #78423c; }\r\n.ImgWrapper.human-herd{ background-color: #625455; }\r\n\r\n.TextWrapper{\r\n    padding: 5vh 5vw;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: flex-end;\r\n}\r\n\r\n@media only screen and (max-width: 800px) {\r\n    .Project .title{\r\n        line-height: 30px;\r\n        font-size: 14px;\r\n        left: 12px;\r\n    }\r\n\r\n    .FirstElement{\r\n        min-width: 85vw;\r\n    }\r\n    .FirstElement .desc{\r\n        line-height: 22px;\r\n        padding: 10px;\r\n        font-size: 14px;\r\n        top: 8vh;\r\n    }\r\n    .FirstElement .type{\r\n        font-size: 10px;\r\n        bottom: 5vh;\r\n    }\r\n    .ImgWrapper{\r\n        height: 70%;\r\n    }\r\n    .TextWrapper{\r\n        width: 85vw;\r\n        padding: 10px 20px;\r\n        font-size: 13px;\r\n        line-height: 20px;\r\n    }\r\n    .ImgWrapper.fluttering-flamingo{ min-width: 100vw; }\r\n}\r\n\r\n@media only screen and (min-width: 800px) {\r\n    .Project .title{\r\n        font-size: 1.5em;\r\n        left: 50px;\r\n    }\r\n\r\n    .FirstElement{\r\n        min-width: 60vw;\r\n    }\r\n    .FirstElement .desc{\r\n        padding: 0 10vw 0 0;\r\n        font-size: 18px;\r\n        top: 20vh;\r\n    }\r\n    .FirstElement .type{\r\n        font-size: 8px;\r\n        bottom: 0;\r\n    }\r\n    .ImgWrapper{\r\n        height: 85%;\r\n    }\r\n    .TextWrapper{\r\n        width: 50vw;\r\n        padding: 5vh 5vw;\r\n        font-size: 10px;\r\n        margin-left: -10px;\r\n    }\r\n}", ""]);
 
 // exports
 
@@ -6599,7 +6599,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".ProjectCard{\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: flex-end;\r\n}\r\n\r\n.ProjectCard img{\r\n    object-fit: contain;\r\n    height: 100%;\r\n}\r\n\r\n.FlutteringFlamingo {\r\n    min-width: 60vh;\r\n    background-color: #935a49;\r\n}\r\n\r\n.FlutteringFlamingo img {\r\n    height: 90%;\r\n    align-self: center;\r\n}", ""]);
+exports.push([module.i, ".ProjectCard{\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: flex-end;\r\n}\r\n\r\n.ProjectCard img{\r\n    object-fit: contain;\r\n    height: 100%;\r\n}\r\n\r\n.FlutteringFlamingo {\r\n    min-width: 60vh;\r\n    background-color: #935a49;\r\n}\r\n\r\n.FlutteringFlamingo img {\r\n    height: 90%;\r\n    align-self: center;\r\n}\r\n\r\n.TheLaraLoganCase {\r\n    min-width: 60vh;\r\n    background-color: #78423c;\r\n}\r\n\r\n.TheLaraLoganCase img {\r\n    height: 90%;\r\n    align-self: center;\r\n}\r\n", ""]);
 
 // exports
 
@@ -6637,7 +6637,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".Contact-Container {\r\n    width: 100%;\r\n    align-items: center;\r\n    flex-flow: column;\r\n    background: linear-gradient(to bottom, rgba(255,255,255,1) 5%, rgba(244,238,238,1) 30%, rgba(223,205,205,1) 79%, rgba(223,205,205,1) 93%);\r\n}\r\n\r\n/* Mobile Style */\r\n\r\n/* 600px and down */\r\n@media only screen and (max-width: 600px) {\r\n    .Input-Container > * {\r\n        font-size: 1em;\r\n        line-height: 40px; \r\n    }\r\n    .Input-Container ::-webkit-input-placeholder { \r\n        line-height: 40px;  \r\n    }\r\n    .Input-Container input:focus {\r\n        outline: none;\r\n        text-decoration: none;\r\n        border: none;\r\n    }\r\n}\r\n\r\n/* 600px and up */\r\n@media only screen and (min-width: 600px) {\r\n    .Input-Container > * {\r\n        font-size: 1.4em;\r\n    }\r\n}", ""]);
+exports.push([module.i, ".Contact-Container {\r\n    width: 100%;\r\n    align-items: center;\r\n    flex-flow: column;\r\n    background: linear-gradient(to bottom, rgba(255,255,255,1) 5%, rgba(244,238,238,1) 30%, rgba(223,205,205,1) 79%, rgba(223,205,205,1) 93%);\r\n}\r\n\r\n/* Mobile Style */\r\n\r\n/* 600px and down */\r\n@media only screen and (max-width: 600px) {\r\n    .Input-Container > * {\r\n        font-size: 1em;\r\n        line-height: 40px; \r\n    }\r\n    .Input-Container ::-webkit-input-placeholder { \r\n        line-height: 40px;  \r\n    }\r\n    .Input-Container input:focus {\r\n        outline: none;\r\n        text-decoration: none;\r\n        border: none;\r\n    }\r\n}\r\n\r\n/* 600px and up */\r\n@media only screen and (min-width: 600px) {\r\n    .Input-Container > * {\r\n        font-size: 18px;\r\n    }\r\n}", ""]);
 
 // exports
 
@@ -6675,7 +6675,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".Projects{\r\n    height: 100vh;\r\n    /* min-width: 100vw; */\r\n\r\n    display: flex;\r\n    flex-wrap: nowrap;\r\n    flex-direction: row;\r\n    justify-content: flex-start;\r\n    align-items: flex-end;\r\n\r\n    overflow-y: hidden;\r\n    overflow-x: scroll;\r\n}\r\n\r\n\r\n\r\n.Projects::-webkit-scrollbar { height: 5px; }\r\n.Projects::-webkit-scrollbar-track { background: lightgray; }/* Track */\r\n.Projects::-webkit-scrollbar-thumb { background: darkgray; }/* Handle */\r\n.Projects::-webkit-scrollbar-thumb:hover { background: gray;  }/* Handle on hover */\r\n\r\n.Projects > *{\r\n    margin: 0 20px 25px 20px;\r\n}\r\n\r\n.Projects .back-btn{\r\n    position: fixed;\r\n    top: 10px;\r\n    left: 10px;\r\n    \r\n    cursor: pointer;\r\n    outline: none;\r\n    border: none;\r\n    background: none;\r\n    color: black;\r\n\r\n    font-size: 2.5em;\r\n\r\n    transition: .3s color;\r\n}\r\n.Projects .back-btn:hover{\r\n    color: gray;\r\n}\r\n\r\n@media only screen and (max-width: 600px) {\r\n    .Projects .back-btn{ font-size: 1.4em; }\r\n}\r\n\r\n@media only screen and (min-width: 600px) {\r\n    .Projects .back-btn{ font-size: 2.2em; }\r\n}", ""]);
+exports.push([module.i, ".Projects{\r\n    height: 100vh;\r\n    /* min-width: 100vw; */\r\n    padding-left: 50px;\r\n\r\n    display: flex;\r\n    flex-wrap: nowrap;\r\n    flex-direction: row;\r\n    justify-content: flex-start;\r\n    align-items: flex-end;\r\n\r\n    overflow-y: hidden;\r\n    overflow-x: scroll;\r\n}\r\n\r\n\r\n\r\n.Projects::-webkit-scrollbar { height: 5px; }\r\n.Projects::-webkit-scrollbar-track { background: lightgray; }/* Track */\r\n.Projects::-webkit-scrollbar-thumb { background: darkgray; }/* Handle */\r\n.Projects::-webkit-scrollbar-thumb:hover { background: gray;  }/* Handle on hover */\r\n\r\n.Projects > *{\r\n    margin: 0 10px 25px 10px;\r\n}\r\n\r\n.Projects .back-btn{\r\n    position: fixed;\r\n    top: 15px;\r\n    left: 10px;\r\n    \r\n    cursor: pointer;\r\n    outline: none;\r\n    border: none;\r\n    background: none;\r\n    color: black;\r\n    transition: .3s color;\r\n}\r\n.Projects .back-btn:hover{\r\n    color: gray;\r\n}\r\n\r\n@media only screen and (max-width: 600px) {\r\n    .Projects .back-btn{ font-size: 1.4em; }\r\n}\r\n\r\n@media only screen and (min-width: 600px) {\r\n    .Projects .back-btn{ font-size: 1.5em; }\r\n}", ""]);
 
 // exports
 
@@ -85634,7 +85634,7 @@ var Modal = function Modal(_ref) {
     text: sentEmail ? 'HOME' : 'RETRY',
     type: "button",
     clase: "modal-button",
-    onClick: sentEmail ? '' : onClickButton
+    onClick: sentEmail ? undefined : onClickButton
   })));
 };
 
@@ -85737,21 +85737,21 @@ var Navbar = function Navbar(props) {
         return toggleNavbarEffect();
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_icons_md__WEBPACK_IMPORTED_MODULE_2__["MdClose"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-      to: "/projects",
+      to: "/about",
       onClick: function onClick() {
         return toggleNavbarEffect();
       }
-    }, "Projects"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    }, "About"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
       to: "/contact",
       onClick: function onClick() {
         return toggleNavbarEffect();
       }
     }, "Contact"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-      to: "/about",
+      to: "/projects",
       onClick: function onClick() {
         return toggleNavbarEffect();
       }
-    }, "About"));
+    }, "Projects"));
   };
 
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -85830,7 +85830,7 @@ var FirstElement = function FirstElement(_ref) {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "desc",
     style: {
-      fontSize: description.length > 100 && window.innerWidth < 800 ? '11px' : '14px'
+      fontSize: description.length > 100 && window.innerWidth < 800 ? '10px' : '10px'
     }
   }, nl2br(description)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "type"

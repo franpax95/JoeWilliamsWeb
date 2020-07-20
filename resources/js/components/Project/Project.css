@@ -39,7 +39,7 @@
     align-items: center;
 }
 .ImgWrapper img{ object-fit: contain; }
-.ImgWrapper.big{ padding: 0 20px; }
+.ImgWrapper.big{ padding: 0 5px; }
 .ImgWrapper.big img{ height: 100%; }
 .ImgWrapper.medium{ padding: 0 50px; }
 .ImgWrapper.medium img{ height: 90%; } 
@@ -61,7 +61,7 @@
 @media only screen and (max-width: 800px) {
     .Project .title{
         line-height: 30px;
-        font-size: 17px;
+        font-size: 14px;
         left: 12px;
     }
 
@@ -75,7 +75,7 @@
         top: 8vh;
     }
     .FirstElement .type{
-        font-size: 12px;
+        font-size: 10px;
         bottom: 5vh;
     }
     .ImgWrapper{
@@ -93,27 +93,28 @@
 @media only screen and (min-width: 800px) {
     .Project .title{
         font-size: 1.5em;
-        left: 30px;
+        left: 50px;
     }
 
     .FirstElement{
         min-width: 60vw;
     }
     .FirstElement .desc{
-        padding: 0 20vw 0 20px;
+        padding: 0 10vw 0 0;
         font-size: 18px;
         top: 20vh;
     }
     .FirstElement .type{
-        font-size: 16px;
+        font-size: 8px;
         bottom: 0;
     }
     .ImgWrapper{
         height: 85%;
     }
     .TextWrapper{
-        width: 70vw;
+        width: 50vw;
         padding: 5vh 5vw;
-        font-size: 18px;
+        font-size: 10px;
+        margin-left: -10px;
     }
 }

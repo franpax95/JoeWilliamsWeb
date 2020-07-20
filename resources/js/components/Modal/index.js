@@ -26,7 +26,7 @@ export const Modal = ({sentEmail,onClickButton}) => {
                 showMessageEmail()
             }
             <br />
-            <Button text={sentEmail ? 'HOME' : 'RETRY'} type='button' clase='modal-button' onClick={sentEmail ? '' : onClickButton }/>
+            <Button text={sentEmail ? 'HOME' : 'RETRY'} type='button' clase='modal-button' onClick={sentEmail ? undefined : onClickButton }/>
         </div>
     </div>
     )
