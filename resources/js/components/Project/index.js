@@ -76,8 +76,6 @@ const ProjectController = ({ project = {} }) => {
                         <ImgWrapper src={project.img.img3} alt={project.title} size="big" />
                         <ImgWrapper src={project.img.img4} alt={project.title} size="big" />
                         <ImgWrapper src={project.img.img5} alt={project.title} size="big" />
-                        <ImgWrapper src={project.img.img6} alt={project.title} size="big" />
-                        <ImgWrapper src={project.img.img7} alt={project.title} size="big" />
                     </Project>
                 );
 

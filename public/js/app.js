@@ -85970,14 +85970,6 @@ var ProjectController = function ProjectController(_ref5) {
           src: project.img.img5,
           alt: project.title,
           size: "big"
-        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
-          src: project.img.img6,
-          alt: project.title,
-          size: "big"
-        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
-          src: project.img.img7,
-          alt: project.title,
-          size: "big"
         }));
 
       /** Sync */
