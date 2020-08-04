@@ -1,9 +1,8 @@
-html, body, #app{ width: 100%; }
-
 .About{
     width: 100%;
     padding-left: 20px;
     padding-bottom: 10vh;
+
     overflow: hidden;
 
     color: white;
@@ -11,11 +10,7 @@ html, body, #app{ width: 100%; }
     background-attachment: fixed;
     background-position: center;
 }
-
-.About > span{
-    text-transform: uppercase;
-}
-
+.About > span{ text-transform: uppercase; }
 .About .hello{ color: black; }
 
 /* Extra small devices (phones, 700px and down) */
@@ -24,7 +19,6 @@ html, body, #app{ width: 100%; }
         padding-right: 20px;
         line-height: 40px;
     }
-    
     .About > span{ 
         height: 4vh;
         font-size: 18px;

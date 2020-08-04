@@ -1,8 +1,10 @@
-import React, { useLayoutEffect, useEffect, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 
 import { connect } from 'react-redux';
 import * as expositionActions from '../../actions/expositionActions';
+
+import { useTransition, animated } from 'react-spring';
 
 import ProjectCard from '../../components/ProjectCard';
 import ProjectController from '../../components/Project';
@@ -14,13 +16,22 @@ import { AiOutlineArrowLeft } from "react-icons/ai";
 import './Projects.css';
 
 const Projects = (props) => {
-    const ref = useRef(null);
+    const ref = useRef();
+    const { id } = props.match.params;
+
+    const transitions = useTransition(true, null, {
+        from: { opacity: 0 },
+        enter: { opacity: 1 },
+        update: { opacity: 1 },
+        leave: { opacity: 0 },
+        unique: true,
+        reset: true
+    });
 
     /** componentDidMount() */
     useEffect(() => {
         const fetchData = async () => {
             const { exposition, expositions, loading } = props;
-            const { id } = props.match.params;
 
             /** fetch all expositions */
             if(!id && !expositions.length && !loading) 
@@ -32,17 +43,7 @@ const Projects = (props) => {
         }
         
         fetchData();
-    }, [props.location]);
-
-    // useLayoutEffect(() => {
-    //     ref.current.classList.remove("in");
-    //     ref.current.classList.add("out");
-
-    //     setTimeout(() => {
-    //         ref.current.classList.remove("out");
-    //         ref.current.classList.add("in");
-    //     }, 2000);
-    // }, [props.location]);
+    }, [id]);
 
     const onWheel = (e) => {
         const largeContainerScrollPosition = ref.current.scrollLeft;
@@ -83,11 +84,13 @@ const Projects = (props) => {
         </>);
     }
 
-    return (
-        <div className="Projects" onWheel={onWheel} ref={ref}>
-            {(props.match.params.id) ? renderProject() : renderProjects()}
-        </div>
-    );
+    
+
+    return transitions.map(({ item, props, key }) => (
+        <animated.div key={key} className="Projects" onWheel={onWheel} ref={ref}>
+            {(id) ? renderProject() : renderProjects()}
+        </animated.div>
+    ))
 }
 
 const mapStateToProps = ({ expositionReducer }) => expositionReducer;

@@ -1,13 +1,15 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import './About.css';
+
 import useInnerWidth from '../../hooks/useInnerWidth';
+
+import { Link } from 'react-router-dom';
 import { SpaceBetween } from '../../components/SpaceBetween';
 
-import './About.css';
 
 const About = () => {
     const width = useInnerWidth();
-    const [spaceHeight, setSpaceHeight] = useState((width> 700) ? '20vh' : '10vh');
+    const [spaceHeight, setSpaceHeight] = useState((width > 700) ? '20vh' : '10vh');
     useEffect(() => { setSpaceHeight((width > 700) ? '20vh' : '10vh'); }, [width]);
 
     return (
